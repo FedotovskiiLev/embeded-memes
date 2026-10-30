@@ -1,0 +1,194 @@
+[
+  {
+    "alias_id": "HAMPTER_0442",
+    "canonical_id": "HAMPTER_0320",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0442_almarts27.png",
+    "canonical_master": "media/masters_png/HAMPTER_0320_tongue-out-sticking-out-tongue-derp-derpy.png",
+    "old_dimensions": [
+      80,
+      69
+    ],
+    "canonical_dimensions": [
+      320,
+      320
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0444",
+    "canonical_id": "HAMPTER_0453",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0444_almarts27-3.png",
+    "canonical_master": "media/masters_png/HAMPTER_0453_almarts27-12.png",
+    "old_dimensions": [
+      80,
+      70
+    ],
+    "canonical_dimensions": [
+      130,
+      129
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0445",
+    "canonical_id": "HAMPTER_0228",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0445_almarts27-4.png",
+    "canonical_master": "media/masters_png/HAMPTER_0228_staring-blank-stare-thousand-yard-stare-stoic.png",
+    "old_dimensions": [
+      80,
+      70
+    ],
+    "canonical_dimensions": [
+      320,
+      320
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0447",
+    "canonical_id": "HAMPTER_0127",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0447_almarts27-6.png",
+    "canonical_master": "media/masters_png/HAMPTER_0127_glasses-eating-food-tray-fork.png",
+    "old_dimensions": [
+      80,
+      67
+    ],
+    "canonical_dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0448",
+    "canonical_id": "HAMPTER_0177",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0448_almarts27-7.png",
+    "canonical_master": "media/masters_png/HAMPTER_0177_angry-mad-furious-enraged.png",
+    "old_dimensions": [
+      80,
+      73
+    ],
+    "canonical_dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0449",
+    "canonical_id": "HAMPTER_0458",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0449_almarts27-8.png",
+    "canonical_master": "media/masters_png/HAMPTER_0458_almarts27-17.png",
+    "old_dimensions": [
+      80,
+      75
+    ],
+    "canonical_dimensions": [
+      126,
+      130
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0450",
+    "canonical_id": "HAMPTER_0337",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0450_almarts27-9.png",
+    "canonical_master": "media/masters_png/HAMPTER_0337_smug-smirk-grin-satisfied.png",
+    "old_dimensions": [
+      130,
+      124
+    ],
+    "canonical_dimensions": [
+      320,
+      320
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0455",
+    "canonical_id": "HAMPTER_0127",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0455_almarts27-14.png",
+    "canonical_master": "media/masters_png/HAMPTER_0127_glasses-eating-food-tray-fork.png",
+    "old_dimensions": [
+      130,
+      129
+    ],
+    "canonical_dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0456",
+    "canonical_id": "HAMPTER_0177",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0456_almarts27-15.png",
+    "canonical_master": "media/masters_png/HAMPTER_0177_angry-mad-furious-enraged.png",
+    "old_dimensions": [
+      130,
+      119
+    ],
+    "canonical_dimensions": [
+      640,
+      640
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0462",
+    "canonical_id": "HAMPTER_0228",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0462_almarts27-21.png",
+    "canonical_master": "media/masters_png/HAMPTER_0228_staring-blank-stare-thousand-yard-stare-stoic.png",
+    "old_dimensions": [
+      130,
+      128
+    ],
+    "canonical_dimensions": [
+      320,
+      320
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0464",
+    "canonical_id": "HAMPTER_0353",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0464_almarts27-23.png",
+    "canonical_master": "media/masters_png/HAMPTER_0353_staring-blank-stare-expressionless-void.png",
+    "old_dimensions": [
+      130,
+      126
+    ],
+    "canonical_dimensions": [
+      320,
+      320
+    ]
+  },
+  {
+    "alias_id": "HAMPTER_0465",
+    "canonical_id": "HAMPTER_0290",
+    "reason": "Manual visual audit: same drawing, differing only in crop, scale, compression or mirror framing.",
+    "confidence": "high",
+    "old_master": "media/masters_png/HAMPTER_0465_almarts27-24.png",
+    "canonical_master": "media/masters_png/HAMPTER_0290_blushing-flustered-shy-embarrassed.png",
+    "old_dimensions": [
+      130,
+      125
+    ],
+    "canonical_dimensions": [
+      1080,
+      1079
+    ]
+  }
+]
