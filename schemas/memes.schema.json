@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Embeded Memes source catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "collection_id",
+      "slug",
+      "title",
+      "visual_description",
+      "reaction",
+      "use_cases",
+      "tags",
+      "content_warnings",
+      "confidence",
+      "status",
+      "files",
+      "rights"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_]{2,39}$"
+      },
+      "collection_id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "visual_description": {
+        "type": "string",
+        "minLength": 30
+      },
+      "reaction": {
+        "type": "string"
+      },
+      "use_cases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "content_warnings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "confidence": {
+        "enum": [
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      "status": {
+        "enum": [
+          "reviewed",
+          "draft",
+          "needs_replacement"
+        ]
+      },
+      "files": {
+        "type": "object",
+        "required": [
+          "master_png",
+          "delivery_webp",
+          "thumbnail_webp"
+        ],
+        "properties": {
+          "master_png": {
+            "type": "string",
+            "pattern": "^media/[^\\\\]+$"
+          },
+          "delivery_webp": {
+            "type": "string",
+            "pattern": "^media/[^\\\\]+$"
+          },
+          "thumbnail_webp": {
+            "type": "string",
+            "pattern": "^media/[^\\\\]+$"
+          }
+        }
+      },
+      "related_to": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "review": {
+        "type": "object",
+        "properties": {
+          "human_approved": {
+            "type": "boolean"
+          }
+        }
+      },
+      "rights": {
+        "type": "object",
+        "required": [
+          "status",
+          "attribution"
+        ],
+        "properties": {
+          "status": {
+            "type": "string"
+          },
+          "attribution": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

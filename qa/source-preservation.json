@@ -1,0 +1,6 @@
+{
+  "source_archive": "almarts27_hamster_media_pack_v1.1.0_prod.zip",
+  "unchanged_original_files": 484,
+  "mismatches": [],
+  "method": "SHA-256 comparison of every originals/ file; media checks separately in validation.json"
+}

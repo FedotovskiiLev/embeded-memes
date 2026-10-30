@@ -1,0 +1,25 @@
+{
+  "mode": "in-memory Chromium render with data-URI media substitution",
+  "checks_passed": 13,
+  "checks": [
+    "48 initial cards render",
+    "exact requested title",
+    "notebook search ranks corrected card first",
+    "detail modal, description, master and alternate download anchors",
+    "Escape closes modal",
+    "favorite toggles within session",
+    "selection toggles",
+    "legacy alias works",
+    "quarantine hidden by default, inspectable explicitly",
+    "neural opt-in notice present; no model invoked",
+    "angry crying search distinct",
+    "390px viewport no horizontal overflow",
+    "mobile drawer navigation"
+  ],
+  "page_errors": [],
+  "limitations": [
+    "file:// and localhost navigation blocked by environment browser policy; actual navigation not tested",
+    "localStorage persistence and native downloads not end-to-end tested",
+    "E5 model download and inference not run; neural mode is optional integration"
+  ]
+}

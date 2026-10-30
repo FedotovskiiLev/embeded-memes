@@ -1,0 +1,20 @@
+{
+  "name": "Embeded Memes by Gliwy.dev",
+  "version": "2.1.0",
+  "catalog_hash": "c2ecc7cc5ed6ebe2c7d2b309187e11d4e64ecda15b2d7861ff1fa741b4a31b04",
+  "records": 453,
+  "active": 452,
+  "quarantined": [
+    "HAMPTER_0223"
+  ],
+  "entrypoints": {
+    "browser": "index.html",
+    "agents": "catalog/agent_map.jsonl",
+    "source": "data/source/memes.json"
+  },
+  "vectors": {
+    "ready": "TF-IDF / LSA, 96 dimensions",
+    "neural_e5": "optional; not precomputed in this release"
+  },
+  "theme": "orange-tape"
+}

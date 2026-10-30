@@ -1,0 +1,13 @@
+{
+  "checks": 6934,
+  "errors": [],
+  "records": 453,
+  "active": 452,
+  "image_files_verified": 0,
+  "vector_type": "TF-IDF / LSA (not neural)",
+  "dimensions": 96,
+  "vector_norm_min": 0.9999998979200153,
+  "vector_norm_max": 1.0000001387499742,
+  "catalog_hash": "c2ecc7cc5ed6ebe2c7d2b309187e11d4e64ecda15b2d7861ff1fa741b4a31b04",
+  "mode": "quick"
+}
