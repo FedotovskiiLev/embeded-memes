@@ -40,9 +40,9 @@ jobs:
         run: |
           set -euo pipefail
           cd /tmp/embeded-memes-release/embedded-memes
+          sha256sum -c SHA256SUMS.txt >/tmp/hash-verify.txt
           python3 scripts/validate.py --quick
           node --test tests/*.test.cjs
-          sha256sum -c SHA256SUMS.txt >/tmp/hash-verify.txt
           echo "Verified $(wc -l < /tmp/hash-verify.txt) shipped files."
 
       - name: Publish unpacked repository contents to main
