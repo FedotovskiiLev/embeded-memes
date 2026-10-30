@@ -3,9 +3,9 @@
   "name": "Local TF-IDF + truncated SVD",
   "neural": false,
   "version": "1.0.0",
-  "catalog_hash": "c2ecc7cc5ed6ebe2c7d2b309187e11d4e64ecda15b2d7861ff1fa741b4a31b04",
+  "catalog_hash": "1e5d8ac8c5780d99b16078f27f9afa135e85032ca578597fbc8f5b7c120b1671",
   "dimensions": 96,
-  "count": 452,
+  "count": 451,
   "ids": [
     "HAMPTER_0001",
     "HAMPTER_0002",
@@ -48,7 +48,6 @@
     "HAMPTER_0039",
     "HAMPTER_0040",
     "HAMPTER_0041",
-    "HAMPTER_0042",
     "HAMPTER_0043",
     "HAMPTER_0044",
     "HAMPTER_0045",
@@ -461,5 +460,5 @@
     "HAMPTER_0463"
   ],
   "format": "base64 little-endian float32, row-major",
-  "explained_variance": 0.4370027780532837
+  "explained_variance": 0.4375283122062683
 }
