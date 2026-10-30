@@ -1,11 +1,11 @@
 ## 2.1.0 — Orange Tape (2026-10-30)
 
-- Recreated the site palette from owner-supplied orange-and-grey collage (`#F19446` primary, `#1B1B1C` ink).
-- Redesigned hero, navigation, search input, filters, cards and dialogs with cohesive industrial/editorial style.
-- Updated favicon, browser theme colour, visual identity documentation, and mobile styles.
-- Preserved all 453 asset records and existing search functionality.
+## 2026-10-31 — Возврат исходного оформления
 
-# Изменения
+- Восстановлены прежние компоновка, лаймовая/фиолетовая палитра, двухцветный логотип и отклик карточек на наведение.
+- Убраны второстепенные слоганы и декоративные подписи.
+- Коллекция переименована в «Хомячки». По запросу владельца одно изображение удалено из файлов, каталогов, поиска и контактных листов.
+- Исправлены переносы элементов на узких экранах и управление мобильным меню.
 
 ## 2.0.0 — 2026-10-30
 
