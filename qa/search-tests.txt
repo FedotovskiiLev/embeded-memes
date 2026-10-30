@@ -1,148 +1,31 @@
-TAP version 13
-# Subtest: rank-1: пишет в блокноте
-ok 1 - rank-1: пишет в блокноте
-  ---
-  duration_ms: 5.220989
-  type: 'test'
-  ...
-# Subtest: rank-1: записываю замечания
-ok 2 - rank-1: записываю замечания
-  ---
-  duration_ms: 1.389592
-  type: 'test'
-  ...
-# Subtest: rank-1: notebook
-ok 3 - rank-1: notebook
-  ---
-  duration_ms: 1.358047
-  type: 'test'
-  ...
-# Subtest: rank-1: блакнот
-ok 4 - rank-1: блакнот
-  ---
-  duration_ms: 1.343858
-  type: 'test'
-  ...
-# Subtest: rank-1: лупа ищу подвох
-ok 5 - rank-1: лупа ищу подвох
-  ---
-  duration_ms: 1.846788
-  type: 'test'
-  ...
-# Subtest: rank-1: нужен воздух кислород
-ok 6 - rank-1: нужен воздух кислород
-  ---
-  duration_ms: 1.906414
-  type: 'test'
-  ...
-# Subtest: rank-1: слёзы радости
-ok 7 - rank-1: слёзы радости
-  ---
-  duration_ms: 1.422621
-  type: 'test'
-  ...
-# Subtest: rank-1: злится и плачет
-ok 8 - rank-1: злится и плачет
-  ---
-  duration_ms: 1.04093
-  type: 'test'
-  ...
-# Subtest: rank-1: сдерживает слёзы
-ok 9 - rank-1: сдерживает слёзы
-  ---
-  duration_ms: 1.017587
-  type: 'test'
-  ...
-# Subtest: rank-1: палец вверх
-ok 10 - rank-1: палец вверх
-  ---
-  duration_ms: 1.202882
-  type: 'test'
-  ...
-# Subtest: rank-1: сердце руками
-ok 11 - rank-1: сердце руками
-  ---
-  duration_ms: 0.883818
-  type: 'test'
-  ...
-# Subtest: rank-1: сижу с попкорном
-ok 12 - rank-1: сижу с попкорном
-  ---
-  duration_ms: 1.485725
-  type: 'test'
-  ...
-# Subtest: rank-1: моется в душе
-ok 13 - rank-1: моется в душе
-  ---
-  duration_ms: 1.064121
-  type: 'test'
-  ...
-# Subtest: aliases and common missing initial letter
-ok 14 - aliases and common missing initial letter
-  ---
-  duration_ms: 1.077202
-  type: 'test'
-  ...
-# Subtest: notebook never retrieved for old eating/fork description
-ok 15 - notebook never retrieved for old eating/fork description
-  ---
-  duration_ms: 1.485037
-  type: 'test'
-  ...
-# Subtest: quarantined blank image excluded unless requested
-ok 16 - quarantined blank image excluded unless requested
-  ---
-  duration_ms: 56.401355
-  type: 'test'
-  ...
-# Subtest: safe filter uses explicit flags, not substring deadpan
-ok 17 - safe filter uses explicit flags, not substring deadpan
-  ---
-  duration_ms: 0.663578
-  type: 'test'
-  ...
-# Subtest: variant filter and favorite subset
-ok 18 - variant filter and favorite subset
-  ---
-  duration_ms: 1.31697
-  type: 'test'
-  ...
-# Subtest: LSA geometry and matching revision
-ok 19 - LSA geometry and matching revision
-  ---
-  duration_ms: 6.884689
-  type: 'test'
-  ...
-# Subtest: unknown nonsense has no random fallback
-ok 20 - unknown nonsense has no random fallback
-  ---
-  duration_ms: 0.885072
-  type: 'test'
-  ...
-# Subtest: similar excludes self and blank
-ok 21 - similar excludes self and blank
-  ---
-  duration_ms: 0.740224
-  type: 'test'
-  ...
-# Subtest: generic magnifier query contains both true magnifier scenes
-ok 22 - generic magnifier query contains both true magnifier scenes
-  ---
-  duration_ms: 1.327932
-  type: 'test'
-  ...
-# Subtest: Russian judging inflection returns actual skeptical expressions
-ok 23 - Russian judging inflection returns actual skeptical expressions
-  ---
-  duration_ms: 1.630402
-  type: 'test'
-  ...
-1..23
-# tests 23
-# suites 0
-# pass 23
-# fail 0
-# cancelled 0
-# skipped 0
-# todo 0
-# duration_ms 209.729234
+✔ rank-1: пишет в блокноте (2.673997ms)
+✔ rank-1: записываю замечания (1.180603ms)
+✔ rank-1: notebook (0.90939ms)
+✔ rank-1: блакнот (0.90918ms)
+✔ rank-1: лупа ищу подвох (0.752613ms)
+✔ rank-1: нужен воздух кислород (1.470952ms)
+✔ rank-1: слёзы радости (0.704993ms)
+✔ rank-1: злится и плачет (0.654989ms)
+✔ rank-1: сдерживает слёзы (0.685066ms)
+✔ rank-1: палец вверх (0.87255ms)
+✔ rank-1: сердце руками (0.677922ms)
+✔ rank-1: сижу с попкорном (0.584726ms)
+✔ rank-1: моется в душе (0.964544ms)
+✔ aliases and common missing initial letter (0.645461ms)
+✔ notebook never retrieved for old eating/fork description (0.731694ms)
+✔ quarantined blank image excluded unless requested (6.549827ms)
+✔ safe filter uses explicit flags, not substring deadpan (0.718058ms)
+✔ variant filter and favorite subset (1.144735ms)
+✔ LSA geometry and matching revision (3.703244ms)
+✔ unknown nonsense has no random fallback (0.406138ms)
+✔ similar excludes self and blank (0.390248ms)
+✔ generic magnifier query contains both true magnifier scenes (0.727887ms)
+✔ Russian judging inflection returns actual skeptical expressions (0.60805ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 123.241502

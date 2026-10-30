@@ -574,20 +574,6 @@
     ]
   },
   {
-    "canonical_id": "HAMPTER_0042",
-    "primary_source_id": "hamsterdex:42",
-    "members": [
-      {
-        "source_id": "hamsterdex:42",
-        "source_type": "hamsterdex",
-        "path": "originals/hamsterdex/h_122.jpg",
-        "sha256": "f2d798ad54d06e39fa6a2d8b481cbb2d553b99ea98b624f10505185f2e2f94fa",
-        "phash_distance_to_primary": 0,
-        "dhash_distance_to_primary": 0
-      }
-    ]
-  },
-  {
     "canonical_id": "HAMPTER_0043",
     "primary_source_id": "hamsterdex:43",
     "members": [

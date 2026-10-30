@@ -1,25 +1,76 @@
 {
-  "mode": "in-memory Chromium render with data-URI media substitution",
-  "checks_passed": 13,
+  "url": "http://127.0.0.1:8765/",
+  "mode": "Chromium over HTTP",
+  "checks_passed": 7,
   "checks": [
-    "48 initial cards render",
-    "exact requested title",
-    "notebook search ranks corrected card first",
-    "detail modal, description, master and alternate download anchors",
-    "Escape closes modal",
-    "favorite toggles within session",
-    "selection toggles",
-    "legacy alias works",
-    "quarantine hidden by default, inspectable explicitly",
-    "neural opt-in notice present; no model invoked",
-    "angry crying search distinct",
-    "390px viewport no horizontal overflow",
-    "mobile drawer navigation"
+    "Removed image absent from catalog, search and saved favorites/selection",
+    "Collection named Хомячки; two-color logo; no decorative slogans",
+    "Mouse hover lifts cards and strengthens shadow; buttons respond; reduced-motion disables movement",
+    "Eleven viewport widths, 320–1512px: no page overflow or header/filter/footer overlaps",
+    "Mobile menu: backdrop, keyboard Escape and collection navigation close the drawer",
+    "Notebook search, detail, Escape, favorites, native JSON download and persisted selection",
+    "Optional E5 dialog opens; model download not invoked"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 360,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 390,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 480,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 600,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 760,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 761,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 850,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 1024,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 1280,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    },
+    {
+      "width": 1512,
+      "horizontal_overflow": false,
+      "header_filter_footer_overlaps": false
+    }
   ],
   "page_errors": [],
+  "http_errors": [],
   "limitations": [
-    "file:// and localhost navigation blocked by environment browser policy; actual navigation not tested",
-    "localStorage persistence and native downloads not end-to-end tested",
-    "E5 model download and inference not run; neural mode is optional integration"
+    "Optional E5 model download and inference not invoked."
   ]
 }

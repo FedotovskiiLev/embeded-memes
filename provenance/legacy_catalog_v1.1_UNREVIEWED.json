@@ -2339,65 +2339,6 @@
     "alternate_count": 0
   },
   {
-    "id": "HAMPTER_0042",
-    "slug": "christmas-xmas-holiday-mistletoe",
-    "master_png": "media/masters_png/HAMPTER_0042_christmas-xmas-holiday-mistletoe.png",
-    "delivery_webp": "media/delivery_webp/HAMPTER_0042_christmas-xmas-holiday-mistletoe.webp",
-    "thumbnail_webp": "media/thumbnails_webp/HAMPTER_0042.webp",
-    "width": 320,
-    "height": 320,
-    "has_alpha": false,
-    "description_ru": "Белый рисованный мемный хомяк: christmas, xmas, holiday, mistletoe.",
-    "description_en": "White line-art meme hamster; visual cues: christmas, xmas, holiday, mistletoe.",
-    "tags": [
-      "christmas",
-      "xmas",
-      "holiday",
-      "mistletoe",
-      "kissing",
-      "romance",
-      "grinch",
-      "santa claus",
-      "st nick",
-      "kiss",
-      "love",
-      "festive",
-      "winter",
-      "couple",
-      "shipping",
-      "fanart",
-      "parody",
-      "humor",
-      "ms paint",
-      "ms paint style",
-      "cursed",
-      "shitpost",
-      "holiday cheer",
-      "seasonal",
-      "rom-com"
-    ],
-    "emojis": [],
-    "recommended_uses": [
-      "general meme / reaction insert"
-    ],
-    "content_warnings": [],
-    "primary_source_type": "hamsterdex",
-    "primary_source_id": "hamsterdex:42",
-    "source_urls": [
-      "https://www.instagram.com/p/C1SLm2qLsVM/",
-      "https://antonl-dev.github.io/hamsterdex/"
-    ],
-    "sha256_master": "76b36118dc71cb14a7dd814c0fe01b08d46afcba335f3bdefd1aab5574016331",
-    "sha256_delivery": "b50592aa176b4202784875f8cb73ba4d3ec0dfd5e25f4040220000fbf8001b65",
-    "phash": "e91ecd0b86a1b0f49ada6f4b692dccb464b092c7924bcb3cc9ac64d0ccd6278f",
-    "dhash": "0000040800005c8d4e9d498d5be553264d564fc643ce4cdd4c7d126c00000020",
-    "duplicate_count": 1,
-    "source_asset_ids": [
-      "hamsterdex:42"
-    ],
-    "alternate_count": 0
-  },
-  {
     "id": "HAMPTER_0043",
     "slug": "cat-feline-close-up-fisheye-lens",
     "master_png": "media/masters_png/HAMPTER_0043_cat-feline-close-up-fisheye-lens.png",
