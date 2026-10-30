@@ -1,0 +1,71 @@
+name: Import Embeded Memes archive into main
+on:
+  push:
+    branches:
+      - import/embedded-memes-transfer-20261030
+    paths:
+      - '.import/parts/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify 45 pieces and unpack
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, zipfile, shutil, os
+          root=Path('.import/parts')
+          parts=sorted(root.glob('part-*.bin'))
+          if len(parts)!=45:
+              raise SystemExit(f'Expected 45 parts, got {len(parts)}')
+          for idx, p in enumerate(parts):
+              if p.name!=f'part-{idx:03d}.bin':
+                  raise SystemExit(f'Unexpected part number: {p}')
+          out=Path('/tmp/embeded-memes-import.zip')
+          h=hashlib.sha256()
+          with out.open('wb') as dst:
+              for p in parts:
+                  with p.open('rb') as source:
+                      while chunk:=source.read(1024*1024):
+                          dst.write(chunk)
+                          h.update(chunk)
+          expected='1f4019ad71d6f3fbe1ff11734607bfc9a80740bc37420f8408eee35e2d86df0f'
+          if h.hexdigest()!=expected:
+              raise SystemExit(f'Archive hash mismatch! {h.hexdigest()}')
+          target=Path('/tmp/embeded-memes-extracted')
+          target.mkdir(exist_ok=True)
+          with zipfile.ZipFile(out) as z:
+              corrupt=z.testzip()
+              if corrupt: raise SystemExit(f'Corrupt member: {corrupt}')
+              names=z.namelist()
+              if len(names)!=1931 or any(not n.startswith('embedded-memes/') or '..' in Path(n).parts for n in names):
+                  raise SystemExit('Unexpected ZIP structure')
+              z.extractall(target)
+          site=target/'embedded-memes'
+          if not (site/'index.html').is_file() or not (site/'catalog/catalog.json').is_file():
+              raise SystemExit('Archive lacks site or catalog')
+          print('Archive validated:', len(names), 'files; SHA256:', h.hexdigest())
+          PY
+      - name: Commit unpacked project to main
+        shell: bash
+        env:
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          set -euxo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git switch -C main origin/main
+          rsync -a /tmp/embeded-memes-extracted/embedded-memes/ .
+          python3 scripts/validate.py --quick
+          git add -A
+          git commit -m 'Import complete Orange Tape meme library (453 assets)'
+          git push origin HEAD:main
