@@ -1,13 +1,13 @@
 {
   "schema_version": "2.0.0",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "name": "Embeded Memes by Gliwy.dev",
-  "catalog_hash": "c2ecc7cc5ed6ebe2c7d2b309187e11d4e64ecda15b2d7861ff1fa741b4a31b04",
+  "catalog_hash": "1e5d8ac8c5780d99b16078f27f9afa135e85032ca578597fbc8f5b7c120b1671",
   "reviewed_date": "2026-10-30",
   "collections": [
     {
       "id": "almarts27-hamsters",
-      "name": "Хомяки Almarts27",
+      "name": "Хомячки",
       "description": "Реакции белого хомяка, стилизации и гости исходного набора.",
       "cover_id": "HAMPTER_0127",
       "attribution": "Almarts27 / AlMa",
@@ -148,12 +148,12 @@
         "HAMPTER_0055",
         "HAMPTER_0109",
         "HAMPTER_0415",
-        "HAMPTER_0158",
-        "HAMPTER_0428",
-        "HAMPTER_0228",
         "HAMPTER_0354",
-        "HAMPTER_0057",
-        "HAMPTER_0429"
+        "HAMPTER_0429",
+        "HAMPTER_0228",
+        "HAMPTER_0428",
+        "HAMPTER_0158",
+        "HAMPTER_0077"
       ]
     },
     {
@@ -259,13 +259,13 @@
       "similar_ids": [
         "HAMPTER_0333",
         "HAMPTER_0267",
-        "HAMPTER_0348",
-        "HAMPTER_0390",
         "HAMPTER_0182",
-        "HAMPTER_0460",
         "HAMPTER_0377",
+        "HAMPTER_0390",
+        "HAMPTER_0460",
         "HAMPTER_0278",
-        "HAMPTER_0206",
+        "HAMPTER_0348",
+        "HAMPTER_0106",
         "HAMPTER_0164"
       ]
     },
@@ -389,15 +389,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0225",
+        "HAMPTER_0211",
         "HAMPTER_0425",
         "HAMPTER_0132",
-        "HAMPTER_0400",
-        "HAMPTER_0211",
         "HAMPTER_0039",
+        "HAMPTER_0400",
         "HAMPTER_0228",
         "HAMPTER_0212",
-        "HAMPTER_0460",
-        "HAMPTER_0352"
+        "HAMPTER_0352",
+        "HAMPTER_0044"
       ]
     },
     {
@@ -506,15 +506,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0371",
-        "HAMPTER_0395",
         "HAMPTER_0256",
+        "HAMPTER_0395",
         "HAMPTER_0090",
         "HAMPTER_0400",
-        "HAMPTER_0352",
         "HAMPTER_0202",
+        "HAMPTER_0352",
         "HAMPTER_0428",
-        "HAMPTER_0188",
-        "HAMPTER_0384"
+        "HAMPTER_0217",
+        "HAMPTER_0188"
       ]
     },
     {
@@ -627,15 +627,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0426",
-        "HAMPTER_0304",
         "HAMPTER_0393",
         "HAMPTER_0329",
         "HAMPTER_0219",
-        "HAMPTER_0321",
         "HAMPTER_0025",
-        "HAMPTER_0240",
-        "HAMPTER_0335",
-        "HAMPTER_0149"
+        "HAMPTER_0304",
+        "HAMPTER_0149",
+        "HAMPTER_0189",
+        "HAMPTER_0131",
+        "HAMPTER_0240"
       ]
     },
     {
@@ -748,14 +748,14 @@
       "similar_ids": [
         "HAMPTER_0177",
         "HAMPTER_0273",
-        "HAMPTER_0190",
         "HAMPTER_0046",
-        "HAMPTER_0422",
-        "HAMPTER_0377",
         "HAMPTER_0207",
-        "HAMPTER_0394",
         "HAMPTER_0264",
-        "HAMPTER_0364"
+        "HAMPTER_0190",
+        "HAMPTER_0364",
+        "HAMPTER_0377",
+        "HAMPTER_0328",
+        "HAMPTER_0394"
       ]
     },
     {
@@ -877,11 +877,11 @@
         "HAMPTER_0339",
         "HAMPTER_0098",
         "HAMPTER_0370",
-        "HAMPTER_0361",
-        "HAMPTER_0326",
         "HAMPTER_0135",
         "HAMPTER_0268",
-        "HAMPTER_0012"
+        "HAMPTER_0361",
+        "HAMPTER_0417",
+        "HAMPTER_0326"
       ]
     },
     {
@@ -989,12 +989,12 @@
       "similar_ids": [
         "HAMPTER_0012",
         "HAMPTER_0053",
-        "HAMPTER_0056",
-        "HAMPTER_0029",
         "HAMPTER_0017",
+        "HAMPTER_0056",
+        "HAMPTER_0096",
+        "HAMPTER_0029",
         "HAMPTER_0035",
         "HAMPTER_0213",
-        "HAMPTER_0096",
         "HAMPTER_0280",
         "HAMPTER_0163"
       ]
@@ -1112,12 +1112,12 @@
         "HAMPTER_0060",
         "HAMPTER_0419",
         "HAMPTER_0397",
-        "HAMPTER_0269",
         "HAMPTER_0144",
-        "HAMPTER_0350",
+        "HAMPTER_0269",
         "HAMPTER_0234",
-        "HAMPTER_0310",
-        "HAMPTER_0338"
+        "HAMPTER_0350",
+        "HAMPTER_0338",
+        "HAMPTER_0084"
       ]
     },
     {
@@ -1237,12 +1237,12 @@
         "HAMPTER_0123",
         "HAMPTER_0410",
         "HAMPTER_0350",
-        "HAMPTER_0300",
-        "HAMPTER_0245",
         "HAMPTER_0409",
-        "HAMPTER_0095",
+        "HAMPTER_0245",
         "HAMPTER_0316",
-        "HAMPTER_0063",
+        "HAMPTER_0095",
+        "HAMPTER_0300",
+        "HAMPTER_0033",
         "HAMPTER_0226"
       ]
     },
@@ -1359,10 +1359,10 @@
         "HAMPTER_0339",
         "HAMPTER_0417",
         "HAMPTER_0361",
-        "HAMPTER_0236",
         "HAMPTER_0326",
         "HAMPTER_0135",
-        "HAMPTER_0370"
+        "HAMPTER_0370",
+        "HAMPTER_0236"
       ]
     },
     {
@@ -1480,12 +1480,12 @@
         "HAMPTER_0011",
         "HAMPTER_0163",
         "HAMPTER_0236",
-        "HAMPTER_0029",
         "HAMPTER_0053",
+        "HAMPTER_0017",
+        "HAMPTER_0029",
         "HAMPTER_0056",
-        "HAMPTER_0213",
         "HAMPTER_0035",
-        "HAMPTER_0017"
+        "HAMPTER_0213"
       ]
     },
     {
@@ -1599,13 +1599,13 @@
         "HAMPTER_0136",
         "HAMPTER_0134",
         "HAMPTER_0460",
-        "HAMPTER_0384",
         "HAMPTER_0250",
-        "HAMPTER_0154",
         "HAMPTER_0333",
-        "HAMPTER_0068",
+        "HAMPTER_0154",
+        "HAMPTER_0384",
         "HAMPTER_0330",
-        "HAMPTER_0368"
+        "HAMPTER_0007",
+        "HAMPTER_0020"
       ]
     },
     {
@@ -1731,10 +1731,10 @@
         "HAMPTER_0336",
         "HAMPTER_0342",
         "HAMPTER_0262",
-        "HAMPTER_0037",
+        "HAMPTER_0053",
         "HAMPTER_0328",
         "HAMPTER_0451",
-        "HAMPTER_0053"
+        "HAMPTER_0037"
       ]
     },
     {
@@ -1848,13 +1848,13 @@
         "HAMPTER_0150",
         "HAMPTER_0386",
         "HAMPTER_0375",
-        "HAMPTER_0437",
         "HAMPTER_0257",
+        "HAMPTER_0437",
         "HAMPTER_0404",
         "HAMPTER_0410",
         "HAMPTER_0301",
         "HAMPTER_0035",
-        "HAMPTER_0163"
+        "HAMPTER_0405"
       ]
     },
     {
@@ -1970,12 +1970,12 @@
         "HAMPTER_0204",
         "HAMPTER_0159",
         "HAMPTER_0146",
-        "HAMPTER_0304",
-        "HAMPTER_0269",
-        "HAMPTER_0186",
         "HAMPTER_0019",
-        "HAMPTER_0434",
+        "HAMPTER_0269",
+        "HAMPTER_0304",
         "HAMPTER_0164",
+        "HAMPTER_0434",
+        "HAMPTER_0186",
         "HAMPTER_0053"
       ]
     },
@@ -2102,10 +2102,10 @@
         "HAMPTER_0053",
         "HAMPTER_0146",
         "HAMPTER_0422",
-        "HAMPTER_0280",
         "HAMPTER_0012",
+        "HAMPTER_0280",
         "HAMPTER_0213",
-        "HAMPTER_0328"
+        "HAMPTER_0237"
       ]
     },
     {
@@ -2220,8 +2220,8 @@
         "HAMPTER_0002",
         "HAMPTER_0012",
         "HAMPTER_0098",
-        "HAMPTER_0036",
-        "HAMPTER_0256",
+        "HAMPTER_0057",
+        "HAMPTER_0106",
         "HAMPTER_0064"
       ]
     },
@@ -2341,14 +2341,14 @@
       "similar_ids": [
         "HAMPTER_0164",
         "HAMPTER_0146",
-        "HAMPTER_0303",
         "HAMPTER_0016",
-        "HAMPTER_0053",
+        "HAMPTER_0303",
         "HAMPTER_0159",
+        "HAMPTER_0053",
         "HAMPTER_0014",
         "HAMPTER_0204",
-        "HAMPTER_0267",
-        "HAMPTER_0056"
+        "HAMPTER_0056",
+        "HAMPTER_0026"
       ]
     },
     {
@@ -2461,14 +2461,14 @@
       "similar_ids": [
         "HAMPTER_0184",
         "HAMPTER_0268",
-        "HAMPTER_0439",
+        "HAMPTER_0377",
         "HAMPTER_0384",
         "HAMPTER_0428",
-        "HAMPTER_0377",
+        "HAMPTER_0439",
         "HAMPTER_0100",
         "HAMPTER_0269",
-        "HAMPTER_0226",
-        "HAMPTER_0129"
+        "HAMPTER_0129",
+        "HAMPTER_0013"
       ]
     },
     {
@@ -2580,15 +2580,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0235",
-        "HAMPTER_0434",
         "HAMPTER_0415",
+        "HAMPTER_0434",
         "HAMPTER_0361",
         "HAMPTER_0437",
-        "HAMPTER_0224",
-        "HAMPTER_0435",
+        "HAMPTER_0320",
         "HAMPTER_0301",
+        "HAMPTER_0435",
         "HAMPTER_0023",
-        "HAMPTER_0320"
+        "HAMPTER_0224"
       ]
     },
     {
@@ -2716,7 +2716,7 @@
         "HAMPTER_0271",
         "HAMPTER_0214",
         "HAMPTER_0278",
-        "HAMPTER_0227"
+        "HAMPTER_0182"
       ]
     },
     {
@@ -2836,10 +2836,10 @@
         "HAMPTER_0458",
         "HAMPTER_0341",
         "HAMPTER_0320",
-        "HAMPTER_0361",
         "HAMPTER_0301",
-        "HAMPTER_0021",
+        "HAMPTER_0361",
         "HAMPTER_0193",
+        "HAMPTER_0021",
         "HAMPTER_0317",
         "HAMPTER_0233"
       ]
@@ -2967,10 +2967,10 @@
         "HAMPTER_0156",
         "HAMPTER_0279",
         "HAMPTER_0083",
-        "HAMPTER_0210",
-        "HAMPTER_0098",
-        "HAMPTER_0249",
         "HAMPTER_0357",
+        "HAMPTER_0210",
+        "HAMPTER_0249",
+        "HAMPTER_0139",
         "HAMPTER_0339"
       ]
     },
@@ -3084,16 +3084,16 @@
         "concept_teeth"
       ],
       "similar_ids": [
-        "HAMPTER_0330",
         "HAMPTER_0426",
+        "HAMPTER_0330",
         "HAMPTER_0036",
-        "HAMPTER_0463",
+        "HAMPTER_0005",
         "HAMPTER_0375",
-        "HAMPTER_0395",
+        "HAMPTER_0463",
         "HAMPTER_0212",
-        "HAMPTER_0228",
-        "HAMPTER_0460",
-        "HAMPTER_0005"
+        "HAMPTER_0395",
+        "HAMPTER_0405",
+        "HAMPTER_0228"
       ]
     },
     {
@@ -3211,12 +3211,12 @@
         "HAMPTER_0365",
         "HAMPTER_0360",
         "HAMPTER_0429",
-        "HAMPTER_0095",
         "HAMPTER_0340",
+        "HAMPTER_0095",
+        "HAMPTER_0312",
         "HAMPTER_0233",
         "HAMPTER_0358",
-        "HAMPTER_0218",
-        "HAMPTER_0262"
+        "HAMPTER_0218"
       ]
     },
     {
@@ -3334,12 +3334,12 @@
         "HAMPTER_0380",
         "HAMPTER_0077",
         "HAMPTER_0075",
-        "HAMPTER_0320",
-        "HAMPTER_0330",
-        "HAMPTER_0141",
+        "HAMPTER_0357",
         "HAMPTER_0294",
-        "HAMPTER_0185",
-        "HAMPTER_0405"
+        "HAMPTER_0330",
+        "HAMPTER_0320",
+        "HAMPTER_0141",
+        "HAMPTER_0403"
       ]
     },
     {
@@ -3458,14 +3458,14 @@
       "similar_ids": [
         "HAMPTER_0179",
         "HAMPTER_0260",
-        "HAMPTER_0068",
         "HAMPTER_0423",
-        "HAMPTER_0390",
+        "HAMPTER_0427",
+        "HAMPTER_0068",
         "HAMPTER_0300",
-        "HAMPTER_0301",
-        "HAMPTER_0073",
+        "HAMPTER_0390",
+        "HAMPTER_0207",
         "HAMPTER_0118",
-        "HAMPTER_0074"
+        "HAMPTER_0073"
       ]
     },
     {
@@ -3575,12 +3575,12 @@
         "HAMPTER_0336",
         "HAMPTER_0008",
         "HAMPTER_0163",
+        "HAMPTER_0191",
         "HAMPTER_0363",
+        "HAMPTER_0064",
         "HAMPTER_0199",
         "HAMPTER_0014",
-        "HAMPTER_0191",
-        "HAMPTER_0064",
-        "HAMPTER_0012"
+        "HAMPTER_0068"
       ]
     },
     {
@@ -3694,15 +3694,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0399",
-        "HAMPTER_0052",
         "HAMPTER_0208",
-        "HAMPTER_0039",
+        "HAMPTER_0052",
         "HAMPTER_0123",
+        "HAMPTER_0039",
         "HAMPTER_0398",
         "HAMPTER_0168",
         "HAMPTER_0367",
-        "HAMPTER_0034",
-        "HAMPTER_0202"
+        "HAMPTER_0202",
+        "HAMPTER_0034"
       ]
     },
     {
@@ -3821,11 +3821,11 @@
         "HAMPTER_0014",
         "HAMPTER_0199",
         "HAMPTER_0148",
-        "HAMPTER_0146",
         "HAMPTER_0363",
-        "HAMPTER_0159",
         "HAMPTER_0381",
-        "HAMPTER_0019"
+        "HAMPTER_0159",
+        "HAMPTER_0146",
+        "HAMPTER_0026"
       ]
     },
     {
@@ -3940,15 +3940,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0177",
+        "HAMPTER_0273",
         "HAMPTER_0128",
         "HAMPTER_0044",
-        "HAMPTER_0273",
         "HAMPTER_0324",
         "HAMPTER_0318",
         "HAMPTER_0355",
+        "HAMPTER_0036",
         "HAMPTER_0117",
-        "HAMPTER_0043",
-        "HAMPTER_0036"
+        "HAMPTER_0043"
       ]
     },
     {
@@ -4064,14 +4064,14 @@
       "similar_ids": [
         "HAMPTER_0350",
         "HAMPTER_0326",
-        "HAMPTER_0186",
         "HAMPTER_0348",
-        "HAMPTER_0342",
+        "HAMPTER_0186",
         "HAMPTER_0367",
         "HAMPTER_0219",
-        "HAMPTER_0402",
         "HAMPTER_0258",
-        "HAMPTER_0328"
+        "HAMPTER_0342",
+        "HAMPTER_0010",
+        "HAMPTER_0393"
       ]
     },
     {
@@ -4207,10 +4207,10 @@
         "HAMPTER_0367",
         "HAMPTER_0399",
         "HAMPTER_0039",
-        "HAMPTER_0052",
         "HAMPTER_0289",
-        "HAMPTER_0123",
-        "HAMPTER_0030"
+        "HAMPTER_0052",
+        "HAMPTER_0398",
+        "HAMPTER_0123"
       ]
     },
     {
@@ -4325,10 +4325,10 @@
         "HAMPTER_0213",
         "HAMPTER_0280",
         "HAMPTER_0008",
+        "HAMPTER_0053",
         "HAMPTER_0381",
         "HAMPTER_0012",
         "HAMPTER_0015",
-        "HAMPTER_0053",
         "HAMPTER_0150",
         "HAMPTER_0096",
         "HAMPTER_0014"
@@ -4442,15 +4442,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0207",
-        "HAMPTER_0330",
         "HAMPTER_0025",
-        "HAMPTER_0463",
-        "HAMPTER_0234",
+        "HAMPTER_0330",
+        "HAMPTER_0348",
         "HAMPTER_0032",
+        "HAMPTER_0234",
+        "HAMPTER_0463",
         "HAMPTER_0014",
-        "HAMPTER_0146",
-        "HAMPTER_0261",
-        "HAMPTER_0348"
+        "HAMPTER_0045",
+        "HAMPTER_0405"
       ]
     },
     {
@@ -4565,14 +4565,14 @@
       "similar_ids": [
         "HAMPTER_0381",
         "HAMPTER_0163",
-        "HAMPTER_0186",
-        "HAMPTER_0014",
-        "HAMPTER_0212",
         "HAMPTER_0269",
         "HAMPTER_0257",
-        "HAMPTER_0226",
-        "HAMPTER_0159",
-        "HAMPTER_0434"
+        "HAMPTER_0186",
+        "HAMPTER_0328",
+        "HAMPTER_0014",
+        "HAMPTER_0212",
+        "HAMPTER_0434",
+        "HAMPTER_0226"
       ]
     },
     {
@@ -4695,8 +4695,8 @@
         "HAMPTER_0311",
         "HAMPTER_0310",
         "HAMPTER_0380",
-        "HAMPTER_0244",
-        "HAMPTER_0314"
+        "HAMPTER_0027",
+        "HAMPTER_0244"
       ]
     },
     {
@@ -4821,7 +4821,7 @@
         "HAMPTER_0030",
         "HAMPTER_0052",
         "HAMPTER_0034",
-        "HAMPTER_0168",
+        "HAMPTER_0003",
         "HAMPTER_0287"
       ]
     },
@@ -4937,15 +4937,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0047",
-        "HAMPTER_0218",
         "HAMPTER_0361",
-        "HAMPTER_0129",
-        "HAMPTER_0174",
+        "HAMPTER_0218",
+        "HAMPTER_0315",
         "HAMPTER_0162",
         "HAMPTER_0365",
-        "HAMPTER_0353",
+        "HAMPTER_0174",
         "HAMPTER_0340",
-        "HAMPTER_0227"
+        "HAMPTER_0274",
+        "HAMPTER_0377"
       ]
     },
     {
@@ -5056,138 +5056,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0453",
-        "HAMPTER_0267",
         "HAMPTER_0298",
+        "HAMPTER_0267",
         "HAMPTER_0326",
+        "HAMPTER_0300",
         "HAMPTER_0436",
         "HAMPTER_0336",
         "HAMPTER_0159",
-        "HAMPTER_0300",
         "HAMPTER_0390",
         "HAMPTER_0190"
-      ]
-    },
-    {
-      "id": "HAMPTER_0042",
-      "collection_id": "almarts27-hamsters",
-      "slug": "christmas-green-character-kiss",
-      "title": "Рождественский поцелуй",
-      "visual_description": "Зелёный пушистый и белобородый персонажи в красных колпаках целуются. Над ними Merry Christmas и праздничная веточка.",
-      "reaction": "Романтическая праздничная нелепость, парная сценка.",
-      "use_cases": [
-        "рождественская открытка",
-        "поцелуй"
-      ],
-      "tags": [
-        "санта",
-        "Christmas",
-        "kissing"
-      ],
-      "content_warnings": [],
-      "confidence": "high",
-      "status": "reviewed",
-      "review": {
-        "method": "image-by-image visual review; related crops cross-referenced",
-        "date": "2026-10-30",
-        "reviewer": "AI-assisted visual curation",
-        "human_approved": false
-      },
-      "related_to": null,
-      "relation_type": null,
-      "width": 320,
-      "height": 320,
-      "has_alpha": false,
-      "quality": "standard",
-      "files": {
-        "master_png": "media/masters/HAMPTER_0042_christmas-green-character-kiss.png",
-        "delivery_webp": "media/webp/HAMPTER_0042_christmas-green-character-kiss.webp",
-        "thumbnail_webp": "media/thumbs/HAMPTER_0042.webp"
-      },
-      "alternates": [],
-      "provenance": {
-        "primary_source_id": "hamsterdex:42",
-        "primary_source_type": "hamsterdex",
-        "source_urls": [
-          "https://www.instagram.com/p/C1SLm2qLsVM/",
-          "https://antonl-dev.github.io/hamsterdex/"
-        ],
-        "source_asset_ids": [
-          "hamsterdex:42"
-        ],
-        "canonical_aliases": null,
-        "sha256_master": "76b36118dc71cb14a7dd814c0fe01b08d46afcba335f3bdefd1aab5574016331",
-        "sha256_delivery": "b50592aa176b4202784875f8cb73ba4d3ec0dfd5e25f4040220000fbf8001b65",
-        "phash": "e91ecd0b86a1b0f49ada6f4b692dccb464b092c7924bcb3cc9ac64d0ccd6278f",
-        "dhash": "0000040800005c8d4e9d498d5be553264d564fc643ce4cdd4c7d126c00000020"
-      },
-      "rights": {
-        "status": "not_cleared",
-        "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
-      },
-      "concepts": [
-        "kiss",
-        "party",
-        "christmas"
-      ],
-      "search_text": "Рождественский поцелуй Рождественский поцелуй Рождественский поцелуй санта Christmas kissing санта Christmas kissing санта Christmas kissing рождественская открытка поцелуй рождественская открытка поцелуй Зелёный пушистый и белобородый персонажи в красных колпаках целуются. Над ними Merry Christmas и праздничная веточка. Романтическая праздничная нелепость, парная сценка.",
-      "search_tokens": [
-        "рождественск",
-        "поцелуй",
-        "рождественск",
-        "поцелуй",
-        "рождественск",
-        "поцелуй",
-        "сант",
-        "christma",
-        "kiss",
-        "сант",
-        "christma",
-        "kiss",
-        "сант",
-        "christma",
-        "kiss",
-        "рождественск",
-        "открытк",
-        "поцелуй",
-        "рождественск",
-        "открытк",
-        "поцелуй",
-        "зелен",
-        "пушист",
-        "белобород",
-        "персонаж",
-        "красных",
-        "колпак",
-        "целуют",
-        "над",
-        "ним",
-        "merry",
-        "christma",
-        "праздничн",
-        "веточк",
-        "романтическ",
-        "праздничн",
-        "нелепос",
-        "парн",
-        "сценк",
-        "concept_kiss",
-        "concept_party",
-        "concept_christmas",
-        "concept_kiss",
-        "concept_party",
-        "concept_christmas"
-      ],
-      "similar_ids": [
-        "HAMPTER_0285",
-        "HAMPTER_0266",
-        "HAMPTER_0284",
-        "HAMPTER_0265",
-        "HAMPTER_0282",
-        "HAMPTER_0072",
-        "HAMPTER_0065",
-        "HAMPTER_0401",
-        "HAMPTER_0089",
-        "HAMPTER_0288"
       ]
     },
     {
@@ -5310,14 +5187,14 @@
       "similar_ids": [
         "HAMPTER_0117",
         "HAMPTER_0324",
-        "HAMPTER_0354",
         "HAMPTER_0106",
-        "HAMPTER_0128",
+        "HAMPTER_0354",
         "HAMPTER_0155",
-        "HAMPTER_0152",
-        "HAMPTER_0032",
+        "HAMPTER_0128",
         "HAMPTER_0236",
-        "HAMPTER_0306"
+        "HAMPTER_0032",
+        "HAMPTER_0306",
+        "HAMPTER_0152"
       ]
     },
     {
@@ -5436,12 +5313,12 @@
         "HAMPTER_0047",
         "HAMPTER_0128",
         "HAMPTER_0032",
+        "HAMPTER_0180",
         "HAMPTER_0324",
-        "HAMPTER_0417",
-        "HAMPTER_0106",
+        "HAMPTER_0197",
+        "HAMPTER_0306",
         "HAMPTER_0340",
-        "HAMPTER_0353",
-        "HAMPTER_0176",
+        "HAMPTER_0003",
         "HAMPTER_0117"
       ]
     },
@@ -5543,15 +5420,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0109",
-        "HAMPTER_0362",
-        "HAMPTER_0261",
         "HAMPTER_0166",
+        "HAMPTER_0362",
+        "HAMPTER_0189",
+        "HAMPTER_0118",
         "HAMPTER_0063",
         "HAMPTER_0268",
-        "HAMPTER_0390",
-        "HAMPTER_0118",
+        "HAMPTER_0112",
         "HAMPTER_0437",
-        "HAMPTER_0195"
+        "HAMPTER_0113"
       ]
     },
     {
@@ -5669,14 +5546,14 @@
       "similar_ids": [
         "HAMPTER_0050",
         "HAMPTER_0328",
-        "HAMPTER_0364",
         "HAMPTER_0370",
-        "HAMPTER_0254",
+        "HAMPTER_0364",
         "HAMPTER_0006",
-        "HAMPTER_0268",
-        "HAMPTER_0165",
-        "HAMPTER_0173",
-        "HAMPTER_0138"
+        "HAMPTER_0264",
+        "HAMPTER_0255",
+        "HAMPTER_0254",
+        "HAMPTER_0390",
+        "HAMPTER_0436"
       ]
     },
     {
@@ -5794,15 +5671,15 @@
         "concept_calm"
       ],
       "similar_ids": [
-        "HAMPTER_0441",
         "HAMPTER_0044",
+        "HAMPTER_0441",
         "HAMPTER_0340",
-        "HAMPTER_0312",
         "HAMPTER_0195",
-        "HAMPTER_0176",
         "HAMPTER_0040",
+        "HAMPTER_0176",
         "HAMPTER_0174",
-        "HAMPTER_0361",
+        "HAMPTER_0312",
+        "HAMPTER_0394",
         "HAMPTER_0353"
       ]
     },
@@ -5921,14 +5798,14 @@
       "similar_ids": [
         "HAMPTER_0254",
         "HAMPTER_0243",
-        "HAMPTER_0193",
+        "HAMPTER_0377",
+        "HAMPTER_0201",
         "HAMPTER_0341",
-        "HAMPTER_0244",
         "HAMPTER_0233",
-        "HAMPTER_0195",
         "HAMPTER_0320",
         "HAMPTER_0264",
-        "HAMPTER_0358"
+        "HAMPTER_0195",
+        "HAMPTER_0226"
       ]
     },
     {
@@ -6043,13 +5920,13 @@
         "HAMPTER_0097",
         "HAMPTER_0189",
         "HAMPTER_0200",
-        "HAMPTER_0322",
         "HAMPTER_0165",
-        "HAMPTER_0247",
-        "HAMPTER_0122",
-        "HAMPTER_0286",
+        "HAMPTER_0322",
         "HAMPTER_0351",
-        "HAMPTER_0406"
+        "HAMPTER_0247",
+        "HAMPTER_0242",
+        "HAMPTER_0166",
+        "HAMPTER_0086"
       ]
     },
     {
@@ -6158,12 +6035,12 @@
         "HAMPTER_0046",
         "HAMPTER_0315",
         "HAMPTER_0173",
+        "HAMPTER_0328",
+        "HAMPTER_0264",
         "HAMPTER_0165",
-        "HAMPTER_0389",
-        "HAMPTER_0388",
         "HAMPTER_0314",
-        "HAMPTER_0078",
-        "HAMPTER_0095"
+        "HAMPTER_0283",
+        "HAMPTER_0389"
       ]
     },
     {
@@ -6284,12 +6161,12 @@
         "HAMPTER_0323",
         "HAMPTER_0414",
         "HAMPTER_0121",
-        "HAMPTER_0234",
+        "HAMPTER_0171",
         "HAMPTER_0092",
         "HAMPTER_0311",
+        "HAMPTER_0240",
         "HAMPTER_0258",
-        "HAMPTER_0321",
-        "HAMPTER_0171"
+        "HAMPTER_0117"
       ]
     },
     {
@@ -6416,13 +6293,13 @@
         "HAMPTER_0399",
         "HAMPTER_0030",
         "HAMPTER_0343",
-        "HAMPTER_0039",
         "HAMPTER_0168",
+        "HAMPTER_0039",
         "HAMPTER_0398",
-        "HAMPTER_0461",
         "HAMPTER_0367",
-        "HAMPTER_0034",
-        "HAMPTER_0123"
+        "HAMPTER_0461",
+        "HAMPTER_0208",
+        "HAMPTER_0034"
       ]
     },
     {
@@ -6526,15 +6403,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0008",
-        "HAMPTER_0199",
-        "HAMPTER_0158",
-        "HAMPTER_0146",
         "HAMPTER_0014",
+        "HAMPTER_0146",
         "HAMPTER_0056",
         "HAMPTER_0017",
         "HAMPTER_0246",
-        "HAMPTER_0434",
-        "HAMPTER_0019"
+        "HAMPTER_0159",
+        "HAMPTER_0019",
+        "HAMPTER_0096",
+        "HAMPTER_0164"
       ]
     },
     {
@@ -6642,14 +6519,14 @@
       "similar_ids": [
         "HAMPTER_0181",
         "HAMPTER_0343",
-        "HAMPTER_0308",
         "HAMPTER_0144",
-        "HAMPTER_0461",
-        "HAMPTER_0053",
+        "HAMPTER_0251",
+        "HAMPTER_0178",
+        "HAMPTER_0201",
         "HAMPTER_0193",
-        "HAMPTER_0137",
+        "HAMPTER_0461",
         "HAMPTER_0211",
-        "HAMPTER_0103"
+        "HAMPTER_0308"
       ]
     },
     {
@@ -6762,15 +6639,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0129",
-        "HAMPTER_0137",
         "HAMPTER_0076",
+        "HAMPTER_0137",
         "HAMPTER_0324",
         "HAMPTER_0344",
+        "HAMPTER_0180",
         "HAMPTER_0001",
         "HAMPTER_0270",
         "HAMPTER_0133",
-        "HAMPTER_0040",
-        "HAMPTER_0078"
+        "HAMPTER_0415"
       ]
     },
     {
@@ -6886,13 +6763,13 @@
         "HAMPTER_0017",
         "HAMPTER_0096",
         "HAMPTER_0008",
-        "HAMPTER_0146",
         "HAMPTER_0053",
+        "HAMPTER_0146",
         "HAMPTER_0012",
+        "HAMPTER_0019",
+        "HAMPTER_0164",
         "HAMPTER_0349",
-        "HAMPTER_0016",
-        "HAMPTER_0422",
-        "HAMPTER_0204"
+        "HAMPTER_0016"
       ]
     },
     {
@@ -6997,15 +6874,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0408",
-        "HAMPTER_0122",
         "HAMPTER_0372",
+        "HAMPTER_0122",
         "HAMPTER_0098",
-        "HAMPTER_0083",
-        "HAMPTER_0058",
         "HAMPTER_0370",
         "HAMPTER_0428",
+        "HAMPTER_0435",
         "HAMPTER_0411",
-        "HAMPTER_0151"
+        "HAMPTER_0058",
+        "HAMPTER_0064"
       ]
     },
     {
@@ -7115,16 +6992,16 @@
         "concept_brow"
       ],
       "similar_ids": [
-        "HAMPTER_0372",
         "HAMPTER_0363",
-        "HAMPTER_0098",
+        "HAMPTER_0372",
         "HAMPTER_0411",
+        "HAMPTER_0063",
         "HAMPTER_0083",
-        "HAMPTER_0057",
-        "HAMPTER_0397",
-        "HAMPTER_0082",
+        "HAMPTER_0098",
         "HAMPTER_0336",
-        "HAMPTER_0406"
+        "HAMPTER_0397",
+        "HAMPTER_0402",
+        "HAMPTER_0082"
       ]
     },
     {
@@ -7255,13 +7132,13 @@
         "HAMPTER_0127",
         "HAMPTER_0382",
         "HAMPTER_0317",
-        "HAMPTER_0421",
         "HAMPTER_0373",
-        "HAMPTER_0433",
-        "HAMPTER_0396",
+        "HAMPTER_0421",
+        "HAMPTER_0306",
+        "HAMPTER_0439",
         "HAMPTER_0201",
-        "HAMPTER_0297",
-        "HAMPTER_0306"
+        "HAMPTER_0396",
+        "HAMPTER_0297"
       ]
     },
     {
@@ -7377,11 +7254,11 @@
         "HAMPTER_0419",
         "HAMPTER_0315",
         "HAMPTER_0144",
-        "HAMPTER_0084",
-        "HAMPTER_0115",
         "HAMPTER_0040",
-        "HAMPTER_0193",
-        "HAMPTER_0397"
+        "HAMPTER_0084",
+        "HAMPTER_0397",
+        "HAMPTER_0115",
+        "HAMPTER_0314"
       ]
     },
     {
@@ -7503,8 +7380,8 @@
         "HAMPTER_0128",
         "HAMPTER_0025",
         "HAMPTER_0428",
-        "HAMPTER_0337",
-        "HAMPTER_0253"
+        "HAMPTER_0253",
+        "HAMPTER_0337"
       ]
     },
     {
@@ -7640,12 +7517,12 @@
         "HAMPTER_0068",
         "HAMPTER_0246",
         "HAMPTER_0237",
+        "HAMPTER_0334",
         "HAMPTER_0352",
+        "HAMPTER_0102",
         "HAMPTER_0138",
         "HAMPTER_0199",
-        "HAMPTER_0334",
-        "HAMPTER_0201",
-        "HAMPTER_0029"
+        "HAMPTER_0168"
       ]
     },
     {
@@ -7756,16 +7633,16 @@
         "concept_shock"
       ],
       "similar_ids": [
-        "HAMPTER_0300",
         "HAMPTER_0336",
+        "HAMPTER_0300",
         "HAMPTER_0298",
         "HAMPTER_0363",
-        "HAMPTER_0159",
         "HAMPTER_0383",
-        "HAMPTER_0045",
+        "HAMPTER_0159",
+        "HAMPTER_0058",
         "HAMPTER_0190",
-        "HAMPTER_0410",
-        "HAMPTER_0058"
+        "HAMPTER_0045",
+        "HAMPTER_0014"
       ]
     },
     {
@@ -7878,14 +7755,14 @@
       "similar_ids": [
         "HAMPTER_0075",
         "HAMPTER_0027",
-        "HAMPTER_0363",
         "HAMPTER_0038",
-        "HAMPTER_0342",
-        "HAMPTER_0267",
-        "HAMPTER_0217",
+        "HAMPTER_0363",
         "HAMPTER_0029",
-        "HAMPTER_0341",
-        "HAMPTER_0384"
+        "HAMPTER_0267",
+        "HAMPTER_0342",
+        "HAMPTER_0353",
+        "HAMPTER_0141",
+        "HAMPTER_0217"
       ]
     },
     {
@@ -8003,14 +7880,14 @@
       "similar_ids": [
         "HAMPTER_0288",
         "HAMPTER_0284",
-        "HAMPTER_0072",
         "HAMPTER_0413",
+        "HAMPTER_0072",
         "HAMPTER_0290",
-        "HAMPTER_0042",
         "HAMPTER_0091",
         "HAMPTER_0218",
+        "HAMPTER_0220",
         "HAMPTER_0183",
-        "HAMPTER_0220"
+        "HAMPTER_0302"
       ]
     },
     {
@@ -8112,14 +7989,14 @@
       "similar_ids": [
         "HAMPTER_0092",
         "HAMPTER_0242",
-        "HAMPTER_0051",
         "HAMPTER_0246",
+        "HAMPTER_0051",
         "HAMPTER_0068",
-        "HAMPTER_0416",
-        "HAMPTER_0200",
         "HAMPTER_0089",
-        "HAMPTER_0160",
-        "HAMPTER_0104"
+        "HAMPTER_0104",
+        "HAMPTER_0138",
+        "HAMPTER_0062",
+        "HAMPTER_0416"
       ]
     },
     {
@@ -8233,13 +8110,13 @@
         "HAMPTER_0241",
         "HAMPTER_0180",
         "HAMPTER_0460",
+        "HAMPTER_0140",
         "HAMPTER_0237",
-        "HAMPTER_0265",
-        "HAMPTER_0411",
-        "HAMPTER_0346",
-        "HAMPTER_0078",
         "HAMPTER_0417",
-        "HAMPTER_0113"
+        "HAMPTER_0346",
+        "HAMPTER_0265",
+        "HAMPTER_0151",
+        "HAMPTER_0078"
       ]
     },
     {
@@ -8339,16 +8216,16 @@
         "надуван"
       ],
       "similar_ids": [
-        "HAMPTER_0062",
         "HAMPTER_0334",
+        "HAMPTER_0062",
         "HAMPTER_0138",
-        "HAMPTER_0246",
-        "HAMPTER_0028",
-        "HAMPTER_0260",
         "HAMPTER_0346",
         "HAMPTER_0029",
+        "HAMPTER_0260",
         "HAMPTER_0070",
-        "HAMPTER_0239"
+        "HAMPTER_0239",
+        "HAMPTER_0416",
+        "HAMPTER_0401"
       ]
     },
     {
@@ -8462,11 +8339,11 @@
         "HAMPTER_0114",
         "HAMPTER_0100",
         "HAMPTER_0057",
-        "HAMPTER_0312",
         "HAMPTER_0240",
-        "HAMPTER_0376",
+        "HAMPTER_0171",
+        "HAMPTER_0312",
         "HAMPTER_0120",
-        "HAMPTER_0171"
+        "HAMPTER_0376"
       ]
     },
     {
@@ -8578,9 +8455,9 @@
         "HAMPTER_0068",
         "HAMPTER_0138",
         "HAMPTER_0246",
-        "HAMPTER_0242",
         "HAMPTER_0046",
-        "HAMPTER_0113"
+        "HAMPTER_0113",
+        "HAMPTER_0062"
       ]
     },
     {
@@ -8693,12 +8570,12 @@
         "HAMPTER_0247",
         "HAMPTER_0114",
         "HAMPTER_0212",
-        "HAMPTER_0100",
-        "HAMPTER_0094",
         "HAMPTER_0171",
         "HAMPTER_0057",
-        "HAMPTER_0273",
-        "HAMPTER_0205"
+        "HAMPTER_0100",
+        "HAMPTER_0094",
+        "HAMPTER_0025",
+        "HAMPTER_0273"
       ]
     },
     {
@@ -8811,12 +8688,12 @@
         "HAMPTER_0284",
         "HAMPTER_0065",
         "HAMPTER_0107",
-        "HAMPTER_0308",
-        "HAMPTER_0288",
         "HAMPTER_0413",
-        "HAMPTER_0042",
+        "HAMPTER_0288",
+        "HAMPTER_0308",
+        "HAMPTER_0289",
         "HAMPTER_0187",
-        "HAMPTER_0214"
+        "HAMPTER_0271"
       ]
     },
     {
@@ -8931,11 +8808,11 @@
         "HAMPTER_0121",
         "HAMPTER_0380",
         "HAMPTER_0267",
+        "HAMPTER_0423",
         "HAMPTER_0182",
-        "HAMPTER_0028",
-        "HAMPTER_0278",
-        "HAMPTER_0114",
-        "HAMPTER_0423"
+        "HAMPTER_0244",
+        "HAMPTER_0054",
+        "HAMPTER_0028"
       ]
     },
     {
@@ -9049,8 +8926,8 @@
         "HAMPTER_0424",
         "HAMPTER_0409",
         "HAMPTER_0366",
-        "HAMPTER_0167",
         "HAMPTER_0381",
+        "HAMPTER_0167",
         "HAMPTER_0390",
         "HAMPTER_0161",
         "HAMPTER_0429",
@@ -9165,15 +9042,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0064",
+        "HAMPTER_0267",
         "HAMPTER_0354",
         "HAMPTER_0333",
-        "HAMPTER_0267",
-        "HAMPTER_0384",
         "HAMPTER_0229",
         "HAMPTER_0106",
+        "HAMPTER_0038",
         "HAMPTER_0027",
-        "HAMPTER_0217",
-        "HAMPTER_0038"
+        "HAMPTER_0384",
+        "HAMPTER_0217"
       ]
     },
     {
@@ -9277,15 +9154,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0055",
-        "HAMPTER_0137",
-        "HAMPTER_0344",
-        "HAMPTER_0133",
         "HAMPTER_0129",
+        "HAMPTER_0344",
         "HAMPTER_0108",
-        "HAMPTER_0099",
+        "HAMPTER_0137",
+        "HAMPTER_0133",
+        "HAMPTER_0172",
+        "HAMPTER_0033",
         "HAMPTER_0324",
-        "HAMPTER_0081",
-        "HAMPTER_0172"
+        "HAMPTER_0114"
       ]
     },
     {
@@ -9394,16 +9271,16 @@
         "concept_tongue"
       ],
       "similar_ids": [
-        "HAMPTER_0405",
-        "HAMPTER_0404",
         "HAMPTER_0256",
+        "HAMPTER_0405",
         "HAMPTER_0352",
-        "HAMPTER_0027",
-        "HAMPTER_0267",
+        "HAMPTER_0404",
         "HAMPTER_0185",
-        "HAMPTER_0215",
+        "HAMPTER_0267",
+        "HAMPTER_0027",
         "HAMPTER_0357",
-        "HAMPTER_0320"
+        "HAMPTER_0215",
+        "HAMPTER_0249"
       ]
     },
     {
@@ -9509,16 +9386,16 @@
         "concept_calm"
       ],
       "similar_ids": [
-        "HAMPTER_0111",
-        "HAMPTER_0368",
         "HAMPTER_0376",
-        "HAMPTER_0394",
-        "HAMPTER_0131",
-        "HAMPTER_0118",
-        "HAMPTER_0340",
         "HAMPTER_0441",
+        "HAMPTER_0394",
+        "HAMPTER_0111",
+        "HAMPTER_0427",
+        "HAMPTER_0131",
+        "HAMPTER_0026",
         "HAMPTER_0140",
-        "HAMPTER_0026"
+        "HAMPTER_0368",
+        "HAMPTER_0125"
       ]
     },
     {
@@ -9647,11 +9524,11 @@
         "HAMPTER_0108",
         "HAMPTER_0394",
         "HAMPTER_0401",
+        "HAMPTER_0125",
         "HAMPTER_0286",
         "HAMPTER_0297",
         "HAMPTER_0282",
-        "HAMPTER_0125",
-        "HAMPTER_0293",
+        "HAMPTER_0149",
         "HAMPTER_0145"
       ]
     },
@@ -9764,9 +9641,9 @@
         "HAMPTER_0188",
         "HAMPTER_0238",
         "HAMPTER_0160",
-        "HAMPTER_0286",
-        "HAMPTER_0394",
         "HAMPTER_0366",
+        "HAMPTER_0364",
+        "HAMPTER_0122",
         "HAMPTER_0282"
       ]
     },
@@ -9886,7 +9763,7 @@
         "HAMPTER_0139",
         "HAMPTER_0099",
         "HAMPTER_0331",
-        "HAMPTER_0246"
+        "HAMPTER_0157"
       ]
     },
     {
@@ -10003,16 +9880,16 @@
         "concept_bow"
       ],
       "similar_ids": [
+        "HAMPTER_0261",
         "HAMPTER_0203",
         "HAMPTER_0387",
         "HAMPTER_0058",
         "HAMPTER_0323",
-        "HAMPTER_0397",
-        "HAMPTER_0261",
-        "HAMPTER_0319",
-        "HAMPTER_0245",
+        "HAMPTER_0416",
+        "HAMPTER_0010",
+        "HAMPTER_0420",
         "HAMPTER_0414",
-        "HAMPTER_0409"
+        "HAMPTER_0311"
       ]
     },
     {
@@ -10136,14 +10013,14 @@
       "similar_ids": [
         "HAMPTER_0406",
         "HAMPTER_0416",
-        "HAMPTER_0249",
         "HAMPTER_0058",
-        "HAMPTER_0057",
-        "HAMPTER_0357",
-        "HAMPTER_0295",
+        "HAMPTER_0249",
         "HAMPTER_0024",
-        "HAMPTER_0139",
-        "HAMPTER_0439"
+        "HAMPTER_0357",
+        "HAMPTER_0057",
+        "HAMPTER_0203",
+        "HAMPTER_0295",
+        "HAMPTER_0134"
       ]
     },
     {
@@ -10268,15 +10145,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0115",
-        "HAMPTER_0373",
-        "HAMPTER_0419",
-        "HAMPTER_0135",
         "HAMPTER_0303",
-        "HAMPTER_0127",
-        "HAMPTER_0317",
-        "HAMPTER_0144",
+        "HAMPTER_0135",
+        "HAMPTER_0419",
+        "HAMPTER_0373",
         "HAMPTER_0059",
-        "HAMPTER_0421"
+        "HAMPTER_0127",
+        "HAMPTER_0144",
+        "HAMPTER_0317",
+        "HAMPTER_0321"
       ]
     },
     {
@@ -10392,14 +10269,14 @@
       "similar_ids": [
         "HAMPTER_0418",
         "HAMPTER_0368",
-        "HAMPTER_0140",
-        "HAMPTER_0416",
         "HAMPTER_0331",
-        "HAMPTER_0116",
-        "HAMPTER_0439",
+        "HAMPTER_0296",
         "HAMPTER_0078",
+        "HAMPTER_0306",
+        "HAMPTER_0116",
+        "HAMPTER_0416",
         "HAMPTER_0441",
-        "HAMPTER_0113"
+        "HAMPTER_0140"
       ]
     },
     {
@@ -10508,14 +10385,14 @@
       "similar_ids": [
         "HAMPTER_0111",
         "HAMPTER_0167",
-        "HAMPTER_0157",
-        "HAMPTER_0382",
-        "HAMPTER_0373",
+        "HAMPTER_0331",
         "HAMPTER_0158",
-        "HAMPTER_0225",
+        "HAMPTER_0373",
+        "HAMPTER_0157",
+        "HAMPTER_0296",
         "HAMPTER_0112",
-        "HAMPTER_0154",
-        "HAMPTER_0316"
+        "HAMPTER_0382",
+        "HAMPTER_0154"
       ]
     },
     {
@@ -10628,10 +10505,10 @@
         "HAMPTER_0333",
         "HAMPTER_0129",
         "HAMPTER_0267",
-        "HAMPTER_0161",
         "HAMPTER_0140",
-        "HAMPTER_0122",
-        "HAMPTER_0269"
+        "HAMPTER_0295",
+        "HAMPTER_0325",
+        "HAMPTER_0122"
       ]
     },
     {
@@ -10739,15 +10616,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0103",
-        "HAMPTER_0308",
-        "HAMPTER_0129",
         "HAMPTER_0234",
-        "HAMPTER_0122",
+        "HAMPTER_0129",
+        "HAMPTER_0308",
         "HAMPTER_0176",
-        "HAMPTER_0171",
-        "HAMPTER_0138",
+        "HAMPTER_0358",
         "HAMPTER_0099",
-        "HAMPTER_0054"
+        "HAMPTER_0122",
+        "HAMPTER_0138",
+        "HAMPTER_0141"
       ]
     },
     {
@@ -10870,14 +10747,14 @@
       "similar_ids": [
         "HAMPTER_0285",
         "HAMPTER_0282",
-        "HAMPTER_0100",
-        "HAMPTER_0407",
         "HAMPTER_0345",
-        "HAMPTER_0265",
-        "HAMPTER_0042",
+        "HAMPTER_0149",
+        "HAMPTER_0407",
+        "HAMPTER_0100",
         "HAMPTER_0334",
         "HAMPTER_0401",
-        "HAMPTER_0149"
+        "HAMPTER_0380",
+        "HAMPTER_0351"
       ]
     },
     {
@@ -10979,16 +10856,16 @@
         "образ"
       ],
       "similar_ids": [
-        "HAMPTER_0202",
+        "HAMPTER_0188",
         "HAMPTER_0400",
         "HAMPTER_0004",
-        "HAMPTER_0188",
+        "HAMPTER_0202",
         "HAMPTER_0452",
         "HAMPTER_0371",
-        "HAMPTER_0283",
         "HAMPTER_0296",
         "HAMPTER_0027",
-        "HAMPTER_0294"
+        "HAMPTER_0285",
+        "HAMPTER_0089"
       ]
     },
     {
@@ -11112,8 +10989,8 @@
         "HAMPTER_0288",
         "HAMPTER_0065",
         "HAMPTER_0312",
-        "HAMPTER_0175",
-        "HAMPTER_0227"
+        "HAMPTER_0227",
+        "HAMPTER_0175"
       ]
     },
     {
@@ -11241,12 +11118,12 @@
         "HAMPTER_0240",
         "HAMPTER_0051",
         "HAMPTER_0196",
-        "HAMPTER_0242",
         "HAMPTER_0097",
         "HAMPTER_0130",
-        "HAMPTER_0249",
+        "HAMPTER_0242",
         "HAMPTER_0351",
-        "HAMPTER_0171"
+        "HAMPTER_0115",
+        "HAMPTER_0183"
       ]
     },
     {
@@ -11364,11 +11241,11 @@
         "HAMPTER_0303",
         "HAMPTER_0419",
         "HAMPTER_0427",
+        "HAMPTER_0122",
         "HAMPTER_0084",
         "HAMPTER_0115",
-        "HAMPTER_0122",
         "HAMPTER_0354",
-        "HAMPTER_0348"
+        "HAMPTER_0104"
       ]
     },
     {
@@ -11493,12 +11370,12 @@
         "HAMPTER_0080",
         "HAMPTER_0205",
         "HAMPTER_0161",
+        "HAMPTER_0435",
         "HAMPTER_0273",
         "HAMPTER_0219",
-        "HAMPTER_0435",
         "HAMPTER_0177",
+        "HAMPTER_0122",
         "HAMPTER_0032",
-        "HAMPTER_0269",
         "HAMPTER_0242"
       ]
     },
@@ -11615,15 +11492,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0376",
-        "HAMPTER_0026",
         "HAMPTER_0429",
+        "HAMPTER_0026",
         "HAMPTER_0365",
-        "HAMPTER_0140",
-        "HAMPTER_0350",
         "HAMPTER_0360",
         "HAMPTER_0228",
-        "HAMPTER_0358",
-        "HAMPTER_0340"
+        "HAMPTER_0140",
+        "HAMPTER_0340",
+        "HAMPTER_0350",
+        "HAMPTER_0195"
       ]
     },
     {
@@ -11764,11 +11641,11 @@
         "HAMPTER_0056",
         "HAMPTER_0008",
         "HAMPTER_0280",
-        "HAMPTER_0422",
         "HAMPTER_0053",
+        "HAMPTER_0012",
+        "HAMPTER_0422",
         "HAMPTER_0146",
         "HAMPTER_0213",
-        "HAMPTER_0012",
         "HAMPTER_0035"
       ]
     },
@@ -11913,7 +11790,7 @@
         "HAMPTER_0200",
         "HAMPTER_0351",
         "HAMPTER_0165",
-        "HAMPTER_0322"
+        "HAMPTER_0183"
       ]
     },
     {
@@ -12022,15 +11899,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0339",
-        "HAMPTER_0307",
         "HAMPTER_0406",
-        "HAMPTER_0058",
         "HAMPTER_0007",
-        "HAMPTER_0363",
-        "HAMPTER_0057",
+        "HAMPTER_0411",
         "HAMPTER_0395",
-        "HAMPTER_0361",
-        "HAMPTER_0411"
+        "HAMPTER_0307",
+        "HAMPTER_0058",
+        "HAMPTER_0057",
+        "HAMPTER_0363",
+        "HAMPTER_0063"
       ]
     },
     {
@@ -12139,13 +12016,13 @@
       "similar_ids": [
         "HAMPTER_0344",
         "HAMPTER_0133",
-        "HAMPTER_0152",
         "HAMPTER_0114",
-        "HAMPTER_0101",
         "HAMPTER_0081",
+        "HAMPTER_0152",
         "HAMPTER_0120",
+        "HAMPTER_0101",
         "HAMPTER_0102",
-        "HAMPTER_0076",
+        "HAMPTER_0254",
         "HAMPTER_0295"
       ]
     },
@@ -12261,14 +12138,14 @@
       "similar_ids": [
         "HAMPTER_0252",
         "HAMPTER_0114",
-        "HAMPTER_0089",
         "HAMPTER_0443",
+        "HAMPTER_0089",
         "HAMPTER_0334",
-        "HAMPTER_0347",
         "HAMPTER_0298",
         "HAMPTER_0345",
+        "HAMPTER_0347",
         "HAMPTER_0246",
-        "HAMPTER_0268"
+        "HAMPTER_0138"
       ]
     },
     {
@@ -12382,13 +12259,13 @@
       "similar_ids": [
         "HAMPTER_0152",
         "HAMPTER_0153",
-        "HAMPTER_0347",
-        "HAMPTER_0099",
-        "HAMPTER_0327",
         "HAMPTER_0133",
-        "HAMPTER_0441",
+        "HAMPTER_0347",
         "HAMPTER_0344",
-        "HAMPTER_0114",
+        "HAMPTER_0441",
+        "HAMPTER_0099",
+        "HAMPTER_0243",
+        "HAMPTER_0327",
         "HAMPTER_0312"
       ]
     },
@@ -12497,15 +12374,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0081",
-        "HAMPTER_0347",
         "HAMPTER_0133",
-        "HAMPTER_0160",
-        "HAMPTER_0139",
+        "HAMPTER_0347",
         "HAMPTER_0344",
-        "HAMPTER_0345",
+        "HAMPTER_0139",
+        "HAMPTER_0160",
         "HAMPTER_0199",
+        "HAMPTER_0345",
         "HAMPTER_0440",
-        "HAMPTER_0099"
+        "HAMPTER_0158"
       ]
     },
     {
@@ -12613,14 +12490,14 @@
       "similar_ids": [
         "HAMPTER_0088",
         "HAMPTER_0129",
-        "HAMPTER_0308",
-        "HAMPTER_0122",
-        "HAMPTER_0054",
         "HAMPTER_0138",
         "HAMPTER_0050",
-        "HAMPTER_0165",
-        "HAMPTER_0206",
-        "HAMPTER_0234"
+        "HAMPTER_0099",
+        "HAMPTER_0308",
+        "HAMPTER_0122",
+        "HAMPTER_0344",
+        "HAMPTER_0358",
+        "HAMPTER_0215"
       ]
     },
     {
@@ -12734,16 +12611,16 @@
         "concept_tongue"
       ],
       "similar_ids": [
+        "HAMPTER_0435",
+        "HAMPTER_0375",
         "HAMPTER_0405",
         "HAMPTER_0330",
-        "HAMPTER_0375",
-        "HAMPTER_0435",
         "HAMPTER_0404",
-        "HAMPTER_0246",
         "HAMPTER_0207",
-        "HAMPTER_0463",
         "HAMPTER_0099",
-        "HAMPTER_0401"
+        "HAMPTER_0401",
+        "HAMPTER_0463",
+        "HAMPTER_0304"
       ]
     },
     {
@@ -12854,15 +12731,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0106",
-        "HAMPTER_0108",
         "HAMPTER_0396",
-        "HAMPTER_0297",
+        "HAMPTER_0108",
         "HAMPTER_0369",
+        "HAMPTER_0297",
         "HAMPTER_0155",
-        "HAMPTER_0079",
+        "HAMPTER_0149",
         "HAMPTER_0145",
-        "HAMPTER_0117",
-        "HAMPTER_0149"
+        "HAMPTER_0079",
+        "HAMPTER_0308"
       ]
     },
     {
@@ -12975,7 +12852,7 @@
         "HAMPTER_0075",
         "HAMPTER_0236",
         "HAMPTER_0333",
-        "HAMPTER_0044"
+        "HAMPTER_0002"
       ]
     },
     {
@@ -13088,14 +12965,14 @@
       "similar_ids": [
         "HAMPTER_0289",
         "HAMPTER_0227",
-        "HAMPTER_0072",
         "HAMPTER_0412",
+        "HAMPTER_0072",
         "HAMPTER_0187",
-        "HAMPTER_0214",
         "HAMPTER_0271",
+        "HAMPTER_0214",
         "HAMPTER_0308",
         "HAMPTER_0022",
-        "HAMPTER_0346"
+        "HAMPTER_0034"
       ]
     },
     {
@@ -13210,13 +13087,13 @@
         "HAMPTER_0079",
         "HAMPTER_0396",
         "HAMPTER_0401",
-        "HAMPTER_0105",
         "HAMPTER_0297",
-        "HAMPTER_0293",
+        "HAMPTER_0105",
+        "HAMPTER_0076",
         "HAMPTER_0149",
-        "HAMPTER_0286",
-        "HAMPTER_0265",
-        "HAMPTER_0369"
+        "HAMPTER_0293",
+        "HAMPTER_0407",
+        "HAMPTER_0145"
       ]
     },
     {
@@ -13324,14 +13201,14 @@
       "similar_ids": [
         "HAMPTER_0045",
         "HAMPTER_0166",
-        "HAMPTER_0141",
         "HAMPTER_0113",
         "HAMPTER_0362",
-        "HAMPTER_0175",
         "HAMPTER_0246",
+        "HAMPTER_0436",
         "HAMPTER_0237",
-        "HAMPTER_0266",
-        "HAMPTER_0377"
+        "HAMPTER_0141",
+        "HAMPTER_0440",
+        "HAMPTER_0175"
       ]
     },
     {
@@ -13438,16 +13315,16 @@
         "concept_hospital"
       ],
       "similar_ids": [
-        "HAMPTER_0325",
-        "HAMPTER_0332",
         "HAMPTER_0248",
+        "HAMPTER_0332",
+        "HAMPTER_0325",
         "HAMPTER_0238",
         "HAMPTER_0126",
         "HAMPTER_0119",
-        "HAMPTER_0139",
         "HAMPTER_0379",
+        "HAMPTER_0139",
         "HAMPTER_0160",
-        "HAMPTER_0188"
+        "HAMPTER_0250"
       ]
     },
     {
@@ -13557,15 +13434,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0382",
-        "HAMPTER_0086",
         "HAMPTER_0167",
-        "HAMPTER_0078",
         "HAMPTER_0131",
         "HAMPTER_0112",
-        "HAMPTER_0370",
+        "HAMPTER_0086",
+        "HAMPTER_0078",
         "HAMPTER_0373",
+        "HAMPTER_0370",
         "HAMPTER_0118",
-        "HAMPTER_0157"
+        "HAMPTER_0165"
       ]
     },
     {
@@ -13672,16 +13549,16 @@
         "concept_scissors"
       ],
       "similar_ids": [
+        "HAMPTER_0118",
         "HAMPTER_0087",
         "HAMPTER_0111",
-        "HAMPTER_0118",
         "HAMPTER_0391",
         "HAMPTER_0294",
-        "HAMPTER_0086",
-        "HAMPTER_0167",
+        "HAMPTER_0189",
         "HAMPTER_0116",
-        "HAMPTER_0137",
-        "HAMPTER_0244"
+        "HAMPTER_0045",
+        "HAMPTER_0167",
+        "HAMPTER_0086"
       ]
     },
     {
@@ -13800,14 +13677,14 @@
       "similar_ids": [
         "HAMPTER_0436",
         "HAMPTER_0362",
-        "HAMPTER_0151",
-        "HAMPTER_0261",
         "HAMPTER_0109",
-        "HAMPTER_0397",
-        "HAMPTER_0255",
-        "HAMPTER_0258",
+        "HAMPTER_0151",
+        "HAMPTER_0141",
+        "HAMPTER_0261",
         "HAMPTER_0189",
-        "HAMPTER_0082"
+        "HAMPTER_0397",
+        "HAMPTER_0045",
+        "HAMPTER_0258"
       ]
     },
     {
@@ -13913,10 +13790,10 @@
         "HAMPTER_0100",
         "HAMPTER_0188",
         "HAMPTER_0152",
-        "HAMPTER_0121",
         "HAMPTER_0099",
-        "HAMPTER_0147",
+        "HAMPTER_0121",
         "HAMPTER_0325",
+        "HAMPTER_0069",
         "HAMPTER_0158",
         "HAMPTER_0157"
       ]
@@ -14073,14 +13950,14 @@
       "similar_ids": [
         "HAMPTER_0084",
         "HAMPTER_0303",
-        "HAMPTER_0373",
         "HAMPTER_0135",
-        "HAMPTER_0419",
-        "HAMPTER_0234",
         "HAMPTER_0130",
+        "HAMPTER_0419",
+        "HAMPTER_0373",
+        "HAMPTER_0234",
+        "HAMPTER_0321",
         "HAMPTER_0127",
-        "HAMPTER_0317",
-        "HAMPTER_0144"
+        "HAMPTER_0240"
       ]
     },
     {
@@ -14201,11 +14078,11 @@
         "HAMPTER_0168",
         "HAMPTER_0148",
         "HAMPTER_0123",
-        "HAMPTER_0399",
-        "HAMPTER_0112",
-        "HAMPTER_0367",
         "HAMPTER_0398",
-        "HAMPTER_0082"
+        "HAMPTER_0112",
+        "HAMPTER_0399",
+        "HAMPTER_0367",
+        "HAMPTER_0068"
       ]
     },
     {
@@ -14317,14 +14194,14 @@
       "similar_ids": [
         "HAMPTER_0043",
         "HAMPTER_0324",
-        "HAMPTER_0155",
         "HAMPTER_0128",
+        "HAMPTER_0155",
         "HAMPTER_0106",
         "HAMPTER_0236",
         "HAMPTER_0338",
         "HAMPTER_0032",
         "HAMPTER_0306",
-        "HAMPTER_0105"
+        "HAMPTER_0051"
       ]
     },
     {
@@ -14432,14 +14309,14 @@
       "similar_ids": [
         "HAMPTER_0112",
         "HAMPTER_0195",
-        "HAMPTER_0340",
-        "HAMPTER_0368",
-        "HAMPTER_0078",
         "HAMPTER_0045",
+        "HAMPTER_0095",
+        "HAMPTER_0340",
         "HAMPTER_0111",
+        "HAMPTER_0078",
         "HAMPTER_0187",
         "HAMPTER_0271",
-        "HAMPTER_0175"
+        "HAMPTER_0214"
       ]
     },
     {
@@ -14549,14 +14426,14 @@
       "similar_ids": [
         "HAMPTER_0126",
         "HAMPTER_0379",
+        "HAMPTER_0295",
         "HAMPTER_0325",
         "HAMPTER_0120",
-        "HAMPTER_0295",
         "HAMPTER_0110",
         "HAMPTER_0314",
         "HAMPTER_0332",
-        "HAMPTER_0248",
-        "HAMPTER_0233"
+        "HAMPTER_0296",
+        "HAMPTER_0248"
       ]
     },
     {
@@ -14663,16 +14540,16 @@
         "соцсет"
       ],
       "similar_ids": [
-        "HAMPTER_0119",
-        "HAMPTER_0126",
         "HAMPTER_0295",
+        "HAMPTER_0126",
+        "HAMPTER_0119",
         "HAMPTER_0379",
         "HAMPTER_0231",
+        "HAMPTER_0296",
         "HAMPTER_0272",
         "HAMPTER_0099",
-        "HAMPTER_0382",
-        "HAMPTER_0325",
-        "HAMPTER_0131"
+        "HAMPTER_0188",
+        "HAMPTER_0314"
       ]
     },
     {
@@ -14786,8 +14663,8 @@
         "HAMPTER_0038",
         "HAMPTER_0182",
         "HAMPTER_0154",
-        "HAMPTER_0278",
-        "HAMPTER_0051"
+        "HAMPTER_0051",
+        "HAMPTER_0308"
       ]
     },
     {
@@ -14891,15 +14768,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0161",
-        "HAMPTER_0057",
-        "HAMPTER_0088",
-        "HAMPTER_0103",
         "HAMPTER_0200",
-        "HAMPTER_0129",
+        "HAMPTER_0057",
         "HAMPTER_0242",
-        "HAMPTER_0269",
-        "HAMPTER_0370",
-        "HAMPTER_0093"
+        "HAMPTER_0094",
+        "HAMPTER_0322",
+        "HAMPTER_0093",
+        "HAMPTER_0129",
+        "HAMPTER_0351",
+        "HAMPTER_0370"
       ]
     },
     {
@@ -15017,14 +14894,14 @@
       "similar_ids": [
         "HAMPTER_0010",
         "HAMPTER_0410",
-        "HAMPTER_0399",
-        "HAMPTER_0039",
         "HAMPTER_0367",
+        "HAMPTER_0039",
+        "HAMPTER_0399",
         "HAMPTER_0030",
         "HAMPTER_0052",
-        "HAMPTER_0034",
+        "HAMPTER_0116",
         "HAMPTER_0398",
-        "HAMPTER_0116"
+        "HAMPTER_0034"
       ]
     },
     {
@@ -15129,13 +15006,13 @@
         "HAMPTER_0172",
         "HAMPTER_0334",
         "HAMPTER_0170",
-        "HAMPTER_0178",
         "HAMPTER_0194",
         "HAMPTER_0169",
         "HAMPTER_0181",
+        "HAMPTER_0178",
         "HAMPTER_0192",
-        "HAMPTER_0175",
-        "HAMPTER_0134"
+        "HAMPTER_0174",
+        "HAMPTER_0175"
       ]
     },
     {
@@ -15244,16 +15121,16 @@
         "concept_party"
       ],
       "similar_ids": [
-        "HAMPTER_0394",
         "HAMPTER_0079",
         "HAMPTER_0368",
+        "HAMPTER_0394",
         "HAMPTER_0407",
-        "HAMPTER_0282",
-        "HAMPTER_0157",
-        "HAMPTER_0376",
-        "HAMPTER_0203",
+        "HAMPTER_0140",
+        "HAMPTER_0427",
         "HAMPTER_0401",
-        "HAMPTER_0427"
+        "HAMPTER_0157",
+        "HAMPTER_0282",
+        "HAMPTER_0286"
       ]
     },
     {
@@ -15362,11 +15239,11 @@
         "HAMPTER_0379",
         "HAMPTER_0120",
         "HAMPTER_0325",
+        "HAMPTER_0296",
         "HAMPTER_0295",
         "HAMPTER_0110",
-        "HAMPTER_0296",
-        "HAMPTER_0332",
         "HAMPTER_0314",
+        "HAMPTER_0332",
         "HAMPTER_0248"
       ]
     },
@@ -15564,15 +15441,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0059",
-        "HAMPTER_0421",
-        "HAMPTER_0382",
         "HAMPTER_0317",
-        "HAMPTER_0201",
-        "HAMPTER_0433",
+        "HAMPTER_0421",
         "HAMPTER_0306",
+        "HAMPTER_0201",
+        "HAMPTER_0382",
         "HAMPTER_0387",
-        "HAMPTER_0297",
-        "HAMPTER_0396"
+        "HAMPTER_0373",
+        "HAMPTER_0416",
+        "HAMPTER_0439"
       ]
     },
     {
@@ -15679,15 +15556,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0324",
-        "HAMPTER_0044",
         "HAMPTER_0117",
         "HAMPTER_0032",
-        "HAMPTER_0106",
+        "HAMPTER_0044",
         "HAMPTER_0043",
-        "HAMPTER_0180",
+        "HAMPTER_0106",
         "HAMPTER_0155",
         "HAMPTER_0236",
-        "HAMPTER_0337"
+        "HAMPTER_0180",
+        "HAMPTER_0061"
       ]
     },
     {
@@ -15797,14 +15674,14 @@
       "similar_ids": [
         "HAMPTER_0055",
         "HAMPTER_0344",
-        "HAMPTER_0137",
         "HAMPTER_0076",
         "HAMPTER_0133",
+        "HAMPTER_0137",
         "HAMPTER_0161",
-        "HAMPTER_0040",
         "HAMPTER_0103",
+        "HAMPTER_0122",
         "HAMPTER_0088",
-        "HAMPTER_0377"
+        "HAMPTER_0099"
       ]
     },
     {
@@ -15943,12 +15820,12 @@
         "HAMPTER_0135",
         "HAMPTER_0303",
         "HAMPTER_0115",
-        "HAMPTER_0419",
         "HAMPTER_0196",
+        "HAMPTER_0419",
         "HAMPTER_0084",
-        "HAMPTER_0427",
         "HAMPTER_0234",
-        "HAMPTER_0240"
+        "HAMPTER_0240",
+        "HAMPTER_0427"
       ]
     },
     {
@@ -16061,15 +15938,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0111",
-        "HAMPTER_0078",
-        "HAMPTER_0264",
-        "HAMPTER_0382",
+        "HAMPTER_0191",
         "HAMPTER_0206",
-        "HAMPTER_0140",
-        "HAMPTER_0313",
+        "HAMPTER_0078",
         "HAMPTER_0358",
         "HAMPTER_0195",
-        "HAMPTER_0295"
+        "HAMPTER_0167",
+        "HAMPTER_0382",
+        "HAMPTER_0264",
+        "HAMPTER_0005"
       ]
     },
     {
@@ -16191,10 +16068,10 @@
         "HAMPTER_0211",
         "HAMPTER_0354",
         "HAMPTER_0039",
-        "HAMPTER_0141",
         "HAMPTER_0397",
-        "HAMPTER_0400",
-        "HAMPTER_0335"
+        "HAMPTER_0141",
+        "HAMPTER_0335",
+        "HAMPTER_0400"
       ]
     },
     {
@@ -16304,12 +16181,12 @@
         "HAMPTER_0081",
         "HAMPTER_0099",
         "HAMPTER_0102",
-        "HAMPTER_0076",
-        "HAMPTER_0347",
         "HAMPTER_0129",
         "HAMPTER_0101",
+        "HAMPTER_0347",
+        "HAMPTER_0076",
         "HAMPTER_0160",
-        "HAMPTER_0139"
+        "HAMPTER_0055"
       ]
     },
     {
@@ -16427,12 +16304,12 @@
         "HAMPTER_0357",
         "HAMPTER_0013",
         "HAMPTER_0136",
-        "HAMPTER_0124",
         "HAMPTER_0293",
+        "HAMPTER_0124",
+        "HAMPTER_0083",
         "HAMPTER_0249",
-        "HAMPTER_0237",
-        "HAMPTER_0025",
-        "HAMPTER_0234"
+        "HAMPTER_0044",
+        "HAMPTER_0295"
       ]
     },
     {
@@ -16555,8 +16432,8 @@
         "HAMPTER_0419",
         "HAMPTER_0339",
         "HAMPTER_0007",
-        "HAMPTER_0057",
-        "HAMPTER_0011"
+        "HAMPTER_0011",
+        "HAMPTER_0307"
       ]
     },
     {
@@ -16695,15 +16572,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0013",
-        "HAMPTER_0460",
         "HAMPTER_0134",
-        "HAMPTER_0154",
+        "HAMPTER_0460",
         "HAMPTER_0250",
-        "HAMPTER_0384",
         "HAMPTER_0333",
-        "HAMPTER_0068",
+        "HAMPTER_0154",
+        "HAMPTER_0384",
         "HAMPTER_0214",
-        "HAMPTER_0368"
+        "HAMPTER_0330",
+        "HAMPTER_0007"
       ]
     },
     {
@@ -16819,10 +16696,10 @@
         "HAMPTER_0076",
         "HAMPTER_0129",
         "HAMPTER_0180",
-        "HAMPTER_0345",
         "HAMPTER_0310",
-        "HAMPTER_0181",
-        "HAMPTER_0112"
+        "HAMPTER_0345",
+        "HAMPTER_0112",
+        "HAMPTER_0181"
       ]
     },
     {
@@ -16932,15 +16809,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0334",
-        "HAMPTER_0062",
         "HAMPTER_0215",
         "HAMPTER_0068",
-        "HAMPTER_0246",
         "HAMPTER_0235",
-        "HAMPTER_0081",
         "HAMPTER_0239",
-        "HAMPTER_0165",
-        "HAMPTER_0046"
+        "HAMPTER_0246",
+        "HAMPTER_0062",
+        "HAMPTER_0070",
+        "HAMPTER_0046",
+        "HAMPTER_0100"
       ]
     },
     {
@@ -17050,15 +16927,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0160",
-        "HAMPTER_0345",
         "HAMPTER_0102",
-        "HAMPTER_0347",
+        "HAMPTER_0345",
         "HAMPTER_0081",
-        "HAMPTER_0110",
+        "HAMPTER_0347",
         "HAMPTER_0238",
-        "HAMPTER_0249",
+        "HAMPTER_0110",
         "HAMPTER_0154",
-        "HAMPTER_0133"
+        "HAMPTER_0249",
+        "HAMPTER_0089"
       ]
     },
     {
@@ -17166,15 +17043,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0095",
+        "HAMPTER_0125",
+        "HAMPTER_0368",
         "HAMPTER_0333",
-        "HAMPTER_0418",
-        "HAMPTER_0376",
-        "HAMPTER_0439",
-        "HAMPTER_0441",
-        "HAMPTER_0131",
         "HAMPTER_0078",
-        "HAMPTER_0085",
-        "HAMPTER_0125"
+        "HAMPTER_0067",
+        "HAMPTER_0228",
+        "HAMPTER_0313",
+        "HAMPTER_0241",
+        "HAMPTER_0376"
       ]
     },
     {
@@ -17280,15 +17157,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0250",
-        "HAMPTER_0109",
-        "HAMPTER_0253",
+        "HAMPTER_0362",
         "HAMPTER_0234",
-        "HAMPTER_0420",
+        "HAMPTER_0109",
+        "HAMPTER_0113",
+        "HAMPTER_0258",
+        "HAMPTER_0064",
         "HAMPTER_0132",
-        "HAMPTER_0377",
-        "HAMPTER_0027",
-        "HAMPTER_0351",
-        "HAMPTER_0397"
+        "HAMPTER_0436",
+        "HAMPTER_0027"
       ]
     },
     {
@@ -17400,8 +17277,8 @@
         "HAMPTER_0133",
         "HAMPTER_0344",
         "HAMPTER_0099",
-        "HAMPTER_0068",
-        "HAMPTER_0075"
+        "HAMPTER_0075",
+        "HAMPTER_0078"
       ]
     },
     {
@@ -17519,9 +17396,9 @@
         "HAMPTER_0311",
         "HAMPTER_0121",
         "HAMPTER_0432",
-        "HAMPTER_0420",
+        "HAMPTER_0051",
         "HAMPTER_0082",
-        "HAMPTER_0253",
+        "HAMPTER_0420",
         "HAMPTER_0135"
       ]
     },
@@ -17630,15 +17507,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0193",
-        "HAMPTER_0419",
         "HAMPTER_0060",
+        "HAMPTER_0419",
+        "HAMPTER_0009",
         "HAMPTER_0315",
+        "HAMPTER_0427",
         "HAMPTER_0084",
-        "HAMPTER_0054",
         "HAMPTER_0187",
-        "HAMPTER_0181",
-        "HAMPTER_0115",
-        "HAMPTER_0427"
+        "HAMPTER_0271",
+        "HAMPTER_0305"
       ]
     },
     {
@@ -17752,13 +17629,13 @@
         "HAMPTER_0169",
         "HAMPTER_0178",
         "HAMPTER_0194",
-        "HAMPTER_0369",
-        "HAMPTER_0149",
         "HAMPTER_0079",
         "HAMPTER_0170",
-        "HAMPTER_0192",
+        "HAMPTER_0149",
+        "HAMPTER_0369",
+        "HAMPTER_0308",
         "HAMPTER_0175",
-        "HAMPTER_0108"
+        "HAMPTER_0172"
       ]
     },
     {
@@ -17874,15 +17751,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0374",
-        "HAMPTER_0262",
         "HAMPTER_0329",
+        "HAMPTER_0262",
         "HAMPTER_0359",
         "HAMPTER_0159",
-        "HAMPTER_0403",
         "HAMPTER_0016",
+        "HAMPTER_0403",
         "HAMPTER_0053",
         "HAMPTER_0019",
-        "HAMPTER_0245"
+        "HAMPTER_0056"
       ]
     },
     {
@@ -17985,15 +17862,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0194",
-        "HAMPTER_0325",
         "HAMPTER_0192",
+        "HAMPTER_0325",
         "HAMPTER_0174",
-        "HAMPTER_0421",
-        "HAMPTER_0114",
+        "HAMPTER_0059",
         "HAMPTER_0201",
+        "HAMPTER_0421",
         "HAMPTER_0416",
-        "HAMPTER_0152",
-        "HAMPTER_0047"
+        "HAMPTER_0127",
+        "HAMPTER_0170"
       ]
     },
     {
@@ -18107,15 +17984,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0199",
-        "HAMPTER_0116",
-        "HAMPTER_0336",
         "HAMPTER_0168",
-        "HAMPTER_0427",
-        "HAMPTER_0363",
-        "HAMPTER_0029",
+        "HAMPTER_0116",
+        "HAMPTER_0383",
+        "HAMPTER_0336",
         "HAMPTER_0262",
         "HAMPTER_0031",
-        "HAMPTER_0383"
+        "HAMPTER_0427",
+        "HAMPTER_0363",
+        "HAMPTER_0064"
       ]
     },
     {
@@ -18227,16 +18104,16 @@
         "concept_party"
       ],
       "similar_ids": [
-        "HAMPTER_0380",
-        "HAMPTER_0250",
-        "HAMPTER_0294",
-        "HAMPTER_0108",
-        "HAMPTER_0145",
         "HAMPTER_0079",
-        "HAMPTER_0283",
+        "HAMPTER_0380",
         "HAMPTER_0285",
+        "HAMPTER_0145",
+        "HAMPTER_0294",
+        "HAMPTER_0089",
+        "HAMPTER_0250",
+        "HAMPTER_0108",
         "HAMPTER_0396",
-        "HAMPTER_0297"
+        "HAMPTER_0283"
       ]
     },
     {
@@ -18381,7 +18258,7 @@
         "HAMPTER_0410",
         "HAMPTER_0404",
         "HAMPTER_0301",
-        "HAMPTER_0163",
+        "HAMPTER_0197",
         "HAMPTER_0035"
       ]
     },
@@ -18510,11 +18387,11 @@
         "HAMPTER_0259",
         "HAMPTER_0263",
         "HAMPTER_0113",
-        "HAMPTER_0321",
         "HAMPTER_0156",
+        "HAMPTER_0362",
         "HAMPTER_0279",
-        "HAMPTER_0457",
-        "HAMPTER_0397"
+        "HAMPTER_0321",
+        "HAMPTER_0457"
       ]
     },
     {
@@ -18618,13 +18495,13 @@
         "HAMPTER_0101",
         "HAMPTER_0153",
         "HAMPTER_0114",
-        "HAMPTER_0099",
-        "HAMPTER_0166",
         "HAMPTER_0251",
-        "HAMPTER_0147",
-        "HAMPTER_0043",
+        "HAMPTER_0166",
+        "HAMPTER_0099",
         "HAMPTER_0254",
-        "HAMPTER_0243"
+        "HAMPTER_0243",
+        "HAMPTER_0147",
+        "HAMPTER_0335"
       ]
     },
     {
@@ -18726,15 +18603,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0152",
-        "HAMPTER_0347",
-        "HAMPTER_0166",
-        "HAMPTER_0433",
-        "HAMPTER_0101",
         "HAMPTER_0370",
-        "HAMPTER_0264",
-        "HAMPTER_0384",
+        "HAMPTER_0347",
+        "HAMPTER_0433",
+        "HAMPTER_0166",
+        "HAMPTER_0101",
         "HAMPTER_0109",
-        "HAMPTER_0382"
+        "HAMPTER_0244",
+        "HAMPTER_0286",
+        "HAMPTER_0437"
       ]
     },
     {
@@ -18838,15 +18715,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0114",
+        "HAMPTER_0331",
         "HAMPTER_0160",
         "HAMPTER_0188",
-        "HAMPTER_0331",
         "HAMPTER_0121",
         "HAMPTER_0382",
         "HAMPTER_0139",
-        "HAMPTER_0158",
-        "HAMPTER_0081",
-        "HAMPTER_0157"
+        "HAMPTER_0099",
+        "HAMPTER_0238",
+        "HAMPTER_0158"
       ]
     },
     {
@@ -18959,13 +18836,13 @@
         "HAMPTER_0236",
         "HAMPTER_0070",
         "HAMPTER_0239",
-        "HAMPTER_0117",
         "HAMPTER_0106",
+        "HAMPTER_0117",
+        "HAMPTER_0043",
         "HAMPTER_0334",
         "HAMPTER_0324",
-        "HAMPTER_0043",
-        "HAMPTER_0105",
-        "HAMPTER_0128"
+        "HAMPTER_0128",
+        "HAMPTER_0105"
       ]
     },
     {
@@ -19206,13 +19083,13 @@
         "HAMPTER_0158",
         "HAMPTER_0296",
         "HAMPTER_0242",
-        "HAMPTER_0086",
-        "HAMPTER_0087",
-        "HAMPTER_0246",
         "HAMPTER_0331",
+        "HAMPTER_0246",
+        "HAMPTER_0087",
         "HAMPTER_0125",
+        "HAMPTER_0081",
         "HAMPTER_0114",
-        "HAMPTER_0081"
+        "HAMPTER_0086"
       ]
     },
     {
@@ -19312,15 +19189,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0157",
-        "HAMPTER_0246",
         "HAMPTER_0081",
+        "HAMPTER_0246",
         "HAMPTER_0331",
         "HAMPTER_0226",
-        "HAMPTER_0053",
-        "HAMPTER_0114",
-        "HAMPTER_0086",
         "HAMPTER_0199",
-        "HAMPTER_0102"
+        "HAMPTER_0086",
+        "HAMPTER_0102",
+        "HAMPTER_0114",
+        "HAMPTER_0296"
       ]
     },
     {
@@ -19444,15 +19321,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0014",
-        "HAMPTER_0300",
         "HAMPTER_0363",
-        "HAMPTER_0016",
+        "HAMPTER_0300",
         "HAMPTER_0336",
+        "HAMPTER_0016",
         "HAMPTER_0204",
         "HAMPTER_0146",
         "HAMPTER_0063",
         "HAMPTER_0262",
-        "HAMPTER_0037"
+        "HAMPTER_0383"
       ]
     },
     {
@@ -19574,12 +19451,12 @@
         "HAMPTER_0154",
         "HAMPTER_0102",
         "HAMPTER_0081",
-        "HAMPTER_0347",
         "HAMPTER_0331",
-        "HAMPTER_0188",
+        "HAMPTER_0347",
         "HAMPTER_0345",
-        "HAMPTER_0238",
-        "HAMPTER_0205"
+        "HAMPTER_0205",
+        "HAMPTER_0110",
+        "HAMPTER_0238"
       ]
     },
     {
@@ -19689,15 +19566,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0122",
-        "HAMPTER_0366",
         "HAMPTER_0080",
         "HAMPTER_0094",
-        "HAMPTER_0423",
-        "HAMPTER_0424",
+        "HAMPTER_0366",
         "HAMPTER_0242",
-        "HAMPTER_0129",
-        "HAMPTER_0074",
-        "HAMPTER_0351"
+        "HAMPTER_0351",
+        "HAMPTER_0423",
+        "HAMPTER_0205",
+        "HAMPTER_0200",
+        "HAMPTER_0424"
       ]
     },
     {
@@ -19811,14 +19688,14 @@
       "similar_ids": [
         "HAMPTER_0274",
         "HAMPTER_0356",
-        "HAMPTER_0229",
         "HAMPTER_0040",
-        "HAMPTER_0220",
-        "HAMPTER_0348",
+        "HAMPTER_0229",
         "HAMPTER_0037",
-        "HAMPTER_0437",
-        "HAMPTER_0352",
-        "HAMPTER_0402"
+        "HAMPTER_0220",
+        "HAMPTER_0402",
+        "HAMPTER_0244",
+        "HAMPTER_0348",
+        "HAMPTER_0437"
       ]
     },
     {
@@ -19932,15 +19809,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0018",
-        "HAMPTER_0037",
-        "HAMPTER_0029",
         "HAMPTER_0012",
-        "HAMPTER_0257",
+        "HAMPTER_0037",
         "HAMPTER_0198",
+        "HAMPTER_0257",
+        "HAMPTER_0029",
         "HAMPTER_0008",
         "HAMPTER_0352",
-        "HAMPTER_0261",
-        "HAMPTER_0015"
+        "HAMPTER_0410",
+        "HAMPTER_0212"
       ]
     },
     {
@@ -20073,13 +19950,13 @@
       ],
       "similar_ids": [
         "HAMPTER_0019",
-        "HAMPTER_0146",
         "HAMPTER_0303",
-        "HAMPTER_0053",
-        "HAMPTER_0159",
+        "HAMPTER_0146",
         "HAMPTER_0016",
+        "HAMPTER_0159",
+        "HAMPTER_0053",
         "HAMPTER_0014",
-        "HAMPTER_0267",
+        "HAMPTER_0204",
         "HAMPTER_0002",
         "HAMPTER_0056"
       ]
@@ -20188,15 +20065,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0168",
+        "HAMPTER_0263",
         "HAMPTER_0286",
         "HAMPTER_0314",
-        "HAMPTER_0263",
-        "HAMPTER_0050",
-        "HAMPTER_0233",
+        "HAMPTER_0111",
         "HAMPTER_0156",
-        "HAMPTER_0046",
-        "HAMPTER_0138",
-        "HAMPTER_0365"
+        "HAMPTER_0174",
+        "HAMPTER_0167",
+        "HAMPTER_0279",
+        "HAMPTER_0050"
       ]
     },
     {
@@ -20292,16 +20169,16 @@
         "напитк"
       ],
       "similar_ids": [
-        "HAMPTER_0153",
-        "HAMPTER_0109",
         "HAMPTER_0045",
+        "HAMPTER_0109",
+        "HAMPTER_0153",
+        "HAMPTER_0362",
         "HAMPTER_0152",
         "HAMPTER_0437",
-        "HAMPTER_0174",
-        "HAMPTER_0362",
-        "HAMPTER_0312",
-        "HAMPTER_0261",
-        "HAMPTER_0441"
+        "HAMPTER_0244",
+        "HAMPTER_0194",
+        "HAMPTER_0356",
+        "HAMPTER_0169"
       ]
     },
     {
@@ -20405,16 +20282,16 @@
         "concept_magic"
       ],
       "similar_ids": [
-        "HAMPTER_0086",
-        "HAMPTER_0366",
         "HAMPTER_0111",
+        "HAMPTER_0366",
         "HAMPTER_0074",
+        "HAMPTER_0086",
         "HAMPTER_0423",
         "HAMPTER_0424",
+        "HAMPTER_0264",
+        "HAMPTER_0131",
         "HAMPTER_0382",
-        "HAMPTER_0409",
-        "HAMPTER_0157",
-        "HAMPTER_0242"
+        "HAMPTER_0373"
       ]
     },
     {
@@ -20531,16 +20408,16 @@
         "concept_drool"
       ],
       "similar_ids": [
-        "HAMPTER_0399",
-        "HAMPTER_0116",
-        "HAMPTER_0367",
-        "HAMPTER_0052",
         "HAMPTER_0165",
-        "HAMPTER_0039",
-        "HAMPTER_0398",
+        "HAMPTER_0367",
+        "HAMPTER_0399",
+        "HAMPTER_0052",
+        "HAMPTER_0116",
         "HAMPTER_0030",
+        "HAMPTER_0398",
+        "HAMPTER_0039",
         "HAMPTER_0148",
-        "HAMPTER_0401"
+        "HAMPTER_0123"
       ]
     },
     {
@@ -20650,11 +20527,11 @@
         "HAMPTER_0170",
         "HAMPTER_0194",
         "HAMPTER_0145",
-        "HAMPTER_0172",
-        "HAMPTER_0175",
         "HAMPTER_0124",
-        "HAMPTER_0174",
+        "HAMPTER_0175",
         "HAMPTER_0192",
+        "HAMPTER_0172",
+        "HAMPTER_0174",
         "HAMPTER_0181"
       ]
     },
@@ -20758,14 +20635,14 @@
       ],
       "similar_ids": [
         "HAMPTER_0169",
-        "HAMPTER_0178",
         "HAMPTER_0194",
         "HAMPTER_0124",
+        "HAMPTER_0178",
         "HAMPTER_0174",
-        "HAMPTER_0175",
         "HAMPTER_0172",
-        "HAMPTER_0181",
         "HAMPTER_0192",
+        "HAMPTER_0175",
+        "HAMPTER_0181",
         "HAMPTER_0145"
       ]
     },
@@ -20883,15 +20760,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0234",
-        "HAMPTER_0176",
         "HAMPTER_0240",
+        "HAMPTER_0176",
         "HAMPTER_0349",
         "HAMPTER_0302",
-        "HAMPTER_0197",
         "HAMPTER_0205",
+        "HAMPTER_0197",
+        "HAMPTER_0051",
         "HAMPTER_0351",
-        "HAMPTER_0115",
-        "HAMPTER_0232"
+        "HAMPTER_0258"
       ]
     },
     {
@@ -20994,15 +20871,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0124",
-        "HAMPTER_0169",
-        "HAMPTER_0178",
-        "HAMPTER_0194",
-        "HAMPTER_0170",
-        "HAMPTER_0181",
-        "HAMPTER_0174",
         "HAMPTER_0192",
-        "HAMPTER_0334",
-        "HAMPTER_0175"
+        "HAMPTER_0174",
+        "HAMPTER_0170",
+        "HAMPTER_0169",
+        "HAMPTER_0194",
+        "HAMPTER_0178",
+        "HAMPTER_0181",
+        "HAMPTER_0175",
+        "HAMPTER_0145"
       ]
     },
     {
@@ -21111,14 +20988,14 @@
       "similar_ids": [
         "HAMPTER_0327",
         "HAMPTER_0316",
-        "HAMPTER_0315",
         "HAMPTER_0369",
+        "HAMPTER_0315",
         "HAMPTER_0050",
         "HAMPTER_0046",
         "HAMPTER_0314",
-        "HAMPTER_0312",
         "HAMPTER_0438",
-        "HAMPTER_0101"
+        "HAMPTER_0312",
+        "HAMPTER_0441"
       ]
     },
     {
@@ -21228,15 +21105,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0192",
-        "HAMPTER_0194",
         "HAMPTER_0170",
+        "HAMPTER_0172",
+        "HAMPTER_0194",
         "HAMPTER_0147",
         "HAMPTER_0169",
-        "HAMPTER_0172",
-        "HAMPTER_0175",
+        "HAMPTER_0124",
         "HAMPTER_0441",
-        "HAMPTER_0047",
-        "HAMPTER_0179"
+        "HAMPTER_0175",
+        "HAMPTER_0047"
       ]
     },
     {
@@ -21341,15 +21218,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0181",
-        "HAMPTER_0194",
         "HAMPTER_0312",
         "HAMPTER_0169",
-        "HAMPTER_0170",
         "HAMPTER_0327",
-        "HAMPTER_0178",
+        "HAMPTER_0194",
+        "HAMPTER_0170",
         "HAMPTER_0192",
-        "HAMPTER_0174",
-        "HAMPTER_0441"
+        "HAMPTER_0178",
+        "HAMPTER_0124",
+        "HAMPTER_0174"
       ]
     },
     {
@@ -21454,15 +21331,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0171",
-        "HAMPTER_0240",
         "HAMPTER_0234",
-        "HAMPTER_0349",
+        "HAMPTER_0240",
         "HAMPTER_0047",
+        "HAMPTER_0197",
         "HAMPTER_0310",
+        "HAMPTER_0358",
         "HAMPTER_0195",
-        "HAMPTER_0441",
-        "HAMPTER_0351",
-        "HAMPTER_0088"
+        "HAMPTER_0349",
+        "HAMPTER_0441"
       ]
     },
     {
@@ -21593,9 +21470,9 @@
         "HAMPTER_0219",
         "HAMPTER_0298",
         "HAMPTER_0094",
+        "HAMPTER_0318",
         "HAMPTER_0212",
         "HAMPTER_0207",
-        "HAMPTER_0318",
         "HAMPTER_0213"
       ]
     },
@@ -21704,12 +21581,12 @@
         "HAMPTER_0194",
         "HAMPTER_0170",
         "HAMPTER_0181",
-        "HAMPTER_0124",
         "HAMPTER_0145",
-        "HAMPTER_0172",
         "HAMPTER_0175",
+        "HAMPTER_0124",
+        "HAMPTER_0172",
         "HAMPTER_0192",
-        "HAMPTER_0174"
+        "HAMPTER_0201"
       ]
     },
     {
@@ -21824,12 +21701,12 @@
         "HAMPTER_0028",
         "HAMPTER_0192",
         "HAMPTER_0174",
-        "HAMPTER_0367",
         "HAMPTER_0337",
-        "HAMPTER_0181",
-        "HAMPTER_0068",
+        "HAMPTER_0367",
+        "HAMPTER_0169",
         "HAMPTER_0172",
-        "HAMPTER_0128"
+        "HAMPTER_0128",
+        "HAMPTER_0427"
       ]
     },
     {
@@ -21939,12 +21816,12 @@
         "HAMPTER_0313",
         "HAMPTER_0241",
         "HAMPTER_0067",
-        "HAMPTER_0311",
-        "HAMPTER_0237",
-        "HAMPTER_0128",
         "HAMPTER_0137",
+        "HAMPTER_0311",
+        "HAMPTER_0055",
+        "HAMPTER_0044",
         "HAMPTER_0441",
-        "HAMPTER_0324"
+        "HAMPTER_0128"
       ]
     },
     {
@@ -22051,16 +21928,16 @@
         "concept_fruit"
       ],
       "similar_ids": [
-        "HAMPTER_0175",
-        "HAMPTER_0178",
         "HAMPTER_0054",
-        "HAMPTER_0194",
+        "HAMPTER_0178",
+        "HAMPTER_0175",
         "HAMPTER_0124",
+        "HAMPTER_0194",
         "HAMPTER_0169",
         "HAMPTER_0170",
         "HAMPTER_0172",
-        "HAMPTER_0201",
-        "HAMPTER_0308"
+        "HAMPTER_0334",
+        "HAMPTER_0144"
       ]
     },
     {
@@ -22170,12 +22047,12 @@
         "HAMPTER_0278",
         "HAMPTER_0121",
         "HAMPTER_0002",
-        "HAMPTER_0257",
         "HAMPTER_0291",
+        "HAMPTER_0257",
         "HAMPTER_0022",
-        "HAMPTER_0073",
-        "HAMPTER_0267",
         "HAMPTER_0034",
+        "HAMPTER_0073",
+        "HAMPTER_0352",
         "HAMPTER_0287"
       ]
     },
@@ -22471,14 +22348,14 @@
       "similar_ids": [
         "HAMPTER_0020",
         "HAMPTER_0268",
-        "HAMPTER_0439",
         "HAMPTER_0377",
+        "HAMPTER_0439",
+        "HAMPTER_0226",
         "HAMPTER_0384",
         "HAMPTER_0428",
         "HAMPTER_0100",
-        "HAMPTER_0226",
-        "HAMPTER_0269",
-        "HAMPTER_0129"
+        "HAMPTER_0129",
+        "HAMPTER_0269"
       ]
     },
     {
@@ -22590,11 +22467,11 @@
         "HAMPTER_0077",
         "HAMPTER_0256",
         "HAMPTER_0330",
-        "HAMPTER_0027",
         "HAMPTER_0398",
+        "HAMPTER_0027",
         "HAMPTER_0320",
         "HAMPTER_0463",
-        "HAMPTER_0403"
+        "HAMPTER_0138"
       ]
     },
     {
@@ -22698,14 +22575,14 @@
       "similar_ids": [
         "HAMPTER_0385",
         "HAMPTER_0342",
-        "HAMPTER_0033",
         "HAMPTER_0190",
+        "HAMPTER_0033",
         "HAMPTER_0037",
         "HAMPTER_0016",
         "HAMPTER_0204",
-        "HAMPTER_0269",
         "HAMPTER_0219",
-        "HAMPTER_0350"
+        "HAMPTER_0350",
+        "HAMPTER_0269"
       ]
     },
     {
@@ -22825,14 +22702,14 @@
       "similar_ids": [
         "HAMPTER_0271",
         "HAMPTER_0214",
-        "HAMPTER_0107",
         "HAMPTER_0289",
+        "HAMPTER_0107",
         "HAMPTER_0412",
         "HAMPTER_0022",
+        "HAMPTER_0227",
         "HAMPTER_0072",
-        "HAMPTER_0291",
         "HAMPTER_0144",
-        "HAMPTER_0227"
+        "HAMPTER_0291"
       ]
     },
     {
@@ -22938,16 +22815,16 @@
         "решимос"
       ],
       "similar_ids": [
+        "HAMPTER_0090",
         "HAMPTER_0154",
         "HAMPTER_0114",
-        "HAMPTER_0090",
-        "HAMPTER_0080",
-        "HAMPTER_0160",
         "HAMPTER_0238",
+        "HAMPTER_0080",
+        "HAMPTER_0371",
         "HAMPTER_0202",
-        "HAMPTER_0110",
         "HAMPTER_0004",
-        "HAMPTER_0371"
+        "HAMPTER_0400",
+        "HAMPTER_0160"
       ]
     },
     {
@@ -23049,16 +22926,16 @@
         "образ"
       ],
       "similar_ids": [
-        "HAMPTER_0268",
         "HAMPTER_0049",
         "HAMPTER_0097",
-        "HAMPTER_0296",
-        "HAMPTER_0362",
-        "HAMPTER_0347",
+        "HAMPTER_0268",
         "HAMPTER_0045",
-        "HAMPTER_0160",
+        "HAMPTER_0112",
         "HAMPTER_0113",
-        "HAMPTER_0153"
+        "HAMPTER_0167",
+        "HAMPTER_0005",
+        "HAMPTER_0347",
+        "HAMPTER_0362"
       ]
     },
     {
@@ -23173,12 +23050,12 @@
         "HAMPTER_0385",
         "HAMPTER_0422",
         "HAMPTER_0186",
-        "HAMPTER_0237",
-        "HAMPTER_0006",
         "HAMPTER_0063",
-        "HAMPTER_0264",
-        "HAMPTER_0208",
         "HAMPTER_0377",
+        "HAMPTER_0264",
+        "HAMPTER_0006",
+        "HAMPTER_0441",
+        "HAMPTER_0208",
         "HAMPTER_0191"
       ]
     },
@@ -23285,16 +23162,16 @@
         "concept_cold"
       ],
       "similar_ids": [
-        "HAMPTER_0295",
-        "HAMPTER_0251",
-        "HAMPTER_0029",
-        "HAMPTER_0422",
-        "HAMPTER_0099",
-        "HAMPTER_0415",
         "HAMPTER_0131",
-        "HAMPTER_0438",
-        "HAMPTER_0286",
-        "HAMPTER_0190"
+        "HAMPTER_0029",
+        "HAMPTER_0357",
+        "HAMPTER_0295",
+        "HAMPTER_0258",
+        "HAMPTER_0422",
+        "HAMPTER_0415",
+        "HAMPTER_0147",
+        "HAMPTER_0190",
+        "HAMPTER_0163"
       ]
     },
     {
@@ -23407,13 +23284,13 @@
         "HAMPTER_0174",
         "HAMPTER_0194",
         "HAMPTER_0147",
+        "HAMPTER_0172",
+        "HAMPTER_0170",
         "HAMPTER_0169",
         "HAMPTER_0175",
-        "HAMPTER_0170",
-        "HAMPTER_0172",
-        "HAMPTER_0179",
         "HAMPTER_0124",
-        "HAMPTER_0145"
+        "HAMPTER_0179",
+        "HAMPTER_0178"
       ]
     },
     {
@@ -23524,13 +23401,13 @@
       "similar_ids": [
         "HAMPTER_0144",
         "HAMPTER_0244",
-        "HAMPTER_0315",
         "HAMPTER_0201",
-        "HAMPTER_0170",
-        "HAMPTER_0146",
         "HAMPTER_0023",
-        "HAMPTER_0320",
-        "HAMPTER_0048",
+        "HAMPTER_0170",
+        "HAMPTER_0196",
+        "HAMPTER_0146",
+        "HAMPTER_0315",
+        "HAMPTER_0251",
         "HAMPTER_0374"
       ]
     },
@@ -23632,15 +23509,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0178",
-        "HAMPTER_0169",
         "HAMPTER_0170",
+        "HAMPTER_0169",
         "HAMPTER_0147",
         "HAMPTER_0192",
         "HAMPTER_0174",
-        "HAMPTER_0175",
         "HAMPTER_0124",
-        "HAMPTER_0181",
-        "HAMPTER_0172"
+        "HAMPTER_0175",
+        "HAMPTER_0172",
+        "HAMPTER_0181"
       ]
     },
     {
@@ -23760,14 +23637,14 @@
       "similar_ids": [
         "HAMPTER_0358",
         "HAMPTER_0340",
-        "HAMPTER_0360",
         "HAMPTER_0429",
-        "HAMPTER_0301",
+        "HAMPTER_0360",
         "HAMPTER_0353",
         "HAMPTER_0047",
-        "HAMPTER_0118",
         "HAMPTER_0095",
-        "HAMPTER_0441"
+        "HAMPTER_0301",
+        "HAMPTER_0026",
+        "HAMPTER_0233"
       ]
     },
     {
@@ -23911,10 +23788,10 @@
         "HAMPTER_0240",
         "HAMPTER_0320",
         "HAMPTER_0361",
-        "HAMPTER_0130",
-        "HAMPTER_0301",
         "HAMPTER_0193",
-        "HAMPTER_0021"
+        "HAMPTER_0301",
+        "HAMPTER_0130",
+        "HAMPTER_0317"
       ]
     },
     {
@@ -24032,14 +23909,14 @@
       "similar_ids": [
         "HAMPTER_0134",
         "HAMPTER_0357",
+        "HAMPTER_0176",
         "HAMPTER_0171",
         "HAMPTER_0234",
         "HAMPTER_0249",
-        "HAMPTER_0293",
-        "HAMPTER_0124",
-        "HAMPTER_0176",
-        "HAMPTER_0025",
-        "HAMPTER_0150"
+        "HAMPTER_0240",
+        "HAMPTER_0044",
+        "HAMPTER_0150",
+        "HAMPTER_0293"
       ]
     },
     {
@@ -24169,12 +24046,12 @@
         "HAMPTER_0163",
         "HAMPTER_0348",
         "HAMPTER_0270",
-        "HAMPTER_0029",
         "HAMPTER_0274",
         "HAMPTER_0002",
+        "HAMPTER_0029",
         "HAMPTER_0012",
-        "HAMPTER_0291",
-        "HAMPTER_0279"
+        "HAMPTER_0106",
+        "HAMPTER_0040"
       ]
     },
     {
@@ -24278,15 +24155,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0148",
-        "HAMPTER_0053",
-        "HAMPTER_0440",
-        "HAMPTER_0031",
         "HAMPTER_0102",
-        "HAMPTER_0029",
+        "HAMPTER_0031",
+        "HAMPTER_0383",
         "HAMPTER_0158",
+        "HAMPTER_0440",
+        "HAMPTER_0029",
         "HAMPTER_0342",
-        "HAMPTER_0062",
-        "HAMPTER_0383"
+        "HAMPTER_0053",
+        "HAMPTER_0226"
       ]
     },
     {
@@ -24395,13 +24272,13 @@
         "HAMPTER_0322",
         "HAMPTER_0438",
         "HAMPTER_0242",
-        "HAMPTER_0394",
         "HAMPTER_0368",
-        "HAMPTER_0296",
-        "HAMPTER_0247",
-        "HAMPTER_0389",
         "HAMPTER_0122",
-        "HAMPTER_0125"
+        "HAMPTER_0161",
+        "HAMPTER_0351",
+        "HAMPTER_0247",
+        "HAMPTER_0125",
+        "HAMPTER_0296"
       ]
     },
     {
@@ -24505,16 +24382,16 @@
         "concept_glasses"
       ],
       "similar_ids": [
-        "HAMPTER_0059",
         "HAMPTER_0127",
-        "HAMPTER_0416",
-        "HAMPTER_0325",
-        "HAMPTER_0433",
+        "HAMPTER_0059",
         "HAMPTER_0317",
-        "HAMPTER_0421",
+        "HAMPTER_0306",
         "HAMPTER_0147",
-        "HAMPTER_0181",
-        "HAMPTER_0306"
+        "HAMPTER_0325",
+        "HAMPTER_0193",
+        "HAMPTER_0416",
+        "HAMPTER_0421",
+        "HAMPTER_0297"
       ]
     },
     {
@@ -24633,8 +24510,8 @@
         "HAMPTER_0399",
         "HAMPTER_0090",
         "HAMPTER_0398",
-        "HAMPTER_0004",
         "HAMPTER_0039",
+        "HAMPTER_0004",
         "HAMPTER_0371",
         "HAMPTER_0030",
         "HAMPTER_0188"
@@ -24742,15 +24619,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0261",
-        "HAMPTER_0397",
         "HAMPTER_0082",
-        "HAMPTER_0394",
-        "HAMPTER_0387",
-        "HAMPTER_0282",
-        "HAMPTER_0125",
+        "HAMPTER_0416",
+        "HAMPTER_0397",
         "HAMPTER_0265",
-        "HAMPTER_0045",
-        "HAMPTER_0058"
+        "HAMPTER_0286",
+        "HAMPTER_0407",
+        "HAMPTER_0387",
+        "HAMPTER_0394",
+        "HAMPTER_0411"
       ]
     },
     {
@@ -24886,12 +24763,12 @@
         "HAMPTER_0016",
         "HAMPTER_0159",
         "HAMPTER_0146",
+        "HAMPTER_0019",
         "HAMPTER_0304",
         "HAMPTER_0186",
         "HAMPTER_0269",
+        "HAMPTER_0164",
         "HAMPTER_0434",
-        "HAMPTER_0019",
-        "HAMPTER_0056",
         "HAMPTER_0372"
       ]
     },
@@ -25009,14 +24886,14 @@
       "similar_ids": [
         "HAMPTER_0080",
         "HAMPTER_0094",
-        "HAMPTER_0238",
         "HAMPTER_0160",
         "HAMPTER_0171",
-        "HAMPTER_0188",
         "HAMPTER_0161",
+        "HAMPTER_0238",
+        "HAMPTER_0188",
         "HAMPTER_0110",
-        "HAMPTER_0286",
-        "HAMPTER_0346"
+        "HAMPTER_0176",
+        "HAMPTER_0139"
       ]
     },
     {
@@ -25116,16 +24993,16 @@
         "ответ"
       ],
       "similar_ids": [
-        "HAMPTER_0402",
         "HAMPTER_0131",
-        "HAMPTER_0348",
-        "HAMPTER_0078",
-        "HAMPTER_0004",
-        "HAMPTER_0002",
         "HAMPTER_0438",
-        "HAMPTER_0139",
-        "HAMPTER_0393",
-        "HAMPTER_0383"
+        "HAMPTER_0460",
+        "HAMPTER_0402",
+        "HAMPTER_0004",
+        "HAMPTER_0160",
+        "HAMPTER_0078",
+        "HAMPTER_0322",
+        "HAMPTER_0025",
+        "HAMPTER_0241"
       ]
     },
     {
@@ -25233,14 +25110,14 @@
       "similar_ids": [
         "HAMPTER_0036",
         "HAMPTER_0435",
-        "HAMPTER_0294",
         "HAMPTER_0228",
-        "HAMPTER_0415",
+        "HAMPTER_0294",
         "HAMPTER_0230",
-        "HAMPTER_0351",
-        "HAMPTER_0006",
+        "HAMPTER_0415",
         "HAMPTER_0104",
-        "HAMPTER_0437"
+        "HAMPTER_0006",
+        "HAMPTER_0454",
+        "HAMPTER_0351"
       ]
     },
     {
@@ -25352,13 +25229,13 @@
         "HAMPTER_0030",
         "HAMPTER_0052",
         "HAMPTER_0399",
-        "HAMPTER_0283",
-        "HAMPTER_0328",
-        "HAMPTER_0343",
+        "HAMPTER_0385",
         "HAMPTER_0190",
+        "HAMPTER_0328",
         "HAMPTER_0365",
         "HAMPTER_0234",
-        "HAMPTER_0063"
+        "HAMPTER_0343",
+        "HAMPTER_0054"
       ]
     },
     {
@@ -25464,14 +25341,14 @@
       "similar_ids": [
         "HAMPTER_0276",
         "HAMPTER_0408",
-        "HAMPTER_0091",
         "HAMPTER_0323",
-        "HAMPTER_0290",
-        "HAMPTER_0183",
+        "HAMPTER_0091",
         "HAMPTER_0414",
-        "HAMPTER_0229",
+        "HAMPTER_0183",
         "HAMPTER_0207",
-        "HAMPTER_0320"
+        "HAMPTER_0290",
+        "HAMPTER_0229",
+        "HAMPTER_0154"
       ]
     },
     {
@@ -25584,15 +25461,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0395",
-        "HAMPTER_0267",
         "HAMPTER_0217",
-        "HAMPTER_0352",
+        "HAMPTER_0267",
         "HAMPTER_0371",
+        "HAMPTER_0352",
         "HAMPTER_0339",
         "HAMPTER_0077",
         "HAMPTER_0415",
-        "HAMPTER_0384",
-        "HAMPTER_0428"
+        "HAMPTER_0256",
+        "HAMPTER_0384"
       ]
     },
     {
@@ -25703,15 +25580,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0225",
-        "HAMPTER_0132",
         "HAMPTER_0003",
+        "HAMPTER_0132",
         "HAMPTER_0425",
         "HAMPTER_0320",
-        "HAMPTER_0039",
-        "HAMPTER_0027",
-        "HAMPTER_0312",
         "HAMPTER_0400",
-        "HAMPTER_0054"
+        "HAMPTER_0039",
+        "HAMPTER_0312",
+        "HAMPTER_0054",
+        "HAMPTER_0403"
       ]
     },
     {
@@ -25831,12 +25708,12 @@
         "HAMPTER_0404",
         "HAMPTER_0226",
         "HAMPTER_0381",
-        "HAMPTER_0037",
-        "HAMPTER_0273",
         "HAMPTER_0301",
+        "HAMPTER_0037",
         "HAMPTER_0405",
-        "HAMPTER_0219",
-        "HAMPTER_0248"
+        "HAMPTER_0352",
+        "HAMPTER_0273",
+        "HAMPTER_0003"
       ]
     },
     {
@@ -25988,12 +25865,12 @@
         "HAMPTER_0035",
         "HAMPTER_0008",
         "HAMPTER_0053",
-        "HAMPTER_0012",
         "HAMPTER_0219",
+        "HAMPTER_0012",
         "HAMPTER_0381",
         "HAMPTER_0096",
         "HAMPTER_0298",
-        "HAMPTER_0017"
+        "HAMPTER_0177"
       ]
     },
     {
@@ -26145,11 +26022,11 @@
         "HAMPTER_0107",
         "HAMPTER_0289",
         "HAMPTER_0412",
-        "HAMPTER_0072",
-        "HAMPTER_0022",
         "HAMPTER_0144",
-        "HAMPTER_0419",
-        "HAMPTER_0118"
+        "HAMPTER_0072",
+        "HAMPTER_0227",
+        "HAMPTER_0022",
+        "HAMPTER_0419"
       ]
     },
     {
@@ -26283,11 +26160,11 @@
       "similar_ids": [
         "HAMPTER_0185",
         "HAMPTER_0277",
-        "HAMPTER_0138",
         "HAMPTER_0077",
+        "HAMPTER_0138",
         "HAMPTER_0256",
-        "HAMPTER_0330",
         "HAMPTER_0398",
+        "HAMPTER_0330",
         "HAMPTER_0027",
         "HAMPTER_0463",
         "HAMPTER_0320"
@@ -26415,10 +26292,10 @@
         "HAMPTER_0411",
         "HAMPTER_0358",
         "HAMPTER_0193",
-        "HAMPTER_0265",
-        "HAMPTER_0201",
         "HAMPTER_0243",
-        "HAMPTER_0397"
+        "HAMPTER_0211",
+        "HAMPTER_0265",
+        "HAMPTER_0201"
       ]
     },
     {
@@ -26525,16 +26402,16 @@
         "concept_exhausted"
       ],
       "similar_ids": [
+        "HAMPTER_0210",
         "HAMPTER_0352",
         "HAMPTER_0267",
-        "HAMPTER_0210",
         "HAMPTER_0395",
         "HAMPTER_0384",
-        "HAMPTER_0410",
-        "HAMPTER_0075",
+        "HAMPTER_0353",
+        "HAMPTER_0257",
+        "HAMPTER_0004",
         "HAMPTER_0256",
-        "HAMPTER_0064",
-        "HAMPTER_0353"
+        "HAMPTER_0075"
       ]
     },
     {
@@ -26652,15 +26529,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0220",
-        "HAMPTER_0290",
-        "HAMPTER_0091",
-        "HAMPTER_0360",
-        "HAMPTER_0244",
         "HAMPTER_0340",
-        "HAMPTER_0183",
+        "HAMPTER_0244",
+        "HAMPTER_0360",
+        "HAMPTER_0091",
+        "HAMPTER_0290",
+        "HAMPTER_0378",
         "HAMPTER_0365",
-        "HAMPTER_0026",
-        "HAMPTER_0378"
+        "HAMPTER_0183",
+        "HAMPTER_0302"
       ]
     },
     {
@@ -26773,14 +26650,14 @@
       "similar_ids": [
         "HAMPTER_0304",
         "HAMPTER_0318",
+        "HAMPTER_0005",
         "HAMPTER_0273",
         "HAMPTER_0355",
         "HAMPTER_0177",
         "HAMPTER_0094",
-        "HAMPTER_0005",
-        "HAMPTER_0033",
-        "HAMPTER_0212",
-        "HAMPTER_0269"
+        "HAMPTER_0213",
+        "HAMPTER_0393",
+        "HAMPTER_0426"
       ]
     },
     {
@@ -26889,11 +26766,11 @@
         "HAMPTER_0218",
         "HAMPTER_0290",
         "HAMPTER_0183",
-        "HAMPTER_0356",
         "HAMPTER_0349",
-        "HAMPTER_0333",
-        "HAMPTER_0075",
-        "HAMPTER_0313"
+        "HAMPTER_0356",
+        "HAMPTER_0313",
+        "HAMPTER_0301",
+        "HAMPTER_0410"
       ]
     },
     {
@@ -27011,12 +26888,12 @@
         "HAMPTER_0222",
         "HAMPTER_0082",
         "HAMPTER_0338",
-        "HAMPTER_0441",
-        "HAMPTER_0308",
         "HAMPTER_0047",
-        "HAMPTER_0101",
-        "HAMPTER_0289",
-        "HAMPTER_0427"
+        "HAMPTER_0441",
+        "HAMPTER_0088",
+        "HAMPTER_0308",
+        "HAMPTER_0368",
+        "HAMPTER_0289"
       ]
     },
     {
@@ -27164,10 +27041,10 @@
         "HAMPTER_0082",
         "HAMPTER_0088",
         "HAMPTER_0092",
-        "HAMPTER_0338",
-        "HAMPTER_0171",
         "HAMPTER_0196",
-        "HAMPTER_0176",
+        "HAMPTER_0338",
+        "HAMPTER_0240",
+        "HAMPTER_0171",
         "HAMPTER_0130"
       ]
     },
@@ -27378,14 +27255,14 @@
       "similar_ids": [
         "HAMPTER_0232",
         "HAMPTER_0251",
-        "HAMPTER_0437",
-        "HAMPTER_0349",
-        "HAMPTER_0235",
-        "HAMPTER_0021",
         "HAMPTER_0238",
+        "HAMPTER_0437",
+        "HAMPTER_0235",
         "HAMPTER_0245",
-        "HAMPTER_0248",
-        "HAMPTER_0286"
+        "HAMPTER_0021",
+        "HAMPTER_0301",
+        "HAMPTER_0349",
+        "HAMPTER_0386"
       ]
     },
     {
@@ -27509,12 +27386,12 @@
         "HAMPTER_0003",
         "HAMPTER_0132",
         "HAMPTER_0425",
-        "HAMPTER_0039",
         "HAMPTER_0400",
+        "HAMPTER_0039",
         "HAMPTER_0316",
         "HAMPTER_0245",
-        "HAMPTER_0086",
-        "HAMPTER_0320"
+        "HAMPTER_0320",
+        "HAMPTER_0357"
       ]
     },
     {
@@ -27625,14 +27502,14 @@
       "similar_ids": [
         "HAMPTER_0212",
         "HAMPTER_0158",
-        "HAMPTER_0381",
+        "HAMPTER_0237",
+        "HAMPTER_0352",
+        "HAMPTER_0410",
         "HAMPTER_0037",
         "HAMPTER_0375",
-        "HAMPTER_0257",
-        "HAMPTER_0440",
         "HAMPTER_0195",
-        "HAMPTER_0410",
-        "HAMPTER_0199"
+        "HAMPTER_0440",
+        "HAMPTER_0381"
       ]
     },
     {
@@ -27745,14 +27622,14 @@
       "similar_ids": [
         "HAMPTER_0289",
         "HAMPTER_0107",
-        "HAMPTER_0244",
-        "HAMPTER_0218",
-        "HAMPTER_0340",
         "HAMPTER_0412",
-        "HAMPTER_0187",
         "HAMPTER_0308",
-        "HAMPTER_0040",
-        "HAMPTER_0415"
+        "HAMPTER_0187",
+        "HAMPTER_0218",
+        "HAMPTER_0072",
+        "HAMPTER_0340",
+        "HAMPTER_0271",
+        "HAMPTER_0214"
       ]
     },
     {
@@ -27873,11 +27750,11 @@
         "HAMPTER_0095",
         "HAMPTER_0428",
         "HAMPTER_0417",
-        "HAMPTER_0003",
         "HAMPTER_0294",
+        "HAMPTER_0003",
         "HAMPTER_0207",
-        "HAMPTER_0025",
-        "HAMPTER_0140"
+        "HAMPTER_0140",
+        "HAMPTER_0328"
       ]
     },
     {
@@ -27989,14 +27866,14 @@
       "similar_ids": [
         "HAMPTER_0038",
         "HAMPTER_0073",
-        "HAMPTER_0075",
         "HAMPTER_0402",
-        "HAMPTER_0162",
+        "HAMPTER_0075",
         "HAMPTER_0440",
-        "HAMPTER_0384",
-        "HAMPTER_0352",
-        "HAMPTER_0274",
-        "HAMPTER_0348"
+        "HAMPTER_0162",
+        "HAMPTER_0356",
+        "HAMPTER_0348",
+        "HAMPTER_0226",
+        "HAMPTER_0274"
       ]
     },
     {
@@ -28102,15 +27979,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0454",
-        "HAMPTER_0250",
         "HAMPTER_0207",
         "HAMPTER_0238",
+        "HAMPTER_0250",
+        "HAMPTER_0285",
+        "HAMPTER_0006",
         "HAMPTER_0407",
         "HAMPTER_0110",
-        "HAMPTER_0285",
-        "HAMPTER_0435",
-        "HAMPTER_0104",
-        "HAMPTER_0006"
+        "HAMPTER_0313",
+        "HAMPTER_0012"
       ]
     },
     {
@@ -28226,11 +28103,11 @@
         "HAMPTER_0434",
         "HAMPTER_0427",
         "HAMPTER_0144",
+        "HAMPTER_0338",
         "HAMPTER_0364",
         "HAMPTER_0432",
-        "HAMPTER_0338",
-        "HAMPTER_0173",
-        "HAMPTER_0315"
+        "HAMPTER_0440",
+        "HAMPTER_0292"
       ]
     },
     {
@@ -28335,13 +28212,13 @@
         "HAMPTER_0251",
         "HAMPTER_0224",
         "HAMPTER_0248",
-        "HAMPTER_0171",
         "HAMPTER_0245",
+        "HAMPTER_0390",
         "HAMPTER_0321",
-        "HAMPTER_0240",
         "HAMPTER_0115",
-        "HAMPTER_0234",
-        "HAMPTER_0152"
+        "HAMPTER_0196",
+        "HAMPTER_0152",
+        "HAMPTER_0238"
       ]
     },
     {
@@ -28466,9 +28343,9 @@
         "HAMPTER_0360",
         "HAMPTER_0341",
         "HAMPTER_0026",
+        "HAMPTER_0195",
         "HAMPTER_0218",
-        "HAMPTER_0429",
-        "HAMPTER_0376"
+        "HAMPTER_0429"
       ]
     },
     {
@@ -28578,13 +28455,13 @@
         "HAMPTER_0171",
         "HAMPTER_0176",
         "HAMPTER_0240",
-        "HAMPTER_0397",
         "HAMPTER_0349",
+        "HAMPTER_0088",
+        "HAMPTER_0141",
+        "HAMPTER_0397",
         "HAMPTER_0197",
         "HAMPTER_0115",
-        "HAMPTER_0141",
-        "HAMPTER_0051",
-        "HAMPTER_0088"
+        "HAMPTER_0351"
       ]
     },
     {
@@ -28689,14 +28566,14 @@
       "similar_ids": [
         "HAMPTER_0021",
         "HAMPTER_0415",
-        "HAMPTER_0224",
-        "HAMPTER_0435",
         "HAMPTER_0138",
-        "HAMPTER_0338",
+        "HAMPTER_0224",
+        "HAMPTER_0304",
+        "HAMPTER_0435",
+        "HAMPTER_0422",
         "HAMPTER_0364",
         "HAMPTER_0434",
-        "HAMPTER_0305",
-        "HAMPTER_0053"
+        "HAMPTER_0305"
       ]
     },
     {
@@ -28814,11 +28691,11 @@
         "HAMPTER_0070",
         "HAMPTER_0117",
         "HAMPTER_0324",
-        "HAMPTER_0106",
-        "HAMPTER_0012",
         "HAMPTER_0043",
+        "HAMPTER_0334",
         "HAMPTER_0128",
-        "HAMPTER_0334"
+        "HAMPTER_0012",
+        "HAMPTER_0106"
       ]
     },
     {
@@ -28925,16 +28802,16 @@
         "concept_hospital"
       ],
       "similar_ids": [
-        "HAMPTER_0062",
         "HAMPTER_0246",
-        "HAMPTER_0190",
-        "HAMPTER_0385",
+        "HAMPTER_0226",
         "HAMPTER_0440",
         "HAMPTER_0109",
-        "HAMPTER_0180",
+        "HAMPTER_0415",
+        "HAMPTER_0062",
+        "HAMPTER_0385",
+        "HAMPTER_0332",
         "HAMPTER_0067",
-        "HAMPTER_0241",
-        "HAMPTER_0415"
+        "HAMPTER_0241"
       ]
     },
     {
@@ -29046,15 +28923,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0110",
-        "HAMPTER_0160",
         "HAMPTER_0188",
-        "HAMPTER_0205",
-        "HAMPTER_0139",
-        "HAMPTER_0080",
         "HAMPTER_0224",
-        "HAMPTER_0250",
+        "HAMPTER_0139",
+        "HAMPTER_0160",
+        "HAMPTER_0205",
+        "HAMPTER_0080",
+        "HAMPTER_0245",
         "HAMPTER_0230",
-        "HAMPTER_0186"
+        "HAMPTER_0250"
       ]
     },
     {
@@ -29167,10 +29044,10 @@
         "HAMPTER_0334",
         "HAMPTER_0138",
         "HAMPTER_0068",
-        "HAMPTER_0246",
+        "HAMPTER_0313",
+        "HAMPTER_0310",
         "HAMPTER_0416",
-        "HAMPTER_0380",
-        "HAMPTER_0313"
+        "HAMPTER_0246"
       ]
     },
     {
@@ -29279,13 +29156,13 @@
       ],
       "similar_ids": [
         "HAMPTER_0171",
-        "HAMPTER_0349",
         "HAMPTER_0176",
+        "HAMPTER_0349",
         "HAMPTER_0234",
-        "HAMPTER_0258",
         "HAMPTER_0302",
-        "HAMPTER_0196",
+        "HAMPTER_0258",
         "HAMPTER_0092",
+        "HAMPTER_0196",
         "HAMPTER_0183",
         "HAMPTER_0249"
       ]
@@ -29397,14 +29274,14 @@
       "similar_ids": [
         "HAMPTER_0067",
         "HAMPTER_0180",
-        "HAMPTER_0237",
         "HAMPTER_0460",
-        "HAMPTER_0078",
         "HAMPTER_0417",
-        "HAMPTER_0128",
+        "HAMPTER_0140",
+        "HAMPTER_0237",
+        "HAMPTER_0078",
         "HAMPTER_0346",
-        "HAMPTER_0166",
-        "HAMPTER_0140"
+        "HAMPTER_0128",
+        "HAMPTER_0206"
       ]
     },
     {
@@ -29520,12 +29397,12 @@
       "similar_ids": [
         "HAMPTER_0296",
         "HAMPTER_0200",
-        "HAMPTER_0322",
-        "HAMPTER_0157",
         "HAMPTER_0161",
-        "HAMPTER_0366",
-        "HAMPTER_0066",
-        "HAMPTER_0167",
+        "HAMPTER_0157",
+        "HAMPTER_0322",
+        "HAMPTER_0122",
+        "HAMPTER_0351",
+        "HAMPTER_0334",
         "HAMPTER_0089",
         "HAMPTER_0094"
       ]
@@ -29647,11 +29524,11 @@
         "HAMPTER_0048",
         "HAMPTER_0254",
         "HAMPTER_0233",
-        "HAMPTER_0327",
-        "HAMPTER_0251",
-        "HAMPTER_0250",
+        "HAMPTER_0101",
         "HAMPTER_0195",
         "HAMPTER_0152",
+        "HAMPTER_0327",
+        "HAMPTER_0341",
         "HAMPTER_0226",
         "HAMPTER_0312"
       ]
@@ -29766,16 +29643,16 @@
         "concept_love"
       ],
       "similar_ids": [
-        "HAMPTER_0378",
         "HAMPTER_0218",
-        "HAMPTER_0227",
         "HAMPTER_0356",
+        "HAMPTER_0378",
         "HAMPTER_0193",
-        "HAMPTER_0374",
-        "HAMPTER_0146",
         "HAMPTER_0340",
-        "HAMPTER_0312",
-        "HAMPTER_0251"
+        "HAMPTER_0374",
+        "HAMPTER_0251",
+        "HAMPTER_0166",
+        "HAMPTER_0337",
+        "HAMPTER_0312"
       ]
     },
     {
@@ -29891,11 +29768,11 @@
         "HAMPTER_0374",
         "HAMPTER_0329",
         "HAMPTER_0403",
-        "HAMPTER_0146",
         "HAMPTER_0316",
+        "HAMPTER_0146",
+        "HAMPTER_0409",
         "HAMPTER_0225",
         "HAMPTER_0010",
-        "HAMPTER_0409",
         "HAMPTER_0224"
       ]
     },
@@ -30000,14 +29877,14 @@
       ],
       "similar_ids": [
         "HAMPTER_0158",
-        "HAMPTER_0062",
         "HAMPTER_0237",
-        "HAMPTER_0440",
-        "HAMPTER_0331",
-        "HAMPTER_0157",
+        "HAMPTER_0062",
         "HAMPTER_0109",
-        "HAMPTER_0081",
-        "HAMPTER_0068",
+        "HAMPTER_0440",
+        "HAMPTER_0053",
+        "HAMPTER_0157",
+        "HAMPTER_0100",
+        "HAMPTER_0334",
         "HAMPTER_0138"
       ]
     },
@@ -30127,10 +30004,10 @@
         "HAMPTER_0200",
         "HAMPTER_0282",
         "HAMPTER_0114",
+        "HAMPTER_0161",
         "HAMPTER_0089",
-        "HAMPTER_0100",
         "HAMPTER_0322",
-        "HAMPTER_0161"
+        "HAMPTER_0100"
       ]
     },
     {
@@ -30248,14 +30125,14 @@
       "similar_ids": [
         "HAMPTER_0332",
         "HAMPTER_0110",
+        "HAMPTER_0233",
         "HAMPTER_0232",
         "HAMPTER_0126",
-        "HAMPTER_0212",
-        "HAMPTER_0233",
-        "HAMPTER_0119",
         "HAMPTER_0404",
-        "HAMPTER_0379",
-        "HAMPTER_0381"
+        "HAMPTER_0171",
+        "HAMPTER_0325",
+        "HAMPTER_0119",
+        "HAMPTER_0379"
       ]
     },
     {
@@ -30369,14 +30246,14 @@
       "similar_ids": [
         "HAMPTER_0295",
         "HAMPTER_0357",
-        "HAMPTER_0083",
         "HAMPTER_0293",
         "HAMPTER_0197",
+        "HAMPTER_0077",
+        "HAMPTER_0083",
         "HAMPTER_0240",
+        "HAMPTER_0171",
         "HAMPTER_0139",
-        "HAMPTER_0079",
-        "HAMPTER_0134",
-        "HAMPTER_0377"
+        "HAMPTER_0286"
       ]
     },
     {
@@ -30479,13 +30356,13 @@
         "HAMPTER_0141",
         "HAMPTER_0149",
         "HAMPTER_0380",
-        "HAMPTER_0294",
+        "HAMPTER_0110",
         "HAMPTER_0407",
-        "HAMPTER_0230",
         "HAMPTER_0238",
-        "HAMPTER_0358",
-        "HAMPTER_0243",
-        "HAMPTER_0110"
+        "HAMPTER_0355",
+        "HAMPTER_0089",
+        "HAMPTER_0318",
+        "HAMPTER_0136"
       ]
     },
     {
@@ -30596,12 +30473,12 @@
         "HAMPTER_0401",
         "HAMPTER_0224",
         "HAMPTER_0152",
-        "HAMPTER_0191",
-        "HAMPTER_0178",
         "HAMPTER_0244",
-        "HAMPTER_0201",
-        "HAMPTER_0253",
-        "HAMPTER_0243"
+        "HAMPTER_0193",
+        "HAMPTER_0054",
+        "HAMPTER_0144",
+        "HAMPTER_0181",
+        "HAMPTER_0201"
       ]
     },
     {
@@ -30715,12 +30592,12 @@
       "similar_ids": [
         "HAMPTER_0443",
         "HAMPTER_0100",
-        "HAMPTER_0258",
         "HAMPTER_0298",
-        "HAMPTER_0362",
+        "HAMPTER_0258",
         "HAMPTER_0375",
-        "HAMPTER_0004",
         "HAMPTER_0246",
+        "HAMPTER_0362",
+        "HAMPTER_0004",
         "HAMPTER_0346",
         "HAMPTER_0242"
       ]
@@ -30838,14 +30715,14 @@
       "similar_ids": [
         "HAMPTER_0420",
         "HAMPTER_0142",
-        "HAMPTER_0141",
-        "HAMPTER_0251",
-        "HAMPTER_0377",
         "HAMPTER_0082",
-        "HAMPTER_0143",
+        "HAMPTER_0251",
+        "HAMPTER_0393",
+        "HAMPTER_0244",
         "HAMPTER_0061",
-        "HAMPTER_0181",
-        "HAMPTER_0054"
+        "HAMPTER_0191",
+        "HAMPTER_0397",
+        "HAMPTER_0141"
       ]
     },
     {
@@ -30957,12 +30834,12 @@
         "HAMPTER_0243",
         "HAMPTER_0046",
         "HAMPTER_0152",
-        "HAMPTER_0394",
+        "HAMPTER_0264",
         "HAMPTER_0282",
         "HAMPTER_0364",
         "HAMPTER_0099",
-        "HAMPTER_0401",
-        "HAMPTER_0251"
+        "HAMPTER_0394",
+        "HAMPTER_0377"
       ]
     },
     {
@@ -31071,14 +30948,14 @@
       "similar_ids": [
         "HAMPTER_0436",
         "HAMPTER_0392",
-        "HAMPTER_0371",
         "HAMPTER_0395",
-        "HAMPTER_0256",
-        "HAMPTER_0004",
-        "HAMPTER_0113",
+        "HAMPTER_0371",
         "HAMPTER_0046",
+        "HAMPTER_0256",
+        "HAMPTER_0113",
         "HAMPTER_0212",
-        "HAMPTER_0326"
+        "HAMPTER_0380",
+        "HAMPTER_0228"
       ]
     },
     {
@@ -31196,10 +31073,10 @@
         "HAMPTER_0004",
         "HAMPTER_0077",
         "HAMPTER_0428",
-        "HAMPTER_0255",
         "HAMPTER_0185",
         "HAMPTER_0217",
-        "HAMPTER_0405",
+        "HAMPTER_0408",
+        "HAMPTER_0215",
         "HAMPTER_0210"
       ]
     },
@@ -31310,16 +31187,16 @@
         "concept_shock"
       ],
       "similar_ids": [
-        "HAMPTER_0353",
         "HAMPTER_0352",
-        "HAMPTER_0417",
+        "HAMPTER_0353",
         "HAMPTER_0386",
+        "HAMPTER_0417",
+        "HAMPTER_0437",
         "HAMPTER_0163",
         "HAMPTER_0015",
         "HAMPTER_0150",
-        "HAMPTER_0437",
         "HAMPTER_0037",
-        "HAMPTER_0226"
+        "HAMPTER_0217"
       ]
     },
     {
@@ -31436,14 +31313,14 @@
       "similar_ids": [
         "HAMPTER_0362",
         "HAMPTER_0240",
+        "HAMPTER_0141",
+        "HAMPTER_0171",
         "HAMPTER_0252",
-        "HAMPTER_0350",
-        "HAMPTER_0033",
-        "HAMPTER_0443",
+        "HAMPTER_0151",
         "HAMPTER_0113",
-        "HAMPTER_0051",
-        "HAMPTER_0303",
-        "HAMPTER_0234"
+        "HAMPTER_0033",
+        "HAMPTER_0040",
+        "HAMPTER_0191"
       ]
     },
     {
@@ -31559,13 +31436,13 @@
         "HAMPTER_0457",
         "HAMPTER_0263",
         "HAMPTER_0411",
-        "HAMPTER_0151",
         "HAMPTER_0373",
         "HAMPTER_0156",
+        "HAMPTER_0151",
         "HAMPTER_0378",
         "HAMPTER_0265",
         "HAMPTER_0279",
-        "HAMPTER_0321"
+        "HAMPTER_0193"
       ]
     },
     {
@@ -31679,13 +31556,13 @@
         "HAMPTER_0179",
         "HAMPTER_0028",
         "HAMPTER_0367",
-        "HAMPTER_0337",
         "HAMPTER_0392",
+        "HAMPTER_0337",
         "HAMPTER_0301",
         "HAMPTER_0068",
         "HAMPTER_0341",
         "HAMPTER_0128",
-        "HAMPTER_0398"
+        "HAMPTER_0427"
       ]
     },
     {
@@ -31791,15 +31668,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0203",
-        "HAMPTER_0045",
+        "HAMPTER_0082",
+        "HAMPTER_0387",
         "HAMPTER_0113",
         "HAMPTER_0437",
-        "HAMPTER_0387",
-        "HAMPTER_0362",
         "HAMPTER_0271",
-        "HAMPTER_0163",
-        "HAMPTER_0166",
-        "HAMPTER_0082"
+        "HAMPTER_0268",
+        "HAMPTER_0045",
+        "HAMPTER_0187",
+        "HAMPTER_0214"
       ]
     },
     {
@@ -31927,10 +31804,10 @@
         "HAMPTER_0451",
         "HAMPTER_0026",
         "HAMPTER_0376",
-        "HAMPTER_0403",
-        "HAMPTER_0095",
         "HAMPTER_0159",
-        "HAMPTER_0359"
+        "HAMPTER_0095",
+        "HAMPTER_0403",
+        "HAMPTER_0148"
       ]
     },
     {
@@ -32042,11 +31919,11 @@
         "HAMPTER_0259",
         "HAMPTER_0279",
         "HAMPTER_0457",
-        "HAMPTER_0321",
-        "HAMPTER_0373",
         "HAMPTER_0411",
-        "HAMPTER_0151",
+        "HAMPTER_0373",
         "HAMPTER_0378",
+        "HAMPTER_0321",
+        "HAMPTER_0151",
         "HAMPTER_0265"
       ]
     },
@@ -32150,16 +32027,16 @@
         "зимн"
       ],
       "similar_ids": [
-        "HAMPTER_0131",
         "HAMPTER_0370",
-        "HAMPTER_0328",
+        "HAMPTER_0046",
         "HAMPTER_0441",
-        "HAMPTER_0313",
+        "HAMPTER_0328",
+        "HAMPTER_0254",
+        "HAMPTER_0167",
+        "HAMPTER_0131",
         "HAMPTER_0190",
-        "HAMPTER_0422",
-        "HAMPTER_0153",
-        "HAMPTER_0188",
-        "HAMPTER_0140"
+        "HAMPTER_0050",
+        "HAMPTER_0111"
       ]
     },
     {
@@ -32278,14 +32155,14 @@
       "similar_ids": [
         "HAMPTER_0285",
         "HAMPTER_0266",
-        "HAMPTER_0042",
-        "HAMPTER_0151",
         "HAMPTER_0401",
+        "HAMPTER_0151",
         "HAMPTER_0282",
-        "HAMPTER_0263",
         "HAMPTER_0411",
+        "HAMPTER_0293",
+        "HAMPTER_0263",
         "HAMPTER_0259",
-        "HAMPTER_0108"
+        "HAMPTER_0286"
       ]
     },
     {
@@ -32394,15 +32271,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0285",
-        "HAMPTER_0042",
+        "HAMPTER_0293",
         "HAMPTER_0282",
         "HAMPTER_0265",
-        "HAMPTER_0293",
-        "HAMPTER_0297",
         "HAMPTER_0388",
+        "HAMPTER_0297",
         "HAMPTER_0401",
+        "HAMPTER_0389",
         "HAMPTER_0108",
-        "HAMPTER_0109"
+        "HAMPTER_0283"
       ]
     },
     {
@@ -32500,15 +32377,15 @@
         "наблюден"
       ],
       "similar_ids": [
+        "HAMPTER_0075",
         "HAMPTER_0210",
         "HAMPTER_0217",
-        "HAMPTER_0075",
         "HAMPTER_0002",
-        "HAMPTER_0384",
-        "HAMPTER_0077",
         "HAMPTER_0333",
+        "HAMPTER_0077",
+        "HAMPTER_0354",
+        "HAMPTER_0384",
         "HAMPTER_0064",
-        "HAMPTER_0352",
         "HAMPTER_0041"
       ]
     },
@@ -32623,13 +32500,13 @@
         "HAMPTER_0189",
         "HAMPTER_0020",
         "HAMPTER_0184",
+        "HAMPTER_0045",
         "HAMPTER_0331",
         "HAMPTER_0046",
-        "HAMPTER_0045",
         "HAMPTER_0390",
-        "HAMPTER_0100",
         "HAMPTER_0007",
-        "HAMPTER_0411"
+        "HAMPTER_0261",
+        "HAMPTER_0428"
       ]
     },
     {
@@ -32741,15 +32618,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0305",
-        "HAMPTER_0304",
         "HAMPTER_0037",
-        "HAMPTER_0016",
+        "HAMPTER_0304",
         "HAMPTER_0008",
-        "HAMPTER_0204",
         "HAMPTER_0372",
-        "HAMPTER_0219",
-        "HAMPTER_0186",
-        "HAMPTER_0009"
+        "HAMPTER_0016",
+        "HAMPTER_0032",
+        "HAMPTER_0009",
+        "HAMPTER_0161",
+        "HAMPTER_0381"
       ]
     },
     {
@@ -32886,14 +32763,14 @@
       ],
       "similar_ids": [
         "HAMPTER_0001",
-        "HAMPTER_0055",
         "HAMPTER_0354",
+        "HAMPTER_0055",
         "HAMPTER_0198",
         "HAMPTER_0291",
-        "HAMPTER_0003",
         "HAMPTER_0274",
-        "HAMPTER_0278",
+        "HAMPTER_0109",
         "HAMPTER_0277",
+        "HAMPTER_0278",
         "HAMPTER_0415"
       ]
     },
@@ -33040,13 +32917,13 @@
         "HAMPTER_0187",
         "HAMPTER_0214",
         "HAMPTER_0107",
-        "HAMPTER_0289",
         "HAMPTER_0412",
+        "HAMPTER_0289",
         "HAMPTER_0072",
-        "HAMPTER_0022",
         "HAMPTER_0144",
-        "HAMPTER_0261",
-        "HAMPTER_0419"
+        "HAMPTER_0022",
+        "HAMPTER_0227",
+        "HAMPTER_0261"
       ]
     },
     {
@@ -33181,10 +33058,10 @@
         "HAMPTER_0427",
         "HAMPTER_0144",
         "HAMPTER_0364",
-        "HAMPTER_0198",
-        "HAMPTER_0299",
+        "HAMPTER_0354",
+        "HAMPTER_0338",
         "HAMPTER_0432",
-        "HAMPTER_0354"
+        "HAMPTER_0299"
       ]
     },
     {
@@ -33318,15 +33195,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0177",
-        "HAMPTER_0032",
         "HAMPTER_0006",
+        "HAMPTER_0032",
         "HAMPTER_0094",
         "HAMPTER_0219",
         "HAMPTER_0212",
         "HAMPTER_0298",
         "HAMPTER_0318",
-        "HAMPTER_0404",
-        "HAMPTER_0213"
+        "HAMPTER_0355",
+        "HAMPTER_0404"
       ]
     },
     {
@@ -33459,14 +33336,14 @@
       "similar_ids": [
         "HAMPTER_0162",
         "HAMPTER_0356",
-        "HAMPTER_0229",
         "HAMPTER_0040",
+        "HAMPTER_0229",
         "HAMPTER_0037",
         "HAMPTER_0198",
         "HAMPTER_0279",
-        "HAMPTER_0291",
+        "HAMPTER_0402",
         "HAMPTER_0220",
-        "HAMPTER_0348"
+        "HAMPTER_0291"
       ]
     },
     {
@@ -33607,12 +33484,12 @@
         "HAMPTER_0233",
         "HAMPTER_0151",
         "HAMPTER_0411",
-        "HAMPTER_0358",
-        "HAMPTER_0096",
+        "HAMPTER_0211",
         "HAMPTER_0193",
+        "HAMPTER_0358",
+        "HAMPTER_0243",
         "HAMPTER_0265",
-        "HAMPTER_0201",
-        "HAMPTER_0211"
+        "HAMPTER_0201"
       ]
     },
     {
@@ -33737,14 +33614,14 @@
       "similar_ids": [
         "HAMPTER_0209",
         "HAMPTER_0408",
-        "HAMPTER_0354",
         "HAMPTER_0274",
         "HAMPTER_0204",
+        "HAMPTER_0354",
         "HAMPTER_0425",
-        "HAMPTER_0279",
+        "HAMPTER_0323",
         "HAMPTER_0278",
-        "HAMPTER_0198",
-        "HAMPTER_0091"
+        "HAMPTER_0091",
+        "HAMPTER_0198"
       ]
     },
     {
@@ -33874,10 +33751,10 @@
         "HAMPTER_0215",
         "HAMPTER_0077",
         "HAMPTER_0256",
+        "HAMPTER_0398",
+        "HAMPTER_0027",
         "HAMPTER_0330",
         "HAMPTER_0354",
-        "HAMPTER_0027",
-        "HAMPTER_0398",
         "HAMPTER_0463",
         "HAMPTER_0278"
       ]
@@ -34011,8 +33888,8 @@
         "HAMPTER_0002",
         "HAMPTER_0022",
         "HAMPTER_0257",
-        "HAMPTER_0073",
         "HAMPTER_0425",
+        "HAMPTER_0073",
         "HAMPTER_0034"
       ]
     },
@@ -34147,10 +34024,10 @@
         "HAMPTER_0156",
         "HAMPTER_0263",
         "HAMPTER_0321",
-        "HAMPTER_0024",
-        "HAMPTER_0373",
-        "HAMPTER_0151",
         "HAMPTER_0259",
+        "HAMPTER_0373",
+        "HAMPTER_0024",
+        "HAMPTER_0151",
         "HAMPTER_0459",
         "HAMPTER_0265",
         "HAMPTER_0411"
@@ -34323,9 +34200,9 @@
         "HAMPTER_0035",
         "HAMPTER_0008",
         "HAMPTER_0096",
-        "HAMPTER_0017",
         "HAMPTER_0053",
         "HAMPTER_0012",
+        "HAMPTER_0017",
         "HAMPTER_0219",
         "HAMPTER_0381",
         "HAMPTER_0056"
@@ -34438,10 +34315,10 @@
         "HAMPTER_0440",
         "HAMPTER_0283",
         "HAMPTER_0415",
+        "HAMPTER_0237",
         "HAMPTER_0109",
-        "HAMPTER_0050",
-        "HAMPTER_0254",
         "HAMPTER_0266",
+        "HAMPTER_0050",
         "HAMPTER_0352"
       ]
     },
@@ -34557,13 +34434,13 @@
         "HAMPTER_0285",
         "HAMPTER_0266",
         "HAMPTER_0089",
-        "HAMPTER_0042",
         "HAMPTER_0394",
         "HAMPTER_0351",
         "HAMPTER_0265",
-        "HAMPTER_0401",
         "HAMPTER_0079",
-        "HAMPTER_0286"
+        "HAMPTER_0401",
+        "HAMPTER_0286",
+        "HAMPTER_0407"
       ]
     },
     {
@@ -34665,13 +34542,13 @@
       "similar_ids": [
         "HAMPTER_0388",
         "HAMPTER_0285",
+        "HAMPTER_0389",
         "HAMPTER_0149",
         "HAMPTER_0380",
-        "HAMPTER_0389",
-        "HAMPTER_0208",
-        "HAMPTER_0090",
         "HAMPTER_0281",
         "HAMPTER_0266",
+        "HAMPTER_0294",
+        "HAMPTER_0050",
         "HAMPTER_0027"
       ]
     },
@@ -34786,15 +34663,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0065",
-        "HAMPTER_0042",
         "HAMPTER_0288",
         "HAMPTER_0072",
         "HAMPTER_0413",
         "HAMPTER_0174",
+        "HAMPTER_0169",
         "HAMPTER_0145",
+        "HAMPTER_0170",
         "HAMPTER_0172",
-        "HAMPTER_0266",
-        "HAMPTER_0170"
+        "HAMPTER_0124"
       ]
     },
     {
@@ -34899,16 +34776,16 @@
         "concept_christmas"
       ],
       "similar_ids": [
-        "HAMPTER_0042",
         "HAMPTER_0266",
         "HAMPTER_0282",
-        "HAMPTER_0089",
         "HAMPTER_0265",
+        "HAMPTER_0089",
         "HAMPTER_0401",
         "HAMPTER_0283",
         "HAMPTER_0149",
         "HAMPTER_0293",
-        "HAMPTER_0079"
+        "HAMPTER_0079",
+        "HAMPTER_0286"
       ]
     },
     {
@@ -35009,16 +34886,16 @@
         "concept_party"
       ],
       "similar_ids": [
-        "HAMPTER_0401",
         "HAMPTER_0394",
+        "HAMPTER_0401",
         "HAMPTER_0079",
         "HAMPTER_0364",
-        "HAMPTER_0282",
-        "HAMPTER_0165",
         "HAMPTER_0407",
-        "HAMPTER_0108",
-        "HAMPTER_0349",
-        "HAMPTER_0293"
+        "HAMPTER_0282",
+        "HAMPTER_0285",
+        "HAMPTER_0265",
+        "HAMPTER_0165",
+        "HAMPTER_0349"
       ]
     },
     {
@@ -35175,9 +35052,9 @@
         "HAMPTER_0399",
         "HAMPTER_0039",
         "HAMPTER_0052",
+        "HAMPTER_0289",
         "HAMPTER_0123",
-        "HAMPTER_0030",
-        "HAMPTER_0289"
+        "HAMPTER_0398"
       ]
     },
     {
@@ -35313,14 +35190,14 @@
       "similar_ids": [
         "HAMPTER_0065",
         "HAMPTER_0284",
-        "HAMPTER_0290",
         "HAMPTER_0413",
+        "HAMPTER_0290",
         "HAMPTER_0072",
         "HAMPTER_0091",
-        "HAMPTER_0042",
         "HAMPTER_0183",
         "HAMPTER_0218",
-        "HAMPTER_0220"
+        "HAMPTER_0220",
+        "HAMPTER_0302"
       ]
     },
     {
@@ -35432,14 +35309,14 @@
       "similar_ids": [
         "HAMPTER_0227",
         "HAMPTER_0107",
-        "HAMPTER_0022",
-        "HAMPTER_0187",
-        "HAMPTER_0340",
-        "HAMPTER_0291",
-        "HAMPTER_0034",
         "HAMPTER_0412",
+        "HAMPTER_0187",
+        "HAMPTER_0022",
+        "HAMPTER_0308",
+        "HAMPTER_0271",
+        "HAMPTER_0034",
         "HAMPTER_0214",
-        "HAMPTER_0271"
+        "HAMPTER_0072"
       ]
     },
     {
@@ -35590,12 +35467,12 @@
         "HAMPTER_0183",
         "HAMPTER_0302",
         "HAMPTER_0220",
-        "HAMPTER_0218",
         "HAMPTER_0288",
+        "HAMPTER_0218",
         "HAMPTER_0065",
         "HAMPTER_0312",
         "HAMPTER_0227",
-        "HAMPTER_0175"
+        "HAMPTER_0062"
       ]
     },
     {
@@ -35736,9 +35613,9 @@
         "HAMPTER_0287",
         "HAMPTER_0278",
         "HAMPTER_0289",
-        "HAMPTER_0354",
         "HAMPTER_0187",
         "HAMPTER_0107",
+        "HAMPTER_0354",
         "HAMPTER_0182",
         "HAMPTER_0271"
       ]
@@ -35850,11 +35727,11 @@
         "HAMPTER_0364",
         "HAMPTER_0231",
         "HAMPTER_0272",
-        "HAMPTER_0045",
         "HAMPTER_0144",
-        "HAMPTER_0315",
-        "HAMPTER_0193",
-        "HAMPTER_0173"
+        "HAMPTER_0045",
+        "HAMPTER_0242",
+        "HAMPTER_0427",
+        "HAMPTER_0315"
       ]
     },
     {
@@ -35970,13 +35847,13 @@
       "similar_ids": [
         "HAMPTER_0266",
         "HAMPTER_0357",
-        "HAMPTER_0079",
-        "HAMPTER_0108",
-        "HAMPTER_0401",
-        "HAMPTER_0249",
         "HAMPTER_0285",
+        "HAMPTER_0401",
+        "HAMPTER_0079",
         "HAMPTER_0265",
-        "HAMPTER_0077",
+        "HAMPTER_0108",
+        "HAMPTER_0286",
+        "HAMPTER_0249",
         "HAMPTER_0388"
       ]
     },
@@ -36084,13 +35961,13 @@
       "similar_ids": [
         "HAMPTER_0350",
         "HAMPTER_0149",
-        "HAMPTER_0207",
-        "HAMPTER_0112",
         "HAMPTER_0428",
-        "HAMPTER_0380",
-        "HAMPTER_0228",
-        "HAMPTER_0250",
         "HAMPTER_0027",
+        "HAMPTER_0228",
+        "HAMPTER_0380",
+        "HAMPTER_0112",
+        "HAMPTER_0207",
+        "HAMPTER_0095",
         "HAMPTER_0384"
       ]
     },
@@ -36209,9 +36086,9 @@
         "HAMPTER_0126",
         "HAMPTER_0357",
         "HAMPTER_0379",
+        "HAMPTER_0296",
         "HAMPTER_0191",
-        "HAMPTER_0083",
-        "HAMPTER_0370",
+        "HAMPTER_0099",
         "HAMPTER_0325"
       ]
     },
@@ -36320,15 +36197,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0242",
-        "HAMPTER_0157",
         "HAMPTER_0126",
-        "HAMPTER_0189",
-        "HAMPTER_0314",
+        "HAMPTER_0157",
+        "HAMPTER_0120",
+        "HAMPTER_0295",
         "HAMPTER_0368",
-        "HAMPTER_0200",
+        "HAMPTER_0090",
         "HAMPTER_0158",
-        "HAMPTER_0125",
-        "HAMPTER_0295"
+        "HAMPTER_0314",
+        "HAMPTER_0379"
       ]
     },
     {
@@ -36442,13 +36319,13 @@
       "similar_ids": [
         "HAMPTER_0396",
         "HAMPTER_0108",
-        "HAMPTER_0421",
+        "HAMPTER_0317",
         "HAMPTER_0306",
         "HAMPTER_0079",
-        "HAMPTER_0317",
+        "HAMPTER_0421",
         "HAMPTER_0059",
         "HAMPTER_0266",
-        "HAMPTER_0127",
+        "HAMPTER_0373",
         "HAMPTER_0105"
       ]
     },
@@ -36566,14 +36443,14 @@
       "similar_ids": [
         "HAMPTER_0063",
         "HAMPTER_0300",
-        "HAMPTER_0317",
-        "HAMPTER_0326",
-        "HAMPTER_0177",
         "HAMPTER_0100",
-        "HAMPTER_0273",
-        "HAMPTER_0252",
+        "HAMPTER_0317",
         "HAMPTER_0041",
-        "HAMPTER_0336"
+        "HAMPTER_0177",
+        "HAMPTER_0252",
+        "HAMPTER_0273",
+        "HAMPTER_0326",
+        "HAMPTER_0159"
       ]
     },
     {
@@ -36716,9 +36593,9 @@
         "HAMPTER_0272",
         "HAMPTER_0231",
         "HAMPTER_0056",
-        "HAMPTER_0193",
+        "HAMPTER_0141",
         "HAMPTER_0144",
-        "HAMPTER_0141"
+        "HAMPTER_0242"
       ]
     },
     {
@@ -36834,16 +36711,16 @@
         "concept_letterbox"
       ],
       "similar_ids": [
-        "HAMPTER_0063",
         "HAMPTER_0159",
+        "HAMPTER_0063",
         "HAMPTER_0336",
-        "HAMPTER_0298",
-        "HAMPTER_0010",
-        "HAMPTER_0363",
-        "HAMPTER_0319",
-        "HAMPTER_0410",
         "HAMPTER_0383",
-        "HAMPTER_0014"
+        "HAMPTER_0298",
+        "HAMPTER_0332",
+        "HAMPTER_0319",
+        "HAMPTER_0363",
+        "HAMPTER_0014",
+        "HAMPTER_0171"
       ]
     },
     {
@@ -36960,15 +36837,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0341",
-        "HAMPTER_0358",
-        "HAMPTER_0353",
-        "HAMPTER_0320",
-        "HAMPTER_0195",
         "HAMPTER_0386",
+        "HAMPTER_0358",
         "HAMPTER_0361",
-        "HAMPTER_0378",
+        "HAMPTER_0320",
+        "HAMPTER_0353",
         "HAMPTER_0437",
-        "HAMPTER_0340"
+        "HAMPTER_0378",
+        "HAMPTER_0195",
+        "HAMPTER_0218"
       ]
     },
     {
@@ -37083,10 +36960,10 @@
         "HAMPTER_0290",
         "HAMPTER_0349",
         "HAMPTER_0171",
-        "HAMPTER_0218",
         "HAMPTER_0240",
+        "HAMPTER_0218",
         "HAMPTER_0412",
-        "HAMPTER_0234"
+        "HAMPTER_0176"
       ]
     },
     {
@@ -37196,16 +37073,16 @@
         "concept_shush"
       ],
       "similar_ids": [
-        "HAMPTER_0135",
         "HAMPTER_0115",
         "HAMPTER_0130",
-        "HAMPTER_0093",
+        "HAMPTER_0135",
         "HAMPTER_0084",
+        "HAMPTER_0093",
         "HAMPTER_0019",
         "HAMPTER_0164",
-        "HAMPTER_0234",
         "HAMPTER_0348",
-        "HAMPTER_0312"
+        "HAMPTER_0402",
+        "HAMPTER_0234"
       ]
     },
     {
@@ -37309,15 +37186,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0219",
-        "HAMPTER_0005",
         "HAMPTER_0269",
-        "HAMPTER_0426",
         "HAMPTER_0016",
-        "HAMPTER_0204",
+        "HAMPTER_0005",
+        "HAMPTER_0235",
         "HAMPTER_0305",
-        "HAMPTER_0393",
-        "HAMPTER_0434",
-        "HAMPTER_0318"
+        "HAMPTER_0318",
+        "HAMPTER_0204",
+        "HAMPTER_0426",
+        "HAMPTER_0435"
       ]
     },
     {
@@ -37421,11 +37298,11 @@
         "HAMPTER_0419",
         "HAMPTER_0269",
         "HAMPTER_0397",
-        "HAMPTER_0304",
-        "HAMPTER_0338",
         "HAMPTER_0144",
+        "HAMPTER_0304",
+        "HAMPTER_0234",
         "HAMPTER_0235",
-        "HAMPTER_0234"
+        "HAMPTER_0338"
       ]
     },
     {
@@ -37541,16 +37418,16 @@
         "concept_cat"
       ],
       "similar_ids": [
-        "HAMPTER_0421",
         "HAMPTER_0317",
+        "HAMPTER_0421",
         "HAMPTER_0387",
-        "HAMPTER_0396",
-        "HAMPTER_0297",
-        "HAMPTER_0373",
         "HAMPTER_0059",
         "HAMPTER_0127",
-        "HAMPTER_0341",
-        "HAMPTER_0201"
+        "HAMPTER_0297",
+        "HAMPTER_0396",
+        "HAMPTER_0373",
+        "HAMPTER_0201",
+        "HAMPTER_0341"
       ]
     },
     {
@@ -37655,13 +37532,13 @@
         "HAMPTER_0339",
         "HAMPTER_0007",
         "HAMPTER_0011",
-        "HAMPTER_0098",
-        "HAMPTER_0361",
-        "HAMPTER_0326",
         "HAMPTER_0393",
-        "HAMPTER_0372",
         "HAMPTER_0417",
-        "HAMPTER_0058"
+        "HAMPTER_0326",
+        "HAMPTER_0361",
+        "HAMPTER_0372",
+        "HAMPTER_0098",
+        "HAMPTER_0135"
       ]
     },
     {
@@ -37772,15 +37649,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0412",
-        "HAMPTER_0051",
         "HAMPTER_0072",
-        "HAMPTER_0107",
+        "HAMPTER_0051",
         "HAMPTER_0289",
+        "HAMPTER_0145",
+        "HAMPTER_0227",
+        "HAMPTER_0107",
         "HAMPTER_0121",
-        "HAMPTER_0054",
-        "HAMPTER_0088",
-        "HAMPTER_0181",
-        "HAMPTER_0145"
+        "HAMPTER_0369",
+        "HAMPTER_0323"
       ]
     },
     {
@@ -37923,10 +37800,10 @@
         "HAMPTER_0222",
         "HAMPTER_0082",
         "HAMPTER_0338",
-        "HAMPTER_0308",
         "HAMPTER_0088",
-        "HAMPTER_0278",
+        "HAMPTER_0308",
         "HAMPTER_0047",
+        "HAMPTER_0368",
         "HAMPTER_0441",
         "HAMPTER_0439"
       ]
@@ -38034,11 +37911,11 @@
         "HAMPTER_0380",
         "HAMPTER_0311",
         "HAMPTER_0176",
-        "HAMPTER_0337",
-        "HAMPTER_0353",
-        "HAMPTER_0349",
         "HAMPTER_0137",
-        "HAMPTER_0340"
+        "HAMPTER_0337",
+        "HAMPTER_0349",
+        "HAMPTER_0353",
+        "HAMPTER_0038"
       ]
     },
     {
@@ -38150,13 +38027,13 @@
         "HAMPTER_0323",
         "HAMPTER_0414",
         "HAMPTER_0121",
+        "HAMPTER_0143",
         "HAMPTER_0313",
         "HAMPTER_0310",
-        "HAMPTER_0143",
-        "HAMPTER_0180",
         "HAMPTER_0380",
         "HAMPTER_0432",
-        "HAMPTER_0038"
+        "HAMPTER_0038",
+        "HAMPTER_0180"
       ]
     },
     {
@@ -38270,13 +38147,13 @@
         "HAMPTER_0327",
         "HAMPTER_0441",
         "HAMPTER_0175",
-        "HAMPTER_0047",
         "HAMPTER_0026",
         "HAMPTER_0356",
+        "HAMPTER_0047",
+        "HAMPTER_0101",
         "HAMPTER_0244",
-        "HAMPTER_0340",
-        "HAMPTER_0303",
-        "HAMPTER_0166"
+        "HAMPTER_0091",
+        "HAMPTER_0340"
       ]
     },
     {
@@ -38385,11 +38262,11 @@
         "HAMPTER_0137",
         "HAMPTER_0380",
         "HAMPTER_0311",
-        "HAMPTER_0324",
-        "HAMPTER_0264",
-        "HAMPTER_0131",
         "HAMPTER_0220",
-        "HAMPTER_0140"
+        "HAMPTER_0324",
+        "HAMPTER_0140",
+        "HAMPTER_0264",
+        "HAMPTER_0302"
       ]
     },
     {
@@ -38487,15 +38364,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0315",
-        "HAMPTER_0349",
         "HAMPTER_0379",
-        "HAMPTER_0165",
+        "HAMPTER_0349",
         "HAMPTER_0126",
-        "HAMPTER_0296",
         "HAMPTER_0119",
+        "HAMPTER_0296",
+        "HAMPTER_0165",
+        "HAMPTER_0295",
         "HAMPTER_0173",
-        "HAMPTER_0157",
-        "HAMPTER_0240"
+        "HAMPTER_0050"
       ]
     },
     {
@@ -38598,14 +38475,14 @@
       "similar_ids": [
         "HAMPTER_0314",
         "HAMPTER_0060",
-        "HAMPTER_0173",
         "HAMPTER_0050",
+        "HAMPTER_0173",
+        "HAMPTER_0040",
         "HAMPTER_0144",
         "HAMPTER_0193",
-        "HAMPTER_0040",
-        "HAMPTER_0165",
-        "HAMPTER_0003",
-        "HAMPTER_0046"
+        "HAMPTER_0376",
+        "HAMPTER_0353",
+        "HAMPTER_0165"
       ]
     },
     {
@@ -38720,11 +38597,11 @@
         "HAMPTER_0327",
         "HAMPTER_0225",
         "HAMPTER_0245",
-        "HAMPTER_0409",
         "HAMPTER_0010",
-        "HAMPTER_0195",
-        "HAMPTER_0086",
-        "HAMPTER_0410"
+        "HAMPTER_0409",
+        "HAMPTER_0410",
+        "HAMPTER_0190",
+        "HAMPTER_0195"
       ]
     },
     {
@@ -38831,14 +38708,14 @@
       "similar_ids": [
         "HAMPTER_0059",
         "HAMPTER_0306",
-        "HAMPTER_0421",
-        "HAMPTER_0373",
         "HAMPTER_0127",
-        "HAMPTER_0396",
+        "HAMPTER_0421",
         "HAMPTER_0297",
-        "HAMPTER_0298",
+        "HAMPTER_0373",
+        "HAMPTER_0396",
         "HAMPTER_0201",
-        "HAMPTER_0084"
+        "HAMPTER_0416",
+        "HAMPTER_0298"
       ]
     },
     {
@@ -38951,11 +38828,11 @@
         "HAMPTER_0219",
         "HAMPTER_0032",
         "HAMPTER_0439",
-        "HAMPTER_0304",
-        "HAMPTER_0210",
-        "HAMPTER_0250",
         "HAMPTER_0273",
-        "HAMPTER_0358",
+        "HAMPTER_0304",
+        "HAMPTER_0177",
+        "HAMPTER_0250",
+        "HAMPTER_0210",
         "HAMPTER_0329"
       ]
     },
@@ -39069,14 +38946,14 @@
       "similar_ids": [
         "HAMPTER_0387",
         "HAMPTER_0300",
-        "HAMPTER_0422",
-        "HAMPTER_0338",
-        "HAMPTER_0217",
-        "HAMPTER_0082",
         "HAMPTER_0336",
+        "HAMPTER_0235",
+        "HAMPTER_0148",
+        "HAMPTER_0082",
+        "HAMPTER_0338",
         "HAMPTER_0364",
-        "HAMPTER_0427",
-        "HAMPTER_0383"
+        "HAMPTER_0326",
+        "HAMPTER_0217"
       ]
     },
     {
@@ -39208,14 +39085,14 @@
       "similar_ids": [
         "HAMPTER_0403",
         "HAMPTER_0361",
-        "HAMPTER_0301",
         "HAMPTER_0023",
-        "HAMPTER_0375",
+        "HAMPTER_0301",
         "HAMPTER_0341",
+        "HAMPTER_0375",
         "HAMPTER_0196",
-        "HAMPTER_0211",
         "HAMPTER_0458",
-        "HAMPTER_0077"
+        "HAMPTER_0357",
+        "HAMPTER_0211"
       ]
     },
     {
@@ -39312,16 +39189,16 @@
         "concept_teeth"
       ],
       "similar_ids": [
-        "HAMPTER_0263",
         "HAMPTER_0156",
         "HAMPTER_0279",
-        "HAMPTER_0373",
+        "HAMPTER_0263",
         "HAMPTER_0151",
-        "HAMPTER_0259",
         "HAMPTER_0361",
-        "HAMPTER_0426",
+        "HAMPTER_0115",
+        "HAMPTER_0084",
+        "HAMPTER_0373",
         "HAMPTER_0265",
-        "HAMPTER_0232"
+        "HAMPTER_0411"
       ]
     },
     {
@@ -39435,13 +39312,13 @@
         "HAMPTER_0438",
         "HAMPTER_0200",
         "HAMPTER_0242",
-        "HAMPTER_0394",
-        "HAMPTER_0191",
-        "HAMPTER_0296",
-        "HAMPTER_0247",
         "HAMPTER_0122",
+        "HAMPTER_0394",
         "HAMPTER_0206",
-        "HAMPTER_0094"
+        "HAMPTER_0351",
+        "HAMPTER_0247",
+        "HAMPTER_0161",
+        "HAMPTER_0389"
       ]
     },
     {
@@ -39553,10 +39430,10 @@
         "HAMPTER_0121",
         "HAMPTER_0051",
         "HAMPTER_0432",
-        "HAMPTER_0293",
-        "HAMPTER_0082",
         "HAMPTER_0308",
-        "HAMPTER_0166"
+        "HAMPTER_0082",
+        "HAMPTER_0293",
+        "HAMPTER_0312"
       ]
     },
     {
@@ -39678,10 +39555,10 @@
         "HAMPTER_0043",
         "HAMPTER_0128",
         "HAMPTER_0106",
-        "HAMPTER_0055",
         "HAMPTER_0032",
         "HAMPTER_0155",
         "HAMPTER_0236",
+        "HAMPTER_0055",
         "HAMPTER_0313"
       ]
     },
@@ -39793,15 +39670,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0110",
-        "HAMPTER_0147",
         "HAMPTER_0119",
+        "HAMPTER_0147",
         "HAMPTER_0126",
         "HAMPTER_0379",
         "HAMPTER_0059",
-        "HAMPTER_0201",
         "HAMPTER_0433",
-        "HAMPTER_0421",
-        "HAMPTER_0114"
+        "HAMPTER_0201",
+        "HAMPTER_0127",
+        "HAMPTER_0382"
       ]
     },
     {
@@ -39915,13 +39792,13 @@
         "HAMPTER_0339",
         "HAMPTER_0033",
         "HAMPTER_0307",
-        "HAMPTER_0393",
         "HAMPTER_0361",
-        "HAMPTER_0298",
+        "HAMPTER_0393",
         "HAMPTER_0436",
         "HAMPTER_0417",
+        "HAMPTER_0298",
         "HAMPTER_0041",
-        "HAMPTER_0007"
+        "HAMPTER_0011"
       ]
     },
     {
@@ -40043,10 +39920,10 @@
         "HAMPTER_0316",
         "HAMPTER_0441",
         "HAMPTER_0369",
-        "HAMPTER_0101",
         "HAMPTER_0026",
-        "HAMPTER_0303",
-        "HAMPTER_0243"
+        "HAMPTER_0101",
+        "HAMPTER_0243",
+        "HAMPTER_0303"
       ]
     },
     {
@@ -40160,14 +40037,14 @@
       "similar_ids": [
         "HAMPTER_0046",
         "HAMPTER_0434",
-        "HAMPTER_0014",
-        "HAMPTER_0364",
         "HAMPTER_0264",
-        "HAMPTER_0008",
-        "HAMPTER_0342",
+        "HAMPTER_0364",
+        "HAMPTER_0014",
         "HAMPTER_0037",
-        "HAMPTER_0208",
-        "HAMPTER_0033"
+        "HAMPTER_0008",
+        "HAMPTER_0228",
+        "HAMPTER_0050",
+        "HAMPTER_0342"
       ]
     },
     {
@@ -40281,14 +40158,14 @@
       "similar_ids": [
         "HAMPTER_0374",
         "HAMPTER_0359",
-        "HAMPTER_0393",
         "HAMPTER_0146",
+        "HAMPTER_0393",
         "HAMPTER_0245",
         "HAMPTER_0403",
         "HAMPTER_0005",
         "HAMPTER_0426",
         "HAMPTER_0262",
-        "HAMPTER_0341"
+        "HAMPTER_0025"
       ]
     },
     {
@@ -40405,12 +40282,12 @@
         "HAMPTER_0463",
         "HAMPTER_0405",
         "HAMPTER_0375",
-        "HAMPTER_0381",
         "HAMPTER_0404",
         "HAMPTER_0025",
+        "HAMPTER_0381",
         "HAMPTER_0036",
         "HAMPTER_0104",
-        "HAMPTER_0185",
+        "HAMPTER_0320",
         "HAMPTER_0027"
       ]
     },
@@ -40520,16 +40397,16 @@
         "отчужденнос"
       ],
       "similar_ids": [
-        "HAMPTER_0158",
         "HAMPTER_0154",
+        "HAMPTER_0158",
         "HAMPTER_0160",
-        "HAMPTER_0246",
-        "HAMPTER_0081",
+        "HAMPTER_0086",
         "HAMPTER_0157",
+        "HAMPTER_0081",
         "HAMPTER_0268",
-        "HAMPTER_0296",
-        "HAMPTER_0114",
-        "HAMPTER_0428"
+        "HAMPTER_0428",
+        "HAMPTER_0085",
+        "HAMPTER_0246"
       ]
     },
     {
@@ -40686,13 +40563,13 @@
         "HAMPTER_0248",
         "HAMPTER_0110",
         "HAMPTER_0383",
-        "HAMPTER_0126",
-        "HAMPTER_0119",
         "HAMPTER_0300",
-        "HAMPTER_0063",
+        "HAMPTER_0126",
         "HAMPTER_0325",
-        "HAMPTER_0233",
-        "HAMPTER_0379"
+        "HAMPTER_0063",
+        "HAMPTER_0119",
+        "HAMPTER_0237",
+        "HAMPTER_0233"
       ]
     },
     {
@@ -40797,13 +40674,13 @@
         "HAMPTER_0002",
         "HAMPTER_0075",
         "HAMPTER_0460",
-        "HAMPTER_0140",
         "HAMPTER_0267",
-        "HAMPTER_0220",
-        "HAMPTER_0348",
-        "HAMPTER_0402",
+        "HAMPTER_0140",
         "HAMPTER_0106",
-        "HAMPTER_0095"
+        "HAMPTER_0095",
+        "HAMPTER_0220",
+        "HAMPTER_0228",
+        "HAMPTER_0402"
       ]
     },
     {
@@ -40916,10 +40793,10 @@
         "HAMPTER_0138",
         "HAMPTER_0068",
         "HAMPTER_0155",
-        "HAMPTER_0172",
-        "HAMPTER_0089",
         "HAMPTER_0100",
-        "HAMPTER_0181"
+        "HAMPTER_0089",
+        "HAMPTER_0172",
+        "HAMPTER_0236"
       ]
     },
     {
@@ -41028,15 +40905,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0413",
-        "HAMPTER_0372",
         "HAMPTER_0061",
+        "HAMPTER_0372",
         "HAMPTER_0408",
         "HAMPTER_0446",
         "HAMPTER_0426",
+        "HAMPTER_0393",
         "HAMPTER_0132",
-        "HAMPTER_0402",
-        "HAMPTER_0354",
-        "HAMPTER_0384"
+        "HAMPTER_0152",
+        "HAMPTER_0354"
       ]
     },
     {
@@ -41153,9 +41030,9 @@
         "HAMPTER_0029",
         "HAMPTER_0063",
         "HAMPTER_0383",
-        "HAMPTER_0300",
         "HAMPTER_0014",
         "HAMPTER_0159",
+        "HAMPTER_0300",
         "HAMPTER_0148",
         "HAMPTER_0058"
       ]
@@ -41283,14 +41160,14 @@
       "similar_ids": [
         "HAMPTER_0392",
         "HAMPTER_0360",
-        "HAMPTER_0260",
         "HAMPTER_0340",
-        "HAMPTER_0378",
+        "HAMPTER_0260",
         "HAMPTER_0301",
-        "HAMPTER_0310",
-        "HAMPTER_0357",
+        "HAMPTER_0244",
+        "HAMPTER_0378",
         "HAMPTER_0353",
-        "HAMPTER_0218"
+        "HAMPTER_0310",
+        "HAMPTER_0367"
       ]
     },
     {
@@ -41390,16 +41267,16 @@
         "выбор"
       ],
       "similar_ids": [
+        "HAMPTER_0422",
+        "HAMPTER_0369",
         "HAMPTER_0117",
         "HAMPTER_0412",
-        "HAMPTER_0364",
-        "HAMPTER_0422",
         "HAMPTER_0427",
-        "HAMPTER_0369",
-        "HAMPTER_0235",
+        "HAMPTER_0308",
+        "HAMPTER_0305",
         "HAMPTER_0145",
-        "HAMPTER_0319",
-        "HAMPTER_0305"
+        "HAMPTER_0235",
+        "HAMPTER_0364"
       ]
     },
     {
@@ -41512,14 +41389,14 @@
       "similar_ids": [
         "HAMPTER_0307",
         "HAMPTER_0007",
+        "HAMPTER_0011",
         "HAMPTER_0098",
         "HAMPTER_0361",
         "HAMPTER_0326",
-        "HAMPTER_0011",
         "HAMPTER_0417",
-        "HAMPTER_0210",
         "HAMPTER_0372",
-        "HAMPTER_0393"
+        "HAMPTER_0210",
+        "HAMPTER_0135"
       ]
     },
     {
@@ -41627,13 +41504,13 @@
       ],
       "similar_ids": [
         "HAMPTER_0360",
+        "HAMPTER_0026",
+        "HAMPTER_0376",
+        "HAMPTER_0429",
+        "HAMPTER_0218",
         "HAMPTER_0195",
         "HAMPTER_0353",
-        "HAMPTER_0376",
         "HAMPTER_0047",
-        "HAMPTER_0218",
-        "HAMPTER_0429",
-        "HAMPTER_0026",
         "HAMPTER_0378",
         "HAMPTER_0358"
       ]
@@ -41750,11 +41627,11 @@
         "HAMPTER_0301",
         "HAMPTER_0353",
         "HAMPTER_0196",
-        "HAMPTER_0434",
         "HAMPTER_0458",
+        "HAMPTER_0434",
         "HAMPTER_0233",
         "HAMPTER_0358",
-        "HAMPTER_0306",
+        "HAMPTER_0360",
         "HAMPTER_0320"
       ]
     },
@@ -41861,13 +41738,13 @@
         "HAMPTER_0029",
         "HAMPTER_0336",
         "HAMPTER_0186",
+        "HAMPTER_0385",
         "HAMPTER_0363",
         "HAMPTER_0014",
-        "HAMPTER_0385",
-        "HAMPTER_0033",
-        "HAMPTER_0383",
         "HAMPTER_0064",
-        "HAMPTER_0199"
+        "HAMPTER_0383",
+        "HAMPTER_0199",
+        "HAMPTER_0159"
       ]
     },
     {
@@ -41978,13 +41855,13 @@
         "HAMPTER_0461",
         "HAMPTER_0052",
         "HAMPTER_0054",
+        "HAMPTER_0340",
         "HAMPTER_0208",
         "HAMPTER_0063",
-        "HAMPTER_0340",
+        "HAMPTER_0407",
         "HAMPTER_0399",
-        "HAMPTER_0045",
-        "HAMPTER_0200",
-        "HAMPTER_0118"
+        "HAMPTER_0353",
+        "HAMPTER_0192"
       ]
     },
     {
@@ -42101,12 +41978,12 @@
         "HAMPTER_0099",
         "HAMPTER_0081",
         "HAMPTER_0129",
-        "HAMPTER_0076",
         "HAMPTER_0102",
+        "HAMPTER_0076",
+        "HAMPTER_0101",
         "HAMPTER_0055",
         "HAMPTER_0347",
-        "HAMPTER_0101",
-        "HAMPTER_0137"
+        "HAMPTER_0160"
       ]
     },
     {
@@ -42216,13 +42093,13 @@
         "HAMPTER_0347",
         "HAMPTER_0433",
         "HAMPTER_0139",
-        "HAMPTER_0102",
-        "HAMPTER_0160",
         "HAMPTER_0089",
+        "HAMPTER_0160",
+        "HAMPTER_0102",
         "HAMPTER_0100",
-        "HAMPTER_0137",
         "HAMPTER_0346",
-        "HAMPTER_0081"
+        "HAMPTER_0110",
+        "HAMPTER_0325"
       ]
     },
     {
@@ -42333,15 +42210,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0433",
-        "HAMPTER_0412",
         "HAMPTER_0416",
-        "HAMPTER_0107",
-        "HAMPTER_0353",
-        "HAMPTER_0068",
+        "HAMPTER_0412",
         "HAMPTER_0340",
         "HAMPTER_0345",
-        "HAMPTER_0160",
-        "HAMPTER_0180"
+        "HAMPTER_0068",
+        "HAMPTER_0107",
+        "HAMPTER_0201",
+        "HAMPTER_0353",
+        "HAMPTER_0067"
       ]
     },
     {
@@ -42442,15 +42319,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0345",
-        "HAMPTER_0102",
         "HAMPTER_0433",
+        "HAMPTER_0102",
         "HAMPTER_0153",
         "HAMPTER_0081",
-        "HAMPTER_0139",
-        "HAMPTER_0101",
         "HAMPTER_0160",
+        "HAMPTER_0139",
         "HAMPTER_0133",
-        "HAMPTER_0100"
+        "HAMPTER_0101",
+        "HAMPTER_0344"
       ]
     },
     {
@@ -42562,12 +42439,12 @@
         "HAMPTER_0018",
         "HAMPTER_0033",
         "HAMPTER_0198",
-        "HAMPTER_0002",
-        "HAMPTER_0206",
+        "HAMPTER_0036",
+        "HAMPTER_0405",
         "HAMPTER_0303",
-        "HAMPTER_0333",
         "HAMPTER_0229",
-        "HAMPTER_0405"
+        "HAMPTER_0002",
+        "HAMPTER_0025"
       ]
     },
     {
@@ -42679,16 +42556,16 @@
         "concept_shy"
       ],
       "similar_ids": [
-        "HAMPTER_0240",
-        "HAMPTER_0302",
         "HAMPTER_0171",
-        "HAMPTER_0176",
-        "HAMPTER_0314",
+        "HAMPTER_0302",
+        "HAMPTER_0240",
         "HAMPTER_0220",
-        "HAMPTER_0224",
+        "HAMPTER_0314",
         "HAMPTER_0234",
-        "HAMPTER_0353",
-        "HAMPTER_0286"
+        "HAMPTER_0286",
+        "HAMPTER_0176",
+        "HAMPTER_0310",
+        "HAMPTER_0183"
       ]
     },
     {
@@ -42792,10 +42669,10 @@
         "HAMPTER_0294",
         "HAMPTER_0095",
         "HAMPTER_0010",
-        "HAMPTER_0258",
+        "HAMPTER_0326",
         "HAMPTER_0186",
-        "HAMPTER_0402",
-        "HAMPTER_0385"
+        "HAMPTER_0258",
+        "HAMPTER_0268"
       ]
     },
     {
@@ -42901,15 +42778,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0282",
-        "HAMPTER_0368",
-        "HAMPTER_0247",
-        "HAMPTER_0089",
-        "HAMPTER_0240",
-        "HAMPTER_0171",
-        "HAMPTER_0141",
-        "HAMPTER_0176",
         "HAMPTER_0161",
-        "HAMPTER_0207"
+        "HAMPTER_0247",
+        "HAMPTER_0368",
+        "HAMPTER_0171",
+        "HAMPTER_0200",
+        "HAMPTER_0089",
+        "HAMPTER_0242",
+        "HAMPTER_0234",
+        "HAMPTER_0413"
       ]
     },
     {
@@ -43016,16 +42893,16 @@
         "concept_shock"
       ],
       "similar_ids": [
+        "HAMPTER_0257",
         "HAMPTER_0217",
         "HAMPTER_0404",
-        "HAMPTER_0257",
         "HAMPTER_0405",
         "HAMPTER_0410",
         "HAMPTER_0077",
         "HAMPTER_0210",
-        "HAMPTER_0384",
+        "HAMPTER_0226",
         "HAMPTER_0004",
-        "HAMPTER_0062"
+        "HAMPTER_0163"
       ]
     },
     {
@@ -43136,15 +43013,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0257",
+        "HAMPTER_0341",
         "HAMPTER_0340",
         "HAMPTER_0358",
-        "HAMPTER_0341",
         "HAMPTER_0301",
         "HAMPTER_0195",
         "HAMPTER_0360",
         "HAMPTER_0434",
-        "HAMPTER_0349",
-        "HAMPTER_0047"
+        "HAMPTER_0217",
+        "HAMPTER_0352"
       ]
     },
     {
@@ -43258,16 +43135,16 @@
         "concept_teeth"
       ],
       "similar_ids": [
-        "HAMPTER_0425",
         "HAMPTER_0075",
+        "HAMPTER_0425",
         "HAMPTER_0043",
-        "HAMPTER_0384",
-        "HAMPTER_0132",
-        "HAMPTER_0278",
-        "HAMPTER_0291",
         "HAMPTER_0267",
+        "HAMPTER_0132",
+        "HAMPTER_0384",
+        "HAMPTER_0278",
         "HAMPTER_0341",
-        "HAMPTER_0270"
+        "HAMPTER_0291",
+        "HAMPTER_0217"
       ]
     },
     {
@@ -43405,14 +43282,14 @@
       "similar_ids": [
         "HAMPTER_0318",
         "HAMPTER_0219",
-        "HAMPTER_0032",
         "HAMPTER_0439",
+        "HAMPTER_0032",
         "HAMPTER_0250",
         "HAMPTER_0210",
         "HAMPTER_0304",
-        "HAMPTER_0358",
-        "HAMPTER_0214",
-        "HAMPTER_0273"
+        "HAMPTER_0273",
+        "HAMPTER_0025",
+        "HAMPTER_0177"
       ]
     },
     {
@@ -43527,15 +43404,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0162",
-        "HAMPTER_0274",
         "HAMPTER_0402",
-        "HAMPTER_0220",
+        "HAMPTER_0274",
         "HAMPTER_0244",
+        "HAMPTER_0220",
         "HAMPTER_0312",
-        "HAMPTER_0410",
         "HAMPTER_0229",
-        "HAMPTER_0348",
-        "HAMPTER_0333"
+        "HAMPTER_0410",
+        "HAMPTER_0303",
+        "HAMPTER_0437"
       ]
     },
     {
@@ -43652,14 +43529,14 @@
       "similar_ids": [
         "HAMPTER_0293",
         "HAMPTER_0134",
-        "HAMPTER_0249",
         "HAMPTER_0295",
         "HAMPTER_0197",
+        "HAMPTER_0249",
         "HAMPTER_0077",
-        "HAMPTER_0083",
-        "HAMPTER_0337",
         "HAMPTER_0320",
-        "HAMPTER_0139"
+        "HAMPTER_0027",
+        "HAMPTER_0191",
+        "HAMPTER_0083"
       ]
     },
     {
@@ -43776,8 +43653,8 @@
         "HAMPTER_0429",
         "HAMPTER_0353",
         "HAMPTER_0365",
-        "HAMPTER_0301",
         "HAMPTER_0340",
+        "HAMPTER_0301",
         "HAMPTER_0026",
         "HAMPTER_0341"
       ]
@@ -43880,12 +43757,12 @@
         "HAMPTER_0403",
         "HAMPTER_0374",
         "HAMPTER_0329",
-        "HAMPTER_0245",
         "HAMPTER_0146",
+        "HAMPTER_0245",
         "HAMPTER_0393",
         "HAMPTER_0262",
         "HAMPTER_0320",
-        "HAMPTER_0077",
+        "HAMPTER_0057",
         "HAMPTER_0307"
       ]
     },
@@ -43999,15 +43876,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0340",
-        "HAMPTER_0358",
-        "HAMPTER_0026",
-        "HAMPTER_0376",
         "HAMPTER_0365",
+        "HAMPTER_0026",
+        "HAMPTER_0358",
+        "HAMPTER_0376",
         "HAMPTER_0392",
-        "HAMPTER_0233",
-        "HAMPTER_0337",
         "HAMPTER_0218",
-        "HAMPTER_0195"
+        "HAMPTER_0429",
+        "HAMPTER_0233",
+        "HAMPTER_0337"
       ]
     },
     {
@@ -44120,12 +43997,12 @@
         "HAMPTER_0320",
         "HAMPTER_0301",
         "HAMPTER_0307",
-        "HAMPTER_0403",
         "HAMPTER_0326",
         "HAMPTER_0021",
-        "HAMPTER_0023",
+        "HAMPTER_0403",
+        "HAMPTER_0040",
         "HAMPTER_0393",
-        "HAMPTER_0047"
+        "HAMPTER_0023"
       ]
     },
     {
@@ -44227,14 +44104,14 @@
       "similar_ids": [
         "HAMPTER_0258",
         "HAMPTER_0113",
-        "HAMPTER_0045",
+        "HAMPTER_0141",
         "HAMPTER_0109",
-        "HAMPTER_0261",
-        "HAMPTER_0377",
-        "HAMPTER_0252",
-        "HAMPTER_0189",
+        "HAMPTER_0045",
+        "HAMPTER_0151",
         "HAMPTER_0166",
-        "HAMPTER_0151"
+        "HAMPTER_0436",
+        "HAMPTER_0122",
+        "HAMPTER_0377"
       ]
     },
     {
@@ -44339,13 +44216,13 @@
         "HAMPTER_0014",
         "HAMPTER_0336",
         "HAMPTER_0159",
-        "HAMPTER_0342",
         "HAMPTER_0058",
-        "HAMPTER_0063",
         "HAMPTER_0383",
-        "HAMPTER_0098",
+        "HAMPTER_0063",
+        "HAMPTER_0342",
         "HAMPTER_0029",
-        "HAMPTER_0064"
+        "HAMPTER_0064",
+        "HAMPTER_0300"
       ]
     },
     {
@@ -44459,14 +44336,14 @@
       "similar_ids": [
         "HAMPTER_0394",
         "HAMPTER_0286",
-        "HAMPTER_0046",
         "HAMPTER_0079",
-        "HAMPTER_0338",
-        "HAMPTER_0282",
-        "HAMPTER_0369",
-        "HAMPTER_0328",
+        "HAMPTER_0046",
         "HAMPTER_0407",
-        "HAMPTER_0235"
+        "HAMPTER_0328",
+        "HAMPTER_0282",
+        "HAMPTER_0401",
+        "HAMPTER_0254",
+        "HAMPTER_0299"
       ]
     },
     {
@@ -44572,13 +44449,13 @@
         "HAMPTER_0429",
         "HAMPTER_0026",
         "HAMPTER_0360",
-        "HAMPTER_0233",
         "HAMPTER_0095",
+        "HAMPTER_0233",
         "HAMPTER_0358",
-        "HAMPTER_0424",
         "HAMPTER_0376",
+        "HAMPTER_0340",
         "HAMPTER_0218",
-        "HAMPTER_0390"
+        "HAMPTER_0424"
       ]
     },
     {
@@ -44689,13 +44566,13 @@
         "HAMPTER_0424",
         "HAMPTER_0423",
         "HAMPTER_0074",
-        "HAMPTER_0161",
         "HAMPTER_0167",
+        "HAMPTER_0161",
         "HAMPTER_0409",
-        "HAMPTER_0242",
         "HAMPTER_0441",
         "HAMPTER_0312",
-        "HAMPTER_0080"
+        "HAMPTER_0080",
+        "HAMPTER_0242"
       ]
     },
     {
@@ -44809,15 +44686,15 @@
         "concept_drool"
       ],
       "similar_ids": [
-        "HAMPTER_0039",
         "HAMPTER_0398",
-        "HAMPTER_0399",
+        "HAMPTER_0039",
         "HAMPTER_0123",
+        "HAMPTER_0399",
+        "HAMPTER_0168",
         "HAMPTER_0287",
         "HAMPTER_0034",
-        "HAMPTER_0168",
-        "HAMPTER_0260",
         "HAMPTER_0052",
+        "HAMPTER_0260",
         "HAMPTER_0030"
       ]
     },
@@ -44918,16 +44795,16 @@
         "concept_calm"
       ],
       "similar_ids": [
-        "HAMPTER_0351",
-        "HAMPTER_0078",
         "HAMPTER_0125",
-        "HAMPTER_0418",
         "HAMPTER_0200",
-        "HAMPTER_0118",
-        "HAMPTER_0085",
-        "HAMPTER_0296",
+        "HAMPTER_0140",
         "HAMPTER_0427",
-        "HAMPTER_0376"
+        "HAMPTER_0351",
+        "HAMPTER_0296",
+        "HAMPTER_0376",
+        "HAMPTER_0078",
+        "HAMPTER_0418",
+        "HAMPTER_0026"
       ]
     },
     {
@@ -45035,15 +44912,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0316",
-        "HAMPTER_0145",
+        "HAMPTER_0173",
         "HAMPTER_0327",
         "HAMPTER_0105",
-        "HAMPTER_0173",
-        "HAMPTER_0412",
-        "HAMPTER_0364",
-        "HAMPTER_0108",
+        "HAMPTER_0145",
         "HAMPTER_0338",
-        "HAMPTER_0427"
+        "HAMPTER_0412",
+        "HAMPTER_0308",
+        "HAMPTER_0427",
+        "HAMPTER_0422"
       ]
     },
     {
@@ -45157,15 +45034,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0050",
-        "HAMPTER_0382",
         "HAMPTER_0153",
-        "HAMPTER_0046",
         "HAMPTER_0264",
+        "HAMPTER_0382",
+        "HAMPTER_0046",
         "HAMPTER_0007",
         "HAMPTER_0433",
-        "HAMPTER_0111",
-        "HAMPTER_0295",
-        "HAMPTER_0057"
+        "HAMPTER_0057",
+        "HAMPTER_0408",
+        "HAMPTER_0111"
       ]
     },
     {
@@ -45276,12 +45153,12 @@
         "HAMPTER_0395",
         "HAMPTER_0256",
         "HAMPTER_0428",
-        "HAMPTER_0255",
         "HAMPTER_0210",
-        "HAMPTER_0090",
+        "HAMPTER_0255",
         "HAMPTER_0202",
-        "HAMPTER_0400",
-        "HAMPTER_0188"
+        "HAMPTER_0188",
+        "HAMPTER_0090",
+        "HAMPTER_0400"
       ]
     },
     {
@@ -45387,13 +45264,13 @@
         "concept_brow"
       ],
       "similar_ids": [
-        "HAMPTER_0058",
         "HAMPTER_0408",
+        "HAMPTER_0058",
         "HAMPTER_0061",
         "HAMPTER_0413",
         "HAMPTER_0335",
-        "HAMPTER_0446",
         "HAMPTER_0057",
+        "HAMPTER_0446",
         "HAMPTER_0428",
         "HAMPTER_0339",
         "HAMPTER_0307"
@@ -45513,11 +45390,11 @@
         "HAMPTER_0263",
         "HAMPTER_0317",
         "HAMPTER_0259",
-        "HAMPTER_0084",
         "HAMPTER_0306",
-        "HAMPTER_0421",
-        "HAMPTER_0321",
-        "HAMPTER_0115"
+        "HAMPTER_0127",
+        "HAMPTER_0084",
+        "HAMPTER_0396",
+        "HAMPTER_0297"
       ]
     },
     {
@@ -45631,9 +45508,9 @@
         "HAMPTER_0245",
         "HAMPTER_0393",
         "HAMPTER_0244",
-        "HAMPTER_0341",
-        "HAMPTER_0262",
-        "HAMPTER_0193"
+        "HAMPTER_0193",
+        "HAMPTER_0337",
+        "HAMPTER_0320"
       ]
     },
     {
@@ -45747,15 +45624,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0404",
-        "HAMPTER_0381",
         "HAMPTER_0405",
+        "HAMPTER_0381",
         "HAMPTER_0212",
         "HAMPTER_0015",
         "HAMPTER_0150",
         "HAMPTER_0330",
         "HAMPTER_0320",
-        "HAMPTER_0104",
-        "HAMPTER_0226"
+        "HAMPTER_0386",
+        "HAMPTER_0104"
       ]
     },
     {
@@ -45863,13 +45740,13 @@
       ],
       "similar_ids": [
         "HAMPTER_0026",
+        "HAMPTER_0340",
         "HAMPTER_0095",
         "HAMPTER_0360",
-        "HAMPTER_0340",
-        "HAMPTER_0078",
-        "HAMPTER_0424",
         "HAMPTER_0429",
+        "HAMPTER_0078",
         "HAMPTER_0365",
+        "HAMPTER_0424",
         "HAMPTER_0262",
         "HAMPTER_0427"
       ]
@@ -45973,15 +45850,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0174",
-        "HAMPTER_0362",
-        "HAMPTER_0141",
-        "HAMPTER_0129",
+        "HAMPTER_0422",
         "HAMPTER_0040",
-        "HAMPTER_0109",
         "HAMPTER_0002",
-        "HAMPTER_0006",
-        "HAMPTER_0166",
-        "HAMPTER_0385"
+        "HAMPTER_0190",
+        "HAMPTER_0048",
+        "HAMPTER_0047",
+        "HAMPTER_0172",
+        "HAMPTER_0254",
+        "HAMPTER_0184"
       ]
     },
     {
@@ -46087,15 +45964,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0411",
-        "HAMPTER_0244",
         "HAMPTER_0340",
+        "HAMPTER_0244",
         "HAMPTER_0263",
-        "HAMPTER_0301",
-        "HAMPTER_0259",
         "HAMPTER_0218",
+        "HAMPTER_0259",
+        "HAMPTER_0301",
         "HAMPTER_0392",
-        "HAMPTER_0337",
-        "HAMPTER_0353"
+        "HAMPTER_0457",
+        "HAMPTER_0337"
       ]
     },
     {
@@ -46210,9 +46087,9 @@
         "HAMPTER_0295",
         "HAMPTER_0314",
         "HAMPTER_0110",
+        "HAMPTER_0296",
         "HAMPTER_0248",
-        "HAMPTER_0332",
-        "HAMPTER_0296"
+        "HAMPTER_0332"
       ]
     },
     {
@@ -46320,16 +46197,16 @@
         "concept_profile"
       ],
       "similar_ids": [
-        "HAMPTER_0310",
-        "HAMPTER_0149",
         "HAMPTER_0313",
         "HAMPTER_0027",
-        "HAMPTER_0283",
+        "HAMPTER_0149",
+        "HAMPTER_0310",
         "HAMPTER_0311",
         "HAMPTER_0250",
+        "HAMPTER_0283",
         "HAMPTER_0294",
         "HAMPTER_0073",
-        "HAMPTER_0228"
+        "HAMPTER_0089"
       ]
     },
     {
@@ -46445,14 +46322,14 @@
       "similar_ids": [
         "HAMPTER_0375",
         "HAMPTER_0405",
+        "HAMPTER_0390",
         "HAMPTER_0037",
         "HAMPTER_0074",
-        "HAMPTER_0390",
         "HAMPTER_0404",
         "HAMPTER_0212",
         "HAMPTER_0330",
-        "HAMPTER_0226",
-        "HAMPTER_0423"
+        "HAMPTER_0423",
+        "HAMPTER_0226"
       ]
     },
     {
@@ -46563,10 +46440,10 @@
         "HAMPTER_0373",
         "HAMPTER_0127",
         "HAMPTER_0370",
+        "HAMPTER_0325",
+        "HAMPTER_0421",
         "HAMPTER_0154",
-        "HAMPTER_0086",
-        "HAMPTER_0131",
-        "HAMPTER_0421"
+        "HAMPTER_0317"
       ]
     },
     {
@@ -46676,14 +46553,14 @@
       "similar_ids": [
         "HAMPTER_0336",
         "HAMPTER_0363",
-        "HAMPTER_0332",
         "HAMPTER_0063",
-        "HAMPTER_0342",
-        "HAMPTER_0014",
+        "HAMPTER_0332",
         "HAMPTER_0300",
+        "HAMPTER_0148",
         "HAMPTER_0199",
         "HAMPTER_0159",
-        "HAMPTER_0148"
+        "HAMPTER_0014",
+        "HAMPTER_0342"
       ]
     },
     {
@@ -46795,16 +46672,16 @@
         "concept_shadow"
       ],
       "similar_ids": [
-        "HAMPTER_0352",
-        "HAMPTER_0267",
-        "HAMPTER_0354",
         "HAMPTER_0217",
         "HAMPTER_0428",
+        "HAMPTER_0353",
+        "HAMPTER_0354",
+        "HAMPTER_0267",
         "HAMPTER_0075",
         "HAMPTER_0405",
-        "HAMPTER_0341",
-        "HAMPTER_0004",
-        "HAMPTER_0229"
+        "HAMPTER_0294",
+        "HAMPTER_0210",
+        "HAMPTER_0352"
       ]
     },
     {
@@ -46909,12 +46786,12 @@
         "HAMPTER_0190",
         "HAMPTER_0342",
         "HAMPTER_0415",
-        "HAMPTER_0422",
         "HAMPTER_0237",
-        "HAMPTER_0377",
-        "HAMPTER_0033",
-        "HAMPTER_0350",
-        "HAMPTER_0016"
+        "HAMPTER_0422",
+        "HAMPTER_0402",
+        "HAMPTER_0208",
+        "HAMPTER_0372",
+        "HAMPTER_0191"
       ]
     },
     {
@@ -47028,9 +46905,9 @@
         "HAMPTER_0257",
         "HAMPTER_0301",
         "HAMPTER_0410",
-        "HAMPTER_0352",
         "HAMPTER_0375",
         "HAMPTER_0404",
+        "HAMPTER_0352",
         "HAMPTER_0063"
       ]
     },
@@ -47145,13 +47022,13 @@
         "HAMPTER_0319",
         "HAMPTER_0421",
         "HAMPTER_0306",
-        "HAMPTER_0127",
-        "HAMPTER_0059",
-        "HAMPTER_0396",
         "HAMPTER_0416",
-        "HAMPTER_0261",
+        "HAMPTER_0059",
+        "HAMPTER_0127",
         "HAMPTER_0439",
-        "HAMPTER_0082"
+        "HAMPTER_0396",
+        "HAMPTER_0261",
+        "HAMPTER_0317"
       ]
     },
     {
@@ -47267,12 +47144,12 @@
         "HAMPTER_0281",
         "HAMPTER_0283",
         "HAMPTER_0266",
-        "HAMPTER_0293",
         "HAMPTER_0285",
-        "HAMPTER_0050",
-        "HAMPTER_0282",
+        "HAMPTER_0293",
         "HAMPTER_0297",
-        "HAMPTER_0042"
+        "HAMPTER_0265",
+        "HAMPTER_0282",
+        "HAMPTER_0050"
       ]
     },
     {
@@ -47388,12 +47265,12 @@
         "HAMPTER_0388",
         "HAMPTER_0281",
         "HAMPTER_0283",
-        "HAMPTER_0050",
-        "HAMPTER_0200",
         "HAMPTER_0266",
         "HAMPTER_0145",
-        "HAMPTER_0293",
+        "HAMPTER_0050",
         "HAMPTER_0297",
+        "HAMPTER_0293",
+        "HAMPTER_0285",
         "HAMPTER_0282"
       ]
     },
@@ -47500,13 +47377,13 @@
         "HAMPTER_0429",
         "HAMPTER_0381",
         "HAMPTER_0074",
-        "HAMPTER_0002",
-        "HAMPTER_0375",
-        "HAMPTER_0045",
-        "HAMPTER_0365",
         "HAMPTER_0423",
+        "HAMPTER_0375",
+        "HAMPTER_0365",
+        "HAMPTER_0046",
         "HAMPTER_0268",
-        "HAMPTER_0028"
+        "HAMPTER_0002",
+        "HAMPTER_0267"
       ]
     },
     {
@@ -47640,12 +47517,12 @@
         "HAMPTER_0112",
         "HAMPTER_0157",
         "HAMPTER_0333",
-        "HAMPTER_0275",
-        "HAMPTER_0267",
-        "HAMPTER_0096",
         "HAMPTER_0129",
-        "HAMPTER_0161",
-        "HAMPTER_0269"
+        "HAMPTER_0275",
+        "HAMPTER_0096",
+        "HAMPTER_0267",
+        "HAMPTER_0295",
+        "HAMPTER_0140"
       ]
     },
     {
@@ -47761,13 +47638,13 @@
         "HAMPTER_0337",
         "HAMPTER_0360",
         "HAMPTER_0255",
-        "HAMPTER_0436",
         "HAMPTER_0340",
         "HAMPTER_0378",
+        "HAMPTER_0436",
         "HAMPTER_0260",
-        "HAMPTER_0376",
-        "HAMPTER_0317",
-        "HAMPTER_0192"
+        "HAMPTER_0192",
+        "HAMPTER_0218",
+        "HAMPTER_0376"
       ]
     },
     {
@@ -47875,15 +47752,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0329",
-        "HAMPTER_0359",
         "HAMPTER_0374",
         "HAMPTER_0307",
-        "HAMPTER_0326",
+        "HAMPTER_0359",
         "HAMPTER_0005",
+        "HAMPTER_0326",
         "HAMPTER_0361",
-        "HAMPTER_0339",
-        "HAMPTER_0372",
-        "HAMPTER_0146"
+        "HAMPTER_0426",
+        "HAMPTER_0335",
+        "HAMPTER_0219"
       ]
     },
     {
@@ -48002,14 +47879,14 @@
       "similar_ids": [
         "HAMPTER_0286",
         "HAMPTER_0079",
-        "HAMPTER_0282",
         "HAMPTER_0407",
-        "HAMPTER_0401",
+        "HAMPTER_0282",
         "HAMPTER_0364",
         "HAMPTER_0125",
+        "HAMPTER_0401",
         "HAMPTER_0438",
         "HAMPTER_0078",
-        "HAMPTER_0200"
+        "HAMPTER_0441"
       ]
     },
     {
@@ -48237,14 +48114,14 @@
       "similar_ids": [
         "HAMPTER_0297",
         "HAMPTER_0108",
-        "HAMPTER_0421",
         "HAMPTER_0105",
-        "HAMPTER_0059",
+        "HAMPTER_0421",
         "HAMPTER_0317",
         "HAMPTER_0306",
-        "HAMPTER_0127",
+        "HAMPTER_0059",
         "HAMPTER_0373",
-        "HAMPTER_0387"
+        "HAMPTER_0149",
+        "HAMPTER_0079"
       ]
     },
     {
@@ -48354,16 +48231,16 @@
         "concept_thinking"
       ],
       "similar_ids": [
-        "HAMPTER_0009",
         "HAMPTER_0419",
+        "HAMPTER_0009",
         "HAMPTER_0305",
-        "HAMPTER_0203",
         "HAMPTER_0234",
+        "HAMPTER_0203",
+        "HAMPTER_0132",
         "HAMPTER_0151",
-        "HAMPTER_0439",
-        "HAMPTER_0113",
         "HAMPTER_0058",
-        "HAMPTER_0132"
+        "HAMPTER_0113",
+        "HAMPTER_0440"
       ]
     },
     {
@@ -48473,16 +48350,16 @@
         "concept_drool"
       ],
       "similar_ids": [
-        "HAMPTER_0039",
         "HAMPTER_0399",
+        "HAMPTER_0039",
         "HAMPTER_0367",
-        "HAMPTER_0052",
         "HAMPTER_0030",
-        "HAMPTER_0168",
+        "HAMPTER_0052",
         "HAMPTER_0202",
+        "HAMPTER_0168",
         "HAMPTER_0123",
         "HAMPTER_0400",
-        "HAMPTER_0034"
+        "HAMPTER_0452"
       ]
     },
     {
@@ -48589,11 +48466,11 @@
         "HAMPTER_0398",
         "HAMPTER_0039",
         "HAMPTER_0202",
-        "HAMPTER_0123",
         "HAMPTER_0367",
+        "HAMPTER_0123",
         "HAMPTER_0168",
         "HAMPTER_0034",
-        "HAMPTER_0452"
+        "HAMPTER_0287"
       ]
     },
     {
@@ -48715,11 +48592,11 @@
         "HAMPTER_0202",
         "HAMPTER_0452",
         "HAMPTER_0039",
-        "HAMPTER_0003",
         "HAMPTER_0090",
-        "HAMPTER_0399",
         "HAMPTER_0004",
+        "HAMPTER_0003",
         "HAMPTER_0225",
+        "HAMPTER_0399",
         "HAMPTER_0398",
         "HAMPTER_0371"
       ]
@@ -48834,15 +48711,15 @@
         "concept_party"
       ],
       "similar_ids": [
-        "HAMPTER_0286",
         "HAMPTER_0079",
+        "HAMPTER_0286",
         "HAMPTER_0108",
-        "HAMPTER_0394",
         "HAMPTER_0265",
-        "HAMPTER_0282",
         "HAMPTER_0251",
-        "HAMPTER_0285",
+        "HAMPTER_0394",
         "HAMPTER_0407",
+        "HAMPTER_0282",
+        "HAMPTER_0285",
         "HAMPTER_0293"
       ]
     },
@@ -48950,14 +48827,14 @@
       "similar_ids": [
         "HAMPTER_0348",
         "HAMPTER_0356",
-        "HAMPTER_0206",
         "HAMPTER_0413",
         "HAMPTER_0229",
+        "HAMPTER_0385",
+        "HAMPTER_0257",
+        "HAMPTER_0058",
         "HAMPTER_0372",
-        "HAMPTER_0033",
-        "HAMPTER_0212",
         "HAMPTER_0303",
-        "HAMPTER_0393"
+        "HAMPTER_0206"
       ]
     },
     {
@@ -49076,16 +48953,16 @@
         "concept_teeth"
       ],
       "similar_ids": [
-        "HAMPTER_0359",
         "HAMPTER_0320",
+        "HAMPTER_0359",
         "HAMPTER_0374",
         "HAMPTER_0329",
-        "HAMPTER_0361",
-        "HAMPTER_0146",
         "HAMPTER_0245",
+        "HAMPTER_0146",
+        "HAMPTER_0361",
         "HAMPTER_0262",
-        "HAMPTER_0373",
-        "HAMPTER_0339"
+        "HAMPTER_0339",
+        "HAMPTER_0411"
       ]
     },
     {
@@ -49197,13 +49074,13 @@
         "HAMPTER_0405",
         "HAMPTER_0375",
         "HAMPTER_0352",
-        "HAMPTER_0212",
         "HAMPTER_0381",
+        "HAMPTER_0212",
         "HAMPTER_0077",
         "HAMPTER_0330",
         "HAMPTER_0015",
-        "HAMPTER_0104",
-        "HAMPTER_0341"
+        "HAMPTER_0257",
+        "HAMPTER_0150"
       ]
     },
     {
@@ -49318,8 +49195,8 @@
         "HAMPTER_0375",
         "HAMPTER_0330",
         "HAMPTER_0381",
-        "HAMPTER_0077",
         "HAMPTER_0352",
+        "HAMPTER_0077",
         "HAMPTER_0463",
         "HAMPTER_0104",
         "HAMPTER_0212",
@@ -49476,13 +49353,13 @@
         "HAMPTER_0083",
         "HAMPTER_0024",
         "HAMPTER_0098",
-        "HAMPTER_0459",
         "HAMPTER_0416",
+        "HAMPTER_0459",
         "HAMPTER_0395",
-        "HAMPTER_0058",
-        "HAMPTER_0127",
         "HAMPTER_0371",
-        "HAMPTER_0333"
+        "HAMPTER_0058",
+        "HAMPTER_0339",
+        "HAMPTER_0348"
       ]
     },
     {
@@ -49605,12 +49482,12 @@
         "HAMPTER_0394",
         "HAMPTER_0401",
         "HAMPTER_0286",
+        "HAMPTER_0125",
         "HAMPTER_0282",
         "HAMPTER_0089",
-        "HAMPTER_0125",
-        "HAMPTER_0108",
         "HAMPTER_0364",
-        "HAMPTER_0250"
+        "HAMPTER_0108",
+        "HAMPTER_0285"
       ]
     },
     {
@@ -49717,11 +49594,11 @@
         "HAMPTER_0057",
         "HAMPTER_0061",
         "HAMPTER_0413",
-        "HAMPTER_0335",
         "HAMPTER_0446",
-        "HAMPTER_0209",
+        "HAMPTER_0335",
         "HAMPTER_0370",
-        "HAMPTER_0256"
+        "HAMPTER_0256",
+        "HAMPTER_0209"
       ]
     },
     {
@@ -49827,11 +49704,11 @@
         "HAMPTER_0423",
         "HAMPTER_0424",
         "HAMPTER_0366",
-        "HAMPTER_0316",
-        "HAMPTER_0167",
         "HAMPTER_0245",
         "HAMPTER_0010",
         "HAMPTER_0123",
+        "HAMPTER_0410",
+        "HAMPTER_0316",
         "HAMPTER_0082"
       ]
     },
@@ -49942,12 +49819,12 @@
         "HAMPTER_0123",
         "HAMPTER_0352",
         "HAMPTER_0386",
+        "HAMPTER_0226",
+        "HAMPTER_0301",
         "HAMPTER_0150",
-        "HAMPTER_0217",
-        "HAMPTER_0300",
-        "HAMPTER_0356",
-        "HAMPTER_0063",
-        "HAMPTER_0015"
+        "HAMPTER_0015",
+        "HAMPTER_0245",
+        "HAMPTER_0220"
       ]
     },
     {
@@ -50063,15 +49940,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0259",
-        "HAMPTER_0378",
         "HAMPTER_0151",
+        "HAMPTER_0378",
         "HAMPTER_0457",
         "HAMPTER_0263",
-        "HAMPTER_0058",
         "HAMPTER_0265",
+        "HAMPTER_0058",
         "HAMPTER_0373",
-        "HAMPTER_0156",
-        "HAMPTER_0098"
+        "HAMPTER_0098",
+        "HAMPTER_0156"
       ]
     },
     {
@@ -50187,15 +50064,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0072",
-        "HAMPTER_0308",
         "HAMPTER_0107",
-        "HAMPTER_0187",
-        "HAMPTER_0338",
-        "HAMPTER_0369",
+        "HAMPTER_0308",
         "HAMPTER_0289",
-        "HAMPTER_0346",
+        "HAMPTER_0227",
+        "HAMPTER_0187",
         "HAMPTER_0271",
-        "HAMPTER_0302"
+        "HAMPTER_0214",
+        "HAMPTER_0302",
+        "HAMPTER_0369"
       ]
     },
     {
@@ -50305,12 +50182,12 @@
         "HAMPTER_0065",
         "HAMPTER_0284",
         "HAMPTER_0288",
-        "HAMPTER_0372",
         "HAMPTER_0072",
+        "HAMPTER_0372",
         "HAMPTER_0402",
         "HAMPTER_0408",
         "HAMPTER_0061",
-        "HAMPTER_0042"
+        "HAMPTER_0351"
       ]
     },
     {
@@ -50441,10 +50318,10 @@
         "HAMPTER_0121",
         "HAMPTER_0051",
         "HAMPTER_0432",
-        "HAMPTER_0293",
-        "HAMPTER_0082",
         "HAMPTER_0308",
-        "HAMPTER_0166"
+        "HAMPTER_0082",
+        "HAMPTER_0293",
+        "HAMPTER_0002"
       ]
     },
     {
@@ -50558,10 +50435,10 @@
         "HAMPTER_0235",
         "HAMPTER_0237",
         "HAMPTER_0210",
-        "HAMPTER_0199",
+        "HAMPTER_0281",
         "HAMPTER_0207",
         "HAMPTER_0227",
-        "HAMPTER_0191"
+        "HAMPTER_0199"
       ]
     },
     {
@@ -50667,15 +50544,15 @@
         "concept_glasses"
       ],
       "similar_ids": [
-        "HAMPTER_0201",
         "HAMPTER_0083",
-        "HAMPTER_0127",
+        "HAMPTER_0387",
         "HAMPTER_0406",
         "HAMPTER_0439",
+        "HAMPTER_0127",
         "HAMPTER_0059",
-        "HAMPTER_0387",
-        "HAMPTER_0147",
-        "HAMPTER_0421",
+        "HAMPTER_0203",
+        "HAMPTER_0346",
+        "HAMPTER_0201",
         "HAMPTER_0317"
       ]
     },
@@ -50777,16 +50654,16 @@
         "concept_devil"
       ],
       "similar_ids": [
+        "HAMPTER_0339",
         "HAMPTER_0257",
         "HAMPTER_0460",
-        "HAMPTER_0339",
-        "HAMPTER_0228",
-        "HAMPTER_0011",
-        "HAMPTER_0361",
         "HAMPTER_0307",
+        "HAMPTER_0011",
+        "HAMPTER_0228",
         "HAMPTER_0326",
-        "HAMPTER_0044",
-        "HAMPTER_0163"
+        "HAMPTER_0241",
+        "HAMPTER_0361",
+        "HAMPTER_0067"
       ]
     },
     {
@@ -50889,15 +50766,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0085",
-        "HAMPTER_0140",
         "HAMPTER_0368",
-        "HAMPTER_0441",
+        "HAMPTER_0296",
         "HAMPTER_0078",
+        "HAMPTER_0140",
+        "HAMPTER_0441",
+        "HAMPTER_0331",
         "HAMPTER_0427",
-        "HAMPTER_0340",
-        "HAMPTER_0113",
-        "HAMPTER_0118",
-        "HAMPTER_0175"
+        "HAMPTER_0394",
+        "HAMPTER_0340"
       ]
     },
     {
@@ -50997,9 +50874,9 @@
         "HAMPTER_0009",
         "HAMPTER_0305",
         "HAMPTER_0060",
-        "HAMPTER_0144",
-        "HAMPTER_0084",
         "HAMPTER_0397",
+        "HAMPTER_0084",
+        "HAMPTER_0144",
         "HAMPTER_0115",
         "HAMPTER_0135",
         "HAMPTER_0093",
@@ -51112,14 +50989,14 @@
       "similar_ids": [
         "HAMPTER_0253",
         "HAMPTER_0142",
-        "HAMPTER_0141",
-        "HAMPTER_0143",
-        "HAMPTER_0422",
-        "HAMPTER_0338",
-        "HAMPTER_0172",
         "HAMPTER_0082",
-        "HAMPTER_0174",
-        "HAMPTER_0377"
+        "HAMPTER_0143",
+        "HAMPTER_0393",
+        "HAMPTER_0422",
+        "HAMPTER_0397",
+        "HAMPTER_0076",
+        "HAMPTER_0169",
+        "HAMPTER_0138"
       ]
     },
     {
@@ -51223,15 +51100,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0306",
-        "HAMPTER_0059",
         "HAMPTER_0387",
-        "HAMPTER_0127",
         "HAMPTER_0317",
         "HAMPTER_0396",
+        "HAMPTER_0059",
+        "HAMPTER_0127",
         "HAMPTER_0297",
         "HAMPTER_0373",
-        "HAMPTER_0147",
-        "HAMPTER_0325"
+        "HAMPTER_0433",
+        "HAMPTER_0201"
       ]
     },
     {
@@ -51332,15 +51209,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0190",
-        "HAMPTER_0385",
         "HAMPTER_0338",
-        "HAMPTER_0006",
+        "HAMPTER_0385",
+        "HAMPTER_0377",
         "HAMPTER_0017",
-        "HAMPTER_0237",
-        "HAMPTER_0264",
-        "HAMPTER_0319",
-        "HAMPTER_0191",
-        "HAMPTER_0096"
+        "HAMPTER_0369",
+        "HAMPTER_0235",
+        "HAMPTER_0096",
+        "HAMPTER_0077",
+        "HAMPTER_0191"
       ]
     },
     {
@@ -51458,9 +51335,9 @@
         "HAMPTER_0167",
         "HAMPTER_0161",
         "HAMPTER_0381",
-        "HAMPTER_0028",
         "HAMPTER_0390",
-        "HAMPTER_0228"
+        "HAMPTER_0028",
+        "HAMPTER_0429"
       ]
     },
     {
@@ -51573,13 +51450,13 @@
         "HAMPTER_0423",
         "HAMPTER_0074",
         "HAMPTER_0366",
-        "HAMPTER_0409",
         "HAMPTER_0429",
-        "HAMPTER_0365",
+        "HAMPTER_0409",
         "HAMPTER_0376",
+        "HAMPTER_0365",
         "HAMPTER_0360",
-        "HAMPTER_0026",
-        "HAMPTER_0161"
+        "HAMPTER_0167",
+        "HAMPTER_0026"
       ]
     },
     {
@@ -51721,8 +51598,8 @@
         "HAMPTER_0400",
         "HAMPTER_0039",
         "HAMPTER_0141",
-        "HAMPTER_0397",
-        "HAMPTER_0335"
+        "HAMPTER_0335",
+        "HAMPTER_0397"
       ]
     },
     {
@@ -51828,15 +51705,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0005",
-        "HAMPTER_0304",
         "HAMPTER_0025",
-        "HAMPTER_0335",
         "HAMPTER_0329",
         "HAMPTER_0375",
-        "HAMPTER_0321",
+        "HAMPTER_0212",
+        "HAMPTER_0335",
         "HAMPTER_0301",
         "HAMPTER_0393",
-        "HAMPTER_0219"
+        "HAMPTER_0219",
+        "HAMPTER_0101"
       ]
     },
     {
@@ -51941,16 +51818,16 @@
         "concept_popcorn"
       ],
       "similar_ids": [
-        "HAMPTER_0376",
-        "HAMPTER_0148",
-        "HAMPTER_0394",
-        "HAMPTER_0338",
-        "HAMPTER_0369",
-        "HAMPTER_0026",
-        "HAMPTER_0144",
         "HAMPTER_0125",
-        "HAMPTER_0093",
-        "HAMPTER_0368"
+        "HAMPTER_0078",
+        "HAMPTER_0394",
+        "HAMPTER_0368",
+        "HAMPTER_0376",
+        "HAMPTER_0144",
+        "HAMPTER_0148",
+        "HAMPTER_0441",
+        "HAMPTER_0338",
+        "HAMPTER_0369"
       ]
     },
     {
@@ -52055,16 +51932,16 @@
         "concept_brow"
       ],
       "similar_ids": [
-        "HAMPTER_0408",
         "HAMPTER_0350",
+        "HAMPTER_0408",
         "HAMPTER_0371",
         "HAMPTER_0256",
         "HAMPTER_0228",
         "HAMPTER_0372",
-        "HAMPTER_0384",
         "HAMPTER_0294",
+        "HAMPTER_0384",
         "HAMPTER_0004",
-        "HAMPTER_0095"
+        "HAMPTER_0057"
       ]
     },
     {
@@ -52177,13 +52054,13 @@
         "HAMPTER_0365",
         "HAMPTER_0390",
         "HAMPTER_0026",
+        "HAMPTER_0340",
         "HAMPTER_0095",
         "HAMPTER_0424",
         "HAMPTER_0358",
-        "HAMPTER_0195",
-        "HAMPTER_0340",
         "HAMPTER_0360",
-        "HAMPTER_0376"
+        "HAMPTER_0376",
+        "HAMPTER_0195"
       ]
     },
     {
@@ -52301,14 +52178,14 @@
       "similar_ids": [
         "HAMPTER_0431",
         "HAMPTER_0116",
-        "HAMPTER_0166",
-        "HAMPTER_0174",
-        "HAMPTER_0300",
-        "HAMPTER_0085",
-        "HAMPTER_0377",
-        "HAMPTER_0107",
         "HAMPTER_0416",
-        "HAMPTER_0264"
+        "HAMPTER_0190",
+        "HAMPTER_0085",
+        "HAMPTER_0147",
+        "HAMPTER_0076",
+        "HAMPTER_0300",
+        "HAMPTER_0176",
+        "HAMPTER_0166"
       ]
     },
     {
@@ -52418,14 +52295,14 @@
       "similar_ids": [
         "HAMPTER_0430",
         "HAMPTER_0116",
+        "HAMPTER_0102",
+        "HAMPTER_0176",
+        "HAMPTER_0390",
         "HAMPTER_0300",
         "HAMPTER_0171",
-        "HAMPTER_0166",
-        "HAMPTER_0232",
+        "HAMPTER_0351",
         "HAMPTER_0085",
-        "HAMPTER_0252",
-        "HAMPTER_0028",
-        "HAMPTER_0174"
+        "HAMPTER_0416"
       ]
     },
     {
@@ -52652,14 +52529,14 @@
       "similar_ids": [
         "HAMPTER_0347",
         "HAMPTER_0382",
-        "HAMPTER_0059",
         "HAMPTER_0345",
         "HAMPTER_0153",
-        "HAMPTER_0127",
         "HAMPTER_0325",
+        "HAMPTER_0059",
         "HAMPTER_0346",
         "HAMPTER_0373",
-        "HAMPTER_0201"
+        "HAMPTER_0127",
+        "HAMPTER_0421"
       ]
     },
     {
@@ -52775,15 +52652,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0341",
-        "HAMPTER_0021",
         "HAMPTER_0328",
+        "HAMPTER_0021",
         "HAMPTER_0353",
         "HAMPTER_0037",
+        "HAMPTER_0267",
         "HAMPTER_0233",
-        "HAMPTER_0053",
         "HAMPTER_0016",
-        "HAMPTER_0146",
-        "HAMPTER_0262"
+        "HAMPTER_0053",
+        "HAMPTER_0159"
       ]
     },
     {
@@ -52891,16 +52768,16 @@
         "concept_magic"
       ],
       "similar_ids": [
-        "HAMPTER_0207",
-        "HAMPTER_0104",
-        "HAMPTER_0437",
         "HAMPTER_0094",
-        "HAMPTER_0021",
-        "HAMPTER_0235",
+        "HAMPTER_0104",
+        "HAMPTER_0207",
         "HAMPTER_0372",
+        "HAMPTER_0021",
+        "HAMPTER_0437",
         "HAMPTER_0057",
-        "HAMPTER_0408",
-        "HAMPTER_0140"
+        "HAMPTER_0235",
+        "HAMPTER_0415",
+        "HAMPTER_0408"
       ]
     },
     {
@@ -53012,14 +52889,14 @@
       "similar_ids": [
         "HAMPTER_0255",
         "HAMPTER_0113",
+        "HAMPTER_0109",
         "HAMPTER_0392",
         "HAMPTER_0326",
-        "HAMPTER_0109",
-        "HAMPTER_0041",
+        "HAMPTER_0046",
         "HAMPTER_0141",
-        "HAMPTER_0409",
-        "HAMPTER_0082",
-        "HAMPTER_0046"
+        "HAMPTER_0362",
+        "HAMPTER_0041",
+        "HAMPTER_0453"
       ]
     },
     {
@@ -53123,15 +53000,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0386",
-        "HAMPTER_0015",
         "HAMPTER_0257",
         "HAMPTER_0301",
-        "HAMPTER_0224",
+        "HAMPTER_0015",
         "HAMPTER_0150",
-        "HAMPTER_0261",
-        "HAMPTER_0435",
+        "HAMPTER_0224",
+        "HAMPTER_0166",
         "HAMPTER_0021",
-        "HAMPTER_0166"
+        "HAMPTER_0261",
+        "HAMPTER_0037"
       ]
     },
     {
@@ -53238,13 +53115,13 @@
         "HAMPTER_0322",
         "HAMPTER_0200",
         "HAMPTER_0394",
-        "HAMPTER_0173",
-        "HAMPTER_0427",
-        "HAMPTER_0191",
         "HAMPTER_0206",
         "HAMPTER_0144",
-        "HAMPTER_0131",
-        "HAMPTER_0140"
+        "HAMPTER_0427",
+        "HAMPTER_0173",
+        "HAMPTER_0078",
+        "HAMPTER_0364",
+        "HAMPTER_0047"
       ]
     },
     {
@@ -53356,16 +53233,16 @@
         "concept_weapon"
       ],
       "similar_ids": [
-        "HAMPTER_0416",
         "HAMPTER_0059",
+        "HAMPTER_0416",
+        "HAMPTER_0127",
         "HAMPTER_0387",
-        "HAMPTER_0397",
-        "HAMPTER_0140",
         "HAMPTER_0355",
-        "HAMPTER_0373",
         "HAMPTER_0318",
+        "HAMPTER_0373",
+        "HAMPTER_0397",
         "HAMPTER_0317",
-        "HAMPTER_0421"
+        "HAMPTER_0306"
       ]
     },
     {
@@ -53469,11 +53346,11 @@
       "similar_ids": [
         "HAMPTER_0062",
         "HAMPTER_0415",
-        "HAMPTER_0281",
-        "HAMPTER_0246",
-        "HAMPTER_0199",
-        "HAMPTER_0102",
         "HAMPTER_0237",
+        "HAMPTER_0246",
+        "HAMPTER_0102",
+        "HAMPTER_0281",
+        "HAMPTER_0199",
         "HAMPTER_0229",
         "HAMPTER_0226",
         "HAMPTER_0397"
@@ -53580,13 +53457,13 @@
         "HAMPTER_0312",
         "HAMPTER_0047",
         "HAMPTER_0327",
-        "HAMPTER_0174",
-        "HAMPTER_0175",
-        "HAMPTER_0340",
-        "HAMPTER_0195",
-        "HAMPTER_0101",
         "HAMPTER_0078",
-        "HAMPTER_0140"
+        "HAMPTER_0174",
+        "HAMPTER_0264",
+        "HAMPTER_0394",
+        "HAMPTER_0340",
+        "HAMPTER_0101",
+        "HAMPTER_0366"
       ]
     },
     {
@@ -53734,15 +53611,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0252",
-        "HAMPTER_0463",
         "HAMPTER_0100",
+        "HAMPTER_0463",
         "HAMPTER_0451",
+        "HAMPTER_0446",
         "HAMPTER_0452",
         "HAMPTER_0457",
-        "HAMPTER_0446",
         "HAMPTER_0458",
-        "HAMPTER_0461",
-        "HAMPTER_0453"
+        "HAMPTER_0453",
+        "HAMPTER_0459"
       ]
     },
     {
@@ -54041,8 +53918,8 @@
         "HAMPTER_0031",
         "HAMPTER_0463",
         "HAMPTER_0262",
-        "HAMPTER_0014",
         "HAMPTER_0453",
+        "HAMPTER_0014",
         "HAMPTER_0457",
         "HAMPTER_0443",
         "HAMPTER_0458",
@@ -54192,13 +54069,13 @@
         "HAMPTER_0202",
         "HAMPTER_0400",
         "HAMPTER_0399",
-        "HAMPTER_0090",
         "HAMPTER_0461",
+        "HAMPTER_0090",
         "HAMPTER_0398",
         "HAMPTER_0457",
         "HAMPTER_0443",
-        "HAMPTER_0004",
-        "HAMPTER_0371"
+        "HAMPTER_0451",
+        "HAMPTER_0004"
       ]
     },
     {
@@ -54349,11 +54226,11 @@
         "HAMPTER_0458",
         "HAMPTER_0457",
         "HAMPTER_0443",
-        "HAMPTER_0463",
         "HAMPTER_0267",
-        "HAMPTER_0452",
         "HAMPTER_0298",
-        "HAMPTER_0459"
+        "HAMPTER_0463",
+        "HAMPTER_0461",
+        "HAMPTER_0452"
       ]
     },
     {
@@ -54487,15 +54364,15 @@
       ],
       "similar_ids": [
         "HAMPTER_0230",
-        "HAMPTER_0250",
-        "HAMPTER_0461",
         "HAMPTER_0443",
-        "HAMPTER_0451",
-        "HAMPTER_0207",
         "HAMPTER_0457",
-        "HAMPTER_0458",
+        "HAMPTER_0207",
+        "HAMPTER_0461",
         "HAMPTER_0238",
-        "HAMPTER_0452"
+        "HAMPTER_0451",
+        "HAMPTER_0458",
+        "HAMPTER_0250",
+        "HAMPTER_0463"
       ]
     },
     {
@@ -54641,12 +54518,12 @@
         "HAMPTER_0411",
         "HAMPTER_0263",
         "HAMPTER_0458",
-        "HAMPTER_0151",
-        "HAMPTER_0373",
         "HAMPTER_0459",
+        "HAMPTER_0373",
         "HAMPTER_0451",
-        "HAMPTER_0452",
-        "HAMPTER_0443"
+        "HAMPTER_0151",
+        "HAMPTER_0156",
+        "HAMPTER_0452"
       ]
     },
     {
@@ -54799,12 +54676,12 @@
         "HAMPTER_0196",
         "HAMPTER_0341",
         "HAMPTER_0457",
-        "HAMPTER_0453",
         "HAMPTER_0320",
-        "HAMPTER_0443",
+        "HAMPTER_0453",
         "HAMPTER_0451",
-        "HAMPTER_0463",
-        "HAMPTER_0361"
+        "HAMPTER_0301",
+        "HAMPTER_0443",
+        "HAMPTER_0463"
       ]
     },
     {
@@ -54956,8 +54833,8 @@
       "similar_ids": [
         "HAMPTER_0024",
         "HAMPTER_0406",
-        "HAMPTER_0156",
         "HAMPTER_0457",
+        "HAMPTER_0156",
         "HAMPTER_0279",
         "HAMPTER_0461",
         "HAMPTER_0451",
@@ -55072,12 +54949,12 @@
         "HAMPTER_0333",
         "HAMPTER_0417",
         "HAMPTER_0228",
-        "HAMPTER_0136",
-        "HAMPTER_0013",
-        "HAMPTER_0067",
         "HAMPTER_0241",
+        "HAMPTER_0136",
+        "HAMPTER_0067",
+        "HAMPTER_0013",
+        "HAMPTER_0206",
         "HAMPTER_0002",
-        "HAMPTER_0025",
         "HAMPTER_0463"
       ]
     },
@@ -55216,13 +55093,13 @@
         "HAMPTER_0343",
         "HAMPTER_0052",
         "HAMPTER_0452",
-        "HAMPTER_0459",
         "HAMPTER_0463",
+        "HAMPTER_0459",
         "HAMPTER_0451",
-        "HAMPTER_0443",
-        "HAMPTER_0054",
         "HAMPTER_0457",
-        "HAMPTER_0458"
+        "HAMPTER_0458",
+        "HAMPTER_0443",
+        "HAMPTER_0453"
       ]
     },
     {
@@ -55372,11 +55249,11 @@
         "HAMPTER_0405",
         "HAMPTER_0443",
         "HAMPTER_0375",
-        "HAMPTER_0025",
-        "HAMPTER_0036",
-        "HAMPTER_0446",
         "HAMPTER_0457",
-        "HAMPTER_0461"
+        "HAMPTER_0025",
+        "HAMPTER_0461",
+        "HAMPTER_0452",
+        "HAMPTER_0458"
       ]
     }
   ],
