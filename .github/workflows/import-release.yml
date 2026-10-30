@@ -1,0 +1,64 @@
+name: Import Embeded Memes 2.1.0 release
+on:
+  push:
+    branches:
+      - ingest-orange-tape-20261030
+    paths:
+      - '.transfer/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          ref: ingest-orange-tape-20261030
+          fetch-depth: 0
+
+      - name: Reassemble and verify transferred archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          find .transfer -maxdepth 1 -name 'chunk-*.bin' | sort
+          test "$(find .transfer -maxdepth 1 -name 'chunk-*.bin' | wc -l)" -eq 67
+          cat .transfer/chunk-*.bin > /tmp/embeded-memes-release.zip
+          echo '1f4019ad71d6f3fbe1ff11734607bfc9a80740bc37420f8408eee35e2d86df0f  /tmp/embeded-memes-release.zip' | sha256sum --check
+          unzip -tq /tmp/embeded-memes-release.zip
+          mkdir -p /tmp/embeded-memes-release
+          unzip -q /tmp/embeded-memes-release.zip -d /tmp/embeded-memes-release
+          test -f /tmp/embeded-memes-release/embedded-memes/index.html
+          test -f /tmp/embeded-memes-release/embedded-memes/catalog/agent_map.jsonl
+
+      - name: Validate unpacked static site
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd /tmp/embeded-memes-release/embedded-memes
+          python3 scripts/validate.py --quick
+          node --test tests/*.test.cjs
+          sha256sum -c SHA256SUMS.txt >/tmp/hash-verify.txt
+          echo "Verified $(wc -l < /tmp/hash-verify.txt) shipped files."
+
+      - name: Publish unpacked repository contents to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "gliwy-import-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout -B main origin/main
+          rsync -a --delete --exclude='/.git/' /tmp/embeded-memes-release/embedded-memes/ ./
+          git add -A
+          git commit -m "Import full Embeded Memes 2.1.0 Orange Tape library"
+          git push origin main
+
+      - name: Remove temporary transfer branch
+        if: success()
+        shell: bash
+        run: git push origin --delete ingest-orange-tape-20261030 || true
