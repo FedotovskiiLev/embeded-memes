@@ -1,0 +1,46 @@
+name: Validate and publish verified Orange Tape archive
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Export committed site without Git internals
+        run: |
+          mkdir -p "$RUNNER_TEMP/meme-site"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/meme-site"
+      - name: Verify release hashes, catalog and search
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/meme-site"
+          sha256sum -c SHA256SUMS.txt
+          python scripts/validate.py --quick
+          node --test tests/*.test.cjs
+          # The validator writes its report; retain the original shipped metadata.
+          git --git-dir="$GITHUB_WORKSPACE/.git" show HEAD:qa/validation.json > qa/validation.json
+          sha256sum -c SHA256SUMS.txt
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/meme-site
+      - id: deployment
+        uses: actions/deploy-pages@v4
