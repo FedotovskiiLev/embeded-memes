@@ -22,7 +22,7 @@ class MemeSearch {
  distance1(a,b){if(Math.abs(a.length-b.length)>1)return false;let i=0,j=0,e=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue;}if(++e>1)return false;if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++;}}return e+(i<a.length||j<b.length?1:0)<=1;}
  fuzzy(t){if(this.df.has(t)||t.length<4)return [t];const out=this.vocab.filter(w=>this.distance1(w,t)).sort((a,b)=>(this.df.get(b)||0)-(this.df.get(a)||0));return out.slice(0,5);}
  search(query='',options={}){
-  const q=this.norm(query).trim(),exact=this.resolve(q);const terms=this.tokens(q),concepts=this.conceptIds(q).map(c=>'concept_'+c),qv=options.mode==='words'?null:this.project(q);const expanded=terms.map(t=>this.fuzzy(t));
+  const q=this.norm(query).trim(),exact=this.resolve(q);if(/^h?ampter_[0-9]{4}$/i.test(q)&&!exact)return [];const terms=this.tokens(q),concepts=this.conceptIds(q).map(c=>'concept_'+c),qv=options.mode==='words'?null:this.project(q);const expanded=terms.map(t=>this.fuzzy(t));
   let result=[];
   for(const r of this.records){
    if(r.status!=='reviewed'&&!options.quarantine)continue;

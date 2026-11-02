@@ -1,8 +1,8 @@
 {
   "name": "Embeded Memes by Gliwy.dev",
-  "version": "2.2.1",
+  "version": "3.0.0",
   "theme": "classic",
-  "catalog_hash": "886c30ffe3579b83e791a8e251651c9723a326569e734c4d99c3b96d9cc897a2",
+  "catalog_hash": "a44177138276cbb1fc3a02a5e7901046df769a6b5339caf01a112fbba766c243",
   "records": 374,
   "active": 374,
   "quarantined": [],
@@ -14,5 +14,7 @@
   "vectors": {
     "ready": "TF-IDF / LSA, 96 dimensions",
     "neural_e5": "optional; not precomputed in this release"
-  }
+  },
+  "individual_annotations": 374,
+  "annotation_version": "3.0.0"
 }

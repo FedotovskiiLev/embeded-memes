@@ -5,6 +5,7 @@ import argparse,base64,hashlib,json,sqlite3,sys,math
 from pathlib import Path
 from collections import Counter
 from search_config import CONFIG,CONCEPTS,tokens,expanded_tokens,concept_ids
+from annotation_integration import apply_annotations
 ROOT=Path(__file__).resolve().parents[1]
 def write_json(p,data):
  p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -13,18 +14,20 @@ def digest(data):return hashlib.sha256(json.dumps(data,sort_keys=True,ensure_asc
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--vectors',action='store_true');args=ap.parse_args()
  records=json.loads((ROOT/'data/source/memes.json').read_text());collections=json.loads((ROOT/'data/source/collections.json').read_text());version=json.loads((ROOT/'package.json').read_text())['version']
+ records, annotations, references = apply_annotations(records,ROOT)
  ids={r['id'] for r in records};assert len(ids)==len(records),'Duplicate IDs'
  for r in records:
   for k in ['id','title','visual_description','reaction','files','tags','status']:assert k in r,(r.get('id'),k)
   for f in r['files'].values():assert (ROOT/f).is_file(),f
   assert not r.get('related_to') or r['related_to'] in ids
-  r['concepts']=concept_ids(' '.join([r['title'],r['reaction'],*r['tags'],*r['use_cases']]))
-  r['search_text']=' '.join([r['title']]*3+r['tags']*3+r['use_cases']*2+[r['visual_description'],r['reaction']])
+  r['concepts']=concept_ids(' '.join([r['title'],r['reaction'],*r['tags'],*r['use_cases'],r.get('analysis',{}).get('cultural_context','')]))
+  a=r.get('analysis',{})
+  r['search_text']=' '.join([r['title']]*4+r['tags']*3+r['use_cases']*3+[r['visual_description'],r['reaction']]*2+list(a.get('subtext',[]))*3+list(a.get('search_phrases',[]))*3+[a.get('humor_mechanism',''),a.get('visible_text','')])
   r['search_tokens']=expanded_tokens(r['search_text'])
  # Stable content hash: source and config, not timestamps or generated neighbors.
- ch=digest({'source':json.loads((ROOT/'data/source/memes.json').read_text()),'config':CONFIG})
+ ch=digest({'source':json.loads((ROOT/'data/source/memes.json').read_text()),'annotations':annotations,'references':references,'config':CONFIG})
  aliases=json.loads((ROOT/'provenance/id_aliases.json').read_text())
- data={'schema_version':'2.0.0','version':version,'name':'Embeded Memes by Gliwy.dev','catalog_hash':ch,'reviewed_date':'2026-10-30','collections':collections,'aliases':aliases,'records':records,'search_config':CONFIG}
+ data={'schema_version':'2.0.0','version':version,'name':'Embeded Memes by Gliwy.dev','catalog_hash':ch,'reviewed_date':'2026-10-30','collections':collections,'aliases':aliases,'records':records,'reference_sources':references,'search_config':CONFIG}
  write_json(ROOT/'catalog/catalog.json',data)
  write_js(ROOT/'data/catalog.js','EM_DATA',data)
  active=[r for r in records if r['status']=='reviewed']
@@ -62,19 +65,23 @@ def main():
   maps.append({k:r[k] for k in ['id','collection_id','title','visual_description','reaction','use_cases','tags','content_warnings','confidence','status','files','alternates','related_to','quality','width','height','rights']})
   maps[-1]['character_reference']=r.get('character_reference')
   maps[-1]['restoration']=r.get('restoration')
+  maps[-1]['analysis']=r.get('analysis',{})
  (ROOT/'catalog/agent_map.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in maps))
  lines=['# Карта изображений для агентов','',f'Версия {version} · {len(records)} карточки · {len(active)} доступны в обычном поиске.','Реакция — интерпретация, а не объективный факт. `needs_replacement` не выбирать.','Все пути относительно корня проекта. Предпочитайте точные предметы и действия общему настроению.','']
  for r in maps:
-  lines.extend([f'## {r["id"]} — {r["title"]}',f'**Видно:** {r["visual_description"]}',f'**Реакция:** {r["reaction"]}',f'**Ситуации:** {"; ".join(r["use_cases"])}',f'**Поиск:** {", ".join(r["tags"])}',f'**Файл PNG:** `{r["files"]["master_png"]}`',f'**Файл WebP:** `{r["files"]["delivery_webp"]}`',f'**Статус:** {r["status"]}; уверенность: {r["confidence"]}; предупреждения: {", ".join(r["content_warnings"]) or "нет отмеченных"}.',f'**Связанный вариант:** {r["related_to"] or "—"}',''])
- (ROOT/'catalog/agent_map.md').write_text('\n\n'.join(lines),encoding='utf-8')
+  a=r.get('analysis',{})
+  lines.extend([f'## {r["id"]} — {r["title"]}',f'**Видно:** {r["visual_description"]}',f'**Нюансы эмоции:** {r["reaction"]}',f'**Возможный подтекст:** {"; ".join(a.get("subtext",[]))}',f'**Механизм шутки:** {a.get("humor_mechanism","")}',f'**Культурная отсылка:** {a.get("cultural_context","")}',f'**Не путать с:** {a.get("not_to_confuse_with","")}',f'**Надпись на рисунке:** {a.get("visible_text","")}',f'**Источники контекста:** {"; ".join(x.get("url","") for x in a.get("sources",[]))}',f'**Ситуации:** {"; ".join(r["use_cases"])}',f'**Поиск:** {", ".join(r["tags"])}',f'**Файл PNG:** `{r["files"]["master_png"]}`',f'**Файл WebP:** `{r["files"]["delivery_webp"]}`',f'**Статус:** {r["status"]}; уверенность: {r["confidence"]}; предупреждения: {", ".join(r["content_warnings"]) or "нет отмеченных"}.',f'**Связанный вариант:** {r["related_to"] or "—"}',''])
+ (ROOT/'catalog/agent_map.md').write_text('\n\n'.join(x.rstrip() for x in lines),encoding='utf-8')
  db=ROOT/'catalog/asset_index.sqlite'
  if db.exists():db.unlink()
  con=sqlite3.connect(db);con.execute('CREATE TABLE assets(id TEXT PRIMARY KEY,title TEXT,status TEXT,master_png TEXT,webp TEXT,record_json TEXT)')
- con.execute('CREATE VIRTUAL TABLE asset_search USING fts5(id UNINDEXED,title,visual,reaction,tags,uses,tokenize="unicode61")')
+ con.execute('CREATE VIRTUAL TABLE asset_search USING fts5(id UNINDEXED,title,visual,reaction,tags,uses,subtext,context,humor,contrast,visible_text,tokenize="unicode61")')
  for r in records:
   con.execute('INSERT INTO assets VALUES (?,?,?,?,?,?)',(r['id'],r['title'],r['status'],r['files']['master_png'],r['files']['delivery_webp'],json.dumps(r,ensure_ascii=False)))
-  if r['status']=='reviewed':con.execute('INSERT INTO asset_search VALUES (?,?,?,?,?,?)',(r['id'],r['title'],r['visual_description'],r['reaction'],' '.join(r['tags']),' '.join(r['use_cases'])))
+  if r['status']=='reviewed':
+   a=r.get('analysis',{})
+   con.execute('INSERT INTO asset_search VALUES (?,?,?,?,?,?,?,?,?,?,?)',(r['id'],r['title'],r['visual_description'],r['reaction'],' '.join(r['tags']),' '.join(r['use_cases']),' '.join(a.get('subtext',[])),a.get('cultural_context',''),a.get('humor_mechanism',''),a.get('not_to_confuse_with',''),a.get('visible_text','')))
  con.commit();con.close()
- write_json(ROOT/'MANIFEST.json',{'name':data['name'],'version':version,'theme':'classic','catalog_hash':ch,'records':len(records),'active':len(active),'quarantined':[r['id'] for r in records if r['status']!='reviewed'],'entrypoints':{'browser':'index.html','agents':'catalog/agent_map.jsonl','source':'data/source/memes.json'},'vectors':{'ready':'TF-IDF / LSA, 96 dimensions','neural_e5':'optional; not precomputed in this release'}})
+ write_json(ROOT/'MANIFEST.json',{'name':data['name'],'version':version,'theme':'classic','catalog_hash':ch,'records':len(records),'active':len(active),'quarantined':[r['id'] for r in records if r['status']!='reviewed'],'entrypoints':{'browser':'index.html','agents':'catalog/agent_map.jsonl','source':'data/source/memes.json'},'vectors':{'ready':'TF-IDF / LSA, 96 dimensions','neural_e5':'optional; not precomputed in this release'},'individual_annotations':len(annotations),'annotation_version':'3.0.0'})
  print(f'Built {len(records)} records ({len(active)} active); hash {ch[:12]}')
 if __name__=='__main__':main()

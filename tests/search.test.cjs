@@ -16,3 +16,32 @@ test('generic magnifier query contains both true magnifier scenes',()=>assert.de
 test('Russian judging inflection returns actual skeptical expressions',()=>assert(query('осуждает').some(id=>['HAMPTER_0007','HAMPTER_0011','HAMPTER_0041','HAMPTER_0098','HAMPTER_0210','HAMPTER_0339'].includes(id))));
 
 test('curated angry-crying duplicate resolves to canonical original',()=>{assert.equal(e.resolve('HAMPTER_0213')?.id,'HAMPTER_0035');assert(query('плачет от злости').includes('HAMPTER_0035'));});
+
+test('374 individual v3 readings with distinct emotional, comic and cultural layers',()=>{
+ assert.equal(EM_DATA.records.length,374);
+ assert.equal(EM_DATA.records.filter(r=>r.analysis?.version==='3.0.0').length,374);
+ for(const r of EM_DATA.records){
+  assert(r.analysis.nuanced_emotion.length>=40,`Missing nuance: ${r.id}`);
+  assert(r.analysis.humor_mechanism.length>=30,`Missing humor: ${r.id}`);
+  assert(r.analysis.cultural_context.length>=20,`Missing context: ${r.id}`);
+  assert(r.analysis.not_to_confuse_with.length>=25,`Missing contrasts: ${r.id}`);
+  assert(Array.isArray(r.analysis.subtext)&&r.analysis.subtext.length>0,r.id);
+  assert(Array.isArray(r.analysis.search_phrases)&&r.analysis.search_phrases.length>0,r.id);
+ }
+});
+test('search follows new subtle emotional and character interpretations',()=>{
+ for(const [q,id] of [['записываю вашу очередную глупость','HAMPTER_0127'],['герой выбран уверенность не выдали','HAMPTER_0089'],['суровый вид минимум открытой реакции','HAMPTER_0347'],['смеюсь сквозь слёзы','HAMPTER_0146'],['Deltarune Ральзей','HAMPTER_0346'],['Gorillaz Murdoc','HAMPTER_0100']])
+   assert.equal(query(q)[0],id,`Subtle/emotional query failed: ${q}`);
+});
+test('references carry explicit scope and are only on their cited cards',()=>{
+ const r=e.byId.get('HAMPTER_0346');
+ assert.equal(r.character_reference.character,'Ralsei / Ральзей');
+ assert(r.analysis.sources.some(s=>s.id==='deltarune'&&s.url.startsWith('https://')));
+ assert.equal(e.byId.get('HAMPTER_0127').analysis.sources.length,0);
+ assert(e.byId.get('HAMPTER_0127').analysis.humor_mechanism.includes('протокол')||e.byId.get('HAMPTER_0127').analysis.humor_mechanism.length>40);
+});
+test('negative visual contrasts are not indexed as positive evidence',()=>{
+ const r=e.byId.get('HAMPTER_0127');
+ assert(!r.tags.includes('fork'));
+ assert(!query('еда вилка').includes(r.id));
+});

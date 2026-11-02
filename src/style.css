@@ -106,3 +106,15 @@ dialog{max-height:calc(100dvh - 24px)}
 }
 @media(pointer:coarse){.favorite-button{width:36px;height:36px;right:5px;top:5px}.select-label{min-width:22px;min-height:28px;justify-content:center}.nav-button{min-height:44px}.suggestions button{min-height:30px}}
 @media(prefers-reduced-motion:reduce){.card:hover,.favorite-button:hover,.search-submit:hover{transform:none}}
+
+/* V3 contextual annotations. Style remains the original theme. */
+.subtext-list{list-style:none;margin:2px 0;padding:0;display:grid;gap:8px}
+.subtext-list li{padding:9px 12px;border-radius:8px;border-left:2px solid var(--violet);background:#eeecf1;color:#484653;font-size:12px;line-height:1.65}
+.detail-section .interpretation-note{color:#898b81;font-size:10px;line-height:1.6;margin:8px 0 0}
+.deep-references ul{margin:6px 0;padding-left:18px;display:grid;gap:10px}
+.deep-references li{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.deep-references a{text-decoration:underline;text-underline-offset:2px;color:var(--violet)}
+.deep-references li p{font-size:10px;line-height:1.65;margin-top:4px;color:#797a70}
+.detail-section p strong{font-weight:700}.detail-section p small{color:#84847b}
+.card-description{overflow-wrap:anywhere}
+@media(max-width:600px){.subtext-list li{font-size:11px;padding:8px 10px}.deep-references li{font-size:11px}}

@@ -11,6 +11,14 @@ def main():
   if not ok:errors.append(msg)
  data=json.loads((ROOT/'catalog/catalog.json').read_text());src=json.loads((ROOT/'data/source/memes.json').read_text());records=data['records'];byid={r['id']:r for r in records}
  check(len(byid)==len(records),'duplicate IDs');check(len(src)==len(records),'source/catalog counts differ')
+ annotation_source=ROOT/'data/source/annotations.json'
+ if annotation_source.exists():
+  annotations=json.loads(annotation_source.read_text(encoding='utf-8'))
+  check(len(annotations)==len(records),'individual annotation count mismatch')
+  for r in records:
+   analysis=r.get('analysis',{})
+   check(analysis.get('version')=='3.0.0' and bool(analysis.get('humor_mechanism')) and bool(analysis.get('cultural_context')) and bool(analysis.get('not_to_confuse_with')),f'{r["id"]} missing nuanced analysis')
+   for source in analysis.get('sources',[]):check(source.get('url','').startswith('https://'),f'{r["id"]} unsafe context URL')
  image_count=0
  for r in records:
   check(bool(r['title']) and len(r['visual_description'])>=30,f'{r["id"]} missing description')

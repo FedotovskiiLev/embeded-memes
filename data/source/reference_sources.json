@@ -1,0 +1,187 @@
+{
+  "attack_on_titan": {
+    "url": "https://shingeki.tv/season1/yougo/",
+    "title": "Attack on Titan official terminology",
+    "supports": "Character/franchise context only; specific hamster attribution remains an inference."
+  },
+  "first_time": {
+    "url": "https://knowyourmeme.com/memes/james-franco-first-time",
+    "title": "First Time? meme history",
+    "supports": "Format: gallows/cowboy imagery and experienced-resigned response to a novice's distress. Does not prove authorship of the hamster redraw."
+  },
+  "american_gothic": {
+    "url": "https://whitney.org/exhibitions/grant-wood",
+    "title": "Grant Wood: American Gothic and Other Fables — Whitney Museum",
+    "supports": "Two frontal figures and pitchfork composition of American Gothic. Purple tubes in the hamster redraw are not explained by this source."
+  },
+  "discord": {
+    "url": "https://discord.com/branding",
+    "title": "Discord Brand Guidelines",
+    "supports": "Discord logo identity only, not an empirical claim about Discord users."
+  },
+  "zelda": {
+    "url": "https://zelda.nintendo.com/about/",
+    "title": "Nintendo — About The Legend of Zelda",
+    "supports": "Link and Zelda franchise context, not author-confirmed origin of individual fan redraws."
+  },
+  "gorillaz": {
+    "url": "https://www.bananazfilm.com/",
+    "title": "Bananaz — official documentary site",
+    "supports": "The four animated band members and their roles; matching hamster costumes is a visual inference."
+  },
+  "gorillaz_visual": {
+    "url": "https://usstore.gorillaz.com/",
+    "title": "Official Gorillaz store — character editions",
+    "supports": "Official visual character names and designs."
+  },
+  "broly": {
+    "url": "https://en.dragon-ball-official.com/news/01_3551.html",
+    "title": "Dragon Ball official character showcase: Broly",
+    "supports": "Super Saiyan / Broly transformation context; green-haired hamster is not author-confirmed as Broly."
+  },
+  "chewbacca": {
+    "url": "https://www.starwars.com/databank/chewbacca/",
+    "title": "Star Wars official Databank: Chewbacca",
+    "supports": "Wookiee / Chewbacca context for furry hamster parody."
+  },
+  "piapro_rin": {
+    "url": "https://piapro.jp/characters/rin",
+    "title": "Piapro official — Kagamine Rin",
+    "supports": "Large ribbon and blond bob are official distinguishing features; hamster matching is visual inference."
+  },
+  "undertale_sans": {
+    "url": "https://www.fangamer.com/collections/all/character_sans",
+    "title": "Fangamer official Undertale merchandise — Sans",
+    "supports": "Licensed Sans design and Undertale connection; emotional interpretation is curator inference."
+  },
+  "my_chemical_romance": {
+    "url": "https://www.mychemicalromance.com/",
+    "title": "My Chemical Romance official site",
+    "supports": "MCR identifies the band; emo self-presentation is interpretation of the artwork."
+  },
+  "piapro_characters": {
+    "url": "https://piapro.net/intl/en_character.html",
+    "title": "Piapro official characters",
+    "supports": "Official character names/design references; hamster attribution is visual interpretation."
+  },
+  "avatar_aang": {
+    "url": "https://www.avatarstudiosofficial.com/characters/",
+    "title": "Avatar Studios — Aang",
+    "supports": "Aang and his forehead arrow design."
+  },
+  "smiling_friends": {
+    "url": "https://press.wbd.com/ca/property/smiling-friends",
+    "title": "WBD official pressroom — Smiling Friends",
+    "supports": "Charlie is characterized as cynical and Pim optimistic; applying these traits to the hamster reaction is an interpretation."
+  },
+  "charlie_design": {
+    "url": "https://youtooz.com/products/smiling-friends-charlie-plush-9-inch",
+    "title": "Licensed Charlie collectible design",
+    "supports": "Yellow character, brown cap and orange hoodie identify Charlie costume cues."
+  },
+  "castlevania_alucard": {
+    "url": "https://www.konami.com/games/castlevania/gos/global/en/",
+    "title": "Konami official Castlevania — Alucard",
+    "supports": "Alucard identity/design in gothic costume; hamster attribution is a visual inference."
+  },
+  "devil_may_cry_dante": {
+    "url": "https://news.capcomusa.com/2025/04/25/capcom-snapshots-dante/",
+    "title": "Capcom — Dante character snapshots",
+    "supports": "Dante design context; does not identify this fan drawing or exact installment."
+  },
+  "aqua_teen": {
+    "url": "https://www.adultswim.com/videos/aqua-teen-hunger-force",
+    "title": "Adult Swim — Aqua Teen Hunger Force",
+    "supports": "Official descriptions of brainy Frylock, mouthy Master Shake and lovable Meatwad; hamster emotional reading is separate."
+  },
+  "pikmin": {
+    "url": "https://pikmin.nintendo.com/en/about/",
+    "title": "Nintendo — About the Pikmin",
+    "supports": "Small plantlike creatures, color variations and flowers; not the original hamster artwork."
+  },
+  "alienposting": {
+    "url": "https://knowyourmeme.com/memes/alienposting-zeep-glorp",
+    "title": "Alienposting / Zeep Glorp — Know Your Meme",
+    "supports": "Green animals with antennae and nonsense language; hamster application is visual inference."
+  },
+  "jeff_creepypasta": {
+    "url": "https://knowyourmeme.com/memes/jeff-the-killer",
+    "title": "Jeff the Killer — meme documentation",
+    "supports": "Internet horror motif and visual style, not identification of an underlying real person."
+  },
+  "phoenix_wright": {
+    "url": "https://news.capcomusa.com/lets/browse/phoenix-wright-the-legendary-lawyer-returns",
+    "title": "Capcom: Phoenix Wright, the legendary lawyer returns",
+    "supports": "Фирменный синий костюм, остроконечная причёска и роль Феникса Райта."
+  },
+  "miles_edgeworth": {
+    "url": "https://news.capcomusa.com/lets/browse/ace-attorney-files-miles-edgeworth-perfect-prosecutor",
+    "title": "Capcom: Miles Edgeworth, Perfect Prosecutor",
+    "supports": "Бордовый/красный костюм, жабо, спокойная манера и роль соперника Райта."
+  },
+  "chiikawa": {
+    "url": "https://www.chiikawaofficial.com/characters",
+    "title": "Chiikawa: official characters",
+    "supports": "Основные персонажи Chiikawa, Hachiware, Usagi, Momonga; дизайн и описания основных героев. Не подтверждает напрямую спорную идентификацию маленького жучка."
+  },
+  "family_guy": {
+    "url": "https://www.foxflash.com/shows/family-guy/info/",
+    "title": "FOX: Family Guy",
+    "supports": "Сериал и анимационный персонаж Peter Griffin; конкретная стилизация определена по рисунку с оговоркой."
+  },
+  "trollface": {
+    "url": "https://knowyourmeme.com/memes/trollface",
+    "title": "Know Your Meme: Trollface",
+    "supports": "Trollface / Coolface, rage comics и троллинг."
+  },
+  "kurimanju": {
+    "url": "https://www.goodsmile.com/en/product/1145554/Nendoroid+Kurimanju",
+    "title": "Good Smile Company: licensed Nendoroid Kurimanju",
+    "supports": "Персонаж Kurimanju из Chiikawa, узнаваемый дизайн и связь с напитками."
+  },
+  "invincible": {
+    "url": "https://invest.skyboundentertainment.com/",
+    "title": "Skybound Entertainment: Invincible artwork",
+    "supports": "Официальная иллюстрация героя Invincible в жёлто-сине-чёрном костюме с линзами; не подтверждает конкретную серию или вариант вселенной."
+  },
+  "gungan": {
+    "url": "https://www.starwars.com/databank/gungan",
+    "title": "Star Wars Databank: Gungan",
+    "supports": "Гунганский дизайн и мир Star Wars; идентификация конкретной стилизации вероятная."
+  },
+  "pierce_the_veil": {
+    "url": "https://ptvmerch.com/collections/all",
+    "title": "Pierce The Veil official merchandise",
+    "supports": "Название группы и логотипы на официальной одежде; не идентифицирует участника."
+  },
+  "deltarune": {
+    "url": "https://www.deltarune.com/",
+    "title": "DELTARUNE official site",
+    "supports": "Игра и визуальные образы Kris, Susie, Ralsei; эмоциональные прочтения конкретных мемов являются интерпретацией."
+  },
+  "puerto_rico_flag": {
+    "url": "https://www.prd.uscourts.gov/node/573",
+    "title": "United States District Court, Puerto Rico: The Flag of Puerto Rico",
+    "supports": "Распознавание флага и вариации оттенка синего; не устанавливает взгляды персонажа."
+  },
+  "keffiyeh": {
+    "url": "https://www.vam.ac.uk/blog/design-and-society/pandemic-objects-keffiyeh-mask",
+    "title": "V&A: Pandemic Objects — Keffiyeh Mask",
+    "supports": "Чёрно-белая куфия, её текстильные признаки и культурная связь с палестинской идентичностью/солидарностью."
+  },
+  "tips_fedora": {
+    "url": "https://knowyourmeme.com/memes/tips-fedora",
+    "title": "Know Your Meme: Tips Fedora",
+    "supports": "Мемный контекст федоры, m'lady и театрального интернет-джентльмена; не оценка реальных людей."
+  },
+  "cinnamoroll": {
+    "url": "https://corporate.sanrio.co.jp/en/business-info/brands/cinnamoroll/",
+    "title": "Sanrio: Cinnamoroll",
+    "supports": "Официальный дизайн персонажа Cinnamoroll и длинные уши."
+  },
+  "pikachu": {
+    "url": "https://www.pokemon.com/uk/pokedex/pikachu",
+    "title": "Pikachu — official Pokémon Pokédex",
+    "supports": "Character reference and visible design; not the emotional interpretation of this fan redraw."
+  }
+}
