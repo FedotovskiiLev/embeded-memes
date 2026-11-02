@@ -39,19 +39,6 @@ jobs:
           OPENBLAS_NUM_THREADS: '1'
           OMP_NUM_THREADS: '1'
         run: python -u scripts/restore_all_transparent.py
-      - name: Correct generated Markdown trailing whitespace at source
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('scripts/build.py')
-          s=p.read_text(encoding='utf-8')
-          old="(ROOT/'catalog/agent_map.md').write_text('\\n\\n'.join(lines),encoding='utf-8')"
-          new="(ROOT/'catalog/agent_map.md').write_text('\\n\\n'.join(line.rstrip() for line in lines),encoding='utf-8')"
-          if old in s:
-              p.write_text(s.replace(old,new),encoding='utf-8')
-          elif new not in s:
-              raise RuntimeError('Agent map generator format unexpectedly changed')
-          PY
       - name: Rebuild metadata, search index, and contact sheets
         env:
           OPENBLAS_NUM_THREADS: '1'
@@ -59,6 +46,12 @@ jobs:
         run: |
           python scripts/build.py --vectors
           python scripts/contact_sheets.py
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('catalog/agent_map.md')
+          content=p.read_text(encoding='utf-8')
+          p.write_text(chr(10).join(line.rstrip() for line in content.splitlines()) + chr(10), encoding='utf-8')
+          PY
       - name: Verify complete image library and search regressions
         run: |
           set -euo pipefail
