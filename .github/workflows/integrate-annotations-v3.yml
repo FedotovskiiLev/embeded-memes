@@ -44,6 +44,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/build.py')
+          s=p.read_text(encoding='utf-8')
+          old="(ROOT/'catalog/agent_map.md').write_text('\\n\\n'.join(lines),encoding='utf-8')"
+          new="(ROOT/'catalog/agent_map.md').write_text('\\n\\n'.join(x.rstrip() for x in lines),encoding='utf-8')"
+          assert old in s, 'Expected v3 generator statement changed'
+          p.write_text(s.replace(old,new),encoding='utf-8')
+          PY
           OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/build.py --vectors
           python scripts/contact_sheets.py
           python - <<'PY'
