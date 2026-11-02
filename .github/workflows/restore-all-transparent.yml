@@ -1,0 +1,113 @@
+name: Restore all hamster meme production cutouts
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/asset_mask.py
+      - scripts/restore_all_transparent.py
+      - .github/workflows/restore-all-transparent.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: restore-all-meme-assets
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    steps:
+      - name: Fetch complete repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Python runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Node runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install reproducible image and index dependencies
+        run: python -m pip install -r requirements.txt opencv-python-headless
+      - name: Restore untouched original RGB and isolate outside background
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+        run: python -u scripts/restore_all_transparent.py
+      - name: Correct generated Markdown trailing whitespace at source
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/build.py')
+          s=p.read_text(encoding='utf-8')
+          old="(ROOT/'catalog/agent_map.md').write_text('\\n\\n'.join(lines),encoding='utf-8')"
+          new="(ROOT/'catalog/agent_map.md').write_text('\\n\\n'.join(line.rstrip() for line in lines),encoding='utf-8')"
+          if old in s:
+              p.write_text(s.replace(old,new),encoding='utf-8')
+          elif new not in s:
+              raise RuntimeError('Agent map generator format unexpectedly changed')
+          PY
+      - name: Rebuild metadata, search index, and contact sheets
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+        run: |
+          python scripts/build.py --vectors
+          python scripts/contact_sheets.py
+      - name: Verify complete image library and search regressions
+        run: |
+          set -euo pipefail
+          python scripts/validate.py
+          node --test tests/*.test.cjs
+          python - <<'PY'
+          import json
+          from PIL import Image
+          from pathlib import Path
+          root=Path('.')
+          records=json.loads((root/'data/source/memes.json').read_text(encoding='utf-8'))
+          assert len(records)==374
+          assert sum(r.get('has_alpha') is True for r in records)==374
+          assert len(json.loads((root/'data/source/annotations.json').read_text(encoding='utf-8')))==374
+          for rec in records:
+              for k in ('master_png','delivery_webp'):
+                  with Image.open(root/rec['files'][k]) as im:
+                      alpha=im.convert('RGBA').getchannel('A')
+                      assert alpha.getextrema()==(0,255),(rec['id'],k,alpha.getextrema())
+          # White-body regression; outside background transparent, interior opaque.
+          byid={r['id']:r for r in records}
+          with Image.open(root/byid['HAMPTER_0001']['files']['master_png']) as im:
+              alpha=im.getchannel('A')
+              assert alpha.getpixel((int(im.width*.5),int(im.height*.8)))>=250
+          print('PASS: 374 masters, 374 WebP assets, 374 annotations; opaque hamster / transparent background')
+          PY
+      - name: Regenerate verified file checksums
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          root=Path('.')
+          lines=[]
+          for p in sorted(root.rglob('*')):
+              if not p.is_file() or '.git' in p.parts or '__pycache__' in p.parts or p.suffix=='.pyc' or p.name=='SHA256SUMS.txt':
+                  continue
+              digest=hashlib.sha256(p.read_bytes()).hexdigest()
+              lines.append(f'{digest}  {p.as_posix()}')
+          (root/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          print('Checksummed files:',len(lines))
+          PY
+          sha256sum -c SHA256SUMS.txt >/dev/null
+      - name: Commit rebuilt production assets to main
+        run: |
+          set -euo pipefail
+          git config user.name 'gliwy-asset-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git -c core.whitespace=-trailing-space diff --cached --check
+          git diff --cached --quiet && exit 0
+          git commit -m 'Restore 374 montage-ready hamster assets with original colors and transparent backgrounds (v3.2.0)'
+          git push origin HEAD:main
