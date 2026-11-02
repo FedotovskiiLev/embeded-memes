@@ -1,0 +1,68 @@
+name: Curate hamster-only collection and rebuild search
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/curate_hamsters.py'
+      - '.github/workflows/curate-hamsters.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hamster-curation
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install image and index dependencies
+        run: python -m pip install -r requirements.txt opencv-python-headless
+      - name: Curate and rebuild without generative models
+        run: python scripts/curate_hamsters.py
+      - name: Validate search, assets, and JavaScript
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/validate.py --quick
+          node --test tests/*.test.cjs
+          node --check src/app.js
+      - name: Refresh checksums after QA report
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          output=[]
+          for p in sorted(Path('.').rglob('*')):
+            if p.is_file() and '.git' not in p.parts and p.name!='SHA256SUMS.txt':
+              output.append(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.as_posix())
+          Path('SHA256SUMS.txt').write_text('\n'.join(output)+'\n',encoding='utf-8')
+          PY
+          sha256sum -c SHA256SUMS.txt >/dev/null
+      - name: Commit curated collection to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Already curated — no changes'
+            exit 0
+          fi
+          git commit -m 'Curate hamster-only catalog; remove duplicates; restore transparent illustrations'
+          git push origin HEAD:main
