@@ -1,13 +1,13 @@
 {
-  "checks": 6268,
+  "checks": 6273,
   "errors": [],
   "records": 374,
   "active": 374,
-  "image_files_verified": 0,
+  "image_files_verified": 1122,
   "vector_type": "TF-IDF / LSA (not neural)",
   "dimensions": 96,
-  "vector_norm_min": 0.9999998905615703,
-  "vector_norm_max": 1.000000101170052,
-  "catalog_hash": "a44177138276cbb1fc3a02a5e7901046df769a6b5339caf01a112fbba766c243",
-  "mode": "quick"
+  "vector_norm_min": 0.9999998952582414,
+  "vector_norm_max": 1.000000100765832,
+  "catalog_hash": "f2070960556f2626b3f2c19c8e55305e3d692f8049ca7f357158fd7e623d0e6d",
+  "mode": "full"
 }

@@ -1,0 +1,5418 @@
+{
+  "version": "3.2.0",
+  "total_records": 374,
+  "newly_restored": 359,
+  "preserved_previous": 15,
+  "color_policy": "all source RGB kept; never whiten colored costumes",
+  "human_review_of_every_cutout": false,
+  "manual_mask_exceptions": [
+    "HAMPTER_0071",
+    "HAMPTER_0094",
+    "HAMPTER_0104",
+    "HAMPTER_0431"
+  ],
+  "changes": [
+    {
+      "id": "HAMPTER_0001",
+      "master": "media/masters/HAMPTER_0001_pointed-tuft-neutral-stare.png",
+      "original_sha256": "91aaff8916c2a04f9688f2b980ba0a46c2d3ae4a7de411d787973299725a4708",
+      "result_sha256": "ec92c5c9e5ef11a2274d71de9a3a250be962219e00574d284602429d85171f3a",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0002",
+      "master": "media/masters/HAMPTER_0002_flat-head-neutral-stare.png",
+      "original_sha256": "b147e11caa4ddf9366f41b1fd68eb1f97011a8a5597ae6b5dec7c708d740ef92",
+      "result_sha256": "6abb92b72586bec72e1a3953fe6964c40038fea2a0e4368d34052676090609d4",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0003",
+      "master": "media/masters/HAMPTER_0003_wide-set-eyes-high-nose.png",
+      "original_sha256": "192c1cf94244ca62a7b6e80037c2d5440de799cb7ad9b17f20d7ee788a07ea19",
+      "result_sha256": "bf6e56d73d20ab947adbc3d91adf380b00d5b9c0653ddb558a3b49dcbcd6bbd5",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0004",
+      "master": "media/masters/HAMPTER_0004_eyes-bunched-sideways.png",
+      "original_sha256": "6b8da29d1ea59ed2c482605c4bd525a439b05f67c7f6d688765b8f926d9256c7",
+      "result_sha256": "3f9b94bd7e9b8c30233560e24626bec2ccb0bc63ead432187ec5fe02fd4b3b25",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0005",
+      "master": "media/masters/HAMPTER_0005_long-front-teeth.png",
+      "original_sha256": "43192156c6dd53729149c02eb6390c5ccaa239474555f8e9c365fd3ba6cbf653",
+      "result_sha256": "f7948ed122fb6552cef9de8ae16c10ea80f5a7d9975c53b5b3a241c2a8e967b2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0007",
+      "master": "media/masters/HAMPTER_0007_narrow-eyes-flat-mouth.png",
+      "original_sha256": "17a6a5393f581926a27ed6f4a0c333115c446e9134b8576e569d5f6f4dc0ebec",
+      "result_sha256": "9008a9b958d0bdcbc807c00f3a041389fb43f6f9513c758e605caac76432283b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0008",
+      "master": "media/masters/HAMPTER_0008_closed-eyes-wailing.png",
+      "original_sha256": "55dea4a22cf080159bf2f79273cd9fdcc51a8caedc309791eb8ff092918c1a68",
+      "result_sha256": "171c1788314185f1042baa4216e25eefcf697f9b19c3bde8f3cca54830276644",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0009",
+      "master": "media/masters/HAMPTER_0009_peace-sign-worried-mouth.png",
+      "original_sha256": "ce95c2fe777bbd20d17a356a3a0296b18852bce38b18e00c5910df13f52f2948",
+      "result_sha256": "de2eacfb4c656f8ad4d5948714d97a7c7d84e2a9ec84b892052a657249b2e073",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0010",
+      "master": "media/masters/HAMPTER_0010_gaunt-anxious-human-face.png",
+      "original_sha256": "eea7144cee646577c2d5b9a8628abf3c49dafab09408cbf16e4c4d918d82f752",
+      "result_sha256": "2421bf15174e44c5038388577e13cdc8c8ca2b2563eea99e34621fc647665a8e",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0013",
+      "master": "media/masters/HAMPTER_0013_scribbled-black-face.png",
+      "original_sha256": "d58b63ff1e1d5f6ac8dfc808436cba94868b4e5b1469236243e972f7aae70a22",
+      "result_sha256": "2d5b51076e2d57ef555b17cdc565a8363e55e7134cfccb18e50c42e4e0f65404",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0014",
+      "master": "media/masters/HAMPTER_0014_two-long-tears.png",
+      "original_sha256": "99ecf31959670b401b4da189151562e896ca1b1158097e9dd1b6ca0a05df93d3",
+      "result_sha256": "0e06834bbf2025738ace7dfc09bb7a12d7c83d027e19e7fdcf6cb114738b428f",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0015",
+      "master": "media/masters/HAMPTER_0015_giant-black-mouth-shock.png",
+      "original_sha256": "54c6679f87cca8717ab8725aef099c4d526ea7b031e19e656d31b5d5c917f42f",
+      "result_sha256": "7677b738c47597b662e06e2d91f321adbd3c7dc3cba99a73f175cdfd91c41de6",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0016",
+      "master": "media/masters/HAMPTER_0016_wrinkled-holding-tears.png",
+      "original_sha256": "f5d04fdb10bd6413bcf84fd7a9ba9a420b73da02e4ee96f9b947d2e4880746e7",
+      "result_sha256": "f1886aa9ba907b98fe1458cd613b0c8a7b7cb4a348933f0e72be6553152ad9d3",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0017",
+      "master": "media/masters/HAMPTER_0017_fountain-tears-green-snot.png",
+      "original_sha256": "a659eefc175eadc7379d895b51280c603ff68ed2705f271e0efd6aad667de4ed",
+      "result_sha256": "6278ffde754dce038da99fe17746f732c9ffb1a7712c469b935e4a9b8c57e787",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0018",
+      "master": "media/masters/HAMPTER_0018_pleading-eyes-tiny-mouth.png",
+      "original_sha256": "315dd5f2ea8f85c43866caa953d6afd0688916df020803f084daabc3d2f94afe",
+      "result_sha256": "6e486ce5a1bc6ae9521235eb66a01274a85727793d79fcd609302f9d7885bb65",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0019",
+      "master": "media/masters/HAMPTER_0019_silent-tears-straight-mouth.png",
+      "original_sha256": "98cf42c70b369897ff8e478c8fe0e3d2c698c06c2c2941eb0fc67afd9955d8ce",
+      "result_sha256": "a478530f3358b59a6a0a5925b2b5c9dcb22b4e8349ff9b1410a74319583d3d09",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0020",
+      "master": "media/masters/HAMPTER_0020_half-face-deep-shadow.png",
+      "original_sha256": "30f1ac4a5aa518957478e615d2a3f1ceddabcc14e1f0793959c51dc76b6db587",
+      "result_sha256": "e74fc523eb827b448aacd2c4886da8220e2081af2269969282b4634e2a40d6cc",
+      "original_size": [
+        1080,
+        1111
+      ],
+      "result_size": [
+        1080,
+        1111
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0022",
+      "master": "media/masters/HAMPTER_0022_heart-eyes-pointed-mouth.png",
+      "original_sha256": "4cc60341929a99205e5bc73985ece26dd8d3f3ebd1af3e76e083a98a3d5117e1",
+      "result_sha256": "7ffe7f3c8f04aade0322452b7b3d344d6d2ad474a0bc9303c3e20bbb946ad6e8",
+      "original_size": [
+        1080,
+        1079
+      ],
+      "result_size": [
+        1080,
+        1079
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0023",
+      "master": "media/masters/HAMPTER_0023_broad-toothy-grin.png",
+      "original_sha256": "80a3986a0899697fa22e7cf0e23c0a725b7966b68fabe080241303c1efbc29b1",
+      "result_sha256": "0824a4b4ada7c98efb2326fff6ffa4b4296e49bb3095888b97e1873a1bfa55a2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0024",
+      "master": "media/masters/HAMPTER_0024_single-raised-eyebrow.png",
+      "original_sha256": "36b2ebfda399363d9da5b9ed3ce8bbe1d33aee7e59453a2ff9e7032d355e5577",
+      "result_sha256": "7684c4ca6dd08b7c38ef1590cb09f0002d11678645957a0cdc8647b0924d62be",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0025",
+      "master": "media/masters/HAMPTER_0025_rectangular-toothed-mouth.png",
+      "original_sha256": "6813d76a432baf27189aa88ce470928e2bbc89ed4a7c53fd14273a2c6c397d57",
+      "result_sha256": "a31009cd132ff33b215affb8611e194aeadaaf8bb079f7361129c70b20774544",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0026",
+      "master": "media/masters/HAMPTER_0026_tiny-sideways-smile.png",
+      "original_sha256": "33aa9e922c84a49f0ea7b046376cb0aacc8645cffa23c6fe393ba4e00e741681",
+      "result_sha256": "63e8e0a01375f7d5b6e48e4fdb37c0765272c03e845cbb142cddd788572a72f8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0028",
+      "master": "media/masters/HAMPTER_0028_puffed-cheeks-full-mouth.png",
+      "original_sha256": "469b520eff44ecf3394cafaaff7ae5178a31c0922da413ef073025091c571321",
+      "result_sha256": "d7382bab842612bec3959d6889e71259683f9280a623f467dfb20a924986b06b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0029",
+      "master": "media/masters/HAMPTER_0029_sad-downturned-mouth.png",
+      "original_sha256": "a4e95747e7c11c2e197687fcd8efdf46d61af1a8fd40c68fa04e6e2d47d9401b",
+      "result_sha256": "724bcf689bc0c7395798d7759c517ede8ef0a9fa82fbaf2df6307650fd74d493",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0030",
+      "master": "media/masters/HAMPTER_0030_sleeping-zzz-drool.png",
+      "original_sha256": "f43107c94d9e2585a263c25ec71502616eb339c162cdc30bcb4a5c3d2320786c",
+      "result_sha256": "f48667437eb562d6660c8353f3fbbbf10d3a4efa0d0ce8b29239635178ec2785",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0031",
+      "master": "media/masters/HAMPTER_0031_small-hamster-long-tears.png",
+      "original_sha256": "e4c919d7c4c874c1a30a977c6178ee4cc30d7c30bcd2fa01a5b2162bd7935f23",
+      "result_sha256": "01e0aac7e66061d2e1a2d82e20467c8d975059901ea43e5b89acf5ddabdea368",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0033",
+      "master": "media/masters/HAMPTER_0033_trembling-mouth-worry.png",
+      "original_sha256": "37a0bd750ff69358d7914303d50e8f554f4583c1570c965576da14d72bf353e3",
+      "result_sha256": "c9d92306dd5e0bf32d2e08bdc63bec2cd60aa4d0c2b070a573bf2ac668141ef3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0034",
+      "master": "media/masters/HAMPTER_0034_heart-eyes-drooling-mouth.png",
+      "original_sha256": "872e2561668da322ca3fbc973ba46239ad2c8b4515ead141c5e9d8cd93abb9f0",
+      "result_sha256": "2abe61a1968ca4bd27306510f3aad69e944615635e569dc0ce4e3de8f0a7df78",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0035",
+      "master": "media/masters/HAMPTER_0035_huge-crying-mouth-streams.png",
+      "original_sha256": "1fdaab8b6648c5c09fc25a86ebe8e6dc5f5f313f3d1bb2a88e3fe15f2d806c37",
+      "result_sha256": "f976d8c10861fd0aa6fe646fe2f32bd0e9bd9b51abd62675de16b7077f2c482a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0036",
+      "master": "media/masters/HAMPTER_0036_crying-fists-raised-fullbody.png",
+      "original_sha256": "e864c068820afac6d4fff5862f73b4d1ba6d35cbda38c16e4936025943abec0d",
+      "result_sha256": "e1d962bb320e8bd3addb9f98eda8bedb261b0000635f650e830f8cd941538089",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0037",
+      "master": "media/masters/HAMPTER_0037_wrinkled-brow-mouth-panic.png",
+      "original_sha256": "c88d5d947ac75a2efb21d4b9510fc13ef468556dd7431d604478dc72198acb60",
+      "result_sha256": "03d4227012359121aa54d37dbdb36fb7924f405fe40d536d1333fffbd65f9acb",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0038",
+      "master": "media/masters/HAMPTER_0038_anime-eyes-happy-mouth.png",
+      "original_sha256": "5940db95a8d455382914d6b69c3788bac4eee3f02d395b8a172ec7b033fe8bd5",
+      "result_sha256": "3cc5852faf18018e7ce27e7e5deadf56e81db2ec52e79da7e2e5a6c4d4911937",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0039",
+      "master": "media/masters/HAMPTER_0039_uneven-eyes-drool.png",
+      "original_sha256": "31767640af0ba6318768c74819c6e863f4a760b1240170b380e0a44cd1316515",
+      "result_sha256": "1db7f7e36d9328ba1ef0dd49d9cd5d59558e58ebe3268b7905fda8db3d726150",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0040",
+      "master": "media/masters/HAMPTER_0040_tiny-smile-paw-at-chest.png",
+      "original_sha256": "d880d63dd4fe7b5f6ab6035aa89eb15a7b0736d516aab5dc3c13eca906c296bc",
+      "result_sha256": "10978f34c297ed75f810c0bcecb5ae9214623a383e7e9a0dd4593aac543eaabf",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0041",
+      "master": "media/masters/HAMPTER_0041_half-lidded-downturned-mouth.png",
+      "original_sha256": "76c86cf10ebf4c23c6c05fc72c8b97229675d9eaf2cc2ad61efe4ceac656358f",
+      "result_sha256": "0373736d73e66d3eb3925a9680b2ef1e999b3680e7b5226336f1d0e19c209b8b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0045",
+      "master": "media/masters/HAMPTER_0045_anvil-on-head.png",
+      "original_sha256": "921dffa17e5608ad0034e6d9b824eb9b026bc16ac7397ba151935496475c7c7a",
+      "result_sha256": "d1e18ef7f608de7478e84129172d031972fe702bb77021b8553b29108996dfb7",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0047",
+      "master": "media/masters/HAMPTER_0047_bottle-blush-dripping-smile.png",
+      "original_sha256": "c65dec9ba7114862b9f000f4840ae93df450ea94c1014e4c03e1d06ef1cf5c35",
+      "result_sha256": "19caf3666851ecf2a3538e735f7ebfe98fbfe7d77d30b9118839b5c5b2724e7d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0048",
+      "master": "media/masters/HAMPTER_0048_blue-makeup-clown-smile.png",
+      "original_sha256": "dc46e7dc418756cbe17bc57b32ede174c2e4d468282fffa8e6bee8eba88eb4b1",
+      "result_sha256": "623794d1119697cc8a615cad945a8a0285d95790f1110e7ddc0fdbe19c75ccbc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0049",
+      "master": "media/masters/HAMPTER_0049_cowboy-hat-noose.png",
+      "original_sha256": "e84c886cb7b9e3c4aef4170029ec600f3a021e93db0bf3d4931ab449a8dd50dd",
+      "result_sha256": "92e454da2a421027ab6ec1f9ec5ca220dd0e6c1cebdd9181a53a12fcc35a2610",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0051",
+      "master": "media/masters/HAMPTER_0051_two-hamsters-purple-tubes.png",
+      "original_sha256": "574a1f23069a97786f2a8a613bcc54d576f8156fb586c6c8a7fbe6f0451b1bac",
+      "result_sha256": "e2781782ea8e07c1c495f4da4eedf0540ec2c2ee037e577fd6c2e0f5ece4fa2c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0052",
+      "master": "media/masters/HAMPTER_0052_closed-eyes-smile-drool.png",
+      "original_sha256": "d7a0a193c9831d9dbd2941d3a666cbcbff736c653032342d03dd366b032e4301",
+      "result_sha256": "a0eed85a16f764f45c09d299b48fd0b7e8b7a8be5edd40ade3ee5fa2233ff68c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0053",
+      "master": "media/masters/HAMPTER_0053_sad-hamster-handcuffs.png",
+      "original_sha256": "b9287d59273a02c39c1d10d316adc18398b835055ec54e7a165294e8a2f6131a",
+      "result_sha256": "35e0bcca2659d4edbe44d67528375d8a0292d2ec40cab2268496193e18c8b31b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0054",
+      "master": "media/masters/HAMPTER_0054_broken-chain-happy.png",
+      "original_sha256": "67dee22d7c34a14177926a12199d8f6bcb755279ca940517b188666408447e5c",
+      "result_sha256": "24581e375b123d748e28b8d02d68fb16d63b692f72a86a8616385cd427b16d64",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0055",
+      "master": "media/masters/HAMPTER_0055_earbuds-music-player.png",
+      "original_sha256": "d3bfa25fca563c4df7ba61f7b0d6e11d6d87d386cf7d37eccfbd046696abb81e",
+      "result_sha256": "2019796a7e2211ab8a76202939c6085e5dab44162bf27a1be186bbb851b75d9b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0057",
+      "master": "media/masters/HAMPTER_0057_curled-moustache-thick-brows.png",
+      "original_sha256": "8307ac61c28417ed69d9738362083973c378350459fd9ad64cfe5a5293b490ea",
+      "result_sha256": "0343eb72ac50a2f59ecf192997277d3e1e1bd9ff6785ab1fb673f43fc6524a6d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0058",
+      "master": "media/masters/HAMPTER_0058_closed-eyes-pursed-lips.png",
+      "original_sha256": "757f2249c2ce523371fc6355cc2bd7cccfec96b0659397ebdc421537b1f4b6c7",
+      "result_sha256": "3f2b7b191f75cf9d3c0d177efa3c5eed58ba6cb7bfac7801af57e1c3bbb7abfd",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0059",
+      "master": "media/masters/HAMPTER_0059_glasses-stubble-chat-phone.png",
+      "original_sha256": "5b0b6f13fd55c3a65fde86b7d8ffdcc72840db6880a822e64a99d57d2e27dccf",
+      "result_sha256": "1d83eb371ec070d6e26189961dec045eab0737df903f682fc30d0b18d44d6022",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0060",
+      "master": "media/masters/HAMPTER_0060_wink-small-peace-sign.png",
+      "original_sha256": "bb5ae66b64b92c206df77f5135782cd79dc7d819e9eadd3de7b2cd3c3137cc83",
+      "result_sha256": "68805fdbd5ea211e99bbc5a383a2ce70a9961b3453bdb152b421932e89b36fa9",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0061",
+      "master": "media/masters/HAMPTER_0061_chiseled-jaw-full-lips.png",
+      "original_sha256": "13c0b92fcd9c4cd69b0042a6161dd6b708551a7d3949fa23b840e2fdc6d0c6e9",
+      "result_sha256": "747215f9930a02a0cf2d47156775f839078d9bb5cbb5edcfc8092586bed9809e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0062",
+      "master": "media/masters/HAMPTER_0062_vomiting-green-stream.png",
+      "original_sha256": "8f0e60ae8fbc2307052c5ec129347bd806feaa3b6bf06fc56f93024528b531d3",
+      "result_sha256": "05132b494b5d8d85d70943a2de270233acc799ef76851fa2c4ceaa1948ab740b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0063",
+      "master": "media/masters/HAMPTER_0063_heavy-black-eyelids.png",
+      "original_sha256": "6e6d7c5dd2fa1353176cdd3bdb5fefe1c9f53d7bcd8dbc8252dd05d24c21491a",
+      "result_sha256": "168abe9497ad37557c207346f958fd41057831ddb9cc4df7702eed799fa52c30",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0064",
+      "master": "media/masters/HAMPTER_0064_large-shiny-eyes-frown.png",
+      "original_sha256": "38fa99828c3f71435017472ce82b94c341c450f9957653236edf2c1bce84885b",
+      "result_sha256": "31aaee7828f5968d24b080e768b994148c265b0533c4885a6c0823a608a2666e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0065",
+      "master": "media/masters/HAMPTER_0065_blushing-puckered-kiss.png",
+      "original_sha256": "3e569b48d9fd1d46c6d943912a924c9c5ca89cfde4925832f302d4abdae9d760",
+      "result_sha256": "fec8e6b79e9d8cfd04ef7e3c40fb4aa5f1988e0af917126007e628336e41ba35",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0066",
+      "master": "media/masters/HAMPTER_0066_green-helmet.png",
+      "original_sha256": "2b6bc7e0460997eb027a0eddcb5dcce51f735cbb24941474ae7bcb7b5ba682ac",
+      "result_sha256": "878f5206eeea797f9b0b4dfd8d9d8f0fccdfa53ab526171463eb350501bc8cc0",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0067",
+      "master": "media/masters/HAMPTER_0067_devil-horns-pitchfork.png",
+      "original_sha256": "0cce63556c9a5ad08a5bb301d1f97581e62fc331be0f9c1fd51e01b9d5c52a29",
+      "result_sha256": "076a4037185bd46e71ce7c02b8096a3a798a8ffc638c1af81a8ce738607c881d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0069",
+      "master": "media/masters/HAMPTER_0069_pirate-hat-eyepatch-hook.png",
+      "original_sha256": "c6b50c1da83e0917dfe435b5a9b93d2fe4bb6fcf3b29d7388e0429a72311593e",
+      "result_sha256": "2c8f4aad530d403da6521d497cd791c626aff8409982935879d29ff5ddf57eec",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0071",
+      "master": "media/masters/HAMPTER_0071_pirate-yarg-caption.png",
+      "original_sha256": "5f435807b4ae9718e0ce447e264177c3b0483a07ed0006bc7969ff51d95337f2",
+      "result_sha256": "7478fd571c3aec88bc909f152b828c5da1627929a5cb911d7584bcc988f58176",
+      "original_size": [
+        828,
+        823
+      ],
+      "result_size": [
+        1030,
+        1024
+      ],
+      "manual_mask_exception": true
+    },
+    {
+      "id": "HAMPTER_0072",
+      "master": "media/masters/HAMPTER_0072_salmonella-kiss-caption.png",
+      "original_sha256": "7456125cb92561868b8a26f1150da2f6420fc96cca21305cb17ae667f923fc55",
+      "result_sha256": "6a62559a9bc2bf91bb8987ba5c9199e13870f719fafeade5f9eedf4817fe4954",
+      "original_size": [
+        828,
+        803
+      ],
+      "result_size": [
+        1056,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0074",
+      "master": "media/masters/HAMPTER_0074_very-tall-thin-hamster.png",
+      "original_sha256": "a59238517e95430aa25b9229e6355eeca276f3bccc3fad0b2dbd784613bc3517",
+      "result_sha256": "95b9dedd840a0e4a1fbe65448b1caad697744301f830ec342c3933531d72b03d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0075",
+      "master": "media/masters/HAMPTER_0075_large-black-shiny-eyes.png",
+      "original_sha256": "6951b86669d7982b82e93c7acdc60d7dbf3b0ae7a85eeb88b11437212bc6a227",
+      "result_sha256": "8653e9ba3029e8083f37bb1996ac570ba6e43dbef18c9f510263887a0f678e3e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0076",
+      "master": "media/masters/HAMPTER_0076_blowing-yellow-saxophone.png",
+      "original_sha256": "6b8b42bb765fb3650a6888bba20e55b3ef1f806151d973a65fb13f3e34db00e8",
+      "result_sha256": "b579d0a63127dc2c1df06ff50a72e4d419c99a45c8e227b23e6d6e7997274cc8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0077",
+      "master": "media/masters/HAMPTER_0077_spiral-eyes-tongue.png",
+      "original_sha256": "a3c964b1d70e5b049c5377ccbcca5e4c85b367e7f052c318b573e48131b67e22",
+      "result_sha256": "790821fa65c9c061eb740f75232cf7de02802cd500edd8d0c78769e87b83fc17",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0078",
+      "master": "media/masters/HAMPTER_0078_punk-mohawk-spiked-jacket.png",
+      "original_sha256": "c26fb27e0d9035f6c549f7ce1139790a1ca89f0c1df8d19c657ee539ef265c5f",
+      "result_sha256": "050c6707e0893156c5528ceaea87f018a27e722471ce1116fb23aba3d711347e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0079",
+      "master": "media/masters/HAMPTER_0079_birthday-hat-cake.png",
+      "original_sha256": "4821e36a4aceb93aa05a970f21354397e88dc7b89bc32a44ec2be39856a2980f",
+      "result_sha256": "c0d36ab9ab98354d45f3537555c871dd608479a4c718d54de32f8a1e59e111ff",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0080",
+      "master": "media/masters/HAMPTER_0080_wizard-blue-hat-red-cloak.png",
+      "original_sha256": "6b1a30c70da0b18c2f877d93b4cb632b86e112d2b24fc35652d76a4d1c9b75b5",
+      "result_sha256": "65df74393adb340cee675293240d68fbc889ed5468d29f6223180d91decee76f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0081",
+      "master": "media/masters/HAMPTER_0081_black-fringe-black-shirt.png",
+      "original_sha256": "a7e43db106a6b22d7e069321ec11bba9d1bf76a3ec77c363cb74b2d5cf13f5c5",
+      "result_sha256": "5a40449265ffe1d29d4cd4614a98fc0534f97802e5aee68fd6141cd85d195427",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0082",
+      "master": "media/masters/HAMPTER_0082_mug-thinking-of-bow.png",
+      "original_sha256": "f683f581cdb48f91c3019164dfe33f811de7682b382ef5f948e087aa6ef47b4d",
+      "result_sha256": "5b22fca44edd94f1bb2f167e99d2b234dfe11e707087465678bee1f439e8975f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0083",
+      "master": "media/masters/HAMPTER_0083_detective-coat-pipe-magnifier.png",
+      "original_sha256": "be88a71a2b4abb79b9edefa932c8992b42a6e0667b84eda36800f67bdc54304d",
+      "result_sha256": "b6688a556d8e3792cd5c2423910289e8d4dda9ca01a5b3589a2935cd56c0481f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0084",
+      "master": "media/masters/HAMPTER_0084_square-glasses-raised-finger.png",
+      "original_sha256": "7683959e7575e5c06b4aa50be5aa85de07b683c459b3e914f8f942d5ce05eca1",
+      "result_sha256": "eaae909c404f4c28b4c5c399cee0cbacf8a2688c3ac32d49bc3d2d91ef8247d8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0085",
+      "master": "media/masters/HAMPTER_0085_sunglasses-money-rain.png",
+      "original_sha256": "55b968a2954321a1770855d50e989b3af4c6b079a6cdb15c4bb07953badcf843",
+      "result_sha256": "aef3949c0f8c655e3dee68e37ba0814b11335d4c011cbfc9b70b4b8421e90bf8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0086",
+      "master": "media/masters/HAMPTER_0086_caveman-beard-club.png",
+      "original_sha256": "29310b08e9702edc4d84f3e64a63a2f412dc6ecde740d67e8fd6357bf644218a",
+      "result_sha256": "b60c9af685d2142dc40b64c1d537256293e9911c65a9be129bfe2b46a4b41df3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0087",
+      "master": "media/masters/HAMPTER_0087_black-bob-red-scissors.png",
+      "original_sha256": "e0c5e286eac15e14daa6c9bffb9508c1437cb4fecbc0ba185f3bceba9f89f649",
+      "result_sha256": "fe94ac927c913ff410842e73ec2fedb1cdb614e4cdcd3aa7dd775b1560b2a019",
+      "original_size": [
+        1080,
+        943
+      ],
+      "result_size": [
+        1080,
+        943
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0090",
+      "master": "media/masters/HAMPTER_0090_braids-tiara-pointed-ears.png",
+      "original_sha256": "3383f3aa4540a2440f4f572c0137793402bd8dbc43f3b53ef32df65210edda59",
+      "result_sha256": "ad8c6dc963efe2af99f4d40e8ea682d4d010cc7b35414db51e5741a13d6f6ed1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0091",
+      "master": "media/masters/HAMPTER_0091_blushing-lashes-tiny-smile.png",
+      "original_sha256": "4cc17ca300aac29e643fecaa71f2d7f4946de02c5617408299c1d0d73d1134cf",
+      "result_sha256": "b66f824b19deca27dc6837baceedaebc2b948bf7f27144784c3a79f72bec0851",
+      "original_size": [
+        1080,
+        1079
+      ],
+      "result_size": [
+        1080,
+        1079
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0093",
+      "master": "media/masters/HAMPTER_0093_large-thumbs-up.png",
+      "original_sha256": "effc6d29995595f4d4bade09c5d4ecec8fafe364b78c6047f6289e5f1b648a86",
+      "result_sha256": "14d190df5f5b9830518e0e680b3f7757f85b260208f322c1efd8da57f8e6eaaf",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0094",
+      "master": "media/masters/HAMPTER_0094_lightning-wizard-scream.png",
+      "original_sha256": "24b21ad253a1d8dd08e5988daf81991f1f5f05e9906a69e4a3a5b029c75a27c3",
+      "result_sha256": "f82282d9905d028212926066a0d00f8d27b8bf26d84c3cdb59c6b48236fc2938",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": true
+    },
+    {
+      "id": "HAMPTER_0095",
+      "master": "media/masters/HAMPTER_0095_minimal-human-face.png",
+      "original_sha256": "255e54c5c9d11d2da11b788a9390ef11600d1805de1412954995a8c37b2d2579",
+      "result_sha256": "b8f3650ed378274f7470809e6f4805381b41a7406b2d8272089ad7be5aec9fae",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0098",
+      "master": "media/masters/HAMPTER_0098_narrow-eyes-crooked-mouth.png",
+      "original_sha256": "66e9f8517870d43a788a9deb05cc47e0708f82d212bc35a3b6151e038abe7c5b",
+      "result_sha256": "57948cbcf8f9638c6e51a8568b20818451c0615dc2c1e49622bd188c223dc026",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0099",
+      "master": "media/masters/HAMPTER_0099_blue-hair-orange-shirt.png",
+      "original_sha256": "635ae8802e3d4c112e9fdbae0a7745a1c20cf663e8732987c98be27c0acf43ee",
+      "result_sha256": "d0fdfad3b680205e55d07cbfc8243a9503d2d4835ce67e63cbb720f55285b978",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0100",
+      "master": "media/masters/HAMPTER_0100_green-face-headband-cross.png",
+      "original_sha256": "86b2e1797f8f95fdb260b308557aded34340e837cb89f1ee93c030edf3cf2f02",
+      "result_sha256": "7baab3cecc52820b66bdae00a33d7ec74495584d8a58ac1385f9739a6732d6b2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0101",
+      "master": "media/masters/HAMPTER_0101_brown-face-yellow-logo-shirt.png",
+      "original_sha256": "1bb547345ea6f350352eb167ac815f0ecd192acbb13e99aeac960e2cf157e676",
+      "result_sha256": "2b673241028b3a9fa3fa1dca1028a7c24b3673e6eeff5658db82828310e94923",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0102",
+      "master": "media/masters/HAMPTER_0102_dark-fringe-striped-shirt.png",
+      "original_sha256": "16fd5949bdc852f519871cc425058ae5245e45ada4855bfb24dc019493888f1f",
+      "result_sha256": "86f476cc733b5ec2568fb812b4a7f056f66ca0fa73e1fd71d8597b49b2e7d7dc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0104",
+      "master": "media/masters/HAMPTER_0104_green-hair-power-scream.png",
+      "original_sha256": "f7731673e155b6976647e6d68ce93254fda8afca561e13ba1b4bc9047a054b97",
+      "result_sha256": "faadbc8a6d519b1ec60ebd7da3edbb613144d98b785bad7c7163fd56449ccd32",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": true
+    },
+    {
+      "id": "HAMPTER_0107",
+      "master": "media/masters/HAMPTER_0107_thank-you-heart-blush.png",
+      "original_sha256": "e7e0506e2c0c2d70e6105eafa70715df015b3a57de8e1c48d32ec98d95789ea5",
+      "result_sha256": "5d378d2e1909551b9598eb18bd498b6802d5903c35861585a5a99bf18dc635c7",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0108",
+      "master": "media/masters/HAMPTER_0108_party-blower-confetti.png",
+      "original_sha256": "7e86694d758e819152ad894f38db61f7f02035fcb1f3b5996447eb01aa630ace",
+      "result_sha256": "041e9a2b1d43130a5dbe4cc84c96b6d4ef991fb5b76ae3b2fefa8051022a7952",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0109",
+      "master": "media/masters/HAMPTER_0109_toy-mouse-on-head.png",
+      "original_sha256": "9e96b481d90c95b662a47bcbf64bd1fbe24ff5404b0a27b129d52da73472307f",
+      "result_sha256": "32eac075b3a162d8e0ee482483a68328c3967e1175ce7323d7b26ff7da63b695",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0110",
+      "master": "media/masters/HAMPTER_0110_bat-mask-yellow-cape.png",
+      "original_sha256": "67be335f2f3ec0d1efdceb7040af7e44f53ea297e15e9e71b7a6f04bef5fa8e5",
+      "result_sha256": "96f899729268e3418d400d1ca880f3887808e61e1a893bd45d9710632900b840",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0111",
+      "master": "media/masters/HAMPTER_0111_bearded-cap-coat.png",
+      "original_sha256": "d30d5538067ef8707f8b1826215dfa5a1c643cbdffd841dfcfc002aa125309f5",
+      "result_sha256": "e7d2fb4f86e520d82a53ee5ea46e0d733ec1306c4166b07cfa0503a32cd728d1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0112",
+      "master": "media/masters/HAMPTER_0112_shaggy-brown-hamster.png",
+      "original_sha256": "be0f688a1c07605c45409ecc42d7e256fb602deef3d447ae89cb07bf6ca429fd",
+      "result_sha256": "9a4304d4421a74d82f4ad73bb29630d1db69ad02dcdede24e3ed7a6b70147aea",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0113",
+      "master": "media/masters/HAMPTER_0113_colander-hat-smoking.png",
+      "original_sha256": "b3ddd64b6729b1deea5bec43a989bb0af14095a1097e76ab591628b7c0f1a42e",
+      "result_sha256": "52ed47e18965f269d2d81d5ff27dc1c047a7cc68baffd5bb1ac8caa939771029",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0114",
+      "master": "media/masters/HAMPTER_0114_yellow-hair-ninja-band.png",
+      "original_sha256": "0dc83427e2d2da95b0e9009bdf8ecdce607a3829a730b4418293bf988fbeaa63",
+      "result_sha256": "8eb119d0dafab766d19ce31dc4b34a0d8e29d51da87b78a1f993e6ef2e618761",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0116",
+      "master": "media/masters/HAMPTER_0116_flies-stink-mushrooms.png",
+      "original_sha256": "e09b2b985945e24494f14bb16350240927e1628db5792803125adf5c0f0857e4",
+      "result_sha256": "6a482d86f37e9cda45f8db5d5c168082713540d371658a4ec125a275108feef9",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0117",
+      "master": "media/masters/HAMPTER_0117_holding-two-cats.png",
+      "original_sha256": "0f0f695a95ff0518cd85932f2730bfffd35cb68015a40c80280aa663c5eb42b4",
+      "result_sha256": "f3dc8ea28699ec168d1bff7ee494b4f58affce0209607fa3f76968e17e7faa47",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0118",
+      "master": "media/masters/HAMPTER_0118_covered-in-bugs-shirt.png",
+      "original_sha256": "4486f8140ea74ee468df99229b8e4e1b2cd0ba8a9f158784905ae5df597b3b90",
+      "result_sha256": "276e675b3c9507c6935f3b996ddfb9e54c7328d61ec9a18beb153a1c20fad35e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0120",
+      "master": "media/masters/HAMPTER_0120_superhero-shirt-gram-caption.png",
+      "original_sha256": "c90dfd4c84cd4fbbc3d74f140c09a977763d6e9b5ebb1e462647ed48e4990d07",
+      "result_sha256": "cc06e1b387fa51089ce2e7fe7faababf8d670a76c03cab48da023add9b45aafe",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0121",
+      "master": "media/masters/HAMPTER_0121_blonde-bow-blue-eyes.png",
+      "original_sha256": "e057d9f33d57783662ab30da12f94aff1f187b7f0c9977df90715b6db62b51e3",
+      "result_sha256": "8052d3bf6e5f4e95ea03c28c445067372936745ce86cd08c294a603566015c7d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0122",
+      "master": "media/masters/HAMPTER_0122_painter-palette-brush.png",
+      "original_sha256": "776b6a0359bbb9a7833df154652b40cf655878b554ed02210219d3c74a1c97fd",
+      "result_sha256": "2677516f45063a831501dae58d6b1d24ce83f83a65fba4f4bb22d56e3d1981e9",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0123",
+      "master": "media/masters/HAMPTER_0123_gaunt-face-thin-drool.png",
+      "original_sha256": "d8349e58902bc9c2e489aeb1af38240d447d3764665e90603cb44f97a9229835",
+      "result_sha256": "a0c8fc698414373a66b30aba82059a78f43a21e6c8a7f59893fffff85eadef14",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0124",
+      "master": "media/masters/HAMPTER_0124_lime-slice-in-mouth.png",
+      "original_sha256": "d519a8c5aa9db05a1fbfa7cab347fbe18a8c95a1df7d42e2bd1393658a9751d1",
+      "result_sha256": "91bf0086a4a52d855e64c4bfe849e8af04a1cb5cf940153414a0883569b6ec36",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0125",
+      "master": "media/masters/HAMPTER_0125_chef-hat-mixing-bowl.png",
+      "original_sha256": "70914c815b46ce721deee384eb983650ae91e8dceb8af738e7ffd1c74060ac72",
+      "result_sha256": "f1db0c1bb554cf37f9014f2d885835e7b4b151522ad154eedcbd1e49404f38f2",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0126",
+      "master": "media/masters/HAMPTER_0126_unmasked-spider-hero.png",
+      "original_sha256": "ba378e48293640b141740e94d936be8d751bb2171ceec2ab01d7e37ef522d2b9",
+      "result_sha256": "4437f9c7c8953b0a1ea492687a83b967fe8b3bcc36e16c8841f06ad03ad04f33",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0127",
+      "master": "media/masters/HAMPTER_0127_glasses-writing-in-notebook.png",
+      "original_sha256": "043a7184ef953400676a1cfeac576b815b81328b335c4d4f1993771bd289397b",
+      "result_sha256": "3104865a4c178a1fe311df6899fc4242f5f56e791d9f2d9e24c01448fc4dd390",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0129",
+      "master": "media/masters/HAMPTER_0129_electric-guitar-playing.png",
+      "original_sha256": "f8f4d6a56dfb28dff7cde00c16f3351f35b8144b2fc1a7846dc064e43f2aa49b",
+      "result_sha256": "6daa119d6b1c9b9865ff20117c016fe30bb374439e4240c63e32e1a3faa0f7b8",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0131",
+      "master": "media/masters/HAMPTER_0131_cyan-eye-blue-jacket-grin.png",
+      "original_sha256": "3c92921099763c42abf1a7fe015a34db370a067066342fba7bc1c5ae440ef095",
+      "result_sha256": "97ec905f2c68463c385bc05572f46f3d3cd6e4337cd42454c9918060ebb4a2cc",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0132",
+      "master": "media/masters/HAMPTER_0132_large-exposed-brain.png",
+      "original_sha256": "e1a4893635331d2af9624ce4b9716a1238708b8ea50b06ae9b85d8a4f20f627e",
+      "result_sha256": "6a2172dfc64e6842250b106b762b75b26b8a1db2c5d0f733c6037a3a23ee8921",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0133",
+      "master": "media/masters/HAMPTER_0133_black-fringe-mcr-shirt.png",
+      "original_sha256": "7f3c962e0a0aa366775250f7807b9da8b7d8955b3e15174570f4f4d020a79829",
+      "result_sha256": "2f811fc830ec91766f5cc830bcf54cad662de55209d381e6d9ab1db88c861679",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0134",
+      "master": "media/masters/HAMPTER_0134_burger-in-open-mouth.png",
+      "original_sha256": "d49668cc5557cdcc4c76fca4d41702d325ab4a033d098502218c6e39790823ca",
+      "result_sha256": "9f0ea0116e8c33b7c9d478c9067f35ffb948a317512763934879d7f1f00f0f3a",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0135",
+      "master": "media/masters/HAMPTER_0135_angry-thumbs-down.png",
+      "original_sha256": "ceb1d622d55e4758eee1658132325c9f8db3307752020f9b2b89f91ae944c496",
+      "result_sha256": "bb99643678f22683a9f4f158f6ddbb32b22c11b7a2213c93c6ab18688a3075fd",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0137",
+      "master": "media/masters/HAMPTER_0137_turquoise-twin-tails.png",
+      "original_sha256": "90d1a341b09f8cee9d4e7d65c4bb49433a00e0213c6f76cfe8a7b411fecf974a",
+      "result_sha256": "93a6f09f9e89e5a80f2f6a97dcae669198be36d8c7b109246ff86b53c3ad458c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0139",
+      "master": "media/masters/HAMPTER_0139_brown-fringe-high-collar.png",
+      "original_sha256": "5dc46eff18e2ff1520ffa460e022de7e807939e1f7e9aa2c5c04af9fa8451269",
+      "result_sha256": "b36d535fe26a59062b3a151361d6ef2c0d905edc050024387a4af04c878951c1",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0140",
+      "master": "media/masters/HAMPTER_0140_blue-arrow-forehead.png",
+      "original_sha256": "4adb039c0e535f14161021a147f2a4fd3fffc95679f71ee2f69e3572bc92159b",
+      "result_sha256": "394a249eeaed5de5346a555fe8b3938a13a3e31a191209e4619a0e20f36ed172",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0141",
+      "master": "media/masters/HAMPTER_0141_angel-wings-halo.png",
+      "original_sha256": "51f9249d5783bdb7ccd82133fa9421b9073ba147179f9a919394903b173a7ea1",
+      "result_sha256": "c5340a8f7c65ef82fcd87cf8e148012a5655a8a35bb180a71238b0627bf51822",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0142",
+      "master": "media/masters/HAMPTER_0142_refuse-lactose-shirt.png",
+      "original_sha256": "aba3a097db42756b35d4baba006fe6b95c7fe8d736c4df303bf0e8e1dd2d47fe",
+      "result_sha256": "c52b80e4702b15475c7cf67336b57d8b268992c9dae856b90146d9ea04c7b689",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0143",
+      "master": "media/masters/HAMPTER_0143_bow-refuse-lactose-shirt.png",
+      "original_sha256": "71fc5ed0235670b75ab92a4459b7ce41c275f6790038ecccc74526f94348dde6",
+      "result_sha256": "3a2273d83d586be5d029501d904ae2a6fb24ab49738d13df06c4340785d4c56f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0144",
+      "master": "media/masters/HAMPTER_0144_proudly-showing-drawing.png",
+      "original_sha256": "4561f503d96940e96ba07cce70afc4984d57b6038910980160983b2564447e37",
+      "result_sha256": "2752e969647fedd8a93d554bd240cae073974cc4406288bd16b941fb8f0a7c11",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0145",
+      "master": "media/masters/HAMPTER_0145_cherry-on-head.png",
+      "original_sha256": "fed99b6ab3c43941872934d3bfe0ed35ccd73ca606a23df5b73f941fe0ba9dc3",
+      "result_sha256": "49ff63b5bd63dd902ccc97a64ab480632197e4166ccfbf13db6a0788dd4e9ee1",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0146",
+      "master": "media/masters/HAMPTER_0146_happy-tears-smile.png",
+      "original_sha256": "fd622686241d7cf0fb87a651768bfffc1aad3f3fb45809bc7fa45a4f957d24ba",
+      "result_sha256": "b4e73aab28835a1c5368718b9bd0b8882b0e6585af23e7e66a96608b7b02c02d",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0148",
+      "master": "media/masters/HAMPTER_0148_sad-fly-covered-pile.png",
+      "original_sha256": "afab7967104cf94a2fb0866d78eefd521184002c4335c7aa5cf4a2acd33892e8",
+      "result_sha256": "15dfc2d0df2879f95b613eeb529c3051b1b49427dc2c3c490f80120984f1f0fb",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0149",
+      "master": "media/masters/HAMPTER_0149_bunny-ears-easter-basket.png",
+      "original_sha256": "d73154f30ef28b77acf01d22d43f8a6fc4253c1776fef7293ecf7178e1d59817",
+      "result_sha256": "80ae9bb9434b0c6421812d339a3a2d8567d4edeee9a3ffc8947050c8acc765da",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0151",
+      "master": "media/masters/HAMPTER_0151_grin-glass-blade.png",
+      "original_sha256": "0ebf5a021484b548be01a823536be94e0727a0d69eb5bdfd9c6eccff6804ad92",
+      "result_sha256": "e417cc07b2a8407cb0042c2169f7d2f33d83aabe86d4d3a5dc2eb3df359e1612",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0153",
+      "master": "media/masters/HAMPTER_0153_pink-face-white-shirt.png",
+      "original_sha256": "70eb6a6e8c43bd44e887af090f6f3543b639162fcddadbd14c8994fa0309bc2e",
+      "result_sha256": "ca4f0bd2090a8a9599eb261ce48f2376fff18ee9a9de40513fd0f90f20f4e662",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0154",
+      "master": "media/masters/HAMPTER_0154_blonde-hair-black-gloves.png",
+      "original_sha256": "ad801b522138a44728b05fcf1cf36fbd419caf18c88f51324165665ff4d005c0",
+      "result_sha256": "47f22b9c0f95d6f37bfe9b4afd28fa1f06832fbe9f38ed8f855969e0cd45a9cf",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0156",
+      "master": "media/masters/HAMPTER_0156_raised-brow-smug-smile.png",
+      "original_sha256": "63bd97d19bd4ddff874e9c94702f8c6a89a650f673cd5c88baf276132f53a3b4",
+      "result_sha256": "5fa0478bd9d6a39af26d7fa9c5c4bf2a18063b97b6f91fabd13e7d7b2c11e56c",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0157",
+      "master": "media/masters/HAMPTER_0157_short-brown-spiky-hair.png",
+      "original_sha256": "f399a96f780dce3818f02f89d43afe23fded74787c03a592d57f1fce9b20df5c",
+      "result_sha256": "8a46cb16ed9384b673b5e428a121655f93f7f4711f57902fac1cbb77f992bbe3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0158",
+      "master": "media/masters/HAMPTER_0158_windswept-brown-hair.png",
+      "original_sha256": "b99d54144b7abad66fee57d0d3e31c0e286b0052567d7c383ff8fae288c64bb4",
+      "result_sha256": "420a6224e0a3045d7c14dda3db8e6b84919ab7f0230179ab088efe06e65ccf98",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0159",
+      "master": "media/masters/HAMPTER_0159_huge-tired-eyes-single-tear.png",
+      "original_sha256": "1b80d8a954b4e6b5cfbd0a2527c9cea3e957d782ed3d299496bffc3430a0ea48",
+      "result_sha256": "a1ddf3c8f3dd98f9b03ce3e96de6878bec149527949e40c3f000851d06f993e2",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0160",
+      "master": "media/masters/HAMPTER_0160_silver-hair-red-cloak-sword.png",
+      "original_sha256": "e69715453a3337ad1ddfb22462448f16c3c26ee151bce2b279ca609224d400a4",
+      "result_sha256": "5ec07ce665ddf4eed5ab42eaf2afefac21b0af71a4d13b5ab6824a4e6211d77d",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0161",
+      "master": "media/masters/HAMPTER_0161_magician-top-hat-wand-rabbit.png",
+      "original_sha256": "03a8fadfd49986b3fb1853cfd6d7bb27e158dc64f8a5a64fc693e43911bc1a89",
+      "result_sha256": "f5a6f5dc8512be0e6114bb8f96028bc8e3602a7ccc0ebdeddfc986dedac27a71",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0162",
+      "master": "media/masters/HAMPTER_0162_triangle-mouth-raised-paw.png",
+      "original_sha256": "b58c71c3459ce8e1824d293cb9dfbd073dd513a068cde5c495f24388430c1350",
+      "result_sha256": "f4f52e97ed148d2cd925adf767981e328a00ccc740c37cc77f98af48bcb365ea",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0163",
+      "master": "media/masters/HAMPTER_0163_wide-white-eyes-wail.png",
+      "original_sha256": "783b6403ea9b5baaff9669f56db365860d1af3eabfe146cd87f6494d9140f943",
+      "result_sha256": "105e8362ab1d260fb147ae172b627081a018bc691bac9802bf611f9d507cc4ce",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0165",
+      "master": "media/masters/HAMPTER_0165_red-bumpy-body-smile.png",
+      "original_sha256": "8ae6735ffe72acca76b8cdc0fffa84a4782e276b7852d898b5dd632392817d06",
+      "result_sha256": "cada6411838da7dafacccc5988a6206120af60a819d8611ce2be79a54ecb4959",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0166",
+      "master": "media/masters/HAMPTER_0166_pink-straw-smile.png",
+      "original_sha256": "351df935b312ebcf98c95661b55dda5385f511c9a289aa711d3e15577f8db86c",
+      "result_sha256": "bb3329dfd45f29b36265c16d7fbcf7f166bb4157f720572cc6be2af4702ff8e0",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0167",
+      "master": "media/masters/HAMPTER_0167_red-fries-beard.png",
+      "original_sha256": "64e330c176c5694b1374bc2d46856d9d3277be8dc9510d6a7ce630ed3a52c528",
+      "result_sha256": "7aae604eab8e841f40b2a2447307e941a0810a330cd2d8a104e37a3d94c81f93",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0168",
+      "master": "media/masters/HAMPTER_0168_brown-pile-green-drool.png",
+      "original_sha256": "f50d4fd7a7866dcea3f88d81ceb33f941bddbde88ac24b679ea9694fc615ec62",
+      "result_sha256": "c525dd1bd1685096526645926a4649837fc842c74b71560e506073668791c0c4",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0169",
+      "master": "media/masters/HAMPTER_0169_watermelon-head-slice.png",
+      "original_sha256": "4370c57d49b1e6829c5ef784c6b26ec4e3ec17496478751bbe96662cc2f5cd93",
+      "result_sha256": "aa9b8e7654f74fecff1e05f2ebaae7713e92691799e7f21215ab4e3512b1004f",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0170",
+      "master": "media/masters/HAMPTER_0170_orange-head-mouth-slice.png",
+      "original_sha256": "a450826b2a24c6549af8e507f3b8daf035bcb5770327b8c1ebcb8ac5f1858cee",
+      "result_sha256": "70e6cde5c98b2bb02950bbb27ab822d7a2758cc3911c4f55d0d82b78c4365645",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0171",
+      "master": "media/masters/HAMPTER_0171_dementia-share-caption.png",
+      "original_sha256": "b076f10a49fd68fadcfabee20cdb3c052c8625091e9ec22d8b2319b0d9335e13",
+      "result_sha256": "7db9934f4e29525704cb8ed5e699ceffd0d4a52edaa51812d5a49bbb8436d1aa",
+      "original_size": [
+        720,
+        1280
+      ],
+      "result_size": [
+        1024,
+        1820
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0172",
+      "master": "media/masters/HAMPTER_0172_lemon-sour-face.png",
+      "original_sha256": "c9251fb67ea26c60bbc8836544ea5f88ecc10ad1e3707d0276d8e4df49a18eb0",
+      "result_sha256": "250b951314721eb8c9231235e8789dec4a22ee186e09ea32a5f3887157dfacea",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0173",
+      "master": "media/masters/HAMPTER_0173_tiny-flower-creatures.png",
+      "original_sha256": "39df9814a2db27a6176e77a16d7744a1d955a3e202ba91703ad7b4f42153deae",
+      "result_sha256": "d36274b6ba51900ba7cad7567b7ab6f858a1abc99b6452b262c9c600767ac325",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0174",
+      "master": "media/masters/HAMPTER_0174_mango-head-dripping-smile.png",
+      "original_sha256": "2b6ce54d0be308d61e0f6841c5dc7855b84d4d6a956787763140b4beee0f3aa1",
+      "result_sha256": "ae4d00bfd787eb731669ad1d377fec4e5a225bda17b9d4318fd0ab9a35ed4e09",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0175",
+      "master": "media/masters/HAMPTER_0175_strawberry-head.png",
+      "original_sha256": "f58b13326ede9ae29a3d4f17f744bbd38c4a92f19e184adc36a104f0a9f57e51",
+      "result_sha256": "8538b844b595e2d527c2e5247acc9207615632e37cbcc9a7f9927f7dee485d7e",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0176",
+      "master": "media/masters/HAMPTER_0176_golden-glow-letterbox.png",
+      "original_sha256": "ab2d954c1365bba62c7fdc32469eab7eeb4d02c56ae2ae8770f49fa074ffff05",
+      "result_sha256": "5722f1d393339e292c431416a2a16c1b386e59643c90c47358eb1f5a5f58dc8c",
+      "original_size": [
+        720,
+        1280
+      ],
+      "result_size": [
+        1024,
+        1820
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0177",
+      "master": "media/masters/HAMPTER_0177_angry-steam-fists.png",
+      "original_sha256": "5a07cd6ee9cfa1401df97eac222f56d4fa2e4e3d26f808fbdb9ddd02adffa721",
+      "result_sha256": "d800f990b22c4196e528b1be885ebfaaab32be8a911d5d044b6894496d975a00",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0178",
+      "master": "media/masters/HAMPTER_0178_peach-head-two-slices.png",
+      "original_sha256": "17f3224325f9af96a8f205cd167e80754f98a75ae36bdcc98d0cb60436e32f27",
+      "result_sha256": "f9f14b97c05e8ea4b576963cfb87787479d44ef241f9fcd8811b5030b0f1a2ef",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0179",
+      "master": "media/masters/HAMPTER_0179_pear-head-puffed-cheeks.png",
+      "original_sha256": "3b60ff49564811320f5f47ad543350789566ae23f0a30eb8ed2a000ec9d13055",
+      "result_sha256": "904130d5a7b4fa6f2a275aa52028f7f6961ea3f2a023bb209d762c65134104a7",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0180",
+      "master": "media/masters/HAMPTER_0180_pig-ears-snout-tail.png",
+      "original_sha256": "f5d40e29452e9971cae0f51c97238da666dfc755f0a5cad4e5764917099dc084",
+      "result_sha256": "0d4b1729e9f035a06cca79c6716a580a70cb3f7351339d9259de9cba292f2ff5",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0181",
+      "master": "media/masters/HAMPTER_0181_two-grape-bunches-happy.png",
+      "original_sha256": "64ed5166bef94ddc00adec67506251a89deb0abd2a640be1adfbfd35c6ce8cec",
+      "result_sha256": "b4c76292ddb68360b56bf8aed4fe584305f6bc0c202baee2e65de3a4e8740b87",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0182",
+      "master": "media/masters/HAMPTER_0182_star-eyes-huge-smile.png",
+      "original_sha256": "39b746e453edaf7301b8cabd872f2780341d3dd28023f6e8c0961a5bccdccd92",
+      "result_sha256": "7c3e955b49cac7585f05f80ac69ebff393725df081126775e97df8977b05ec5b",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0185",
+      "master": "media/masters/HAMPTER_0185_pink-tongue-out.png",
+      "original_sha256": "839c3e05c5f7b7ca716cb5fc88a635da8f052d27269ccdda113732ca4e612189",
+      "result_sha256": "7ebdbbf92a7c81b3b8bb845e734a407bad743656858318c51cd5737dfc9fb46a",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0186",
+      "master": "media/masters/HAMPTER_0186_scrunched-brow-frown.png",
+      "original_sha256": "dbda016f3928743860d6eeaac900f7957e0ecee50eacf6f90b7977e79ceca07c",
+      "result_sha256": "8f99cc94eb95b4a6d8a2435d1ea05ce594deccc9be0495b1d59078c4074d6059",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0187",
+      "master": "media/masters/HAMPTER_0187_heart-hands-loving-smile.png",
+      "original_sha256": "fec7fad14a763c8cf1d952bf1b10f987418b3f7a889b830d6b5a44ac3fdf5cd2",
+      "result_sha256": "f90d1be25e2ec86f6727a7aa5bce54954f4794897b6aab6dbd34ec2464522ea7",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0188",
+      "master": "media/masters/HAMPTER_0188_blonde-braid-red-cloak.png",
+      "original_sha256": "1063a36000560168e156d50af1f0fb421814e9d45f72295f2d6fb4bea7dd9882",
+      "result_sha256": "26e868388e9c23adf42a99978fa9f437e39d0e100c3d74471b1f342d0c59b619",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0189",
+      "master": "media/masters/HAMPTER_0189_gray-metal-helmet-loop.png",
+      "original_sha256": "332bdacfdcf57b4f3afd0a7ee3414abd04e5cdf6438d5d0fd6b3574eebad2973",
+      "result_sha256": "648f8d61c1eb19f7adc8a9b30458645f2c5985e79c20c6f0a9d378769ed0f7ba",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0190",
+      "master": "media/masters/HAMPTER_0190_melting-sweating-sun.png",
+      "original_sha256": "25bef91f04b6d59a8dee2b091facfe8d3717a8c092bc27a1ba1c119e2db0a3b7",
+      "result_sha256": "ecce47dc8bfdd4cec18c7f02f588620a5536996d3bf34d260c12317fbcf38cfb",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0191",
+      "master": "media/masters/HAMPTER_0191_blue-freezing-snow.png",
+      "original_sha256": "3af134e98ab0b1e8604b950b8770f96579bdcf767dcef9a05e63a41d72e1bdd1",
+      "result_sha256": "7644744ee97a68a4feedcdf234f4fc0cbbe008a7fd1da8a4f4f4c7d38c1b7675",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0192",
+      "master": "media/masters/HAMPTER_0192_banana-bunch-head.png",
+      "original_sha256": "dc9ae736ec93c6bdd8e3bd919d716dc853517ab6b819ac54df48bba9b2e455b7",
+      "result_sha256": "ccbad616572fe9d7ceef0e69fb476a4893894401301b0a801dc9ff92b35dde0d",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0193",
+      "master": "media/masters/HAMPTER_0193_graduation-cap-happy.png",
+      "original_sha256": "ed236d36e90a123ee07d0aebbf54ed46f06d23735172829b491a6502ba3fd23d",
+      "result_sha256": "82cbc2d16233a0e743e7a37423ce9634584b197bcddd204e0aa8141790323c4d",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0194",
+      "master": "media/masters/HAMPTER_0194_pineapple-head-fruit-cup.png",
+      "original_sha256": "9207d4837a1015ee10635dd5d6804318bf3f5b43cc7c4fd85b4ee1e964436442",
+      "result_sha256": "bc2aa5dcbcdbf2903d94d79415de26db7271355a593bf82eb89893b25be48649",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0195",
+      "master": "media/masters/HAMPTER_0195_huge-shiny-teeth-grin.png",
+      "original_sha256": "f53574a338336a86e4a27bc71fd4cc2ee65a50048e678b14159843f0f81bfc97",
+      "result_sha256": "d1e06338775ae7eb0f4317c97625a4ec7d43377f63a945a23045260dae62a6dc",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0197",
+      "master": "media/masters/HAMPTER_0197_burger-slider-mouth-overlay.png",
+      "original_sha256": "6cf62713a963dd6fde5af1953780df2ba547850ea36c965b65c7074cbee98001",
+      "result_sha256": "395e1c4fa01d87e9a1e62bb72b886cbbf9a2c1f0db9077ec987e8d10c0040e61",
+      "original_size": [
+        1080,
+        1920
+      ],
+      "result_size": [
+        1080,
+        1920
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0199",
+      "master": "media/masters/HAMPTER_0199_prison-shirt-ball-chain.png",
+      "original_sha256": "e1b3e004d6cf670988c3bc4b60ebb2e038eac57c2a256f7f3a10bdcac69701e4",
+      "result_sha256": "4a0021804d61f1d0aaa9fb62efff16a4ec8a5896a0d0ca617a98eee4f185b960",
+      "original_size": [
+        640,
+        640
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0200",
+      "master": "media/masters/HAMPTER_0200_sunhat-polka-dot-bikini.png",
+      "original_sha256": "22e629fb829e65af71bd221115278da735deaa3b5e3751ecb325da2d4e7b797d",
+      "result_sha256": "561b5c1906f9239f0d19865a88b98fe34d09b1f6881eb58433d490bd7afcbf65",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0201",
+      "master": "media/masters/HAMPTER_0201_swim-goggles-armbands.png",
+      "original_sha256": "51c7df8e63659bf283afd9518b0237e4fa3785c5e17a902d009ab373e9f28bb8",
+      "result_sha256": "eb636a265d5beadb81e0d6b135e4a971619f5af44c9026493387a0e11e0851fc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0202",
+      "master": "media/masters/HAMPTER_0202_crooked-face-drool.png",
+      "original_sha256": "6fccd48d977797259ff5bb073e7dc18880c4665648c2ff884cc5e3811eafba7c",
+      "result_sha256": "4ddf0ad8f9ba02743e93161cb9f9c03aa0c82fb8eb724803f513ab8a134595df",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0203",
+      "master": "media/masters/HAMPTER_0203_tinfoil-hat-wide-eyes.png",
+      "original_sha256": "8bf3cce4c83b16f6f06e54435f329b2f5c60aafa2c2d667400651a70cd89ec69",
+      "result_sha256": "c7ff8383daa9520726b79430eb76882b75af66fc4a59261436fe449b852c82bb",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0205",
+      "master": "media/masters/HAMPTER_0205_wizard-caption-letterbox.png",
+      "original_sha256": "e534c9ff44ac0a54d7aad8efc94d7be1ab2d4459a6b430c2c2d6704ee7fd03a0",
+      "result_sha256": "b10578fbefb78e21d9b8eaed3fa80a0f01f36f50a020461e186deb6867277669",
+      "original_size": [
+        720,
+        1280
+      ],
+      "result_size": [
+        1024,
+        1820
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0206",
+      "master": "media/masters/HAMPTER_0206_shrug-both-paws.png",
+      "original_sha256": "c67b9ce2576402de38607b714af493e94972c94123beb41ef8a95e6f2a8443a0",
+      "result_sha256": "21cb56cde177bef95aab7ba018c16cef4b744ac97c22a93c4d46c04aa4e56be6",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0207",
+      "master": "media/masters/HAMPTER_0207_flexing-human-bicep.png",
+      "original_sha256": "6d3be1890c26a27dced7d0ae0dc93d73fafb1d2abfba694faf1979d0647dbeb6",
+      "result_sha256": "8a77f5805f66fe2eb2a43a983786ff4fb953dbd013700f67eda55543a1f5be1c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0208",
+      "master": "media/masters/HAMPTER_0208_sleeping-nose-bubble.png",
+      "original_sha256": "c5429b0ae9ba1120ce2ff4150a367f9fabfce91c32dee1d77383b29342827343",
+      "result_sha256": "da1d0827126f3b1f58e13a0d30a7dc741c8bdc9ebe16c6b864d4bfc90f3817c8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0209",
+      "master": "media/masters/HAMPTER_0209_mascara-long-lashes-pout.png",
+      "original_sha256": "ea0a54f0e5f3cc6801a3e5a4ac3c0342129b089a0a204bd987def8cb50e0f71d",
+      "result_sha256": "78891188c60b1599ff04730a670fbd619512e35a4ea2b43d863b72a7734460a5",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0210",
+      "master": "media/masters/HAMPTER_0210_square-eyes-straight-lips.png",
+      "original_sha256": "27077c4ed6bbb91fc9be62b4d4c2d2a2c9a4c7640e6a38fafcbc0b7a92d67471",
+      "result_sha256": "537f8cd86ce7679629fb6f6f51c3c015bbfcd0006ec68e506b7493fce80b39f5",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0211",
+      "master": "media/masters/HAMPTER_0211_propeller-cap-lollipop.png",
+      "original_sha256": "87db9582395cb512338b1d495c7dcf6de7c54248dff1b1842ebe1d611640c1f1",
+      "result_sha256": "aad795268bd29ad1b3f07f11c615fc0128437213c471c421480040a9b90e93d2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0212",
+      "master": "media/masters/HAMPTER_0212_eyes-stretched-sideways-scream.png",
+      "original_sha256": "7dfe9ef12bb0fe44871e416443b7eb8ccccf25058779e037e612c69d7c73578c",
+      "result_sha256": "217284af10b4198938d7aa7dd76204fa30d60c5654878b58735e6fecffd7071d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0216",
+      "master": "media/masters/HAMPTER_0216_half-shadow-creepy-teeth.png",
+      "original_sha256": "b41f43d5d8a87c0c013cde1249291eff4c8b5a16094b62eb307d968d2384f9da",
+      "result_sha256": "5a2473a822ca7db400f5c34171d1bba907fbbdbefb91550620c2a66d7be57ca8",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0217",
+      "master": "media/masters/HAMPTER_0217_eyes-rolled-up.png",
+      "original_sha256": "bb8f8f7950b4f3e7efc96a2529f4bb70b3fb708488498f6f6d6522d6d5d0d2dd",
+      "result_sha256": "345954168b80279ede3ad740bd74232f573800c5e7fe8459b02fd4a3014aa0fc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0218",
+      "master": "media/masters/HAMPTER_0218_round-cheeks-blushing-smile.png",
+      "original_sha256": "d543d765b5503abddd68f17f463ea2448debae6b08346abba186f2c531a516da",
+      "result_sha256": "1f636606d19cdd3d96682e17880843c21704b194aa8887b2c1c091aac207d92a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0219",
+      "master": "media/masters/HAMPTER_0219_clenched-teeth-angry-veins.png",
+      "original_sha256": "926b398709f9a4952da28db6056bcba44030d7b1dbcb7313a78ce73b477c7e1a",
+      "result_sha256": "6a8b26e083431180a7d40883c0460a9802528e34a98b2f7942ca701c40c5e1df",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0220",
+      "master": "media/masters/HAMPTER_0220_wide-white-eyes-blush.png",
+      "original_sha256": "122b461d01c6318ee89471c61f9c85449fff2bb97eba2c629a9bc3007ad6785b",
+      "result_sha256": "1d703a6d551829e63da522b821e90e9205afac75147303732fff2c8a7873a3c6",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0224",
+      "master": "media/masters/HAMPTER_0224_ghost-sheet-round-mouth.png",
+      "original_sha256": "582289a152cddd708d6e3a2c6ed510f7452f47c98641f4f4685531f6c7d1e943",
+      "result_sha256": "97ba0c465e47ae511d9c1897d3be0cfc18a63f5407596c0956b4b6729e45bc27",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0225",
+      "master": "media/masters/HAMPTER_0225_green-zombie-exposed-brain.png",
+      "original_sha256": "827b5a40d31a70254ae448c86cff3619a9f97389b7fc8acd67f88058fcb82e93",
+      "result_sha256": "d8485bfef45f4cbe91538a8189c0e1ca1ba77edc9e58ce7c98f25b0d42782459",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0226",
+      "master": "media/masters/HAMPTER_0226_wind-swept-teeth-panic.png",
+      "original_sha256": "d0be94d937ba1fb933dc0f6c6223bef6a6e6db43ea87f750d79cffa5690eb329",
+      "result_sha256": "12959629ab855f8017e39ecc070611955bceea0b6b871de8f2fe5895541011c6",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0227",
+      "master": "media/masters/HAMPTER_0227_blushing-clasped-paws.png",
+      "original_sha256": "a319bd820cf6dd57b3898bdc19c2299321f1e7b9be0d1c6d3ba6ec8026a14404",
+      "result_sha256": "b184b3f2b1a5ff4a227f530dc6fffc80ed6baf1a7c0425489000d9e2057a41f2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0228",
+      "master": "media/masters/HAMPTER_0228_small-human-eyes-rectangle-mouth.png",
+      "original_sha256": "e4a4c6fe4a1753ef0fd596d31dcabd88d646277595f617429fe1f40ca384612a",
+      "result_sha256": "b4349be693a33db0d4dfbc4e1192ab4cdf2e6af268b30cd2a6aeedc703cccab7",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0229",
+      "master": "media/masters/HAMPTER_0229_huge-brown-anime-eyes.png",
+      "original_sha256": "22e5b2e1102d94d4b62c93bf04512734e690d2684787fffdd4dcc3c9b25aa921",
+      "result_sha256": "e3e8ac79372e1e0a160478297321a41bde9019b6ee715369c6fa568c42bcd88a",
+      "original_size": [
+        320,
+        398
+      ],
+      "result_size": [
+        1024,
+        1274
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0230",
+      "master": "media/masters/HAMPTER_0230_muscular-werewolf-howl.png",
+      "original_sha256": "d9913ec72d491eadd1ef3081fe7ede604aefc2342cbbac380f876cbffe24b91c",
+      "result_sha256": "12e0164659dcbccca5f8de69e7db1072ddb9622454f17c55c234cc501e8360d2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0231",
+      "master": "media/masters/HAMPTER_0231_holding-miniature-self.png",
+      "original_sha256": "000e0afa18009d8c037ec0a07908e0182a54785a438ac92287404a92dfb185f4",
+      "result_sha256": "0b9f475a9cbc9b3240e91e55ef8c40b38f8d58189019d46b3116f76205233408",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0232",
+      "master": "media/masters/HAMPTER_0232_pumpkin-jack-o-lantern.png",
+      "original_sha256": "aba9e99738c86d2dc3aa3fa87225fd4c9e5564bfa94baa801d7830543ac0db86",
+      "result_sha256": "fa9b3b13556d217b8d96d31713600940315fd2c2a66b3dd5bbb12f586be7c5fe",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0233",
+      "master": "media/masters/HAMPTER_0233_red-lipped-creepy-grin.png",
+      "original_sha256": "ac3f45903c05a423f6e16b8cb8005da3722600a9ac550b0c4830fb5a859b2e14",
+      "result_sha256": "3872c38a8f89bc853c267aab17b8d09f04a84564db97e29ebe4e7a72b8d07d16",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0234",
+      "master": "media/masters/HAMPTER_0234_stop-palm-letterbox.png",
+      "original_sha256": "fccfc5d8009652d4ad8ba2b38b77839055cf9a6957d7eab24e6144f19c059331",
+      "result_sha256": "3687b930439263c92aea5e4acc5989e2318426e3e12759bc19337fb814550474",
+      "original_size": [
+        720,
+        1280
+      ],
+      "result_size": [
+        1024,
+        1820
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0237",
+      "master": "media/masters/HAMPTER_0237_fever-thermometer-ice-bag.png",
+      "original_sha256": "0b198a9789952aef1af2e6232743803e5ac2210b1fd1509113ef132da1bdc038",
+      "result_sha256": "e9e9acce6fabd438886fb38234b9cc10df4dce4bb15e9f18eb3f1e2f8f857674",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0238",
+      "master": "media/masters/HAMPTER_0238_vampire-cape-fangs.png",
+      "original_sha256": "1e2f649202d78bdfe0a6511afdeab4a6ede7527b7f3f4ab5f32ea3bd63d10b08",
+      "result_sha256": "a8acd58441ced3d065816ebde9e4752e4aad3271744f40ed65358040e18c4fd1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0240",
+      "master": "media/masters/HAMPTER_0240_small-wide-hamster-letterbox.png",
+      "original_sha256": "dc4dff7d516bfff72669ddfb89de78a9df18b4b9c1c81f69854e777c33443d0e",
+      "result_sha256": "29d52800c7995c8e43bf3793d20b18154f9bc8794e6756cf91f90a12a978824e",
+      "original_size": [
+        720,
+        1280
+      ],
+      "result_size": [
+        1024,
+        1820
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0241",
+      "master": "media/masters/HAMPTER_0241_devil-red-headband-trident.png",
+      "original_sha256": "ebdb5eaee06799654dea4164f3b75fd322cd1c791c502464620b9962b18b2fc0",
+      "result_sha256": "450772e2c6f6adb1b16ae083a433fb22330ee9da329ca2385507aecb06ff1de2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0242",
+      "master": "media/masters/HAMPTER_0242_green-witch-toad.png",
+      "original_sha256": "b2c63691b458eff12246b9fb4bc6061a7715eba8378dbc58db3792326437c818",
+      "result_sha256": "3ab805aa96b227dd45392fd6ccc1e5d14646ef42f85af3a91d9ffa39ff1ed3b4",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0243",
+      "master": "media/masters/HAMPTER_0243_tiny-hat-yellow-teeth-clown.png",
+      "original_sha256": "5d056e1a9f60e93df3bd62d2fc4a53f7be7e151e80cdb98fbdefa3b4a4100ad0",
+      "result_sha256": "d4cf5267da616d3cb12708b666bf2d82dff5ebcc60ee78b942e091ccf4c32a4e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0244",
+      "master": "media/masters/HAMPTER_0244_pink-cheeks-triangle-mouth.png",
+      "original_sha256": "7f212bb5782794805a37a9be67f7075bd69e87c21ee3f86b2b909b685b066af0",
+      "result_sha256": "03bb976f1c750dbe105776354939efef7fa470c3cf52ce2335f9a66ab416a1ac",
+      "original_size": [
+        320,
+        298
+      ],
+      "result_size": [
+        1100,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0245",
+      "master": "media/masters/HAMPTER_0245_hamster-skeleton-ribcage.png",
+      "original_sha256": "d0aea396c2804dd4509ab778759d79092a98a9b5081851b81f04a8cb27afa523",
+      "result_sha256": "46eb0e2ab61c3baa2b2b3deda080b452b5ca1a1d67a533355402275f2da3e401",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0246",
+      "master": "media/masters/HAMPTER_0246_green-monster-neck-bolts.png",
+      "original_sha256": "7d7bbec4e55b29fa2688c7f48c82f31e404c6c998cdf0b59ce9da4f2674d1dd9",
+      "result_sha256": "a9734bc773ed4b54df5aee165f62a09933eedd93489ab184f625ff9d5875ee1b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0247",
+      "master": "media/masters/HAMPTER_0247_pirate-skull-hat-red-ribbons.png",
+      "original_sha256": "4e0dc1a6056a490bca034966af08583f1dfeb2431865dfb6adfb33901296bb75",
+      "result_sha256": "72d783b876e633fe9678a22db11adab79ffe14aeab457b20a13c2827ce038ddb",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0249",
+      "master": "media/masters/HAMPTER_0249_puppet-red-spiral-cheeks.png",
+      "original_sha256": "7eb33a7f652c7edd41551eb2e3797b726a527735444f24973618e159f8873f04",
+      "result_sha256": "ad3b645c73709af7aeb2b1840cdfbebd4d346af9f3b38008c17fc95e59798782",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0250",
+      "master": "media/masters/HAMPTER_0250_bat-wings-small-ears.png",
+      "original_sha256": "76012ad26583020f06cd211a36fcfbda5f359575d15a49e0c6e397bcbc82ac2c",
+      "result_sha256": "451ec9571159ceb095bb9eef00c0ab0bc1beb7925775201d2fffbbf177f3ff46",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0251",
+      "master": "media/masters/HAMPTER_0251_candy-corn-sweets.png",
+      "original_sha256": "61f5acf7b44f036bc43231e21cbe56e9bb713a7c59e9e20aacb3f0342aada70e",
+      "result_sha256": "64a1ae0826fb292096db5b6c2cc738fdee8f5d0e8df3c5088a86d0c7c6618109",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0252",
+      "master": "media/masters/HAMPTER_0252_green-catlike-eyes-gray-face.png",
+      "original_sha256": "bf7d6641cd6b97fc2085bc75a033589ae11c0c22c069a28994268b0a65c1edeb",
+      "result_sha256": "7a383e68353230e2b63c58ffd1ef45d4632f4f1009dc3d5227e05126cbccacbc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0253",
+      "master": "media/masters/HAMPTER_0253_pizza-costume.png",
+      "original_sha256": "c376e51a08200adeaeb7479a5badfead341412dda5e96178146dc61ac88eb219",
+      "result_sha256": "3c911c611401c1bcc22712336f9340e0952c4b66973ebb1f670eed580c4ee409",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0254",
+      "master": "media/masters/HAMPTER_0254_orange-haired-party-clown.png",
+      "original_sha256": "5e5f6cbfd55d1e6cb0c2464fcab1e0f5be8b114e3e45d649e24bf332696de898",
+      "result_sha256": "19c4c54306b301036585161d104f52eaf00c449394ed84b0a2e02d9c414b41f8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0255",
+      "master": "media/masters/HAMPTER_0255_right-facing-profile.png",
+      "original_sha256": "7169fb5323c18d910b19f414198cbfb813dc09ab65ab20e62753e58c5f07aca9",
+      "result_sha256": "f134ba9452d7d718f484c4dffae035bb4daef2b1bac3552788769370a92dff67",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0256",
+      "master": "media/masters/HAMPTER_0256_sideways-eyes-small-tongue.png",
+      "original_sha256": "253d8aa968a1af86eab893af5fd8b133693c67f4ff7e628baf8ec2355708d4f0",
+      "result_sha256": "d259984fd935a2e7d6c2ce4bcdd6078a29b45b37236e7c66a419b33c49a4cd6f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0257",
+      "master": "media/masters/HAMPTER_0257_dot-eyes-wide-mouth.png",
+      "original_sha256": "7cc0717e9284aeb638a2569d11ab96e79dd448503d1996b0aeb03317a5893689",
+      "result_sha256": "53293ab0f4e5dc325dc00a8d53635e9f739a4254705f98ae93dee63308fbce9d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0258",
+      "master": "media/masters/HAMPTER_0258_bulging-eyes-paw-near-mouth.png",
+      "original_sha256": "7cb03925286490d2c2ada3d9a2562dad09838400e1420f7eb507a2fbf60cc07e",
+      "result_sha256": "88326303c67015ce56f8abd743fb0bf6675a480c78cd3b5afc4e8269af2d1226",
+      "original_size": [
+        720,
+        1279
+      ],
+      "result_size": [
+        1024,
+        1819
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0259",
+      "master": "media/masters/HAMPTER_0259_narrow-eyes-smug-grin.png",
+      "original_sha256": "e1e4a361d6c4a0ce2b623344274e9bbcae22bc396d9c8fc1ea9372eae742d4e1",
+      "result_sha256": "b1f64b799b91a05cff8405b208c30c227d3581963e9fea7c7d5805d74953d160",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0260",
+      "master": "media/masters/HAMPTER_0260_round-body-huge-cheeks.png",
+      "original_sha256": "784f57dd34a1e5453f81e9fed53fa203fb1d23b5967a2af8a0551c3452265c09",
+      "result_sha256": "0422fad4a6c33e86affcca1671d371e0863adda29f23bb826651bea574fbc6ff",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0262",
+      "master": "media/masters/HAMPTER_0262_crying-crooked-smile.png",
+      "original_sha256": "8a20973cc124995b35e0268246352a534e52fa49f509dcd9082fd1509fe207e0",
+      "result_sha256": "44fb86045237e53d3e3417ea2de25083087f86dfc2305449f6629dae9c81e021",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0263",
+      "master": "media/masters/HAMPTER_0263_closed-eyes-smug-smile.png",
+      "original_sha256": "fb1b60be752a6b747a31d0de9b1c9edc4bcf214b94e0ad1251b4b63746207b07",
+      "result_sha256": "bf60a3508b943807792b9e67c4b027ee2b24bd4e005ea3ffb2c91b8d3a6348ee",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0264",
+      "master": "media/masters/HAMPTER_0264_winter-hat-coat-mittens.png",
+      "original_sha256": "5b3e7cb147092e479156f1d843e038688b240cc192b8141cfaa8f37adb3218c1",
+      "result_sha256": "1f89bf1185e0be200161353a36b690bc6a283ed58d8b59da0bec334035966527",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0265",
+      "master": "media/masters/HAMPTER_0265_green-grin-santa-coat.png",
+      "original_sha256": "2ed167f63349dfd66471967aebed3620d0b317329f6a0df38005167cfedd3361",
+      "result_sha256": "d1d4d3af9d435426cbc7c4fb39f28a5ea3661542df2a988373207b68e5ed8088",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0266",
+      "master": "media/masters/HAMPTER_0266_christmas-wreath-face.png",
+      "original_sha256": "4b432602ec0d51dbc6a11964af9d4ed9c3f1d09b8773dc5073de0456fe3378ec",
+      "result_sha256": "12759302711dd9c73dc1f82cd202e880258d724eb7c2b682faea17c2960c0a02",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0267",
+      "master": "media/masters/HAMPTER_0267_narrow-black-eyes-neutral.png",
+      "original_sha256": "521e70b20cc361e423454de44f019d2f2b2a0ec862ce82c5b564e7d50c311015",
+      "result_sha256": "2af3da72929c972bc2e8012dcd44db5b3380290b657b99b03c8d188aa261151a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0268",
+      "master": "media/masters/HAMPTER_0268_gray-shadow-long-nose.png",
+      "original_sha256": "13892a22f19061d1d5d0387c09c858fb94ec63a0b5ccf3a32af635d455314871",
+      "result_sha256": "4e0c2132b39a50f194cb7f947b7e8d4a3d33bdcd7f1769c2e16c2c6706d13fb1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0269",
+      "master": "media/masters/HAMPTER_0269_closed-eyes-bowtie-mouth.png",
+      "original_sha256": "536fc83fbc65a86d0a2c4b8ccda1afa885df396b2a293929e7db9d55f36e42b8",
+      "result_sha256": "3e64ec28ccf342f5850722b1bc435e376c442aa7d85d90b186641396466c0f00",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0281",
+      "master": "media/masters/HAMPTER_0281_snowman-carrot-scarf.png",
+      "original_sha256": "3c79915ae2ecb02c99b0bdf4f57edbe27e4c1bed139e72e83fe9f329749b59b7",
+      "result_sha256": "6734303d626f556fcde06ba3bc966b5d16dc08774fbbc185060b60615a6cbb22",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0282",
+      "master": "media/masters/HAMPTER_0282_simple-santa-hat.png",
+      "original_sha256": "f112d9bb1f56f80cc1a60a3d8380f7722ee2ac455c379d2d65d57b8d2b8f6176",
+      "result_sha256": "685f63375316b7e3055d57ffb640e724da586451929c4bd3a7b2bd63212ffabc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0283",
+      "master": "media/masters/HAMPTER_0283_reindeer-antlers-red-nose.png",
+      "original_sha256": "55bd0c21ac2677132b65fb13fd1eb527a66a261a6adbc60ed523d4db2a35ae64",
+      "result_sha256": "7b9cbadacdfba7fe80deaa4cc6c7ece081542034d8ee05322c694f75ccb915be",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0284",
+      "master": "media/masters/HAMPTER_0284_mistletoe-puckered-kiss.png",
+      "original_sha256": "7b593729e979dea0e3f41c10e88545b1db1d72493fb8e2c8e4e149c79453b9ff",
+      "result_sha256": "1511a8361c40c50ed29cc6c5a97bfdc6de4d7164f21936d2b45976bd60a32dfc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0285",
+      "master": "media/masters/HAMPTER_0285_christmas-elf-suit.png",
+      "original_sha256": "00c027cd2977c6204fd17eb30c6dd8eee6ab20362e80f2f48391791f4a31116a",
+      "result_sha256": "c4c6f1f1246ed30c015cd3326b0a63d9c3613231f2d84ff21b218a150a60a165",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0286",
+      "master": "media/masters/HAMPTER_0286_gingerbread-hamster.png",
+      "original_sha256": "13530505069eb7fbf0a73acd1cf1c126b6b07a102c5c75d01356f4aca585ea59",
+      "result_sha256": "c702e2a41d42e6b59094f2393c92208b6d93e625b905cdc5af42ee7cbbc55702",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0289",
+      "master": "media/masters/HAMPTER_0289_heart-eyes-clasped-paws.png",
+      "original_sha256": "067c5e13fce7d64e1214fdb06c82e647517a805053efba06895779f376fa0b19",
+      "result_sha256": "0b30fb038d8ae596f13c030da4fae9b343d6bce0757eeccacba81ad0fa86f434",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0292",
+      "master": "media/masters/HAMPTER_0292_blushing-holding-baby.png",
+      "original_sha256": "3d5d1471d82e1472e07f9b2ebcf6930f38defc05ccd691128aa4eb6351e6831f",
+      "result_sha256": "963b006f8f9477e142b901d7fa41a64f170d19e5a9e41dd74587f30e66d0ce53",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0293",
+      "master": "media/masters/HAMPTER_0293_wrapped-christmas-garland.png",
+      "original_sha256": "61dfc03abf85068a64c9ab906f09086e0d0132f00f9328d76241b8fb8df418d3",
+      "result_sha256": "53d49521b69f5ad297ab17bbbbc95c7599f5eaf470534ea89dffbad500c94f2a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0294",
+      "master": "media/masters/HAMPTER_0294_giant-human-ears.png",
+      "original_sha256": "faeb0c51ab6bfa34c6989645c388659e366556fb50e3da736b2ee329972ccfcf",
+      "result_sha256": "b7f830effedcecadea0428248a4762a55d76ed9f57df4d90c4fa16cf4dc2a3e5",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0295",
+      "master": "media/masters/HAMPTER_0295_blue-suit-red-tie.png",
+      "original_sha256": "47784db0d0d8722828c8aacc20dfd373d42bc4ccad71f0e0d33175dbf95356f9",
+      "result_sha256": "441e9a4538097e9d217a332a651b56442f429b61095caaa65d3d720aba16337b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0296",
+      "master": "media/masters/HAMPTER_0296_burgundy-suit-white-cravat.png",
+      "original_sha256": "e855324b4c287b8f4fceadf76b55cf9c19b67461fc2840d629e4c818a2f38dac",
+      "result_sha256": "3e514d6b03036587421aec999cc6a04dbaeb38a393aab4f3dfe0e1daf09a5667",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0297",
+      "master": "media/masters/HAMPTER_0297_gold-2025-party-glasses.png",
+      "original_sha256": "868f08bdf56e2631d29f50a03e292361148b2377a656ea28b8b059c468fa2a36",
+      "result_sha256": "54454df8ec571c8df46082cc2b81df95f0e7618c280fb718777cb51d08ab0513",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0298",
+      "master": "media/masters/HAMPTER_0298_aged-face-open-mouth.png",
+      "original_sha256": "d42cfd5834371f8eb050775e5a5a5183eda8d6f553a87076adb4d68fc2467d3e",
+      "result_sha256": "54024d1e24645f2e01d04b37dd820b4a5935ee53047c3caad19faaecd3b48780",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0300",
+      "master": "media/masters/HAMPTER_0300_wrinkled-sagging-sad-face.png",
+      "original_sha256": "6edce7ccfb5b8e9cbde619b49222bc72a035ab3e0590ff22b28180b09a4a804e",
+      "result_sha256": "5d34b61764ac30586a2d6d24918ff0cb7635829e7e074d96a7c49f546404d30e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0301",
+      "master": "media/masters/HAMPTER_0301_giant-teeth-white-eyes.png",
+      "original_sha256": "73096642667440aa47de825190b18f960f429ff9d270478a7955413e151d659d",
+      "result_sha256": "94437c095582b0768b43a9438283f7f6686e1483fa5eb2ed9f62808ced428a80",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0302",
+      "master": "media/masters/HAMPTER_0302_tiny-blushing-letterbox.png",
+      "original_sha256": "7143d9e2f1d8e8f25d8bd6c6ca7f12bcceea4824b0c676a718e58a717db9b328",
+      "result_sha256": "29fad7cb723be5488d3d87f4b36e8540f4fdf9e075b1e8c20177d1527f1b8078",
+      "original_size": [
+        640,
+        1136
+      ],
+      "result_size": [
+        1024,
+        1818
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0303",
+      "master": "media/masters/HAMPTER_0303_finger-to-lips-shush.png",
+      "original_sha256": "e940b0e65ba743c3f0fd3a22734a5955198f73a40e627adc73afe6c80757f322",
+      "result_sha256": "dcf1955b954068049a089347280e6a82f26eb8efbf48136e2ea63b0d7c85acf3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0304",
+      "master": "media/masters/HAMPTER_0304_eyes-squeezed-clenched-teeth.png",
+      "original_sha256": "3c23a4b4e2a6451c70066732f75145e6769683a35e41a6f27cc4f15e1efd39ee",
+      "result_sha256": "b82980fb5068f06836c476c5151937abfd10385410342968061d1c9c2f2767c3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0305",
+      "master": "media/masters/HAMPTER_0305_strained-grimace-v-sign.png",
+      "original_sha256": "eddc96a8f924ffc13c9a684e46e8359a75418772c3deae5e144852661badbff3",
+      "result_sha256": "7d0d39f2fb94d1d2234b5dcf79c180259bb52fd1efcbeea945f33e8818286599",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0306",
+      "master": "media/masters/HAMPTER_0306_cat-eye-glasses-brown-eyes.png",
+      "original_sha256": "1de3b74fef16ccefeb0afca4e3a6950e94ec3ec0358a9945178e88b50ad441a3",
+      "result_sha256": "ca62b8ca096b37563ce2fa4ac96d3e2b45a50387ad4e24add6ad75a6aae8ea09",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0307",
+      "master": "media/masters/HAMPTER_0307_tight-squint-forehead-lines.png",
+      "original_sha256": "27df879afb9e1f3aefe6df7802f201bf954e7a346838a4bc4eaeb6033a05d830",
+      "result_sha256": "ecbfd4a1ea2a872ce107b2d2ba9a95ca15d5ea01cafc65a2658be8d20d995e49",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0308",
+      "master": "media/masters/HAMPTER_0308_valentines-pair-holding-paws.png",
+      "original_sha256": "b1a453c29c404db7eb20ce08ebfdb15aa9a57f14759d17d4e6b91747405bf230",
+      "result_sha256": "2652d0c8ebb749db15932f0c189948a84970181b498493c33d18fd95e9142c53",
+      "original_size": [
+        320,
+        168
+      ],
+      "result_size": [
+        1280,
+        672
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0310",
+      "master": "media/masters/HAMPTER_0310_tiny-ears-sparkle-eyes.png",
+      "original_sha256": "7e99466f185afb38d501dc71a7da5ff1ccebed34ac15269a5cb40932164c2b68",
+      "result_sha256": "f005cb5722c093dc28a50860d108f8562953ec296ba0c48ba241c6372e918266",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0311",
+      "master": "media/masters/HAMPTER_0311_blue-bow-sparkle-eyes.png",
+      "original_sha256": "a4212e7b48dc6a9e34c6c5917a4a31e8a4cf56a904c94ea6837a5e091a1db8b3",
+      "result_sha256": "c06387e653ebd1ea2e1bccc377d54ea47de4594a5171f9730d31fe364943fbca",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0312",
+      "master": "media/masters/HAMPTER_0312_pale-yellow-rabbit.png",
+      "original_sha256": "248f1da20c3953addb9ee70647568dc2018f991361cbad3bd704a0e3c9d62800",
+      "result_sha256": "8365fb3075deb6ca825e99ecd33f18a26820e6969810f255ed768486a246b8a1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0313",
+      "master": "media/masters/HAMPTER_0313_blue-nose-fluffy-tail.png",
+      "original_sha256": "052cc24967a1f9ce78b413de85b539e8a75c8d60dce4ccb110d5e7faee41f48d",
+      "result_sha256": "4eb2e175aecacc6187fc765c5dd30475a749767e77ee6e2f3bf100836eddc89a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0314",
+      "master": "media/masters/HAMPTER_0314_tiny-brown-costumed-creature.png",
+      "original_sha256": "029719bff75a6c72ce40e9d24730a4b73606ec466353cc7bad13d4b08969e049",
+      "result_sha256": "2cc390d3d4d97ccb9edb2778b5dfe6e95aa90ae0269e9c1902f2da6d30a558b1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0315",
+      "master": "media/masters/HAMPTER_0315_winking-holding-tiny-friend.png",
+      "original_sha256": "2196fee6f0fe1f55fd8f85660d9273bbe5d515e2e618aecffbdc4695063ed26f",
+      "result_sha256": "06f2e3dcacc04b947d73e309a3ae5f2c4226d3ab530e06b070c175c4603229e3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0316",
+      "master": "media/masters/HAMPTER_0316_coffin-cross-eyes-flowers.png",
+      "original_sha256": "e7738fddd4dc64960cdda259d436bdecc9e32aaeaa016cfd45352a9abde3ab6d",
+      "result_sha256": "9c31ee7f627811ef89f659118a140f39de691a0376f48fa45154af57637655a8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0317",
+      "master": "media/masters/HAMPTER_0317_elderly-glasses-toothy-smile.png",
+      "original_sha256": "5120ae5aedb3969237275bc3230c4e79211d69deddc8b86543409930e236e688",
+      "result_sha256": "e9d0ca2bf1b6d8952c6efa7ded50ab1407f85f5f09dbbc61a28593dee0901c96",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0318",
+      "master": "media/masters/HAMPTER_0318_angry-square-clenched-teeth.png",
+      "original_sha256": "d6a8b3a0c7945c1a2980e8f5f20ae9d9dec6a34b886572e0a22fd3cfadfa385b",
+      "result_sha256": "1246a45eda6f8ee6f2b379a0795fef76536368896e676bbb8d33739853e1ab0f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0319",
+      "master": "media/masters/HAMPTER_0319_rubiks-cube-next-to-face.png",
+      "original_sha256": "72b827d13d9c2707d8c3b7c224ff8ae6c10606ebd645cc383cf770ea994b6c49",
+      "result_sha256": "435be4786646325a00ac15b7cb96fc7ed6ef313d33899b1a3f7957bbd06ff231",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0320",
+      "master": "media/masters/HAMPTER_0320_huge-tongue-wild-grin.png",
+      "original_sha256": "59425af416f41d39fcd9f6220fd0c698915848f7fa7ab2992ee6637c20e1a517",
+      "result_sha256": "b8b13505a35a8a76dda9d5c528e51b2be26bc554eab5f16ee6decba306494c91",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0321",
+      "master": "media/masters/HAMPTER_0321_trollface-hamster.png",
+      "original_sha256": "b31acc97c73bcb55896b606e6f6b5551073fa30b013304ae9f12a1bd0fd467e5",
+      "result_sha256": "fa1dbee5bf834465e61b0f3b842bc9dc1525cc1b6e2053fc92973ccae9214833",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0322",
+      "master": "media/masters/HAMPTER_0322_tan-face-hat-drink-can.png",
+      "original_sha256": "4e3541d52d6d5b51923bce73be218b5ad574ed163c64638371bec185f6180f33",
+      "result_sha256": "73a0aa2e270496cbdd5bd3f3f44d4d72f66f78dfff07a76bb6e94e165f950479",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0323",
+      "master": "media/masters/HAMPTER_0323_pink-bow-neutral-lashes.png",
+      "original_sha256": "e9d5d617110995b5194e848f50af04f3047c0ab2599f49733a12cf712f348c11",
+      "result_sha256": "77901b8f65e5e59dc386746d0378d0daef2f0f18696a7a5629b8b2c6e7eb811d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0325",
+      "master": "media/masters/HAMPTER_0325_yellow-blue-goggles-hero.png",
+      "original_sha256": "41f365b558e9d2fdbf0232127c60fcbf21181c0b0eaaf63639758f2a728985f1",
+      "result_sha256": "27966e777b1d6a03db863700c67a059ef91667d33d8e164744e1fb773a52934d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0326",
+      "master": "media/masters/HAMPTER_0326_squint-wobbly-mouth.png",
+      "original_sha256": "35e0edeee7a426a6f4731470dae1c4fa5c3feb105c29eecb9006bd7f2a275218",
+      "result_sha256": "f4b5d2c25fc34e932a85111f64565efc9057da368f537730d3dbfb7110c93f7e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0327",
+      "master": "media/masters/HAMPTER_0327_smelling-yellow-flower.png",
+      "original_sha256": "fde33959b9e83aa6496d1f72c79558aabe561b4fc0b8a7d265edbbcaad5b10ae",
+      "result_sha256": "7d8fc8c09884ddff30d91fd37e0f33b0eaa12d19c01e81be0ff8199b99d7d329",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0328",
+      "master": "media/masters/HAMPTER_0328_red-nose-tears-sick.png",
+      "original_sha256": "b527d47e133c7367026d1293294290cdc61c7273245cd9840b2dc4d1a5baf806",
+      "result_sha256": "b4acfc23c41497f27581b38e7d23bdbbd5ad28edfe7dfa317ff1fc18e776753b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0329",
+      "master": "media/masters/HAMPTER_0329_laughing-front-teeth.png",
+      "original_sha256": "6b94d3febf394a2ed0dd089ad01d4c393e920c2f62c2f8bbc958a341dab57cce",
+      "result_sha256": "37c68fbc4550973a8bf993665d89a4f94deb0a5da4a48a543a78c0aa9c43ab24",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0330",
+      "master": "media/masters/HAMPTER_0330_tearful-long-tongue-scream.png",
+      "original_sha256": "5aa5b9504fd11df7766665591247856538e02113d4467623bf231834412bae01",
+      "result_sha256": "cf9cdc47028de05b64f0d59ed3fe07720f47e833705336a670921535e2526f6e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0331",
+      "master": "media/masters/HAMPTER_0331_wild-hair-goth-makeup.png",
+      "original_sha256": "589d9e04b161be698189cc0dc395005fc80ef9fc6c768834feb686aa6cb46d54",
+      "result_sha256": "109cc904ea617aee698f24d397fa24466bb7217b4197cd6c599f492ddc3cd615",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0332",
+      "master": "media/masters/HAMPTER_0332_oxygen-mask-exhausted.png",
+      "original_sha256": "7e8fcfcbf383745ccb972d5974fb9eb77b32aadf3eca1d7413e930b4608840de",
+      "result_sha256": "7e2e06e675f6ca7b23f7ab430a5b92ce316af926809a0e7ec5c89a119837e3f3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0333",
+      "master": "media/masters/HAMPTER_0333_small-ringed-eyes.png",
+      "original_sha256": "7525e2b9e6476b5c964f36c01db90a7d2a0756321935ba5a6a60e62cfe0a31b3",
+      "result_sha256": "f6b19a3995b213b50b2b4ee5e03e2052167687fa3b263e1dae0a08a8c94292f9",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0335",
+      "master": "media/masters/HAMPTER_0335_orange-brown-huge-lips.png",
+      "original_sha256": "69959b3f5947d9cfdcc8599c5f3acb782e066e09072a50c2378850cb82eccb1f",
+      "result_sha256": "ec218c0dbfb3e9c3bfde7b64441edafd77580044acd58f620e539ca984287e99",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0336",
+      "master": "media/masters/HAMPTER_0336_drooping-lids-sad-mouth.png",
+      "original_sha256": "c16b3bfa75b9cd8f7f067db2eb51ef6f13aa9cdcabd59dee431aef2136e33d6e",
+      "result_sha256": "fb9cff4dc2ca631958c36ef14f11138d4c795d6e0abf406e718673e9c02a913b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0337",
+      "master": "media/masters/HAMPTER_0337_puffed-cheeks-tiny-tongue.png",
+      "original_sha256": "4b51e2993a30ecc849578a27cb22b3d404b1b849ca4165b2bc603ea1358a58c0",
+      "result_sha256": "0319b3d2cf62cb20ea981ab6b021a11454b0bdaa2eb7b705b0549a287c880475",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0338",
+      "master": "media/masters/HAMPTER_0338_holding-two-hamster-charms.png",
+      "original_sha256": "de5a1e0c1636cf7e25829c09ad4c78d5d783a9391a5a3877f66df39daa22d0a4",
+      "result_sha256": "6a3f473bf05c7a5b35b0675b6b80903e8efb8d05aa5b6681e81c8a757f36d614",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0339",
+      "master": "media/masters/HAMPTER_0339_narrow-glare-crooked-lips.png",
+      "original_sha256": "bcec264829ef76ea3d6809a5f78f5f9005e2d5900e5c343a0f6c9f6b72af9ec4",
+      "result_sha256": "dbbca12c4e50d785351b792c7c2bb43edf8d8d946b3014914e6c4c40c88b0295",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0340",
+      "master": "media/masters/HAMPTER_0340_closed-eyes-soft-blush.png",
+      "original_sha256": "4d3cc6a8ebe085977610a6282a6211b1f0143484645cf89ad0b43a576d93e07e",
+      "result_sha256": "18c7f9b0cb570e15c739b206c41f32f454fab8b41fa63dcff5dc39b016fa279b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0341",
+      "master": "media/masters/HAMPTER_0341_bulging-eyes-big-grin.png",
+      "original_sha256": "2226adbb72cf983be6419d68c392e34ff30aa18807bdd6f2eebf19a9b9e10019",
+      "result_sha256": "9d0e06589885d29509b15e23d43f8a4867c90d7f23f598dc5dcbbd3763732ae2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0342",
+      "master": "media/masters/HAMPTER_0342_wrinkled-deep-frown.png",
+      "original_sha256": "f55b3724a4fa9b9ee5f4d4ca55bd5e5152b03989bf2b2940a487f8e55eb46dd7",
+      "result_sha256": "af9466a2605110003b4fd8464cf4e8a9b4ce44f14db4c67823f24a666225f6ae",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0343",
+      "master": "media/masters/HAMPTER_0343_eyes-closed-relaxed.png",
+      "original_sha256": "b838ed59b672d8df143bbe1477f569a0487cc6c61a92a02ddda3e0f78da4c5d1",
+      "result_sha256": "ca0600d62cc6f12f47791d6886f96dd6a3eea6930c6955b6ec1cf92f753f9b3e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0344",
+      "master": "media/masters/HAMPTER_0344_black-fringe-band-shirt.png",
+      "original_sha256": "e5f74b22869b8369fae6653edad3598cf3d333eaa37862f7649168e082ee3050",
+      "result_sha256": "a683fdd3051fd6a92aebbc3591e46dbdf7f7b2c951e5d71bc3af108798e8b856",
+      "original_size": [
+        319,
+        308
+      ],
+      "result_size": [
+        1061,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0348",
+      "master": "media/masters/HAMPTER_0348_looking-up-parted-lips.png",
+      "original_sha256": "4b2a4063999dfb1cea099b20565ce090856e7611abec7d72e22e0d4c0deb28f1",
+      "result_sha256": "38974428f62dddcd87fbc9196f58f0a5cbe030eb58c82c5d6f9a4cf40cbbb1af",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0349",
+      "master": "media/masters/HAMPTER_0349_tiny-hamster-white-canvas.png",
+      "original_sha256": "5e5603faaceaae75ac11a9dc1593a148717105f0f8bb8cb5e9784f0f8e9af26b",
+      "result_sha256": "29ffe2e57eb168bb8a64d681e025c38727893896809f9ff38085ddd8d2d04ff5",
+      "original_size": [
+        640,
+        642
+      ],
+      "result_size": [
+        1024,
+        1027
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0350",
+      "master": "media/masters/HAMPTER_0350_worried-realistic-mouth.png",
+      "original_sha256": "981ee3ba9bf5658d6503414141ecec3c9b6e858ca9d6ebf0793058919507a190",
+      "result_sha256": "64da48579e3f8a523ab0c0e4b8fe9db4944b7ef76f9d3078951122167efb6ad7",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0351",
+      "master": "media/masters/HAMPTER_0351_large-black-top-hat.png",
+      "original_sha256": "f50a404818954419128fc8300e5143ed85b3ad1d50f10878c2ead62810dafa60",
+      "result_sha256": "804911ed460fe43ca529869d338e6199f0b1316c5afd152a08c2a89e882189ca",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0352",
+      "master": "media/masters/HAMPTER_0352_puffy-crossed-eyes-cry.png",
+      "original_sha256": "960ed90dfd96ff786604da8286c61e9d51af84bba8ba83f4f381961c85578827",
+      "result_sha256": "e6733637f5445fb73c6abff81370a451e95c706e5d93e73fe6c799ae13a91319",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0353",
+      "master": "media/masters/HAMPTER_0353_tiny-dot-eyes-smile.png",
+      "original_sha256": "119be9fad5a3ca42a7bd8d6eff6531534f2dc210c71e7c9efedb3b716c24b7a2",
+      "result_sha256": "a2c5a68b226ec8a0aa42c81ed55a7c9837d1c78b5d8c2bb4fa0989003fe4a130",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0354",
+      "master": "media/masters/HAMPTER_0354_giant-black-eyes-closeup.png",
+      "original_sha256": "978ec7abb3a83144a5be5c49fed57374ed8c03cc85944f075c8d043d89c2cc7c",
+      "result_sha256": "abade2979f47d51219f116040967d98f1662eae6f598e8c80817d41f8b1bf30d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0356",
+      "master": "media/masters/HAMPTER_0356_pink-cheeks-small-mouth.png",
+      "original_sha256": "b0a388a2a03b8722a1ece6ee2076cae7fc5a68b8a8a2d62602923ddbab1d5357",
+      "result_sha256": "3ed5e4841deaf7f5c38cfe42874109f0064c9b39c87fb9212453f28313f692a0",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0357",
+      "master": "media/masters/HAMPTER_0357_biggest-eater-bib-utensils.png",
+      "original_sha256": "016f26c67a48f070967483be45d96baa4baecb177a91e78b45d11b2fde508f4e",
+      "result_sha256": "79af004e7e442abcf856ea7e655c992417cbd0f4ff8f36ed38550241beb3e82e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0358",
+      "master": "media/masters/HAMPTER_0358_realistic-red-lips-white-teeth.png",
+      "original_sha256": "9ed76909524be7e2d35e649915cfb5d4af6872ac5677af41b7b3821520ac9a70",
+      "result_sha256": "9b9ffd8a1872211485c47d676b16773a889fd76564bffb8d5c9275f7bc65150c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0359",
+      "master": "media/masters/HAMPTER_0359_laughing-squint-small-tongue.png",
+      "original_sha256": "ee034cb9041066ad9325ef2e75fa5f353e4e14158b4ab5e09daabca235abc2bd",
+      "result_sha256": "7cf7137e38d04603545f74b2039c5be7fffc148fc0e12d8a0acaf20e8a6be25a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0360",
+      "master": "media/masters/HAMPTER_0360_closed-eyes-wide-soft-smile.png",
+      "original_sha256": "575433a20f1a9fa05d3a90bd4bb38163d10a74ccc3b929f9f71f37bcd0c356c1",
+      "result_sha256": "d1f2337c5433d8386c5f499baf92bf31964dde8a15a5a6ed408f960fad7ac963",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0361",
+      "master": "media/masters/HAMPTER_0361_small-lopsided-grin.png",
+      "original_sha256": "84d6c072d4f2949aa7eabe3dfee0c72e0278a6a303296bbbfc8673af66e7e7e0",
+      "result_sha256": "196a629953230ffc71ac8289aeb4f6f7d50eab71df32557b8ac6eefa1c36e541",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0362",
+      "master": "media/masters/HAMPTER_0362_white-rectangle-on-head.png",
+      "original_sha256": "78e630c3f231e08b2e635426a6e289c966a7db9c84f48c36bb6eae65bb650d3c",
+      "result_sha256": "4f5768762b1f32d1ff892aa403f9132d9ad6ff55b2f50b35fda0963deae0d984",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0363",
+      "master": "media/masters/HAMPTER_0363_drooping-eyelids-small-frown.png",
+      "original_sha256": "7dc4009f386eb42973cb94b20a8a2f1465f39d7eff4a35b27b1d8a6cd711bff1",
+      "result_sha256": "0111edcb5dc53820f7823abcfb5701a7102834b586bba2c3789080059fa53aa6",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0364",
+      "master": "media/masters/HAMPTER_0364_red-white-blue-star-flag.png",
+      "original_sha256": "8501153c6d2735be9ea197c3468bedbc9d0593b3e08c909645d3b9811e89293d",
+      "result_sha256": "d4e90f0570f72ae0040bb771c73029cdffd3d075c4a3316df46d21072a811209",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0365",
+      "master": "media/masters/HAMPTER_0365_half-lidded-crooked-smile.png",
+      "original_sha256": "1932fe0b3f0ad913968994f5d4b9a76eb7652aa6a26181e08c8ee20a3b9b3633",
+      "result_sha256": "cf4c8a81f2aae9d7bd7b9a095fe8df88aa358d035a7ced9b87c959bb017f4ddc",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0366",
+      "master": "media/masters/HAMPTER_0366_pink-tutu-star-wand.png",
+      "original_sha256": "bc3a02e23f4f6e3664b87900e6b1bfa4f4ba4675b54baced617b4045a36dbdf8",
+      "result_sha256": "d9c42860bc29e8eeeeb564a093d238a11474ba4d5b60c18e7e352653d08aac7d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0367",
+      "master": "media/masters/HAMPTER_0367_ice-cream-cheek-drool.png",
+      "original_sha256": "b60ca08ff7ca42131421ecab264ee4d2d7636210d3138f527cbe38b1b5f62291",
+      "result_sha256": "155803360860fe4291bd67886f8e0f903d2fb955bb0ee50f23e7e0e68555f5a0",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0368",
+      "master": "media/masters/HAMPTER_0368_black-white-patterned-scarf.png",
+      "original_sha256": "a887a4218b48484130e99b80bca5e35f364cc38c0099b075359235852dbc9cbb",
+      "result_sha256": "095b3e940d4d408fe7974977c9e91e6fda2311b4d86644922de19aa833158f2d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0369",
+      "master": "media/masters/HAMPTER_0369_colorful-bouquet.png",
+      "original_sha256": "f2f0b55fa95aaf4ac7fbc96127fd73308b34fd2dcafee51aac2d64e28e5fef2e",
+      "result_sha256": "148d0e9e0e486e12e30405ab17229a0e780d749dee9773a87c0426b4c9e1fe7a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0370",
+      "master": "media/masters/HAMPTER_0370_red-beret-stubble-portrait.png",
+      "original_sha256": "214ffb2f9af7eb0d16bbc8878846a836c04028cd15f041648d9f9f711f3334a2",
+      "result_sha256": "a03e052f8e22419573aa97996a1dbc31bc6c561acbdaae9229fa8a906f2979bd",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0371",
+      "master": "media/masters/HAMPTER_0371_side-eye-crooked-lips.png",
+      "original_sha256": "2ae4556f69879838988ca4cf791583aecd505165b66e1af98ae21647a3689f99",
+      "result_sha256": "2c03d3b492e6d23b65f978c5789dfd1af8bd612a7970b751764b5ae5d1b15459",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0372",
+      "master": "media/masters/HAMPTER_0372_tight-brows-pursed-mouth.png",
+      "original_sha256": "fac1c50e02ca349986d34e74108df23c4d87acf97d970359d383b662c8d197e5",
+      "result_sha256": "23ed18dc3fd4aba53dfef2a724a9285acec3fc4159400babcb93ff1fcd0f403d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0373",
+      "master": "media/masters/HAMPTER_0373_fedora-glasses-beard-grin.png",
+      "original_sha256": "b6c17f50da9c34f7a13d4a81bce2ffe1f55b230298b8c060e916f9bffe9d2727",
+      "result_sha256": "ca676551414727144e628ea02172fe29077503c2bd0c10539efe25efc9b15f2e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0374",
+      "master": "media/masters/HAMPTER_0374_crinkled-eyes-toothy-laugh.png",
+      "original_sha256": "f7ca93f42f785648129babb3d967cd2ea3a204c0d85579ba38352c66d8434ffa",
+      "result_sha256": "c0a3203d0db8045b08720a0946e438b222972694f94a862fb3e2b66a1a6b142e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0375",
+      "master": "media/masters/HAMPTER_0375_long-face-huge-mouth.png",
+      "original_sha256": "dd66e1a3b14ecdd7d8b977d3e82a5a3773d1fbd2ed9854992d38bb7cdea2e3ff",
+      "result_sha256": "2c3e736c492243fe8d7d65c7cfc2193e9637a842dc29b5af6f633dfdc53f2c2a",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0376",
+      "master": "media/masters/HAMPTER_0376_round-body-simple-smile.png",
+      "original_sha256": "6845329fcd9eaca74b769d349fcd6e3402ced5528fb1e1078a7ad49f655a3705",
+      "result_sha256": "7f99a9b74500d545ec279af3b38c8fa84e71126009fb08a3a897e140a64067fb",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0377",
+      "master": "media/masters/HAMPTER_0377_tomatoes-hitting-head.png",
+      "original_sha256": "f2fd91fbe9949075d35cb8f451fa84a22ee8f55be77a2d43de451f01e0a207fd",
+      "result_sha256": "8eade014f62499c601b9fb7e333e2150af409705465fc7bc93c931bb4a66ace8",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0378",
+      "master": "media/masters/HAMPTER_0378_round-short-hamster-smirk.png",
+      "original_sha256": "2c95ba941a7bd041cb11995dd2c83bb911f5058f8a7496d7fe8a900323d48ae5",
+      "result_sha256": "10f448962ddcb94803d9ab6898015dd7dbb61e69db792ab006eed335b4713951",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0379",
+      "master": "media/masters/HAMPTER_0379_spider-suit-arms-out.png",
+      "original_sha256": "faeef11ae6dd4887047135d002916e7131a2c24727a3e39dcd82051a630fc4e2",
+      "result_sha256": "9970752892147ad58f976b55dbc761b619c5f524614663107132a97274e3caad",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0380",
+      "master": "media/masters/HAMPTER_0380_floppy-ears-blue-eyes.png",
+      "original_sha256": "cc87b7fecc99b25ed45281164930c8716c5de85b9b03dd866291d5419609e6e3",
+      "result_sha256": "60a9354c305b40010aabdab1822018979803d50ef62d4e967437922c2ef37725",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0381",
+      "master": "media/masters/HAMPTER_0381_thin-face-vertical-cry.png",
+      "original_sha256": "a50ce30dba547d9cc7ada0af11cc09c4923c349c956aaf3d54cff069dd900337",
+      "result_sha256": "2a981557bc7c9fe4e87daccc9850ba38349ca93dd68924d1a4d86c4a155a3525",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0382",
+      "master": "media/masters/HAMPTER_0382_dark-coat-sunglasses-stubble.png",
+      "original_sha256": "ef288ea915d5a2e0f14e2766bbad425bf220f0cac5b999932ecc528382af7bd6",
+      "result_sha256": "7d3355f1c9e7378a6aa423066c5b469de5c7191cd93fe82ecf88c4da19f3fb71",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0383",
+      "master": "media/masters/HAMPTER_0383_leaving-blue-bindle.png",
+      "original_sha256": "56a03f46ba3ab2ef4e4ce6cd6e49e57f8c033d3cac5ec45ef78bcc0faf48bf21",
+      "result_sha256": "88ca0fc0622930f45fdb275bce8a1ba5eabf7d747b984893785f3dd40b02b93a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0384",
+      "master": "media/masters/HAMPTER_0384_oversized-emoji-eyes.png",
+      "original_sha256": "52e841984718f02b593cf3675387a4308944bd9b7bb5e9549f1ed91c1f85aa6d",
+      "result_sha256": "503bfed3b2c6903b094c9f6c44d785b85a52355d03acb404e2ea680c64777e7c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0385",
+      "master": "media/masters/HAMPTER_0385_sweaty-scrunched-face.png",
+      "original_sha256": "554cd05144962046d0fd3bbefc43de3b7b1d0dae428613e1140ef0347144197c",
+      "result_sha256": "732731e97bdad4fe7ee3c0c1591da5e847021cee9693be2cf9297ee82993c3b1",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0386",
+      "master": "media/masters/HAMPTER_0386_bulging-eyes-abyss-mouth.png",
+      "original_sha256": "2ce1748b932a29426ce1ceb8f9ca4f4096d9d5ebe131da3ab4b0fd95ee4b0eb7",
+      "result_sha256": "d1f3d456a550cf216e64138c9b630d925cb76a9b370a54ab6a1181222941ab2c",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0390",
+      "master": "media/masters/HAMPTER_0390_long-nose-high-squint.png",
+      "original_sha256": "7bd6e302be4d7d23e027b36b87306f77716434e4f395a5a4a395139763555125",
+      "result_sha256": "5023480472d85598218fdb8bdfa4a9bd13b2c850d23b54f064810254476beccb",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0392",
+      "master": "media/masters/HAMPTER_0392_round-profile-many-chins.png",
+      "original_sha256": "a29546700ca92549ef849b4efe83c86023fb77360ee11703ac9637d808d5524f",
+      "result_sha256": "467ad216c0a7dad46a634e373c8a8c0095602885d028b2b4ea26aba7ac3975d4",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0393",
+      "master": "media/masters/HAMPTER_0393_squint-round-puckered-mouth.png",
+      "original_sha256": "d9c6849a8a6197f26971c87a0579438fa44533e26d6a3640dff05f2a8e944eab",
+      "result_sha256": "f55944cc8d5a8b84471fc1c832c48c2bb6b7084880104ff268765015defaf883",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0394",
+      "master": "media/masters/HAMPTER_0394_santa-hot-cocoa.png",
+      "original_sha256": "d5bf8668e0abc057eb6ecf75bc7b9daadf594dffbab13670fd1963184273a3a5",
+      "result_sha256": "ab777926becb9e035dc6d5958aab91ca98146b5feb0ec3defd4d6aa09a726389",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0395",
+      "master": "media/masters/HAMPTER_0395_rectangular-side-eye.png",
+      "original_sha256": "9e2af930763aab82beb978d58e85132aa110508b70a670acd0fe432ed51e3cf6",
+      "result_sha256": "3f624b054a3d0a163cbf2bbd634168e3835ea782e31339d4b49c58af1adbcca0",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0396",
+      "master": "media/masters/HAMPTER_0396_gold-2026-confetti.png",
+      "original_sha256": "208e3bed4c95f1b7c1affa1d276763c92497c6b79e07d1d22b450ff8b9f47580",
+      "result_sha256": "8dfb76423daff18483b12f8b5996849ddc86023a8a3d8985afff2526abf101d7",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0397",
+      "master": "media/masters/HAMPTER_0397_fingers-steepled-scheming.png",
+      "original_sha256": "09e501a686c9b1c7da4b50e4e9f45fae5ed8fd9bb9746d3460fac3aa8123e1e0",
+      "result_sha256": "07f19461cdbf90bfb8549a701dbb707d4e590ebb8b7f58c7f38ea342afd5ea1c",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0398",
+      "master": "media/masters/HAMPTER_0398_round-big-eyes-drool.png",
+      "original_sha256": "20badb27da07c9c547fce2828f118b8f81cc77f85800aefff5311fa28c0f2003",
+      "result_sha256": "36b43eb17d2de34ff28abacb04a27b77cdca01f74c2463c81dc0a748e6fe0378",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0399",
+      "master": "media/masters/HAMPTER_0399_tall-small-eyes-drool.png",
+      "original_sha256": "05a139b3b8a643a3f403418862baf36011836d52234b085af4384788b4a7b463",
+      "result_sha256": "226f1b30cde6216a2fafa2ad76d313cdaeb304d322d5e7210e89f202a84c7b37",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0400",
+      "master": "media/masters/HAMPTER_0400_lopsided-eyes-drool-close.png",
+      "original_sha256": "8a39aa462b013674cb0a7f5c249cf6a6a6dc6c1edc53c52463ef303c409d4ebe",
+      "result_sha256": "07fafce858f68dec93d1be7d777a666239646c060751d52ff182d07b2ab6220a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0401",
+      "master": "media/masters/HAMPTER_0401_green-santa-candy-cane.png",
+      "original_sha256": "bf5e0679ac6ade622e837aebd44a60e3356d14bc7cc42e6974bb6906483791e4",
+      "result_sha256": "d7daf6feae998fa8de3d9f94d3581ea17251a2ec648c40aaae8db512475e53a1",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0402",
+      "master": "media/masters/HAMPTER_0402_wide-eyes-stretched-lips.png",
+      "original_sha256": "9ca16ecf3d4026ad8d4d7494b2979d988bc2a0f916fa5bb0d4ff28a279e7c99d",
+      "result_sha256": "5fc99d8b270d7c3c149ce89babcd4674ea8b79611b8982225dd8be80de186243",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0403",
+      "master": "media/masters/HAMPTER_0403_angry-laugh-huge-tongue.png",
+      "original_sha256": "0186dc244e8ce683a5b55d770626d5ce86c331500ec223d3c8c5aa8f21eb6a4d",
+      "result_sha256": "b04b8da4d835ffded3d0b803207344e079ad750ef915fa5dba060bfddc9a7695",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0404",
+      "master": "media/masters/HAMPTER_0404_bulging-eyes-vertical-scream.png",
+      "original_sha256": "5aee03c53f4dbe338fe34d7e0ecb717599a02c81cb492307d88731c23d7ac0ed",
+      "result_sha256": "34cb7d8ec3398facce91a0701f3765a4a94bada0d317f1c1f4b55f592f52795b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0406",
+      "master": "media/masters/HAMPTER_0406_magnifying-glass-inspecting.png",
+      "original_sha256": "5d5c4b8c0f73b7ca901501dae7765d52dd1e709c3c169cccbfe9c734c03ddf07",
+      "result_sha256": "db76c614a5f195a3c28049d6ce9592391b2a605ab518940bb4be3e0c64296d1f",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0407",
+      "master": "media/masters/HAMPTER_0407_pajamas-nightcap-candle.png",
+      "original_sha256": "636b75c09f63475aed3feb793b3f20a7abed257771f03ecbd9d89ebf231b5b7b",
+      "result_sha256": "50189c3dd44707058972e3593358af45c59df192e28059ddd8ea038b2e3dd330",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0408",
+      "master": "media/masters/HAMPTER_0408_blue-eyes-red-lips.png",
+      "original_sha256": "8200e1705423d2effab39ac9e3ae931c5a00ae7279ae1894216593cc6e1da59e",
+      "result_sha256": "54b321c49fb086c27adc9b0e7ca7e5886bd8729244d35b1d52b878117abd360b",
+      "original_size": [
+        1080,
+        1080
+      ],
+      "result_size": [
+        1080,
+        1080
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0409",
+      "master": "media/masters/HAMPTER_0409_thin-wrinkled-face.png",
+      "original_sha256": "d437638d9801dad85010cb27c80cbbf8e337978dab4b88894c546fcdc6f6e45d",
+      "result_sha256": "1595cc847cff854cd905e72f0162493a3680930151eb79c9a3c982c70b092d35",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0410",
+      "master": "media/masters/HAMPTER_0410_gaunt-cheeks-open-mouth.png",
+      "original_sha256": "26e05037d2d54fda9c07424bf26e6993d096aaa7730d364db63b02a7527e3caa",
+      "result_sha256": "f863048cdf4636a2e2d77cd20158541c0a7e2b3e0bebe8ce80c02c3efdd55c2a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0411",
+      "master": "media/masters/HAMPTER_0411_low-brows-wide-smirk.png",
+      "original_sha256": "d86ef27594a51519d46ada5f2800058255a66a57917994c57976103f8cfed6f0",
+      "result_sha256": "dfb51176966fbe73a1443d51c5954a3b72e340c5d0b812594b5da3c771c7eae2",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0412",
+      "master": "media/masters/HAMPTER_0412_pink-heart-be-mine.png",
+      "original_sha256": "776633552a221842556e208429d552d674eca6a2e0e6f0f3c6a98d80c12ec98f",
+      "result_sha256": "ddde8a86cba792550de7994978e4c3cde3c1e02cc1fbd409551da1143844a3a7",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0413",
+      "master": "media/masters/HAMPTER_0413_enormous-pink-lips.png",
+      "original_sha256": "6249bfe666b2b120d4d196681aab93fcd6a4104f033de81c22b8cb9c3ff06196",
+      "result_sha256": "c8d07db213519dead6ada5020600cabef17c3b7c492e32cdcb9ceb10c479c862",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0415",
+      "master": "media/masters/HAMPTER_0415_folded-arms-wrinkled-face.png",
+      "original_sha256": "bfe92c509ad436c0d496090748cd65ba658337680096542cf5500a3ed0c83478",
+      "result_sha256": "f1bd8100ac5c0e459b0b1e0bf42454511f0b38a435d6200d5259797ae2bfac51",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0416",
+      "master": "media/masters/HAMPTER_0416_scientist-test-tube.png",
+      "original_sha256": "af9977152a4d14f0c0a36024c399699e4eed024ede83f7acf6e88937538a0961",
+      "result_sha256": "a8ea181301ddfbcd3a15981f091a8e7826c5d633e5777f2c9eb552c618daa270",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0417",
+      "master": "media/masters/HAMPTER_0417_tiny-mouth-squint.png",
+      "original_sha256": "46f3b07f1447413b204509bac27fe4ddf46215e0e50ce9941d4c5414f2456c47",
+      "result_sha256": "1da795b350243fb118968059c0013e0dd518e0bb53f597b829772c9fae83b54d",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0418",
+      "master": "media/masters/HAMPTER_0418_red-dollar-eyes.png",
+      "original_sha256": "6159a8b29d003503f7921910ee6b283dde166e8d7135ed9c33126440da014030",
+      "result_sha256": "1046863f693dde4890aa67393d12b145b901d1bd65a8372531685be3ea5c3430",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0419",
+      "master": "media/masters/HAMPTER_0419_ok-hand-circle.png",
+      "original_sha256": "26f1b58d371f92c5fc9ebbfb36f4236312ec6ae6edf70e1b5b0ec6f463b33e53",
+      "result_sha256": "691eb69a851d819771e07bebab154cc4d7452b992b017d8c177255f0b4c66c1e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0420",
+      "master": "media/masters/HAMPTER_0420_pizza-stretchy-cheese.png",
+      "original_sha256": "4c5dfccc0b4d59f1dfb81e8d0487fd7e8d1ef8ede581a188ab895690b1dbd3e5",
+      "result_sha256": "545a84ac745148d1cbe213119645c17a16add92854a4ddc6579ecb4eaa201ec3",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0421",
+      "master": "media/masters/HAMPTER_0421_round-glasses-cartoon-chin.png",
+      "original_sha256": "3f7487e8087c3322e47185e2f055334142ce1e85f452d3a080082eb5dfe4757c",
+      "result_sha256": "3f74c5e282b3c0602f287f6f50becd85385059ef80fb28d24519a9654514caba",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0422",
+      "master": "media/masters/HAMPTER_0422_melting-dripping-face.png",
+      "original_sha256": "89842b932f7475371bdee2305fe0235e80e60957241fb8765ca517961ceb98b0",
+      "result_sha256": "442764c8a7486854d06fb2bf37e5cf34988d7724349fbcff725573a9525c015e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0423",
+      "master": "media/masters/HAMPTER_0423_ultra-thin-fullbody.png",
+      "original_sha256": "b9d93d0507931b267f390bfbd1ab276b5790a95f9a953fc5c28f65c62ff218e9",
+      "result_sha256": "b6c3622cf2cdad61c75b6222e9bcc27ce8d59f67c8f3e9eb0fa40170d2bd7aa9",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0424",
+      "master": "media/masters/HAMPTER_0424_ultra-thin-small-smile.png",
+      "original_sha256": "0f330f2995cf0eca4d452668812e34eec29bd0c2bfc8a68017efdb3b47c3f6e2",
+      "result_sha256": "4f56fbca5415af4c117fef8df4ec8179cbf121ee8530865a473e52a626dae1fe",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0426",
+      "master": "media/masters/HAMPTER_0426_huge-mouth-long-incisors.png",
+      "original_sha256": "c2d916daace26623438813435dc2ac04e2246cc373e87c2961ff709d9cb15afd",
+      "result_sha256": "293fae9e0b152ee41d7e163187b1291d8ee6a812d8ebbbb938404b6d0bc2d962",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0427",
+      "master": "media/masters/HAMPTER_0427_holding-popcorn.png",
+      "original_sha256": "fef61f68fd1c647b9cdb6767ebb551f9dd874961e23b56021a7e5e333acbcb37",
+      "result_sha256": "58df1be9c05a2327e057beb33f89f1f28b7f197f4719a1d0ae6e69245d2a4f78",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0428",
+      "master": "media/masters/HAMPTER_0428_realistic-brown-eyes-full-lips.png",
+      "original_sha256": "bc7ef88567205861bbe302b988ef41860273ff5079738fcdc2d759f3a2d6a6f0",
+      "result_sha256": "4c60e3b36e71abcb95eb344341a106e8fab4d31c0abc87f5a984d722ec1e6372",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0429",
+      "master": "media/masters/HAMPTER_0429_half-lidded-long-smile.png",
+      "original_sha256": "d3905ee2ceb8300c220f0b4f618be593ba08d2e0d969de5fb1e69f7f23621fc5",
+      "result_sha256": "2f4fda2b1a6705955894cd5a42fece6c526fea0c448672fc2a748f9e72bfd1fa",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0430",
+      "master": "media/masters/HAMPTER_0430_shower-bubbles-duck.png",
+      "original_sha256": "b1e21d93f2431876b1d8b9b7746da28c9b72f2f02e645f53aab92e9117cf07f9",
+      "result_sha256": "c884ef680e08a00efe486f8c2bddf28eeadc51db55a0841f8146d4b33dc2665b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0431",
+      "master": "media/masters/HAMPTER_0431_shower-curtain-duck.png",
+      "original_sha256": "a138751f266da1c03b6987a0f63483a94edd0eb4e6a18055b5f594c6a2cc92c9",
+      "result_sha256": "4ab7ccd3d2c9c4818c4a19b86ec9975de8114e6dfeeb66c2bccd41fe861724ae",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": true
+    },
+    {
+      "id": "HAMPTER_0432",
+      "master": "media/masters/HAMPTER_0432_pink-bow-hugging-baby.png",
+      "original_sha256": "7548a6ca71caf70ad44ad549de70a013f2b47b0d87d6a06055a745e9b8ecf939",
+      "result_sha256": "7ac9585d7c3906e9dc2c4cc9880b9f0b2e79c44a1f66e10309754e87a4a14fde",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0434",
+      "master": "media/masters/HAMPTER_0434_wet-eyes-weak-smile.png",
+      "original_sha256": "70cb06162992012812497908f3792ff6ab998f7aa4bfccdf040b9036dbac9a6e",
+      "result_sha256": "b336ca8311aab23f72d95e25cde2f9728aaf8124cb35bdab258c920423f6c80a",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0435",
+      "master": "media/masters/HAMPTER_0435_blue-energy-orbs.png",
+      "original_sha256": "52c2d4c15f13f5e5deb6c2e90c5bbea7ebd2fdb48328cbb44f30482e2e3d784f",
+      "result_sha256": "7df4bed4c2861f1be6b2507d5a13fc60408028a3b730dbe44bf6d4886ffdd690",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0436",
+      "master": "media/masters/HAMPTER_0436_profile-cigarette.png",
+      "original_sha256": "b1375b08d9fae4c356003f68d226f8d2629ed04d322a2c2f3a9608f93c7a04f1",
+      "result_sha256": "106b5702445e52864f1c245d2f0e28e158a3a83cb63c2e21ee92e1202287185e",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0437",
+      "master": "media/masters/HAMPTER_0437_hands-at-temples-shock.png",
+      "original_sha256": "8ed190e093aa20b3125d86e576fe0aa071fafa6948b395f3e92e09fb6fa5dea7",
+      "result_sha256": "5d481f5bd6fa6f477cdbe2c52e730954c815e6de5b68d72e35b794e1e5089087",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0438",
+      "master": "media/masters/HAMPTER_0438_drinking-blue-can.png",
+      "original_sha256": "c97e7e8f27c6addf584811e0ee56b5a1e81f74254f4158fc29a6ad13d300cb99",
+      "result_sha256": "88b97deab719ed83d354f370c6b82a8c984e65754639ddf213139126485fce91",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0439",
+      "master": "media/masters/HAMPTER_0439_sunglasses-gun-at-viewer.png",
+      "original_sha256": "8a3aec0bce26cc0583b191f079bdf4020c9f4d17bdfe3c7d3e3dcabe6496f7f6",
+      "result_sha256": "d339fe50e0c0ec91fbbd22ff153a107ef86168a4280571cdcef94decaa202d0b",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    },
+    {
+      "id": "HAMPTER_0440",
+      "master": "media/masters/HAMPTER_0440_branch-crossing-face.png",
+      "original_sha256": "ad1b5dc2b772c599ac7ad98cd2110f4234f3dfbb4918a124480fee06a173ee54",
+      "result_sha256": "9619ad42a85fa535d7a8cb2a8ac315ce31ef9cb0749bb1fcf5f46ab9419e6111",
+      "original_size": [
+        320,
+        320
+      ],
+      "result_size": [
+        1024,
+        1024
+      ],
+      "manual_mask_exception": false
+    }
+  ],
+  "preserved_previous_ids": [
+    "HAMPTER_0006",
+    "HAMPTER_0068",
+    "HAMPTER_0070",
+    "HAMPTER_0089",
+    "HAMPTER_0119",
+    "HAMPTER_0138",
+    "HAMPTER_0147",
+    "HAMPTER_0152",
+    "HAMPTER_0239",
+    "HAMPTER_0334",
+    "HAMPTER_0345",
+    "HAMPTER_0346",
+    "HAMPTER_0347",
+    "HAMPTER_0441",
+    "HAMPTER_0460"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "Embeded Memes by Gliwy.dev",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "cards": 374,
   "searchable": 374,
   "excluded": 78,
@@ -9,9 +9,13 @@
   "human_review_of_every_restoration": false,
   "restoration": "non-generative; original sources preserved in originals/",
   "palette_corrected": 15,
-  "color_policy": "original_character_colors_preserved; only_external_background_transparent",
+  "color_policy": "original_character_colors_preserved",
   "individual_annotations": 374,
   "annotation_version": "3.0.0",
   "visual_assets_unchanged": true,
-  "search_regression_tests": 27
+  "search_regression_tests": 27,
+  "newly_restored": 359,
+  "restored_total": 374,
+  "transparent_background": true,
+  "human_review_of_every_cutout": false
 }
