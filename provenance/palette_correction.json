@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-02",
+  "version": "2.2.1",
+  "error_corrected": "Coloring non-white character artwork white",
+  "policy": "Original color is part of the drawing. Only the background may be transparent. No recoloring.",
+  "background_alpha_source": "v2.2.0 foreground silhouettes",
+  "rgb_source": "sha256-verified original masters in git history at 29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8",
+  "images_corrected": 15,
+  "restorations": [
+    {
+      "id": "HAMPTER_0006",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "2373bcd52ccc6b06957b586cdb1b9ea0d227f2efb21376b93c42d4651ab1e008",
+      "before_master_sha256": "052f0e42010e9e3fa7e4d8409a125dd227a2a5907b54dfe19a291cc0821dee51",
+      "after_master_sha256": "42739d7230615592c18d4aafff27304af3e3e5644975225b2b3834f2bcd44a80",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0068",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "ed1987e51059c126c17b03ba051ea0634d2a93db48119753faf4cde063201be6",
+      "before_master_sha256": "4b656b0850ba868bb246264edd4cf0a9c30af45920c54627bacf1f3177b6c0d9",
+      "after_master_sha256": "85fd10cc9a7ee82bcd89dc15e627907e02e5650d4a977c2995aeab73b9de7b3b",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0070",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "8a48c4bc166f329decef1adfacc7de848fbe536836ba51414c6b2e00e0697e2b",
+      "before_master_sha256": "47243df3553150a08d054f4d60c7f5a34c8ac3837df84e619887c0fdf6cfbe0e",
+      "after_master_sha256": "eb977ae5876671ee0e71c952ab21226a0f8b118f905fd6ee8eeb405908c646a7",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0089",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "ed532d87e9fedabf4a8663c674fa4b96ae7d286fbc2c0d39935ee86565071c84",
+      "before_master_sha256": "156f7259f76c2cef6e96bcc3dfa3fd1a81a719c68cc0794c1cab6d090518d367",
+      "after_master_sha256": "a45801e2716292b68c088f69170236d802d8d055518b887cb42d7f65b3a10921",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0119",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "0fe11daa719d353887d5530870cb7befd3890cadbfe6a55692974b2231ab9c5c",
+      "before_master_sha256": "64150ad27613a108352880d287b950775664ee2d01ad64ffdf2c073bdf2a5065",
+      "after_master_sha256": "40e562b106e2f5450989b6b74119b26b6a26d226746d90fc2a240430c60e180d",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0138",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "64169b860907f4ef49174df57f404705253490dfdbd81e88077ec1b8822e416c",
+      "before_master_sha256": "6b9884e06884fcca12b3be97c61be0f526b970cee33d1e498499b4f9bd8b3db0",
+      "after_master_sha256": "089e04b06669341b57f185427ce633b4d9611a9277127cd4fa75588568efc6d3",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0147",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "b724dab8ac54f8a8364ff8117ae278cf8694a65ede8d8bbc4446308045db9dfd",
+      "before_master_sha256": "f911c30cd01a6201670a2ab8a98817b8031a163253bede6f439044058ddf8ce0",
+      "after_master_sha256": "ca9ed5838db253f486ea201792f5a93cb2b7352b17450e93593d65b5fa0f3658",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0152",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "ba39719cca6d5b329cd0b2e47ffe350ac99ad85d9e477dc7ae6ba73e7d5f5b47",
+      "before_master_sha256": "458baf4ef1b658789654f1aa7e11e7c1fa49c3742e51e49d8cac9cb6431d87aa",
+      "after_master_sha256": "99d3ba7657cdbebee5f275b8317e86f9947f78172d89eb15ae3999d1199d4c1c",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0239",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "54fe52b598df6258e195da25b1d8e4f193dd5339d22b08575f1980bd1abff831",
+      "before_master_sha256": "d195b6a0488d393649f9d24427df1880d555d423f5fa6759c95deab5c9c757e7",
+      "after_master_sha256": "4f2ebdc8c12a0933c2e2fadecb819afe4a90c0c9b89450077e08a884a9bb057a",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0334",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "3f9ab93d555133927f39173444301d44e134fc6759745d65e22a6deab427c451",
+      "before_master_sha256": "e62534647447d19cf1af2c74e46efb3b2689344f12ef6e207a79d112d1a768cb",
+      "after_master_sha256": "4bf4aec7c0d11705f091463648df0bc755d63885c8592bbf6204e3420eccf99c",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0345",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "7fe22cb5829f8f1d72432228fd6821687ff7295b7bd3178aa45b3e04827dac3a",
+      "before_master_sha256": "507c63a8c85fd7197d2a83a3f66ff5831be9ee4754cd26c68dc63b49730f5184",
+      "after_master_sha256": "980afb2fe63ddff81b94ea39682657c33d669723f9cd67a9413f7086deed468b",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0346",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "20f252a9774fa5a3d0681767d054d105556c3fe838d51e512a9cbee44925def9",
+      "before_master_sha256": "284d8f44d20acb31068013228207344659ebe254dc7adafc240097b1ee5c96f6",
+      "after_master_sha256": "68f2d6625884d65cd482adcf4056b9a2d4ea54121abea795a5f50c5c868655b4",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0347",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "16df64dfd3a5109a97d09147dc08ebba7c0b32eb0a477fc248a34d9529e6f71c",
+      "before_master_sha256": "300039b77372f5af4648e4937310c94e42828decb99d6b64dd4510a18390c8a3",
+      "after_master_sha256": "2545f65ea80860532b18bf1c44c2d4731486f6458da6b7f649da410a37d6a604",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0441",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "3866bed8ef158f01f64b0ffa48e095b16afebb5ec6af760c41c228268abafac9",
+      "before_master_sha256": "aab22adb4060fecc43aecb69322184468a80b80438414b3b26e701a32dc37cab",
+      "after_master_sha256": "11f848be78038d62049e39eace96d66c9dee4e5658825299711b9f2b3dab7fc0",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "HAMPTER_0460",
+      "method": "verified-original-rgb_plus-existing-alpha",
+      "original_source_sha256": "baa872deb28bf164dcd7b6a3dd66976dc55d9af5c05dc883781edefd33cc1e54",
+      "before_master_sha256": "97af33a793b8827315c64d6cb18dbd5433390faf847c0deb42075b8d55055c83",
+      "after_master_sha256": "6bd88df6eb91ee40516a609ebc5156d608188dffde923c6a6570d5796993dc06",
+      "alpha_preserved_exactly": true,
+      "character_colors_from_original": true,
+      "output_dimensions": [
+        516,
+        520
+      ]
+    }
+  ]
+}

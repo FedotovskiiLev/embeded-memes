@@ -103,22 +103,22 @@ CHARACTERS={
 }
 
 # Programmatic work applied only to unique originals, with no AI re-rendering.
-# BODY-white adjustments apply to base fur; props and costume are retained.
+# Source colors are immutable; only the external background is removed.
 RESTORE = {
   6: 'background extraction and contour cleanup',
-  68: 'light-green background removal and green fur -> white',
+  68: 'light-green background removal and original green fill preserved',
   70: 'green hamster facial/outline cleanup; preserve alien antennae',
   89: 'matte removal for Link costume',
   119: 'matte removal for Spider-Man costume',
-  138: 'black background removal, green body -> white',
-  147: 'yellow Minion body -> white, keep overalls and goggles',
-  152: 'yellow hamster face -> white, keep orange sweatshirt',
+  138: 'black background removal, original green fill preserved',
+  147: 'original yellow character preserved, keep overalls and goggles',
+  152: 'original yellow face preserved, keep orange sweatshirt',
   239: 'green alien body -> white, keep green antennae',
-  334: 'bright-green body -> white',
-  345: 'cyan face -> white, preserve Kris hair and scarf',
+  334: 'bright-original green fill preserved',
+  345: 'original cyan face preserved, preserve Kris hair and scarf',
   346: 'matte removal for Ralsei costume',
-  347: 'purple face -> white, preserve Susie hair and dark clothing',
-  441: 'yellow Pikachu body -> white, preserve ears, cheeks and tail',
+  347: 'original purple face preserved, preserve Susie hair and dark clothing',
+  441: 'original yellow character preserved, preserve ears, cheeks and tail',
   460: 'repair open silhouette, isolate against transparency, resize conservatively',
 }
 
@@ -173,62 +173,14 @@ def bg_remove(im: Image.Image, image_id:int):
     return Image.fromarray(np.dstack((rgb,alpha)),'RGBA')
 
 
-def selective_fur_whitening(im: Image.Image, image_id:int):
-    arr=np.asarray(im).copy()
-    rgb=arr[:,:,:3]
-    h,w=rgb.shape[:2]
-    hsv=cv2.cvtColor(rgb,cv2.COLOR_RGB2HSV)
-    Y,X=np.mgrid[:h,:w]
-    colored=np.zeros((h,w),dtype=bool)
-    # Threshold original palette per mascot body; keep costumes and relevant props.
-    if image_id in (68,70,138,239,334):
-        colored=(rgb[:,:,1].astype(float) > rgb[:,:,0]*1.12) & (rgb[:,:,1]>rgb[:,:,2]*1.08)&(rgb[:,:,1]>90)
-        if image_id in (70,239):colored &= (Y>h*.33)  # antennas remain green
-        if image_id == 70:colored[:]=False  # Already white fur: keep the green-outline drawing
-    elif image_id in (147,152):
-        colored=(hsv[:,:,0]>=10)&(hsv[:,:,0]<=33)&(hsv[:,:,1]>65)&(hsv[:,:,2]>100)
-        if image_id == 152: colored &= (Y<h*.67)
-        if image_id == 147: colored &= (Y<h*.998)
-    elif image_id==441:
-        colored=(hsv[:,:,0]>=15)&(hsv[:,:,0]<=37)&(hsv[:,:,1]>65)&(hsv[:,:,2]>140)
-        colored &= (Y>h*.32)&(X<w*.74)
-    elif image_id==345:
-        # Turquoise face, not the gray-purple neck scarf / black hair.
-        colored=(rgb[:,:,0]<150)&(rgb[:,:,1]>123)&(rgb[:,:,2]>125)
-        colored &= (rgb[:,:,1].astype(float)>rgb[:,:,0]*1.18)
-        colored &= (Y>h*.22)&(Y<h*.77)&(X>w*.22)&(X<w*.80)
-    elif image_id==347:
-        colored=(rgb[:,:,0]>118)&(rgb[:,:,1]>53)&(rgb[:,:,2]>95)&(rgb[:,:,0]>rgb[:,:,1]*1.30)
-        colored &= (Y>h*.28)&(Y<h*.68)&(X>w*.24)&(X<w*.80)
-    else:
-        return im
-    colored &= arr[:,:,3]>0
-    # Preserve the original black strokes and shadow outlines by whitening bright
-    # flat fills, not every colored pixel in the object.
-    bright=rgb.mean(axis=2)>70
-    colored &= bright
-    rgb[colored]=np.array([255,255,255],dtype='uint8')
-    # Restore conventional pink nose when the original colored the skin/nose green.
-    if image_id in (70,239,334,147,152):
-        if image_id in (70,239,334):cx,cy=w*.5,h*.51
-        else:cx,cy=w*.5,h*.51
-        yy,xx=np.mgrid[:h,:w]
-        ellipse=(((xx-cx)/(w*.027))**2+((yy-cy)/(h*.039))**2)<1
-        elliptical=(ellipse)&(arr[:,:,3]>0)&(rgb.mean(axis=2)>115)
-        # Mask the inner areas only, protecting eye/ink outlines.
-        rgb[elliptical]=(246,178,190)
-    if image_id == 347:
-        yy,xx=np.mgrid[:h,:w]
-        nose=(((xx-w*.51)/(w*.027))**2+((yy-h*.52)/(h*.038))**2)<1
-        nose &= arr[:,:,3]>0
-        nose &= (rgb[:,:,0]>95) & (rgb[:,:,1]>30)
-        rgb[nose]=(247,173,188)
-    return Image.fromarray(arr,'RGBA')
+def selective_fur_whitening(im: Image.Image, image_id: int):
+    """Deprecated compatibility helper; never recolor original character artwork."""
+    return im
 
 
 def cleanup_and_upscale(img:Image.Image, image_id:int):
     img=bg_remove(img,image_id)
-    img=selective_fur_whitening(img,image_id)
+    # Do not recolor character/fur/costume; only the background is removed.
     w,h=img.size
     if min(w,h)<900:
         scale=min(4.0,1024/min(w,h))
@@ -403,7 +355,7 @@ def main():
     SOURCE.write_text(json.dumps(kept,ensure_ascii=False,indent=2)+'\n','utf-8')
     for path in (ROOT/'provenance/id_aliases.json',ROOT/'catalog/id_aliases.json'):
         path.write_text(json.dumps(aliases,ensure_ascii=False,indent=2)+'\n','utf-8')
-    col=ROOT/'data/source/collections.json'; c=json.loads(col.read_text()); c[0]['description']='Белый рисованный хомяк: реакции и стилизации на узнаваемых персонажей; посторонние животные и повторы исключены.';col.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n','utf-8')
+    col=ROOT/'data/source/collections.json'; c=json.loads(col.read_text()); c[0]['description']='Рисованный хомяк: реакции и стилизации узнаваемых персонажей; исходные цвета сохраняются, фон прозрачный.';col.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n','utf-8')
     changed_gallery_badge()
     enhance_agent_export_and_tests()
     (ROOT/'provenance/curation_review.json').write_text(json.dumps({'date':'2026-11-02','method':'visual manual contact-sheet review and non-generative pixel processing','base_records':len(src),'curated_records':len(kept),'excluded_count':len(gone),'deleted_media_files':deleted,'restored_ids':[r['id'] for r in kept if r.get('restoration')],'removed_ids':gone,'changes':logs,'rights_note':'No new rights granted by restoration'},ensure_ascii=False,indent=2)+'\n','utf-8')

@@ -1,11 +1,13 @@
 {
   "name": "Embeded Memes by Gliwy.dev",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "cards": 374,
   "searchable": 374,
   "excluded": 78,
   "programmatically_restored": 15,
   "theme": "classic",
   "human_review_of_every_restoration": false,
-  "restoration": "non-generative; original sources preserved in originals/"
+  "restoration": "non-generative; original sources preserved in originals/",
+  "palette_corrected": 15,
+  "color_policy": "original_character_colors_preserved; only_external_background_transparent"
 }

@@ -343,8 +343,8 @@
         "hamsterdex:6"
       ],
       "canonical_aliases": null,
-      "sha256_master": "052f0e42010e9e3fa7e4d8409a125dd227a2a5907b54dfe19a291cc0821dee51",
-      "sha256_delivery": "b6e45fa9b8c9c124285d6fa1ce02a29d0cf4c8a47c7fff01d54125c7d1dd87b0",
+      "sha256_master": "42739d7230615592c18d4aafff27304af3e3e5644975225b2b3834f2bcd44a80",
+      "sha256_delivery": "aeadae63bb1d7e66da743e1f2574b33b120413042a8fc65f8252e70c634a8508",
       "phash": "b4b1c34fcd4e38b093cb67293cb698c36719e60c98737333cccc38729365678c",
       "dhash": "00000000000000c0016000e004e008e801b02690233a019a05bc022c00000000"
     },
@@ -353,7 +353,7 @@
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "2373bcd52ccc6b06957b586cdb1b9ea0d227f2efb21376b93c42d4651ab1e008",
       "original_dimensions": [
@@ -365,10 +365,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "background extraction and contour cleanup",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "052f0e42010e9e3fa7e4d8409a125dd227a2a5907b54dfe19a291cc0821dee51",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0007",
@@ -3340,8 +3344,8 @@
         "hamsterdex:68"
       ],
       "canonical_aliases": null,
-      "sha256_master": "4b656b0850ba868bb246264edd4cf0a9c30af45920c54627bacf1f3177b6c0d9",
-      "sha256_delivery": "391f4a6b3b1661719f39a6be65be1374a7694ae75aff4be785c63140e8716c18",
+      "sha256_master": "85fd10cc9a7ee82bcd89dc15e627907e02e5650d4a977c2995aeab73b9de7b3b",
+      "sha256_delivery": "3c440eb623a47dc286ec78bc687e66af3c59e9bf38d0b5a14f07873fe22254bd",
       "phash": "e579a6979a86196c6187669b6679966599e6999e8d99661966668666196c8999",
       "dhash": "000000000040012002dc04ec09bc02dc04dc050c050d050d0000000000000000"
     },
@@ -3356,7 +3360,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "ed1987e51059c126c17b03ba051ea0634d2a93db48119753faf4cde063201be6",
       "original_dimensions": [
@@ -3368,10 +3372,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "light-green background removal and green fur -> white",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "4b656b0850ba868bb246264edd4cf0a9c30af45920c54627bacf1f3177b6c0d9",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0069",
@@ -3482,8 +3490,8 @@
         "hamsterdex:70"
       ],
       "canonical_aliases": null,
-      "sha256_master": "47243df3553150a08d054f4d60c7f5a34c8ac3837df84e619887c0fdf6cfbe0e",
-      "sha256_delivery": "97372ea7cdec9d3107ebf5ae20c92468758bb83026b2883015aa17053ea5fe09",
+      "sha256_master": "eb977ae5876671ee0e71c952ab21226a0f8b118f905fd6ee8eeb405908c646a7",
+      "sha256_delivery": "fb59c13b0d8e12e973d733d140978f5e509a6e9398e22db7f0ac051bf84a81a4",
       "phash": "b3193199cccecc662333339931892ce78c66ce66cf1c331933999ce3cce6c66c",
       "dhash": "000000000220014002b001780968049004d808880b4c0b4c0000000000000000"
     },
@@ -3492,7 +3500,7 @@
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "8a48c4bc166f329decef1adfacc7de848fbe536836ba51414c6b2e00e0697e2b",
       "original_dimensions": [
@@ -3504,10 +3512,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "green hamster facial/outline cleanup; preserve alien antennae",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "47243df3553150a08d054f4d60c7f5a34c8ac3837df84e619887c0fdf6cfbe0e",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0071",
@@ -4500,8 +4512,8 @@
         "hamsterdex:89"
       ],
       "canonical_aliases": null,
-      "sha256_master": "156f7259f76c2cef6e96bcc3dfa3fd1a81a719c68cc0794c1cab6d090518d367",
-      "sha256_delivery": "1c79c5ee819448674d20580f8aad042c8ec54bb9b9e57b6162e40871a594f457",
+      "sha256_master": "a45801e2716292b68c088f69170236d802d8d055518b887cb42d7f65b3a10921",
+      "sha256_delivery": "6245ef6c4c4c76585e44302340299e4128baa81a10052ec337095f95cb9fd721",
       "phash": "b1923183ce49ce7c9db4389362cb6766931c9839cd31cde38cc63cde33996389",
       "dhash": "00000140042001c801f002bc05ba479801d804d80c0c0d640d24000000000000"
     },
@@ -4516,7 +4528,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "ed532d87e9fedabf4a8663c674fa4b96ae7d286fbc2c0d39935ee86565071c84",
       "original_dimensions": [
@@ -4528,10 +4540,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "matte removal for Link costume",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "156f7259f76c2cef6e96bcc3dfa3fd1a81a719c68cc0794c1cab6d090518d367",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0090",
@@ -5895,8 +5911,8 @@
         "hamsterdex:119"
       ],
       "canonical_aliases": null,
-      "sha256_master": "64150ad27613a108352880d287b950775664ee2d01ad64ffdf2c073bdf2a5065",
-      "sha256_delivery": "da777e8047111ee9a02d06df5ebd3d31ad9acb93f2ceecfee36a1444123936b9",
+      "sha256_master": "40e562b106e2f5450989b6b74119b26b6a26d226746d90fc2a240430c60e180d",
+      "sha256_delivery": "41080c8cef215f8d4afd87e120210fcd8acc040d67f903cc0ae0b4911cc985b6",
       "phash": "abfff100d2ab0bdcdd0048abc1f54dc284037e5fa0d873c8730fe70f2f34d231",
       "dhash": "022004d009e8117410dc20da44dd8aad11d6293624d720db56bb669d069d0000"
     },
@@ -5911,7 +5927,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "0fe11daa719d353887d5530870cb7befd3890cadbfe6a55692974b2231ab9c5c",
       "original_dimensions": [
@@ -5923,10 +5939,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "matte removal for Spider-Man costume",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "64150ad27613a108352880d287b950775664ee2d01ad64ffdf2c073bdf2a5065",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0120",
@@ -6927,8 +6947,8 @@
         "hamsterdex:138"
       ],
       "canonical_aliases": null,
-      "sha256_master": "6b9884e06884fcca12b3be97c61be0f526b970cee33d1e498499b4f9bd8b3db0",
-      "sha256_delivery": "5a0dad887244ba978c84b6b35d2799e1b65a9d2c08b9e8d4ea1d9d9ba4076fdc",
+      "sha256_master": "089e04b06669341b57f185427ce633b4d9611a9277127cd4fa75588568efc6d3",
+      "sha256_delivery": "949575e02465794b408063f60afa7e30bd9fb9889c631073f1cbf27ae25926ea",
       "phash": "91747a83655cc6ab9a53d96a89a5de1c247866c3671be9309ee398ce999c6730",
       "dhash": "00000000018000000b4017c8178017642ca25852b8e974686ac46b0469246842"
     },
@@ -6936,7 +6956,7 @@
       "status": "not_cleared",
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
-    "review_note": "Мелкие детали или предмет неоднозначны. Перед точным утверждением сверяйтесь с изображением. Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались.",
+    "review_note": "Мелкие детали или предмет неоднозначны. Перед точным утверждением сверяйтесь с изображением. Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены.",
     "character_reference": {
       "character": "Duo (possible inspiration)",
       "franchise": "Duolingo",
@@ -6944,7 +6964,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "64169b860907f4ef49174df57f404705253490dfdbd81e88077ec1b8822e416c",
       "original_dimensions": [
@@ -6956,8 +6976,12 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "black background removal, green body -> white",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "6b9884e06884fcca12b3be97c61be0f526b970cee33d1e498499b4f9bd8b3db0",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     }
   },
   {
@@ -7470,8 +7494,8 @@
         "hamsterdex:147"
       ],
       "canonical_aliases": null,
-      "sha256_master": "f911c30cd01a6201670a2ab8a98817b8031a163253bede6f439044058ddf8ce0",
-      "sha256_delivery": "8d8315ee893d821a450c16fb97a629343ef2a2ca3b6b8616feaee8e3e089397c",
+      "sha256_master": "ca9ed5838db253f486ea201792f5a93cb2b7352b17450e93593d65b5fa0f3658",
+      "sha256_delivery": "65e78935bd35d1c10fffa965690fc925d7a4938a02e0984cbf3ad60491120c2c",
       "phash": "b9fbe504c2ae32d9cf1a160b90f169e4b94778eba4346718628bb7974270b62d",
       "dhash": "021008c8117422da269a211a4cac98a508ce249a677365eb41f9647134050000"
     },
@@ -7486,7 +7510,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "b724dab8ac54f8a8364ff8117ae278cf8694a65ede8d8bbc4446308045db9dfd",
       "original_dimensions": [
@@ -7498,10 +7522,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "yellow Minion body -> white, keep overalls and goggles",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "f911c30cd01a6201670a2ab8a98817b8031a163253bede6f439044058ddf8ce0",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0148",
@@ -7733,8 +7761,8 @@
         "hamsterdex:152"
       ],
       "canonical_aliases": null,
-      "sha256_master": "458baf4ef1b658789654f1aa7e11e7c1fa49c3742e51e49d8cac9cb6431d87aa",
-      "sha256_delivery": "f88936ccbb29325a25cec131be8dbdb0de0864596a94a7bc721c4c91e620210f",
+      "sha256_master": "99d3ba7657cdbebee5f275b8317e86f9947f78172d89eb15ae3999d1199d4c1c",
+      "sha256_delivery": "9c69906da135f7194d70beba22c7b08551a4379a46a29c25fbfb38d6ce78b11e",
       "phash": "b1b1d313ce4e3ce498c7c34927389333586364ccc38c79ac9e733273331fc70d",
       "dhash": "0000000001000000048005d0016806b8269a279a017a035c049c000005180000"
     },
@@ -7743,7 +7771,7 @@
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "ba39719cca6d5b329cd0b2e47ffe350ac99ad85d9e477dc7ae6ba73e7d5f5b47",
       "original_dimensions": [
@@ -7755,10 +7783,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "yellow hamster face -> white, keep orange sweatshirt",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "458baf4ef1b658789654f1aa7e11e7c1fa49c3742e51e49d8cac9cb6431d87aa",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0153",
@@ -11976,8 +12008,8 @@
         "hamsterdex:241"
       ],
       "canonical_aliases": null,
-      "sha256_master": "d195b6a0488d393649f9d24427df1880d555d423f5fa6759c95deab5c9c757e7",
-      "sha256_delivery": "1d725de43a11d79603bb2912914b0d46c971a453fdf8a3b7c9bf8b2a4392b1d0",
+      "sha256_master": "4f2ebdc8c12a0933c2e2fadecb819afe4a90c0c9b89450077e08a884a9bb057a",
+      "sha256_delivery": "6bd883a36d6f9e24a8f18dbb45e70bf7a44a9422f4b26a66b27f5b920423df61",
       "phash": "b4b1c34bcb0f3cb436d2c349253d98b2d9c36d8cc61c62793363938769f28cd9",
       "dhash": "0000000000a0000012b000f8096812b420b4245a055a055c0000000800000000"
     },
@@ -11986,7 +12018,7 @@
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "54fe52b598df6258e195da25b1d8e4f193dd5339d22b08575f1980bd1abff831",
       "original_dimensions": [
@@ -11998,10 +12030,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "green alien body -> white, keep green antennae",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "d195b6a0488d393649f9d24427df1880d555d423f5fa6759c95deab5c9c757e7",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0240",
@@ -16382,8 +16418,8 @@
         "hamsterdex:336"
       ],
       "canonical_aliases": null,
-      "sha256_master": "e62534647447d19cf1af2c74e46efb3b2689344f12ef6e207a79d112d1a768cb",
-      "sha256_delivery": "fc1fb597569443e975896a8e394c05f3650c8c9f8ad38838615bdfee9c8d7378",
+      "sha256_master": "4bf4aec7c0d11705f091463648df0bc755d63885c8592bbf6204e3420eccf99c",
+      "sha256_delivery": "378bece91b529d1cb466f945ecc54bb4727ec30b7492df593c39223dbd39a33a",
       "phash": "b4b8c31bcb473cf434d2c349273c9832d8c36ccfc69c7379332393266c668cda",
       "dhash": "0000000000c0022004d001680968123424b8255a055a055c0000000800000000"
     },
@@ -16392,7 +16428,7 @@
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "3f9ab93d555133927f39173444301d44e134fc6759745d65e22a6deab427c451",
       "original_dimensions": [
@@ -16404,10 +16440,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "bright-green body -> white",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "e62534647447d19cf1af2c74e46efb3b2689344f12ef6e207a79d112d1a768cb",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0335",
@@ -17036,8 +17076,8 @@
         "hamsterdex:347"
       ],
       "canonical_aliases": null,
-      "sha256_master": "507c63a8c85fd7197d2a83a3f66ff5831be9ee4754cd26c68dc63b49730f5184",
-      "sha256_delivery": "9671557bffaef7a21d4f775bb066a43612b3da2ae01655a48d1f148c09455962",
+      "sha256_master": "980afb2fe63ddff81b94ea39682657c33d669723f9cd67a9413f7086deed468b",
+      "sha256_delivery": "0d69edadc070516f34c0ad1ee37afff0a094335db3de5d1b12b37f7a3904e1b5",
       "phash": "e1a4e69a9e5919659492678e612db659d963c9a694d278cb331d661c6d66934d",
       "dhash": "0000000001600010086801741334129426bc263e07da069d069c000002080000"
     },
@@ -17052,7 +17092,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "7fe22cb5829f8f1d72432228fd6821687ff7295b7bd3178aa45b3e04827dac3a",
       "original_dimensions": [
@@ -17064,10 +17104,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "cyan face -> white, preserve Kris hair and scarf",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "507c63a8c85fd7197d2a83a3f66ff5831be9ee4754cd26c68dc63b49730f5184",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0346",
@@ -17123,8 +17167,8 @@
         "hamsterdex:348"
       ],
       "canonical_aliases": null,
-      "sha256_master": "284d8f44d20acb31068013228207344659ebe254dc7adafc240097b1ee5c96f6",
-      "sha256_delivery": "e59bb7ff29e8084c20c09118afde864c32dafecb267ce6e5dd3228e783fd37e1",
+      "sha256_master": "68f2d6625884d65cd482adcf4056b9a2d4ea54121abea795a5f50c5c868655b4",
+      "sha256_delivery": "b76dfe968d651941c70ac65fa6ebe27df319b2532d2a1b35c8662f3bde582d0b",
       "phash": "e1b9869b9e4e38649196c39b6679b4a4d9c6ca66a639619983e69e6468d8e393",
       "dhash": "00000000000000000568012801301210231c04da04da052d054c000000080000"
     },
@@ -17139,7 +17183,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "20f252a9774fa5a3d0681767d054d105556c3fe838d51e512a9cbee44925def9",
       "original_dimensions": [
@@ -17151,10 +17195,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "matte removal for Ralsei costume",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "284d8f44d20acb31068013228207344659ebe254dc7adafc240097b1ee5c96f6",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0347",
@@ -17211,8 +17259,8 @@
         "hamsterdex:349"
       ],
       "canonical_aliases": null,
-      "sha256_master": "300039b77372f5af4648e4937310c94e42828decb99d6b64dd4510a18390c8a3",
-      "sha256_delivery": "2a7062c77649567734abac3d53bc3970b7d0d03ca0903370c11edb1c19cb7b01",
+      "sha256_master": "2545f65ea80860532b18bf1c44c2d4731486f6458da6b7f649da410a37d6a604",
+      "sha256_delivery": "681a7c476e7fa7b2c5fa2ee0f526cf3af44488419eac8bb07bff0fdf81aec448",
       "phash": "b4b4c34bcb4d3cb4b0d2c3cb243c9272d9676c37c69a61c9332d92666c72c71b",
       "dhash": "000000000060000000e80178013402ba2698269a461a471c032c000001080000"
     },
@@ -17227,7 +17275,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "16df64dfd3a5109a97d09147dc08ebba7c0b32eb0a477fc248a34d9529e6f71c",
       "original_dimensions": [
@@ -17239,10 +17287,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "purple face -> white, preserve Susie hair and dark clothing",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "300039b77372f5af4648e4937310c94e42828decb99d6b64dd4510a18390c8a3",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0348",
@@ -22119,8 +22171,8 @@
         "hamsterdex:454"
       ],
       "canonical_aliases": null,
-      "sha256_master": "aab22adb4060fecc43aecb69322184468a80b80438414b3b26e701a32dc37cab",
-      "sha256_delivery": "4627dd7f6139e9f0d645ba4920997164ef4bb1a644fc2485fed71e02f0cbe110",
+      "sha256_master": "11f848be78038d62049e39eace96d66c9dee4e5658825299711b9f2b3dab7fc0",
+      "sha256_delivery": "1b3b59e82f22979c7adbb6810b4e4c49cce688ea4d4c32a891f8bbdeb6612770",
       "phash": "e96dd2c99e922c3363c9b38c692ec87394c16ccdc71e3334db6148cb34e585b9",
       "dhash": "0000000002080420062d01cd035e126d25ac0c8d4a0d4ada0a3c000000100000"
     },
@@ -22135,7 +22187,7 @@
       "type": "hamster_parody_or_cosplay"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "3866bed8ef158f01f64b0ffa48e095b16afebb5ec6af760c41c228268abafac9",
       "original_dimensions": [
@@ -22147,10 +22199,14 @@
         1024
       ],
       "enhanced_true_detail": false,
-      "notes": "yellow Pikachu body -> white, preserve ears, cheeks and tail",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "aab22adb4060fecc43aecb69322184468a80b80438414b3b26e701a32dc37cab",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   },
   {
     "id": "HAMPTER_0460",
@@ -22202,8 +22258,8 @@
         "hamster_almarts27_by_fStikBot:011"
       ],
       "canonical_aliases": null,
-      "sha256_master": "97af33a793b8827315c64d6cb18dbd5433390faf847c0deb42075b8d55055c83",
-      "sha256_delivery": "cfc3cffa8e9b223e32a4dea3f9292d5503ff892292fc58dc913aaf3ec559cde0",
+      "sha256_master": "6bd88df6eb91ee40516a609ebc5156d608188dffde923c6a6570d5796993dc06",
+      "sha256_delivery": "a1bc700639bf2fa4a54b2dab19af31079ed1b6759bc1ba1d9a77bb388ac1b6d8",
       "phash": "b3393331ccc6cccc33383331cce3ccce334c33319933cccecccc33393333cce6",
       "dhash": "00000000000000000000000000c001c002e00220008000000000000000000000"
     },
@@ -22212,7 +22268,7 @@
       "attribution": "Almarts27 / AlMa (атрибуция источников; производные работы могут иметь других авторов)"
     },
     "restoration": {
-      "method": "non-generative image processing: color-mask/flood-fill transparency, palette correction where needed, Lanczos upscale, light unsharp masking",
+      "method": "non-generative extraction of transparent matte + exact original palette from SHA256-verified pre-curation PNG",
       "performed_by": "OpenAI assistant; deterministic Python/OpenCV/Pillow script",
       "original_sha256_master": "baa872deb28bf164dcd7b6a3dd66976dc55d9af5c05dc883781edefd33cc1e54",
       "original_dimensions": [
@@ -22224,9 +22280,13 @@
         520
       ],
       "enhanced_true_detail": false,
-      "notes": "repair open silhouette, isolate against transparency, resize conservatively",
-      "original_preserved_in_provenance": true
+      "notes": "Цвет шерсти, кожи, персонажа, одежды и аксессуаров оставлен как в исходнике; удалён только внешний фон.",
+      "original_preserved_in_provenance": true,
+      "palette_policy": "preserve_source_rgb_no_character_recoloring",
+      "palette_correction": "2026-11-02: restored original colors from original master; retained transparent alpha matte",
+      "prior_restoration_sha256_master": "97af33a793b8827315c64d6cb18dbd5433390faf847c0deb42075b8d55055c83",
+      "reference_git_commit": "29a21d12e9a46d4e35c03cc6bfa0e2dfb2f4ccb8"
     },
-    "review_note": " Изображение обработано программно; цвет/фон изменены, дополнительные мелкие детали не восстанавливались."
+    "review_note": " Изображение обработано программно: фон сделан прозрачным, исходные цвета и детали персонажа сохранены."
   }
 ]

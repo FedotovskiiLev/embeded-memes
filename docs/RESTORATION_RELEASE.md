@@ -22,3 +22,7 @@ Edited items have a `restoration` record in `data/source/memes.json`; the browse
 The script is `scripts/curate_hamsters.py`. It is idempotent on already curated datasets and is run in `.github/workflows/curate-hamsters.yml`. Search regression tests and catalog validation passed on the curated collection.
 
 For full details, see `provenance/curation_review.json`. This commit also triggers publication of the latest main-branch collection on GitHub Pages.
+
+## v2.2.1 color fidelity correction
+
+**Only the external background is transparent.** Colored characters stay in their original colors (Duo green, Minion and Pikachu yellow, Kris cyan, Susie purple, etc.). The previous forced-white conversion was a mistake. All fifteen edited masters have been recreated from cryptographically verified original RGB with preserved transparent alpha masks; no AI image model was used. See `provenance/palette_correction.json`.
