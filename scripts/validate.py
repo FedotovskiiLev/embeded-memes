@@ -34,7 +34,7 @@ def main():
    if parent not in byid or parent in seen:check(False,f'invalid/cyclic relation {r["id"]}');break
    seen.add(parent);parent=byid[parent].get('related_to')
  for p in ROOT.rglob('*'):
-  if p.is_file():check(p.stat().st_size<100*1024*1024,f'file exceeds 100 MiB: {p.relative_to(ROOT)}')
+  if p.is_file() and '.git' not in p.parts:check(p.stat().st_size<100*1024*1024,f'file exceeds 100 MiB: {p.relative_to(ROOT)}')
  r=byid['HAMPTER_0127'];joined=' '.join([r['title'],r['visual_description'],r['reaction'],*r['tags'],*r['use_cases']]).lower()
  check('блокнот' in joined and not any(x in joined for x in ['food tray','fork','поднос','вилк']),'notebook regression')
  check('death' not in byid['HAMPTER_0001']['content_warnings'],'deadpan warning regression')

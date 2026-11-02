@@ -60,6 +60,8 @@ def main():
  maps=[]
  for r in records:
   maps.append({k:r[k] for k in ['id','collection_id','title','visual_description','reaction','use_cases','tags','content_warnings','confidence','status','files','alternates','related_to','quality','width','height','rights']})
+  maps[-1]['character_reference']=r.get('character_reference')
+  maps[-1]['restoration']=r.get('restoration')
  (ROOT/'catalog/agent_map.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in maps))
  lines=['# Карта изображений для агентов','',f'Версия {version} · {len(records)} карточки · {len(active)} доступны в обычном поиске.','Реакция — интерпретация, а не объективный факт. `needs_replacement` не выбирать.','Все пути относительно корня проекта. Предпочитайте точные предметы и действия общему настроению.','']
  for r in maps:

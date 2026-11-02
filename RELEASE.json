@@ -1,40 +1,11 @@
 {
   "name": "Embeded Memes by Gliwy.dev",
-  "version": "2.1.0",
-  "release_date": "2026-10-30",
-  "cards": 452,
-  "searchable": 451,
-  "quarantined": [
-    "HAMPTER_0223"
-  ],
-  "related_variants_or_edits": 58,
-  "unchanged_originals": 483,
-  "alternate_crops": 4,
-  "contact_sheets": 16,
-  "search_regression_tests": 23,
-  "catalog_checks": 7226,
-  "main_image_files_verified": 1356,
-  "browser_checks": 7,
-  "schema_validation": "passed",
-  "vector_index": {
-    "type": "TF-IDF / LSA",
-    "dimensions": 96,
-    "count": 451,
-    "neural": false
-  },
-  "e5": {
-    "adapter_included": true,
-    "precomputed_vectors_included": false,
-    "weights_included": false,
-    "full_inference_tested": false
-  },
-  "deployment": {
-    "uploaded_to_user_github": true,
-    "actual_github_pages_tested": true,
-    "browser_render": "Chromium over HTTP; responsive layout checked at eleven widths"
-  },
-  "source_preservation": "passed",
-  "entrypoint": "index.html",
-  "agent_map": "catalog/agent_map.jsonl",
-  "theme": "classic"
+  "version": "2.2.0",
+  "cards": 374,
+  "searchable": 374,
+  "excluded": 78,
+  "programmatically_restored": 15,
+  "theme": "classic",
+  "human_review_of_every_restoration": false,
+  "restoration": "non-generative; original sources preserved in originals/"
 }

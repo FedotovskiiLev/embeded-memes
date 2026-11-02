@@ -1,0 +1,1116 @@
+{
+  "date": "2026-11-02",
+  "method": "visual manual contact-sheet review and non-generative pixel processing",
+  "base_records": 452,
+  "curated_records": 374,
+  "excluded_count": 78,
+  "deleted_media_files": 234,
+  "restored_ids": [
+    "HAMPTER_0006",
+    "HAMPTER_0068",
+    "HAMPTER_0070",
+    "HAMPTER_0089",
+    "HAMPTER_0119",
+    "HAMPTER_0138",
+    "HAMPTER_0147",
+    "HAMPTER_0152",
+    "HAMPTER_0239",
+    "HAMPTER_0334",
+    "HAMPTER_0345",
+    "HAMPTER_0346",
+    "HAMPTER_0347",
+    "HAMPTER_0441",
+    "HAMPTER_0460"
+  ],
+  "removed_ids": {
+    "HAMPTER_0021": "realistic rodent with hands, not the white mascot drawing",
+    "HAMPTER_0027": "standalone dog character",
+    "HAMPTER_0032": "Neco-Arc cat character, not a hamster redraw",
+    "HAMPTER_0043": "standalone cat close-up",
+    "HAMPTER_0044": "Neco-Arc cat character, not a hamster redraw",
+    "HAMPTER_0046": "red creature unrelated to the hamster mascot",
+    "HAMPTER_0050": "red creature plus a real human face",
+    "HAMPTER_0088": "reposted photograph/montage of rodents, not the white mascot",
+    "HAMPTER_0103": "photographic montage of rodents, not the white mascot",
+    "HAMPTER_0105": "standalone white kitten",
+    "HAMPTER_0106": "standalone white kitten",
+    "HAMPTER_0128": "Neco-Arc cat on all fours",
+    "HAMPTER_0155": "green alien kitten, not the hamster drawing",
+    "HAMPTER_0221": "illustrated pair of real hamsters, not the white meme mascot",
+    "HAMPTER_0222": "vertical crop of the real-hamster illustration",
+    "HAMPTER_0223": "near-blank invalid asset, previously quarantined",
+    "HAMPTER_0235": "rodent in human hand from a different artwork",
+    "HAMPTER_0236": "standalone pixel-art green cat",
+    "HAMPTER_0248": "Ghostface mask alone, no identifiable hamster",
+    "HAMPTER_0261": "standalone drawing of a human with curly hair",
+    "HAMPTER_0309": "crop of the unrelated illustrated pair of real hamsters",
+    "HAMPTER_0324": "standalone cat with turquoise pigtails (Miku cosplay)",
+    "HAMPTER_0388": "photograph of a hanging tree ornament",
+    "HAMPTER_0389": "photograph of a hanging snowman ornament",
+    "HAMPTER_0433": "standalone human caricature with purple afro",
+    "HAMPTER_0011": "duplicate/alternate crop of HAMPTER_0007",
+    "HAMPTER_0012": "duplicate/alternate crop of HAMPTER_0008",
+    "HAMPTER_0056": "duplicate/alternate crop of HAMPTER_0017",
+    "HAMPTER_0073": "duplicate/alternate crop of HAMPTER_0038",
+    "HAMPTER_0092": "duplicate/alternate crop of HAMPTER_0066",
+    "HAMPTER_0096": "duplicate/alternate crop of HAMPTER_0017",
+    "HAMPTER_0097": "duplicate/alternate crop of HAMPTER_0049",
+    "HAMPTER_0115": "duplicate/alternate crop of HAMPTER_0084",
+    "HAMPTER_0130": "duplicate/alternate crop of HAMPTER_0093",
+    "HAMPTER_0136": "duplicate/alternate crop of HAMPTER_0013",
+    "HAMPTER_0150": "duplicate/alternate crop of HAMPTER_0015",
+    "HAMPTER_0164": "duplicate/alternate crop of HAMPTER_0019",
+    "HAMPTER_0183": "duplicate/alternate crop of HAMPTER_0091",
+    "HAMPTER_0184": "duplicate/alternate crop of HAMPTER_0020",
+    "HAMPTER_0196": "duplicate/alternate crop of HAMPTER_0023",
+    "HAMPTER_0198": "duplicate/alternate crop of HAMPTER_0018",
+    "HAMPTER_0204": "duplicate/alternate crop of HAMPTER_0016",
+    "HAMPTER_0213": "duplicate/alternate crop of HAMPTER_0035",
+    "HAMPTER_0214": "duplicate/alternate crop of HAMPTER_0187",
+    "HAMPTER_0215": "duplicate/alternate crop of HAMPTER_0185",
+    "HAMPTER_0270": "duplicate/alternate crop of HAMPTER_0001",
+    "HAMPTER_0271": "duplicate/alternate crop of HAMPTER_0187",
+    "HAMPTER_0272": "duplicate/alternate crop of HAMPTER_0231",
+    "HAMPTER_0273": "duplicate/alternate crop of HAMPTER_0177",
+    "HAMPTER_0274": "duplicate/alternate crop of HAMPTER_0162",
+    "HAMPTER_0275": "duplicate/alternate crop of HAMPTER_0216",
+    "HAMPTER_0276": "duplicate/alternate crop of HAMPTER_0209",
+    "HAMPTER_0277": "duplicate/alternate crop of HAMPTER_0185",
+    "HAMPTER_0278": "duplicate/alternate crop of HAMPTER_0182",
+    "HAMPTER_0279": "duplicate/alternate crop of HAMPTER_0156",
+    "HAMPTER_0280": "duplicate/alternate crop of HAMPTER_0035",
+    "HAMPTER_0287": "duplicate/alternate crop of HAMPTER_0034",
+    "HAMPTER_0288": "duplicate/alternate crop of HAMPTER_0065",
+    "HAMPTER_0290": "duplicate/alternate crop of HAMPTER_0091",
+    "HAMPTER_0291": "duplicate/alternate crop of HAMPTER_0022",
+    "HAMPTER_0299": "duplicate/alternate crop of HAMPTER_0292",
+    "HAMPTER_0355": "duplicate/alternate crop of HAMPTER_0318",
+    "HAMPTER_0387": "duplicate/alternate crop of HAMPTER_0319",
+    "HAMPTER_0391": "duplicate/alternate crop of HAMPTER_0087",
+    "HAMPTER_0405": "duplicate/alternate crop of HAMPTER_0404",
+    "HAMPTER_0414": "duplicate/alternate crop of HAMPTER_0323",
+    "HAMPTER_0425": "duplicate/alternate crop of HAMPTER_0132",
+    "HAMPTER_0443": "duplicate/alternate crop of HAMPTER_0252",
+    "HAMPTER_0446": "duplicate/alternate crop of HAMPTER_0061",
+    "HAMPTER_0451": "duplicate/alternate crop of HAMPTER_0031",
+    "HAMPTER_0452": "duplicate/alternate crop of HAMPTER_0202",
+    "HAMPTER_0453": "duplicate/alternate crop of HAMPTER_0041",
+    "HAMPTER_0454": "duplicate/alternate crop of HAMPTER_0230",
+    "HAMPTER_0457": "duplicate/alternate crop of HAMPTER_0259",
+    "HAMPTER_0458": "duplicate/alternate crop of HAMPTER_0023",
+    "HAMPTER_0459": "duplicate/alternate crop of HAMPTER_0024",
+    "HAMPTER_0461": "duplicate/alternate crop of HAMPTER_0343",
+    "HAMPTER_0463": "duplicate/alternate crop of HAMPTER_0330"
+  },
+  "changes": [
+    {
+      "id": "HAMPTER_0001",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0270",
+      "artwork_size_before": 245,
+      "artwork_size_after": 986
+    },
+    {
+      "id": "HAMPTER_0022",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0291",
+      "artwork_size_before": 218,
+      "artwork_size_after": 820
+    },
+    {
+      "id": "HAMPTER_0034",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0287",
+      "artwork_size_before": 205,
+      "artwork_size_after": 749
+    },
+    {
+      "id": "HAMPTER_0065",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0288",
+      "artwork_size_before": 221,
+      "artwork_size_after": 975
+    },
+    {
+      "id": "HAMPTER_0087",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0391",
+      "artwork_size_before": 232,
+      "artwork_size_after": 780
+    },
+    {
+      "id": "HAMPTER_0091",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0290",
+      "artwork_size_before": 219,
+      "artwork_size_after": 843
+    },
+    {
+      "id": "HAMPTER_0156",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0279",
+      "artwork_size_before": 459,
+      "artwork_size_after": 919
+    },
+    {
+      "id": "HAMPTER_0162",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0274",
+      "artwork_size_before": 438,
+      "artwork_size_after": 874
+    },
+    {
+      "id": "HAMPTER_0182",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0278",
+      "artwork_size_before": 410,
+      "artwork_size_after": 763
+    },
+    {
+      "id": "HAMPTER_0185",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0277",
+      "artwork_size_before": 219,
+      "artwork_size_after": 881
+    },
+    {
+      "id": "HAMPTER_0209",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0276",
+      "artwork_size_before": 218,
+      "artwork_size_after": 876
+    },
+    {
+      "id": "HAMPTER_0216",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0275",
+      "artwork_size_before": 218,
+      "artwork_size_after": 881
+    },
+    {
+      "id": "HAMPTER_0231",
+      "action": "quality_promotion_from_duplicate",
+      "selected": "HAMPTER_0272",
+      "artwork_size_before": 218,
+      "artwork_size_after": 880
+    },
+    {
+      "id": "HAMPTER_0006",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "2373bcd52ccc6b06957b586cdb1b9ea0d227f2efb21376b93c42d4651ab1e008",
+      "new_png_sha256": "052f0e42010e9e3fa7e4d8409a125dd227a2a5907b54dfe19a291cc0821dee51",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "background extraction and contour cleanup"
+    },
+    {
+      "id": "HAMPTER_0068",
+      "action": "character_marked",
+      "character": "Duo (possible inspiration)",
+      "franchise": "Duolingo",
+      "confidence": "low"
+    },
+    {
+      "id": "HAMPTER_0068",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "ed1987e51059c126c17b03ba051ea0634d2a93db48119753faf4cde063201be6",
+      "new_png_sha256": "4b656b0850ba868bb246264edd4cf0a9c30af45920c54627bacf1f3177b6c0d9",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "light-green background removal and green fur -> white"
+    },
+    {
+      "id": "HAMPTER_0070",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "8a48c4bc166f329decef1adfacc7de848fbe536836ba51414c6b2e00e0697e2b",
+      "new_png_sha256": "47243df3553150a08d054f4d60c7f5a34c8ac3837df84e619887c0fdf6cfbe0e",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "green hamster facial/outline cleanup; preserve alien antennae"
+    },
+    {
+      "id": "HAMPTER_0078",
+      "action": "character_marked",
+      "character": "Punk",
+      "franchise": "punk style / subculture",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0089",
+      "action": "character_marked",
+      "character": "Link",
+      "franchise": "The Legend of Zelda",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0089",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "ed532d87e9fedabf4a8663c674fa4b96ae7d286fbc2c0d39935ee86565071c84",
+      "new_png_sha256": "156f7259f76c2cef6e96bcc3dfa3fd1a81a719c68cc0794c1cab6d090518d367",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "matte removal for Link costume"
+    },
+    {
+      "id": "HAMPTER_0104",
+      "action": "character_marked",
+      "character": "Super Saiyan",
+      "franchise": "Dragon Ball",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0110",
+      "action": "character_marked",
+      "character": "Batman",
+      "franchise": "DC Comics",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0112",
+      "action": "character_marked",
+      "character": "Chewbacca",
+      "franchise": "Star Wars",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0114",
+      "action": "character_marked",
+      "character": "Naruto Uzumaki",
+      "franchise": "Naruto",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0119",
+      "action": "character_marked",
+      "character": "Spider-Man",
+      "franchise": "Marvel",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0119",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "0fe11daa719d353887d5530870cb7befd3890cadbfe6a55692974b2231ab9c5c",
+      "new_png_sha256": "64150ad27613a108352880d287b950775664ee2d01ad64ffdf2c073bdf2a5065",
+      "original_dimensions": [
+        640,
+        640
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "matte removal for Spider-Man costume"
+    },
+    {
+      "id": "HAMPTER_0120",
+      "action": "character_marked",
+      "character": "Superman",
+      "franchise": "DC Comics",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0126",
+      "action": "character_marked",
+      "character": "Peter Parker / Spider-Man",
+      "franchise": "Marvel",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0131",
+      "action": "character_marked",
+      "character": "Sans",
+      "franchise": "Undertale",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0137",
+      "action": "character_marked",
+      "character": "Hatsune Miku",
+      "franchise": "Vocaloid",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0138",
+      "action": "character_marked",
+      "character": "Duo (possible inspiration)",
+      "franchise": "Duolingo",
+      "confidence": "low"
+    },
+    {
+      "id": "HAMPTER_0138",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "64169b860907f4ef49174df57f404705253490dfdbd81e88077ec1b8822e416c",
+      "new_png_sha256": "6b9884e06884fcca12b3be97c61be0f526b970cee33d1e498499b4f9bd8b3db0",
+      "original_dimensions": [
+        640,
+        640
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "black background removal, green body -> white"
+    },
+    {
+      "id": "HAMPTER_0147",
+      "action": "character_marked",
+      "character": "Minion",
+      "franchise": "Despicable Me",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0147",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "b724dab8ac54f8a8364ff8117ae278cf8694a65ede8d8bbc4446308045db9dfd",
+      "new_png_sha256": "f911c30cd01a6201670a2ab8a98817b8031a163253bede6f439044058ddf8ce0",
+      "original_dimensions": [
+        640,
+        640
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "yellow Minion body -> white, keep overalls and goggles"
+    },
+    {
+      "id": "HAMPTER_0152",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "ba39719cca6d5b329cd0b2e47ffe350ac99ad85d9e477dc7ae6ba73e7d5f5b47",
+      "new_png_sha256": "458baf4ef1b658789654f1aa7e11e7c1fa49c3742e51e49d8cac9cb6431d87aa",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "yellow hamster face -> white, keep orange sweatshirt"
+    },
+    {
+      "id": "HAMPTER_0160",
+      "action": "character_marked",
+      "character": "Geralt of Rivia",
+      "franchise": "The Witcher",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0188",
+      "action": "character_marked",
+      "character": "Edward Elric",
+      "franchise": "Fullmetal Alchemist",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0211",
+      "action": "character_marked",
+      "character": "Propeller-hat mascot",
+      "franchise": "internet meme",
+      "confidence": "low"
+    },
+    {
+      "id": "HAMPTER_0225",
+      "action": "character_marked",
+      "character": "Zombie",
+      "franchise": "zombie genre",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0238",
+      "action": "character_marked",
+      "character": "Dracula",
+      "franchise": "vampire archetype",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0239",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "54fe52b598df6258e195da25b1d8e4f193dd5339d22b08575f1980bd1abff831",
+      "new_png_sha256": "d195b6a0488d393649f9d24427df1880d555d423f5fa6759c95deab5c9c757e7",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "green alien body -> white, keep green antennae"
+    },
+    {
+      "id": "HAMPTER_0243",
+      "action": "character_marked",
+      "character": "Joker",
+      "franchise": "DC Comics",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0247",
+      "action": "character_marked",
+      "character": "Jack Sparrow",
+      "franchise": "Pirates of the Caribbean",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0265",
+      "action": "character_marked",
+      "character": "The Grinch",
+      "franchise": "Dr. Seuss",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0281",
+      "action": "character_marked",
+      "character": "Snowman",
+      "franchise": "winter character",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0283",
+      "action": "character_marked",
+      "character": "Rudolph",
+      "franchise": "Rudolph the Red-Nosed Reindeer",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0295",
+      "action": "character_marked",
+      "character": "Phoenix Wright",
+      "franchise": "Ace Attorney",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0325",
+      "action": "character_marked",
+      "character": "Superhero",
+      "franchise": "animated superhero",
+      "confidence": "low"
+    },
+    {
+      "id": "HAMPTER_0334",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "3f9ab93d555133927f39173444301d44e134fc6759745d65e22a6deab427c451",
+      "new_png_sha256": "e62534647447d19cf1af2c74e46efb3b2689344f12ef6e207a79d112d1a768cb",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "bright-green body -> white"
+    },
+    {
+      "id": "HAMPTER_0345",
+      "action": "character_marked",
+      "character": "Kris",
+      "franchise": "Deltarune",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0345",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "7fe22cb5829f8f1d72432228fd6821687ff7295b7bd3178aa45b3e04827dac3a",
+      "new_png_sha256": "507c63a8c85fd7197d2a83a3f66ff5831be9ee4754cd26c68dc63b49730f5184",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "cyan face -> white, preserve Kris hair and scarf"
+    },
+    {
+      "id": "HAMPTER_0346",
+      "action": "character_marked",
+      "character": "Ralsei",
+      "franchise": "Deltarune",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0346",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "20f252a9774fa5a3d0681767d054d105556c3fe838d51e512a9cbee44925def9",
+      "new_png_sha256": "284d8f44d20acb31068013228207344659ebe254dc7adafc240097b1ee5c96f6",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "matte removal for Ralsei costume"
+    },
+    {
+      "id": "HAMPTER_0347",
+      "action": "character_marked",
+      "character": "Susie",
+      "franchise": "Deltarune",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0347",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "16df64dfd3a5109a97d09147dc08ebba7c0b32eb0a477fc248a34d9529e6f71c",
+      "new_png_sha256": "300039b77372f5af4648e4937310c94e42828decb99d6b64dd4510a18390c8a3",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "purple face -> white, preserve Susie hair and dark clothing"
+    },
+    {
+      "id": "HAMPTER_0370",
+      "action": "character_marked",
+      "character": "Che Guevara",
+      "franchise": "historical-person parody",
+      "confidence": "medium"
+    },
+    {
+      "id": "HAMPTER_0379",
+      "action": "character_marked",
+      "character": "Spider-Man",
+      "franchise": "Marvel",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0441",
+      "action": "character_marked",
+      "character": "Pikachu",
+      "franchise": "Pokémon",
+      "confidence": "high"
+    },
+    {
+      "id": "HAMPTER_0441",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "3866bed8ef158f01f64b0ffa48e095b16afebb5ec6af760c41c228268abafac9",
+      "new_png_sha256": "aab22adb4060fecc43aecb69322184468a80b80438414b3b26e701a32dc37cab",
+      "original_dimensions": [
+        320,
+        320
+      ],
+      "new_dimensions": [
+        1024,
+        1024
+      ],
+      "notes": "yellow Pikachu body -> white, preserve ears, cheeks and tail"
+    },
+    {
+      "id": "HAMPTER_0460",
+      "action": "programmatic_restoration",
+      "old_png_sha256": "baa872deb28bf164dcd7b6a3dd66976dc55d9af5c05dc883781edefd33cc1e54",
+      "new_png_sha256": "97af33a793b8827315c64d6cb18dbd5433390faf847c0deb42075b8d55055c83",
+      "original_dimensions": [
+        129,
+        130
+      ],
+      "new_dimensions": [
+        516,
+        520
+      ],
+      "notes": "repair open silhouette, isolate against transparency, resize conservatively"
+    },
+    {
+      "id": "HAMPTER_0011",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0007",
+      "related_to": "HAMPTER_0007"
+    },
+    {
+      "id": "HAMPTER_0012",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0008",
+      "related_to": "HAMPTER_0008"
+    },
+    {
+      "id": "HAMPTER_0021",
+      "action": "excluded",
+      "reason": "realistic rodent with hands, not the white mascot drawing",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0027",
+      "action": "excluded",
+      "reason": "standalone dog character",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0032",
+      "action": "excluded",
+      "reason": "Neco-Arc cat character, not a hamster redraw",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0043",
+      "action": "excluded",
+      "reason": "standalone cat close-up",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0044",
+      "action": "excluded",
+      "reason": "Neco-Arc cat character, not a hamster redraw",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0046",
+      "action": "excluded",
+      "reason": "red creature unrelated to the hamster mascot",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0050",
+      "action": "excluded",
+      "reason": "red creature plus a real human face",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0056",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0017",
+      "related_to": "HAMPTER_0017"
+    },
+    {
+      "id": "HAMPTER_0073",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0038",
+      "related_to": "HAMPTER_0038"
+    },
+    {
+      "id": "HAMPTER_0088",
+      "action": "excluded",
+      "reason": "reposted photograph/montage of rodents, not the white mascot",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0092",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0066",
+      "related_to": "HAMPTER_0066"
+    },
+    {
+      "id": "HAMPTER_0096",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0017",
+      "related_to": "HAMPTER_0017"
+    },
+    {
+      "id": "HAMPTER_0097",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0049",
+      "related_to": "HAMPTER_0049"
+    },
+    {
+      "id": "HAMPTER_0103",
+      "action": "excluded",
+      "reason": "photographic montage of rodents, not the white mascot",
+      "related_to": "HAMPTER_0088"
+    },
+    {
+      "id": "HAMPTER_0105",
+      "action": "excluded",
+      "reason": "standalone white kitten",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0106",
+      "action": "excluded",
+      "reason": "standalone white kitten",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0115",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0084",
+      "related_to": "HAMPTER_0084"
+    },
+    {
+      "id": "HAMPTER_0128",
+      "action": "excluded",
+      "reason": "Neco-Arc cat on all fours",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0130",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0093",
+      "related_to": "HAMPTER_0093"
+    },
+    {
+      "id": "HAMPTER_0136",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0013",
+      "related_to": "HAMPTER_0013"
+    },
+    {
+      "id": "HAMPTER_0150",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0015",
+      "related_to": "HAMPTER_0015"
+    },
+    {
+      "id": "HAMPTER_0155",
+      "action": "excluded",
+      "reason": "green alien kitten, not the hamster drawing",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0164",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0019",
+      "related_to": "HAMPTER_0019"
+    },
+    {
+      "id": "HAMPTER_0183",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0091",
+      "related_to": "HAMPTER_0091"
+    },
+    {
+      "id": "HAMPTER_0184",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0020",
+      "related_to": "HAMPTER_0020"
+    },
+    {
+      "id": "HAMPTER_0196",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0023",
+      "related_to": "HAMPTER_0023"
+    },
+    {
+      "id": "HAMPTER_0198",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0018",
+      "related_to": "HAMPTER_0018"
+    },
+    {
+      "id": "HAMPTER_0204",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0016",
+      "related_to": "HAMPTER_0016"
+    },
+    {
+      "id": "HAMPTER_0213",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0035",
+      "related_to": "HAMPTER_0035"
+    },
+    {
+      "id": "HAMPTER_0214",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0187",
+      "related_to": "HAMPTER_0187"
+    },
+    {
+      "id": "HAMPTER_0215",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0185",
+      "related_to": "HAMPTER_0185"
+    },
+    {
+      "id": "HAMPTER_0221",
+      "action": "excluded",
+      "reason": "illustrated pair of real hamsters, not the white meme mascot",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0222",
+      "action": "excluded",
+      "reason": "vertical crop of the real-hamster illustration",
+      "related_to": "HAMPTER_0221"
+    },
+    {
+      "id": "HAMPTER_0223",
+      "action": "excluded",
+      "reason": "near-blank invalid asset, previously quarantined",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0235",
+      "action": "excluded",
+      "reason": "rodent in human hand from a different artwork",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0236",
+      "action": "excluded",
+      "reason": "standalone pixel-art green cat",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0248",
+      "action": "excluded",
+      "reason": "Ghostface mask alone, no identifiable hamster",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0261",
+      "action": "excluded",
+      "reason": "standalone drawing of a human with curly hair",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0270",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0001",
+      "related_to": "HAMPTER_0001"
+    },
+    {
+      "id": "HAMPTER_0271",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0187",
+      "related_to": "HAMPTER_0187"
+    },
+    {
+      "id": "HAMPTER_0272",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0231",
+      "related_to": "HAMPTER_0231"
+    },
+    {
+      "id": "HAMPTER_0273",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0177",
+      "related_to": "HAMPTER_0177"
+    },
+    {
+      "id": "HAMPTER_0274",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0162",
+      "related_to": "HAMPTER_0162"
+    },
+    {
+      "id": "HAMPTER_0275",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0216",
+      "related_to": "HAMPTER_0216"
+    },
+    {
+      "id": "HAMPTER_0276",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0209",
+      "related_to": "HAMPTER_0209"
+    },
+    {
+      "id": "HAMPTER_0277",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0185",
+      "related_to": "HAMPTER_0185"
+    },
+    {
+      "id": "HAMPTER_0278",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0182",
+      "related_to": "HAMPTER_0182"
+    },
+    {
+      "id": "HAMPTER_0279",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0156",
+      "related_to": "HAMPTER_0156"
+    },
+    {
+      "id": "HAMPTER_0280",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0035",
+      "related_to": "HAMPTER_0213"
+    },
+    {
+      "id": "HAMPTER_0287",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0034",
+      "related_to": "HAMPTER_0034"
+    },
+    {
+      "id": "HAMPTER_0288",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0065",
+      "related_to": "HAMPTER_0065"
+    },
+    {
+      "id": "HAMPTER_0290",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0091",
+      "related_to": "HAMPTER_0091"
+    },
+    {
+      "id": "HAMPTER_0291",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0022",
+      "related_to": "HAMPTER_0022"
+    },
+    {
+      "id": "HAMPTER_0299",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0292",
+      "related_to": "HAMPTER_0292"
+    },
+    {
+      "id": "HAMPTER_0309",
+      "action": "excluded",
+      "reason": "crop of the unrelated illustrated pair of real hamsters",
+      "related_to": "HAMPTER_0221"
+    },
+    {
+      "id": "HAMPTER_0324",
+      "action": "excluded",
+      "reason": "standalone cat with turquoise pigtails (Miku cosplay)",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0355",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0318",
+      "related_to": "HAMPTER_0318"
+    },
+    {
+      "id": "HAMPTER_0387",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0319",
+      "related_to": "HAMPTER_0319"
+    },
+    {
+      "id": "HAMPTER_0388",
+      "action": "excluded",
+      "reason": "photograph of a hanging tree ornament",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0389",
+      "action": "excluded",
+      "reason": "photograph of a hanging snowman ornament",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0391",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0087",
+      "related_to": "HAMPTER_0087"
+    },
+    {
+      "id": "HAMPTER_0405",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0404",
+      "related_to": "HAMPTER_0404"
+    },
+    {
+      "id": "HAMPTER_0414",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0323",
+      "related_to": "HAMPTER_0323"
+    },
+    {
+      "id": "HAMPTER_0425",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0132",
+      "related_to": "HAMPTER_0132"
+    },
+    {
+      "id": "HAMPTER_0433",
+      "action": "excluded",
+      "reason": "standalone human caricature with purple afro",
+      "related_to": null
+    },
+    {
+      "id": "HAMPTER_0443",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0252",
+      "related_to": "HAMPTER_0252"
+    },
+    {
+      "id": "HAMPTER_0446",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0061",
+      "related_to": "HAMPTER_0061"
+    },
+    {
+      "id": "HAMPTER_0451",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0031",
+      "related_to": "HAMPTER_0031"
+    },
+    {
+      "id": "HAMPTER_0452",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0202",
+      "related_to": "HAMPTER_0202"
+    },
+    {
+      "id": "HAMPTER_0453",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0041",
+      "related_to": "HAMPTER_0041"
+    },
+    {
+      "id": "HAMPTER_0454",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0230",
+      "related_to": "HAMPTER_0230"
+    },
+    {
+      "id": "HAMPTER_0457",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0259",
+      "related_to": "HAMPTER_0259"
+    },
+    {
+      "id": "HAMPTER_0458",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0023",
+      "related_to": "HAMPTER_0023"
+    },
+    {
+      "id": "HAMPTER_0459",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0024",
+      "related_to": "HAMPTER_0024"
+    },
+    {
+      "id": "HAMPTER_0461",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0343",
+      "related_to": "HAMPTER_0343"
+    },
+    {
+      "id": "HAMPTER_0463",
+      "action": "merged_duplicate",
+      "reason": "duplicate/alternate crop of HAMPTER_0330",
+      "related_to": "HAMPTER_0330"
+    }
+  ],
+  "rights_note": "No new rights granted by restoration"
+}

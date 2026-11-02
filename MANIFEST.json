@@ -1,13 +1,11 @@
 {
   "name": "Embeded Memes by Gliwy.dev",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "theme": "classic",
-  "catalog_hash": "1e5d8ac8c5780d99b16078f27f9afa135e85032ca578597fbc8f5b7c120b1671",
-  "records": 452,
-  "active": 451,
-  "quarantined": [
-    "HAMPTER_0223"
-  ],
+  "catalog_hash": "b96c06cee8545135b238514f10465b80c83bccf616e15e6b45fa786a1e6aa49e",
+  "records": 374,
+  "active": 374,
+  "quarantined": [],
   "entrypoints": {
     "browser": "index.html",
     "agents": "catalog/agent_map.jsonl",
