@@ -1,0 +1,99 @@
+name: Integrate 374 individual meme readings (v3)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.ingest/annotations-v3.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: annotations-v3-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify and extract editorial patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo 'c5a105b83e2a5dcaf78da2edda01132e165e21ff7e8af6c2ea42cd58e646bbfa  .ingest/annotations-v3.zip' | sha256sum -c
+          unzip -tq .ingest/annotations-v3.zip
+          unzip -oq .ingest/annotations-v3.zip -d .
+          rm .ingest/annotations-v3.zip
+          rmdir .ingest || true
+          test -f data/source/annotations.json
+          test -f scripts/annotation_integration.py
+      - name: Install indexing dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Rebuild static browser, agent catalogs and vectors
+        shell: bash
+        run: |
+          set -euo pipefail
+          OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/build.py --vectors
+          python scripts/contact_sheets.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('RELEASE.json');r=json.loads(p.read_text(encoding='utf-8'))
+          r.update(version='3.0.0',individual_annotations=374,annotation_version='3.0.0',visual_assets_unchanged=True,search_regression_tests=27)
+          p.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Validate indexes, source coverage and search
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/validate.py --quick
+          node --test tests/*.test.cjs
+          node --check src/app.js
+          node --check src/search.js
+          python - <<'PY'
+          import json
+          d=json.load(open('catalog/catalog.json'))
+          assert d['version']=='3.0.0' and len(d['records'])==374
+          assert all(r.get('analysis',{}).get('version')=='3.0.0' for r in d['records'])
+          assert len({r['id'] for r in d['records']})==374
+          assert not any(r['status']!='reviewed' for r in d['records'])
+          print('All 374 individual analyses are searchable and exported')
+          PY
+          if git diff --name-only -- media/ originals/ | grep .; then
+            echo 'Refusing to alter media: this release is metadata/UI only' >&2
+            exit 1
+          fi
+      - name: Refresh reproducible file checksums
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          root=Path('.'); lines=[]
+          for f in sorted(root.rglob('*')):
+            if not f.is_file() or '.git' in f.parts or '__pycache__' in f.parts or '.ingest' in f.parts or f.suffix=='.pyc' or f.name=='SHA256SUMS.txt':continue
+            lines.append(hashlib.sha256(f.read_bytes()).hexdigest()+'  '+f.as_posix())
+          Path('SHA256SUMS.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          PY
+          sha256sum -c SHA256SUMS.txt > /dev/null
+      - name: Commit and push the verified site
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Integrate 374 nuanced emotional and cultural readings (v3.0.0)'
+          git push origin HEAD:main
